@@ -1,4 +1,4 @@
-#curso24_25
+#curso24_25 #común
 
 # Introducción.
 

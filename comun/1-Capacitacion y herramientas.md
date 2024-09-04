@@ -1,4 +1,4 @@
-#curso23_24 #SAD [estado:: Done] 
+#curso24_25 #común [estado:: Done]
 
 # Capacitación
 El módulo se basará fundamentalmente en código, por lo que realizaremos uso intensivo de control de versiones ([GIT]([https://git-scm.com](https://git-scm.com/))) y virtualización en distintos formatos.
@@ -8,7 +8,7 @@ El módulo se basará fundamentalmente en código, por lo que realizaremos uso i
 
 > Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
 
-## ==Trabajo en casa (FC)==
+## ==Trabajo en casa== (Flipped Classroom)
 Para mañana:
 * FC: [TodoCode - Git](https://www.youtube.com/watch?v=mCVQgSyjCkI&list=PLQxX2eiEaqby-qh4raiKfYyb4T7WyHsfW) -> [1,25h]
 + FC: [Fazt Code - Markdown](https://www.youtube.com/watch?v=oxaH9CFpeEE) -> [0,5h]
@@ -46,7 +46,7 @@ Crear un repo con README.md conectado con GitHub. Añadir colaborador (profe `@l
 En otras palabras, nos permite gestionar máquinas virtuales desde código... [vamos a ello](https://app.vagrantup.com/techchad2022/boxes/ubuntu2204).
 
 
-## ==Trabajo en casa (FC)==
+## ==Trabajo en casa== (FC)
 Investigar en la web como generar el archivo `Vagrantfile` con las características que vamos a desarrollar en clase.
 
 
