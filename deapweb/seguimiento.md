@@ -1,8 +1,8 @@
 #curso24_25 #deapweb
 
 
-# T0. Herramientas y repaso
-10 h -> 16s a 29s
+# UT0. Herramientas y repaso
+4 h -> 16s a 18s
 
 + [ ] Control de versiones -> **GIT**
 + [ ] Lenguaje de marcado ligero para representación -> **Markdown**
@@ -11,8 +11,8 @@
 *Git y Markdown asociados a RA6 y Vagrant asociado a RA1*.
 
 
-# T1. Implantación de arquitecturas web
-15 h -> 30s a 20o
+# UT1. Implantación de arquitecturas web
+16 h -> 18s a 9o
 
 + [ ] Bases del despliegue (a, b, f):
   + [ ] Arquitecturas web
@@ -37,8 +37,8 @@
 *Asociado al RA1*.
 
 
-# T2. Servidores WEB
-15h -> 21o a 10n
+# UT2. Servidores WEB
+14h -> 10o a 30n
 
 + [ ] Servidor web Apache (a, b, c, d, g, i)
 + [ ] Servidor web Nginx (a, b, c, d, g, i)
@@ -49,8 +49,8 @@
 *Asociado al RA2*.
 
 
-# T3. Servidor de aplicaciones
-10h -> 11n a 24n
+# UT3. Servidor de aplicaciones
+9h -> 30o a 13n
 
 + [ ] Contenedor de aplicaciones Tomcat (a, b, c, d, e, h, i)
 + [ ] Despliege de aplicación web Servlet/Spring/Quarkus (f, g, h, i)
@@ -58,8 +58,8 @@
 *Asociado al RA3*.
 
 
-# T4. Gestión de servidores y archivos
-10h -> 25n a 8d
+# UT4. Gestión de servidores y archivos
+10h -> 13n a 27n
 + [ ] FTP (a, b, c, d, g)
 + [ ] Acceso remoto seguro - SSH (e, g)
   + [ ] Bastionado SSH:
@@ -72,8 +72,8 @@
 *Asociado a los RA4 y RA6*.
 
 
-# T5. Servicios de red
-10h -> 9d a 20d
+# UT5. Servicios de red
+7h -> 27n a 4d
 + [ ] DNS (a, b, g, h)
 + [ ] LDAP (c, d, g, h)
 + [ ] nginx con LDAP (e, f, g, h)

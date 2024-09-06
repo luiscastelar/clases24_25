@@ -1,11 +1,11 @@
-#curso24_25 #deapweb [estado:: Working] 
+#curso24_25 #deapweb [estado:: Done] 
 
 ![portada](https://luiscastelar.duckdns.org/2024/assets/deapweb/portada.png)
 *[Imagen de storyset en Freepik](https://www.freepik.es/vector-gratis/ilustracion-concepto-alojamiento-nube_6183217.htm#fromView=search&page=1&position=1&uuid=1dcf9491-9e67-42a8-8959-b3cd41c803d6)*
 
 
 # Anotaciones de interés:
-+ Moodle: ==[0614 Despliegue de Aplicaciones Web](https://moodle.educarex.es/iescastelarfp/course/view.php?id=110)  - “tema0”
++ Moodle: [0614 Despliegue de Aplicaciones Web](https://moodle.educarex.es/iescastelarfp/course/view.php?id=110) - “tema0”
 + [Recordatorios](../recordatorios.md)
 
 
@@ -54,10 +54,10 @@ De acuerdo a la normativa antes mencionada, los RA son:
 
 1. Implanta arquitecturas web analizando y aplicando criterios de funcionalidad.
 2. Implanta aplicaciones web en servidores web, evaluando y aplicando criterios de configuración para su funcionamiento seguro.
-3. Implanta aplicaciones web en servidores de aplicaciones, evaluando y aplicando criterios de configuración para su funcionamiento seguro.
-4. Administra servidores de transferencia de archivos, evaluando y aplicando criterios de configuración que garanticen la disponibilidad del servicio.
-5. Verifica la ejecución de aplicaciones web comprobando los parámetros de configuración de servicios de red.
-6. Elabora la documentación de la aplicación web evaluando y seleccionando herramientas de generación de documentación, control de versiones y de integración continua.
+3. Implanta aplicaciones web en servidores de aplicaciones, evaluando y aplicando criterios de configuración para su funcionamiento seguro.
+4. Administra servidores de transferencia de archivos, evaluando y aplicando criterios de configuración que garanticen la disponibilidad del servicio.
+5. Verifica la ejecución de aplicaciones web comprobando los parámetros de configuración de servicios de red.
+6. Elabora la documentación de la aplicación web evaluando y seleccionando herramientas de generación de documentación, control de versiones y de integración continua.
 
 
 ## Evaluación
@@ -67,7 +67,7 @@ El proceso de evaluación, calificación y promoción se rige por lo indicado en
 
 El alumnado que asista a una convocatoria ordinaria o extraordinaria y no hayan realizado todos los ejercicios obligatorios podrán tener un examen diferenciado a aquellos que hayan realizado un seguimiento completo del curso. Si se considera necesario el alumnado deberá entregar antes de la fecha de dicha evaluación las actividades prácticas que se establezcan.
 
-El profesorado podrá establecer el instrumento de evaluación que considere más adecuado en cada fase del proceso, desde medios informáticos, manuales, papel, entrevista personal, coevaluación, etc. manteniendo siempre el precepto de objetividad y validez.
+El profesorado podrá establecer el instrumento de evaluación que considere más adecuado en cada fase del proceso, desde medios informáticos, manuales, papel, entrevista personal, coevaluación, etc. manteniendo siempre el precepto de objetividad e imparcialidad.
 
 Para poder superar el módulo será necesario tener una calificación mínima de 5 en la evaluación final ordinaria o, en su defecto, en la extraordinaria.
 
@@ -130,15 +130,33 @@ El auto-plagio también podrán ser calificados negativamente si no está refere
 ## Calificación
 El alumnado será calificado al finalizar cada trimestre, **en** **s****esi****ón** **de evaluación** y obtendrán una calificación final del módulo resultado de la *media* *ponderada de todas las Unidades de Trabajo evaluadas en el curso* *(la nota de los boletines trimestrales es sólo informativa)*.
 
-La calificación de cada trimestre se obtiene a partir de una media ponderada, en base a los siguientes criterios, cada uno con un peso distinto:
+La ponderación se realizará según la dedicación prevista:
+| N | Uni. Trabajo | Dedicación | Peso |
+|---|----------|----------|----------|
+| 0 | Herramientas y repaso | 5 h | 5 % |
+| 1 | Implantación arq. web | 20 h | 20 % |
+| 2 | Servidores web | 15 h | 15 % |
+| 3 | Servidor de aplicaciones | 10 h | 10 % |
+| 4 | Gest. de serv y archivos | 10 h | 10 % |
+| 5 | Servicios de red | 10 h | 10 % |
+|  | Proyecto Integrador (NO dual) | 40 h | 40 % |
+|  |   |   |   |
+|  | Proyecto Integrador (DUAL) | 16 h | 16 % |
+|  | Estancia en EMPRESA | 24 h | 24 % |
 
-1. **Actitud del alumnado en clase. 10 % de la calificación final.** Se tendrá en cuenta su rendimiento y participación en clase, a través de la observación sistemática, seguimiento de su trabajo y anotación en el cuaderno del profesorado. Si el alumnado tiene una actitud negativa, molesta para el desarrollo de las clases y para el trabajo en grupo, podrá ser tenida en cuenta una reducción en la puntuación final obtenida, más allá del porcentaje asignado en actitud.
 
-2. **Realización de trabajos y de actividades prácticas. 40 % de la calificación final.** Actividades, trabajos y prácticas propuestas al alumnado a lo largo del curso. \
-   El alumnado deberá entregar las actividades en tiempo y forma que le indique el profesorado. Si esto no es así, se tendrá en cuenta en la calificación final, pudiéndose decidir no calificar las actividades y trabajos entregados fuera de plazo. Si se trata de actividades prácticas en el aula, aparte de la calificación durante su realización, se puede solicitar la entrega de memorias de prácticas cuya entrega será obligatoria. \
+
+La calificación de cada Unidad de Trabajo se obtiene a partir de una media ponderada, en base a los siguientes criterios:
+
+1. **Actitud del alumnado en clase. 10 %** Se tendrá en cuenta su rendimiento y participación en clase, a través de la observación sistemática, seguimiento de su trabajo y anotación en el cuaderno del profesorado. Si el alumnado tiene una actitud negativa, molesta para el desarrollo de las clases y para el trabajo en grupo, podrá ser tenida en cuenta una reducción en la puntuación final obtenida, más allá del porcentaje asignado en actitud.
+
+2. **Realización de trabajos y de actividades prácticas. 40 %** Actividades, trabajos y prácticas propuestas como obligatorias al alumnado.
+   
+   El alumnado deberá entregar las actividades en tiempo y forma indicado por el profesorado. Si esto no es así, se tendrá en cuenta en la calificación final, pudiéndose decidir no calificar las actividades y trabajos entregados fuera de plazo. Si se trata de actividades prácticas en el aula, aparte de la calificación durante su realización, se puede solicitar la entrega de memorias de prácticas cuya entrega será obligatoria.
+   
    El profesorado decidirá cuáles de los trabajos realizados, tanto en el aula como fuera de ella conformarán la calificación asignada a este bloque.
 
-3. **Pruebas específicas. 50 % de la calificación final.** Se trata de pruebas teóricas y/o prácticas, tanto escritas, como utilizando un sistema informático o herramientas propias de su perfil profesional. Estas pruebas objetivas se desarrollarán en el aula para tratar de evaluar de forma objetiva e individual la correcta asimilación de los contenidos y elementos de capacidad objeto del Módulo Profesional.
+4. **Pruebas específicas. 50 %** Se trata de pruebas teóricas y/o prácticas, tanto escritas, como utilizando un sistema informático o herramientas propias de su perfil profesional. Estas pruebas objetivas se desarrollarán en el aula para tratar de evaluar de forma objetiva e individual la correcta asimilación de los contenidos y elementos de capacidad objeto del Módulo Profesional.
 
 *En aquellas unidades que no se realice una prueba específica la distribución será:*
 1. *20% actividades de aula*.
