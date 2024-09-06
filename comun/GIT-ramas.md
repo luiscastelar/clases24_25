@@ -1,4 +1,4 @@
-#curso23_24 #ED
+#curso24_25 #común #ed [estado:: Done]
 
 ## Revisión de la historia
 

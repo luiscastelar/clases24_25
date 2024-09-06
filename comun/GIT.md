@@ -1,4 +1,4 @@
-#curso23_24 #ED [estado::done] 
+#curso24_25 #común #deapweb #prog #lm #bbdd #ed #psp #sad [estado:: Done]
 
 # GIT básico
 [Introducción a GIT por TodoCode](https://www.youtube.com/watch?v=mCVQgSyjCkI&list=PLQxX2eiEaqby-qh4raiKfYyb4T7WyHsfW) y [blog de Diego Martín](https://www.diegocmartin.com/tutorial-git/).

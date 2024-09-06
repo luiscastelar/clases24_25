@@ -1,4 +1,4 @@
-#curso24_25 #común [estado:: Done]
+#curso24_25 #común #deapweb [estado:: Done]
 
 
 > **Vagrant** es un software de código abierto que nos permite crear y mantener entornos de desarrollo portables, puede trabajar con VMware, VirtualBox, Hyper-V, KVM, AWS e incluso también con contenedores de Docker, por tanto, es ideal para simplificar la configuración de estos software de virtualización.
