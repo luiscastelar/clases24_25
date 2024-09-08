@@ -170,7 +170,7 @@ $ nmap IP/CIDR
    Info: si la máquina está virtualizada, deberá estar conectada directamente a la red lan sin NAT. \
    P.D.: Un par de párrafos por puerto serán suficientes para demostar que sabes sus funciones.
 
-> Forma de entrega: Subir como `README.md` a repositorio privado en una carpeta `UT1-Implantacion_de_arquitecturas_web` y compartir con @luiscastelar.
+> Forma de entrega: Subir como `README.md` a repositorio privado en una carpeta `T1-Bases` y compartir con @luiscastelar.
 
 
 # Contenedores:
@@ -215,11 +215,48 @@ Es un orquestador de contenedores.
 
 ![otra](https://luiscastelar.duckdns.org/2023/assets/SAD/Mono2kub.png)
 ![otra](https://luiscastelar.duckdns.org/2023/assets/SAD/Docker-Kubernetes-togethert-min.png)
+
 ## `docker` CLI
+[Introducción a `docker cli`](https://github.com/luiscastelar/clases24_25/blob/main/comun/docker.md)
+
+### Práctica
+Deberéis crear un conjunto de microservicios (con docker) compuesto por 3 contenedores:
++ Red interna para la comunicación entre contenedores
++ Microservicio `mariaDB` no accesible desde el mundo, sólo desde la red interna. Éste debe inicializarse con la creación del usuario `pepe`y el pass `despliegue`.
++ Microservicio `php-apache` que pueda acceder a la bbdd y desde el exterior en el puerto 80. Debe contener un `phpinfo()` en el archivo `info.php` de la raíz púbilica.
++ Microservicio `phpMyAdmin` que pueda accedar a la bbdd y sea accesible desde el exterior en el puerto 8080 o 443 si lo realizas desde un VPS. \
+*Nota: para simplificar esta última conexión deberéis pasarle la variable de entorno `PMA_HOST=nombre_contenedor_mariaDB`.
+
+
+*Nota: El sistema debe ser accesible por cualquiera desde internet (VPS) o ser facilitado en un entorno reproducible (vagrant) con instrucciones claras para su ejecución.*
+
+> Forma de entrega: Subir como README.md a repositorio privado en una carpeta `T1-Docker`.
+
 
 ## `docker compose`
+[Introducción a `docker compose`](https://github.com/luiscastelar/clases24_25/blob/main/comun/docker.md#docker-compose)
+
+### Práctica
+Transformar la práctica anterior (`mariaDB+php-apache+phpMyAdmin` en un docker-compose funcional. 
+
+Para aumentar la seguridad le pasaremos toda la información sensible como parámentros a  través del archivo de secretos `.env`.
+
+Recuerda:
+> Deberéis crear un conjunto de microservicios (con docker) compuesto por 3 contenedores:
+> + Red interna para la comunicación entre contenedores
+> + Microservicio `mariaDB` no accesible desde el mundo, sólo desde la red interna. Éste debe inicializarse con la creación del usuario `pepe`y el pass `despliegue`.
+> + Microservicio `php-apache` que pueda acceder a la bbdd y desde el exterior en el puerto 80. Debe contener un `phpinfo()` en el archivo `info.php` de la raíz púbilica.
+> + Microservicio `phpMyAdmin`que pueda accedar a la bbdd y sea accesible desde el exterior en el puerto 8080 o 443 si lo realizas desde un VPS.
+>   
+> *Nota: para simplificar esta última conexión deberéis pasarle la variable de entorno `PMA_HOST=nombre_contenedor_mariaDB`.*
+> 
+> *Nota: El sistema debe ser accesible por cualquiera desde internet (VPS) o ser facilitado en un entorno reproducible (vagrant) con instrucciones claras para su ejecución.*
+
+> Forma de entrega: Subir la documentación como README.md a repositorio privado en una carpeta `T1-Compose` y añadir el `docker-compose.yml`.
+
 
 ## `Dockerfile`
+[Introducción a `Dockerfile`](https://github.com/luiscastelar/clases24_25/blob/main/comun/Dockerfile.md)
 
 
 # Servidor web:
