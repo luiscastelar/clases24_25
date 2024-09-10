@@ -1,4 +1,4 @@
-#curso24_25 #prog #deapweb #curso23_24 #ED [estado::done] 
+#curso24_25 #prog #deapweb #curso23_24 #ED [estado::Done] 
 
 # Desarrollo con contenedores
 

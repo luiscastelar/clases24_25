@@ -1,4 +1,4 @@
-*Tags: #curso24_25 #prog #lm #deapweb #curso23_24 #sad #psp #ed #par #curso22_23 #bbdd*
+*Tags: #curso24_25 #prog #lmsgi #deapweb #curso23_24 #sad #psp #ed #par #curso22_23 #bbdd* [estado::Done] 
 
 # INSTALACIÓN
 
