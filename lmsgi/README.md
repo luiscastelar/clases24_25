@@ -1,10 +1,8 @@
-#curso24_25 #lmsgi [estado:: ToDo] 
+#curso24_25 #lmsgi [estado:: Done] 
 
 
 
-# == VOY POR AQUÍ ==
-
-![portada](https://luiscastelar.duckdns.org/2024/assets/deapweb/portada.png)
+![portada](https://luiscastelar.duckdns.org/2024/assets/deapweb/portada.jpg)
 *[Imagen de storyset en Freepik](https://www.freepik.es/vector-gratis/ilustracion-concepto-alojamiento-nube_6183217.htm#fromView=search&page=1&position=1&uuid=1dcf9491-9e67-42a8-8959-b3cd41c803d6)*
 
 
@@ -44,24 +42,27 @@ Cualquiera de las siguientes referencias son **muy** recomendables y se tomarán
 
 
 ## Duración:
-+ Créditos ECTS: 5 -> 125 h 
-+ Duración en aula: 100 h -> 5 h/sem en 26 sem
-+ Trabajo en casa: 25 h
++ Créditos ECTS: 7 -> 175 h
++ Horas totales: 130 h
++ Duración en aula: 117 h, 4 h/sem
++ Estancia en empresa: 13h
++ Trabajo en casa: 45 h
 
 
 ## Unidad de competencia
-Este módulo otorga la unidad de competencia UC493_3 **Implementar, verificar u documentar aplicaciones web en entornos internet, Intranet y extranet**.
+Este módulo no otorga ninguna la unidad de competencia.
 
 
 ## Resultados de aprendizaje
 De acuerdo a la normativa antes mencionada, los RA son:
 
-1. Implanta arquitecturas web analizando y aplicando criterios de funcionalidad.
-2. Implanta aplicaciones web en servidores web, evaluando y aplicando criterios de configuración para su funcionamiento seguro.
-3. Implanta aplicaciones web en servidores de aplicaciones, evaluando y aplicando criterios de configuración para su funcionamiento seguro.
-4. Administra servidores de transferencia de archivos, evaluando y aplicando criterios de configuración que garanticen la disponibilidad del servicio.
-5. Verifica la ejecución de aplicaciones web comprobando los parámetros de configuración de servicios de red.
-6. Elabora la documentación de la aplicación web evaluando y seleccionando herramientas de generación de documentación, control de versiones y de integración continua.
+1. Reconoce las características de lenguajes de marcas analizando e interpretando fragmentos de código.
+2. Utiliza lenguajes de marcas para la transmisión y presentación de información a través de la web analizando la estructura de los documentos e identificando sus elementos.
+3. Accede y manipula documentos web utilizando lenguajes de script de cliente.
+4. Establece mecanismos de validación de documentos para el intercambio de información utilizando métodos para definir su sintaxis y estructura.
+5. Realiza conversiones sobre documentos para el intercambio de información utilizando técnicas, lenguajes y herramientas de procesamiento.
+6. Gestiona la información en formatos de intercambio de datos analizando y utilizando tecnologías de almacenamiento y lenguajes de consulta.
+7. Opera sistemas empresariales de gestión de información realizando tareas de importación, integración, aseguramiento y extracción de la información.
 
 
 ## Evaluación
@@ -85,7 +86,9 @@ En dicha prueba se podrá requerir la realización y/o entrega de actividades pr
 
 
 ## Evaluación de pendientes
-Este módulo está encuadrado en el segundo curso del Ciclo Formativo, por ello, no se establecen criterios para las evaluaciones pendientes.
+Este módulo está encuadrado en el primer curso del Ciclo Formativo, el alumnado que tuviera pendiente este módulo profesional debe realizar las prácticas que el equipo docente establezca y superarlas con una evaluación positiva. Además debe superar una prueba objetiva relacionada con la materia.
+
+El profesorado podrá emplear instrumentos de evaluación diferentes a los citados anteriormente si lo considera necesario, así como realizar recuperaciones en aquellos casos especiales que lo puedan requerir.
 
 
 ## Trabajos y actividades prácticas
@@ -132,56 +135,22 @@ El auto-plagio también podrán ser calificados negativamente si no está refere
 
 
 ## Calificación
-El alumnado será calificado al finalizar cada trimestre, **en** **s****esi****ón** **de evaluación** y obtendrán una calificación final del módulo resultado de la *media* *ponderada de todas las Unidades de Trabajo evaluadas en el curso* *(la nota de los boletines trimestrales es sólo informativa)*.
+El alumnado será calificado al finalizar cada trimestre, **en sesión de evaluación** y obtendrán una calificación final del módulo resultado de la *media* *ponderada de todas las Unidades de Trabajo evaluadas en el curso* *(la nota de los boletines trimestrales es sólo informativa)*.
 
 La ponderación se realizará según la dedicación prevista:
 
----
-
-Total = 130 h
-Clase = 117 h
-Empresa = 13 h
-ECTS 7 -> 175h
-Casa = 45 h
-
-1. Git
-2. Introducción a los lenguajes de marcas. 
-    + Clasificación
-    + Marcado ligero - Markdown
-    + Herramientas
-3. Lenguajes de marcas en entornos web. HTML.
-    + Estructura
-    + Etiquetas y atributos
-    + XHTM vs HTML
-    + Herramientas
-4. Lenguajes de marcas en entornos web. CSS.
-    + Hojas
-    + Elementos y atributos
-    + Selectores
-    + Pseudoelementos
-5. Transmisión de datos.
-    + XML
-    + Json / Yml
-    + Sindicación de contenidos
-6. Manipulación del DOM. JavaScript.
-7. HTML5 - AJAX.
-
-
-
----
 
 | N | Uni. Trabajo | Dedicación | Peso |
 |---|----------|----------|----------|
-| 0 | Herramientas y repaso | 5 h | 5 % |
-| 1 | Implantación arq. web | 20 h | 20 % |
-| 2 | Servidores web | 15 h | 15 % |
-| 3 | Servidor de aplicaciones | 10 h | 10 % |
-| 4 | Gest. de serv y archivos | 10 h | 10 % |
-| 5 | Servicios de red | 10 h | 10 % |
-|  | Proyecto Integrador (NO dual) | 40 h | 40 % |
-|  |   |   |   |
-|  | Proyecto Integrador (DUAL) | 16 h | 16 % |
-|  | Estancia en EMPRESA | 24 h | 24 % |
+| 1 | Control de versiones | 2 h | 2 % |
+| 2 | Introducción a los lenguajes de marcas (EMPRESA) | 0 h | 0 % |
+| 3 | Lenguajes de marcas en entornos web. HTML | 24 h | 18 % |
+| 4 | Lenguajes de marcas en entornos web. CSS | 38 h | 29 % |
+| 5 | Transmisión y almacenamiento de información | 24 h | 18 % |
+| 6 | Manipulación de documentos Web. JavaScript | 29 h | 22 % |
+| 7 | Sistemas de gestión empresarial (EMPRESA) | 0 h | 0 % |
+| - | Estancia en EMPRESA | 13 h | 10 % |
+
 
 
 
@@ -224,7 +193,7 @@ El profesorado que opte por no aplicar alguno de los criterios o variar los porc
     2. Si tienes un VPS debes crear el usuario `profesor` con acceso de sólo lectura  a la carpeta o carpetas de las prácticas (public key: ==`más adelante`==).
     4. La fecha máxima de entrega es eso, el último minuto y día al que podéis entregar. **Nada os impide hacerlo antes**, por lo que no será aceptada ninguna entrega posterior bajo ningún concepto (enfermedades, huelgas, diluvios, o cualquier cataclismo que pueda suceder).
     5. Las entregas para recuperar, **si las hubiera**, se entregarán 1 semana antes del examen de evaluación y deberán ser defendidas previamente. La nota máxima para la práctica será de un 6. Las mismas serán propuestas cuando llegue el momento, si procede.
-    7. Las prácticas deben *funcionar* proporcionando los servicios adecuadamente. Algunas prácticas podrán tener partes no críticas que mermarán la nota si no se implementan adecuadamente, pero afectarán a la nota máxima.
+    7. Las prácticas deben cumplir los requisitos solicitados. Algunas prácticas podrán tener partes no críticas que mermarán la nota si no se implementan adecuadamente, pero afectarán a la nota máxima.
     8. Todas las prácticas requieren una documentación apta para superar la práctica. En caso contrario la práctica se considerará no apta de forma completa.
        
 Las prácticas son otra forma más de evaluar los conocimientos y capacidades adquiridas por el alumno, por lo que sólo se evaluarán 1 vez (al igual que sólo podemos hacer 1 vez cada examen). El alumno deberá asegurarse que cumple las especificaciones y que la documentación es suficientemente detallada.
