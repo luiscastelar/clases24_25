@@ -4,10 +4,13 @@
 # UT0. Herramientas y repaso
 4 h -> 16s a 18s
 
-+ [ ] Control de versiones -> **GIT**
-+ [ ] Lenguaje de marcado ligero para representación -> **Markdown**
-+ [ ] Virtualización asistida -> **Vagrant**
-
++ 12s:
+  + [ ] Control de versiones -> **GIT**
+  + [ ] Lenguaje de marcado ligero para representación -> **Markdown**
+  + [ ] Virtualización asistida -> **Vagrant**
++ 14s:
+  + [ ] cont Virtualización asistida -> **Vagrant**
+        
 *Git y Markdown asociados a RA6 y Vagrant asociado a RA1*.
 
 
