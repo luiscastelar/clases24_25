@@ -5,6 +5,7 @@
 4 h -> 16s a 18s
 
 + 12s:
+  + [ ] Programación (previa)
   + [ ] Control de versiones -> **GIT**
   + [ ] Lenguaje de marcado ligero para representación -> **Markdown**
   + [ ] Virtualización asistida -> **Vagrant**

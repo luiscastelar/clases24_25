@@ -7,7 +7,7 @@
 
 
 # Anotaciones de interés:
-+ Moodle: [0614 Despliegue de Aplicaciones Web](https://moodle.educarex.es/iescastelarfp/course/view.php?id=110) - “tema0”
++ Moodle: [0373 Lenguaje de Marcas y Sistemas de Gestión de Información](https://moodle.educarex.es/iescastelarfp/course/view.php?id=299) - “tema0”
 + [Recordatorios](../recordatorios.md)
 
 
@@ -135,21 +135,18 @@ El auto-plagio también podrán ser calificados negativamente si no está refere
 
 
 ## Calificación
-El alumnado será calificado al finalizar cada trimestre, **en sesión de evaluación** y obtendrán una calificación final del módulo resultado de la *media* *ponderada de todas las Unidades de Trabajo evaluadas en el curso* *(la nota de los boletines trimestrales es sólo informativa)*.
+El alumnado será calificado al finalizar cada trimestre, **en sesión de evaluación** y obtendrán una calificación final del módulo resultado de la *media* *ponderada de todos los Resultados de Aprendizaje evaluadas en el curso* *(la nota de los boletines trimestrales es sólo informativa)*.
 
 La ponderación se realizará según la dedicación prevista:
 
-
 | N | Uni. Trabajo | Dedicación | Peso |
 |---|----------|----------|----------|
-| 1 | Control de versiones | 2 h | 2 % |
-| 2 | Introducción a los lenguajes de marcas (EMPRESA) | 0 h | 0 % |
+| 2 | Introducción a los lenguajes de marcas | 3 h | 2 % |
 | 3 | Lenguajes de marcas en entornos web. HTML | 24 h | 18 % |
 | 4 | Lenguajes de marcas en entornos web. CSS | 38 h | 29 % |
 | 5 | Transmisión y almacenamiento de información | 24 h | 18 % |
-| 6 | Manipulación de documentos Web. JavaScript | 29 h | 22 % |
-| 7 | Sistemas de gestión empresarial (EMPRESA) | 0 h | 0 % |
-| - | Estancia en EMPRESA | 13 h | 10 % |
+| 6 | Manipulación de documentos Web. JavaScript | 28 h | 23 % |
+| - | Estancia en EMPRESA (RA1 y RA7) | 13 h | 10 % |
 
 
 

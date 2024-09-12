@@ -128,22 +128,25 @@ El auto-plagio también podrán ser calificados negativamente si no está refere
 
 
 ## Calificación
-El alumnado será calificado al finalizar cada trimestre, **en** **s****esi****ón** **de evaluación** y obtendrán una calificación final del módulo resultado de la *media* *ponderada de todas las Unidades de Trabajo evaluadas en el curso* *(la nota de los boletines trimestrales es sólo informativa)*.
+El alumnado será calificado al finalizar cada trimestre, **en** **s****esi****ón** **de evaluación** y obtendrán una calificación final del módulo resultado de la *media* *ponderada de todos los Resultados de Aprendizaje evaluados en el curso* *(la nota de los boletines trimestrales es sólo informativa)*.
 
 La ponderación se realizará según la dedicación prevista:
-| N | Uni. Trabajo | Dedicación | Peso |
+| UT | Uni. Trabajo | Dedicación | Peso |
 |---|----------|----------|----------|
-| 0 | Herramientas y repaso | 5 h | 5 % |
-| 1 | Implantación arq. web | 20 h | 20 % |
+| 0 | Herramientas y repaso | 5 h | |
+|  | -> RA1 |  | 1 % |
+|  | -> RA6 |  | 4 % |
+| 1 | Implantación arq. web (RA1) | 20 h | 20 % |
 | 2 | Servidores web | 15 h | 15 % |
 | 3 | Servidor de aplicaciones | 10 h | 10 % |
-| 4 | Gest. de serv y archivos | 10 h | 10 % |
+| 4 | Gest. de serv y archivos | 10 h | |
+|  | -> RA4 |  | 3 % |
+|  | -> RA6 | | 7 % |
 | 5 | Servicios de red | 10 h | 10 % |
 |  | Proyecto Integrador (NO dual) | 40 h | 40 % |
 |  |   |   |   |
 |  | Proyecto Integrador (DUAL) | 16 h | 16 % |
 |  | Estancia en EMPRESA | 24 h | 24 % |
-
 
 
 La calificación de cada Unidad de Trabajo se obtiene a partir de una media ponderada, en base a los siguientes criterios:
