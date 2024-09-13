@@ -300,3 +300,11 @@ Se reseñan los 2 primeros dado que nuestra organización `@iescastelar.com` tie
 Algunos otros proveedores como [**Oracle**](https://www.oracle.com/es/cloud/free/) o AWS también ofrecen instancias gratuítas (**fuera** de España) pero requieren proporcionar tarjetas de crédito/débito (no prepago). 
 
 La ventaja de realizarlo sin cuenta educativa es que será permanente ya que no requiere que renovéis anualmente.
+
+## Otros servidores de despliegue:
++ https://render.com/
+  + backend: python, nodeJs
+  + frontend: ¿todos?
+  + db: PostgreSQL, Redis, MySQL
+  + docker
+
