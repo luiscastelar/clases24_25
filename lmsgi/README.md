@@ -1,9 +1,9 @@
 #curso24_25 #lmsgi [estado:: Done] 
 
+![portada](https://luiscastelar.duckdns.org/2024/assets/lmsgi/portada.jpg)
+*[Diseñado por Freepik](https://www.freepik.es/foto-gratis/concepto-collage-html-css-persona_36295456.htm#fromView=search&page=1&position=39&uuid=b5e0be11-07d7-4eb6-bed1-bfa583bced71)*
 
 
-![portada](https://luiscastelar.duckdns.org/2024/assets/deapweb/portada.jpg)
-*[Imagen de storyset en Freepik](https://www.freepik.es/vector-gratis/ilustracion-concepto-alojamiento-nube_6183217.htm#fromView=search&page=1&position=1&uuid=1dcf9491-9e67-42a8-8959-b3cd41c803d6)*
 
 
 # Anotaciones de interés:
