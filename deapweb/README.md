@@ -1,6 +1,6 @@
 #curso24_25 #deapweb [estado:: Done] 
 
-![portada](https://luiscastelar.duckdns.org/2024/assets/deapweb/portada.png)
+![portada](https://luiscastelar.duckdns.org/2024/assets/deapweb/portada.jpg)
 *[Imagen de storyset en Freepik](https://www.freepik.es/vector-gratis/ilustracion-concepto-alojamiento-nube_6183217.htm#fromView=search&page=1&position=1&uuid=1dcf9491-9e67-42a8-8959-b3cd41c803d6)*
 
 
