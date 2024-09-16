@@ -5,12 +5,15 @@
 4 h -> 16s a 18s
 
 + 12s:
-  + [ ] Programación (previa)
-  + [ ] Control de versiones -> **GIT**
-  + [ ] Lenguaje de marcado ligero para representación -> **Markdown**
-  + [ ] Virtualización asistida -> **Vagrant**
+  + [x] Programación (previa)
+  + [x] Control de versiones -> **GIT**
+  + [x] Lenguaje de marcado ligero para representación -> **Markdown**
+  + [x] Virtualización asistida -> **Vagrant**
 + 14s:
-  + [ ] cont Virtualización asistida -> **Vagrant**
+  + [ ] Aclaraciones
+  + [ ] Ejercicios Vagrant
+  + [ ] Corrección práctica GIT.
+  
         
 *Git y Markdown asociados a RA6 y Vagrant asociado a RA1*.
 

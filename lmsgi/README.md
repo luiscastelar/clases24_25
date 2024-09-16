@@ -1,6 +1,7 @@
 #curso24_25 #lmsgi [estado:: Done] 
 
 ![portada](https://luiscastelar.duckdns.org/2024/assets/lmsgi/portada.jpg)
+
 *[Diseñado por Freepik](https://www.freepik.es/foto-gratis/concepto-collage-html-css-persona_36295456.htm#fromView=search&page=1&position=39&uuid=b5e0be11-07d7-4eb6-bed1-bfa583bced71)*
 
 
@@ -139,14 +140,14 @@ El alumnado será calificado al finalizar cada trimestre, **en sesión de evalua
 
 La ponderación se realizará según la dedicación prevista:
 
-| N | Uni. Trabajo | Dedicación | Peso |
-|---|----------|----------|----------|
-| 2 | Introducción a los lenguajes de marcas | 3 h | 2 % |
-| 3 | Lenguajes de marcas en entornos web. HTML | 24 h | 18 % |
-| 4 | Lenguajes de marcas en entornos web. CSS | 38 h | 29 % |
-| 5 | Transmisión y almacenamiento de información | 24 h | 18 % |
-| 6 | Manipulación de documentos Web. JavaScript | 28 h | 23 % |
-| - | Estancia en EMPRESA (RA1 y RA7) | 13 h | 10 % |
+| N | Uni. Trabajo | Dedicación | 
+|---|--------------|------------|
+| 1 | Introducción a los lenguajes de marcas | 3 h |
+| 2 | Lenguajes de marcas en entornos web. HTML | 24 h |
+| 3 | Lenguajes de marcas en entornos web. CSS | 38 h | 
+| 5 | Transmisión y almacenamiento de información | 24 h |
+| 6 | Manipulación de documentos Web. JavaScript | 28 h | 
+| - | Estancia en EMPRESA (RA1 y RA7) | 13 h | 
 
 
 
@@ -188,10 +189,10 @@ El profesorado que opte por no aplicar alguno de los criterios o variar los porc
 * Evaluación de las prácticas / plazos de entrega:
     1. Se evalúa únicamente el repositorio oficial. Lo que no esté allí no se avalúa. Ésto implica que deberá subirse a MOODLE y tener el respaldo en el repositorio.
     2. Si tienes un VPS debes crear el usuario `profesor` con acceso de sólo lectura  a la carpeta o carpetas de las prácticas (public key: ==`más adelante`==).
-    4. La fecha máxima de entrega es eso, el último minuto y día al que podéis entregar. **Nada os impide hacerlo antes**, por lo que no será aceptada ninguna entrega posterior bajo ningún concepto (enfermedades, huelgas, diluvios, o cualquier cataclismo que pueda suceder).
-    5. Las entregas para recuperar, **si las hubiera**, se entregarán 1 semana antes del examen de evaluación y deberán ser defendidas previamente. La nota máxima para la práctica será de un 6. Las mismas serán propuestas cuando llegue el momento, si procede.
-    7. Las prácticas deben cumplir los requisitos solicitados. Algunas prácticas podrán tener partes no críticas que mermarán la nota si no se implementan adecuadamente, pero afectarán a la nota máxima.
-    8. Todas las prácticas requieren una documentación apta para superar la práctica. En caso contrario la práctica se considerará no apta de forma completa.
+    3. La fecha máxima de entrega es eso, el último minuto y día al que podéis entregar. **Nada os impide hacerlo antes**, por lo que no será aceptada ninguna entrega posterior bajo ningún concepto (enfermedades, huelgas, diluvios, o cualquier cataclismo que pueda suceder).
+    4. Las entregas para recuperar, **si las hubiera**, se entregarán 1 semana antes del examen de evaluación y deberán ser defendidas previamente. La nota máxima para la práctica será de un 6. Las mismas serán propuestas cuando llegue el momento, si procede.
+    5. Las prácticas deben cumplir los requisitos solicitados. Algunas prácticas podrán tener partes no críticas que mermarán la nota si no se implementan adecuadamente, pero afectarán a la nota máxima.
+    6. Todas las prácticas requieren una documentación apta para superar la práctica. En caso contrario la práctica se considerará no apta de forma completa.
        
 Las prácticas son otra forma más de evaluar los conocimientos y capacidades adquiridas por el alumno, por lo que sólo se evaluarán 1 vez (al igual que sólo podemos hacer 1 vez cada examen). El alumno deberá asegurarse que cumple las especificaciones y que la documentación es suficientemente detallada.
 
