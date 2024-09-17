@@ -199,6 +199,10 @@ En ocasiones Docker cede el control a aplicaciones sin sistema operativo (a menu
 Es otro motor de contenedores similar a docker pero con interesantes características, por ejemplo:
 + **No requiere permisos de root**. No hay *demonio* en segundo plano. Ésto es bueno en torno a seguridad pero requiere que nosotros gestionemos el encendido de los contenedores, por ejemplo con *systemd*.
 + **Pod**: En podman tenemos un elemento intermedio llamado Pod que contiene uno o varios contenedores. Todos ellos comparten una misma IP.
++ Nos permite generar un manifiesto de Kubernetes a partir de un Pod creado con sólo `podman generate kube {{nombre del pod}} > {{nombre del manifiesto}}.yaml`, e incluso correr manifiestos de Kubernetes en un pod.
+
+Fuente:
++ [Pelao Nerd](https://www.youtube.com/watch?v=l6Bgd7Y8pgE)
 
 
 ### Kubernetes (K8s, K3s, miniKube)
@@ -222,7 +226,7 @@ Es un orquestador de contenedores.
 ### Práctica
 Deberéis crear un conjunto de microservicios (con docker) compuesto por 3 contenedores:
 + Red interna para la comunicación entre contenedores
-+ Microservicio `mariaDB` no accesible desde el mundo, sólo desde la red interna. Éste debe inicializarse con la creación del usuario `pepe`y el pass `despliegue`.
++ Microservicio `mariaDB` no accesible desde el mundo, sólo desde la red interna. Éste debe inicializarse con la creación del usuario `pepe` y el pass `despliegue`.
 + Microservicio `php-apache` que pueda acceder a la bbdd y desde el exterior en el puerto 80. Debe contener un `phpinfo()` en el archivo `info.php` de la raíz púbilica.
 + Microservicio `phpMyAdmin` que pueda accedar a la bbdd y sea accesible desde el exterior en el puerto 8080 o 443 si lo realizas desde un VPS. \
 *Nota: para simplificar esta última conexión deberéis pasarle la variable de entorno `PMA_HOST=nombre_contenedor_mariaDB`.
@@ -237,7 +241,7 @@ Deberéis crear un conjunto de microservicios (con docker) compuesto por 3 conte
 [Introducción a `docker compose`](https://github.com/luiscastelar/clases24_25/blob/main/comun/docker.md#docker-compose)
 
 ### Práctica
-Transformar la práctica anterior (`mariaDB+php-apache+phpMyAdmin` en un docker-compose funcional. 
+Transformar la práctica anterior (`mariaDB+php-apache+phpMyAdmin`) en un compose funcional. 
 
 Para aumentar la seguridad le pasaremos toda la información sensible como parámentros a  través del archivo de secretos `.env`.
 
@@ -302,9 +306,21 @@ Algunos otros proveedores como [**Oracle**](https://www.oracle.com/es/cloud/free
 La ventaja de realizarlo sin cuenta educativa es que será permanente ya que no requiere que renovéis anualmente.
 
 ## Otros servidores de despliegue:
-+ https://render.com/
+**Con opciones gratis:**
++ [Render](https://render.com/)
   + backend: python, nodeJs
   + frontend: ¿todos?
   + db: PostgreSQL, Redis, MySQL
   + docker
+  + ¿sin VPS?
++ [Google Cloud](https://cloud.google.com/free/?hl=es_419) (VPS e2-micro + otros + $300/90d)
 
+**Low-cost**
++ [PiensaSOLUTIONS](https://www.piensasolutions.com/vps) (VPS desde 1€/mes)
+
+**Con crédito gratis:**
++ [DigitalOcean](https://www.digitalocean.com/pricing) ($200/60d)
++ [IBM Cloud](https://www.ibm.com/cloud/free) (VPS 30 días + otros Always Free)
+
+
+**[Referencias Free-Hosting](https://github.com/cloudcommunity/Free-Hosting)**

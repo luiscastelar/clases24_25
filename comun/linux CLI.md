@@ -53,7 +53,7 @@ Nota:
 | ps | mostrar processos `ps aux` (ojo sin `-`) |
 | top | monitor de sistema |
 | kill | mata (con katana) `kill -9 {{proc}}` |
-|
+
 
 
 # System Info
@@ -76,7 +76,7 @@ Nota:
 | scp | secure cp |
 | curl | lanza peticiones http y ftp |
 
-.---
+---
 # Ampliación:
 | Coman. | Descripción |
 |--------|-------------|

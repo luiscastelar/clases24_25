@@ -24,6 +24,7 @@ Duración: 16 h
 ## Bases del despliegue:
 CE: a, b, f.
 + 17s: 
+  + [ ] [Breve repaso de comandos linux](https://github.com/luiscastelar/clases24_25/blob/main/comun/linux%20CLI.md)
   + [ ] Arquitecturas web
   + [ ] Protocolos:
     + [ ] Http
