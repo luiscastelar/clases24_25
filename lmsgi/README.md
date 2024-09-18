@@ -50,10 +50,6 @@ Cualquiera de las siguientes referencias son **muy** recomendables y se tomarán
 + Trabajo en casa: 45 h
 
 
-## Unidad de competencia
-Este módulo no otorga ninguna la unidad de competencia.
-
-
 ## Resultados de aprendizaje
 De acuerdo a la normativa antes mencionada, los RA son:
 

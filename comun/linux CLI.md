@@ -74,7 +74,14 @@ Nota:
 |--------|-------------|
 | ssh | secure shell |
 | scp | secure cp |
+| rsync | sincroniza directorios |
 | curl | lanza peticiones http y ftp |
+
+**Especial SSH:**
+1. [Vídeo básico ssh](https://www.youtube.com/watch?v=RMS5zBYQIqA&pp=ygUOcGVsYW8gbmVyZCBzc2g%3D)
+2. [Parte 2](https://www.youtube.com/watch?v=IDDmqlN-hF0&pp=ygUOcGVsYW8gbmVyZCBzc2g%3D)
+3. [Parte 3](https://www.youtube.com/watch?v=ZHSGGG_WwUs&pp=ygUOcGVsYW8gbmVyZCBzc2g%3D)
+
 
 ---
 # Ampliación:
@@ -95,4 +102,7 @@ Nota:
 | | |
 | du | muestra uso disco |
 
-[**Ampliación**](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/)
++ [**Ampliación**](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/)
++ [Hoja resúmen](https://phoenixnap.com/kb/wp-content/uploads/2023/11/linux-commands-cheat-sheet-pdf.pdf)
++ [Pelao Nerd](https://youtu.be/0BA4k3jweaE?si=EivnGioae7QBAz1v)
+  
