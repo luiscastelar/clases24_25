@@ -142,8 +142,8 @@ El auto-plagio también podrán ser calificados negativamente si no está refere
 | 7  | POO II                                                 | 14    |
 | 8  | Operaciones de entrada y salida                        | 28    |
 | 9  | Gestión de información almacenada en BBDD relacionales | 28    |
-| 10 | Interfaces Gráficas de Usuario. WebUI                  | 28    |
-| -  | Estancia Empresa                                       | 22    |
+| 10 | Interfaces Gráficas de Usuario. WebUI                  | 30    |
+| -  | Estancia Empresa                                       | 20    |
 |    | Total =                                                | 220   |
 
 
@@ -154,10 +154,10 @@ La ponderación se realizará según la dedicación prevista a cada Resultado de
 | RA | Descripción | % peso |
 |---:|:------------|-------:|
 | 1  | Reconoce la estructura de un programa informático... |   4 % |
-| 2  | Escribe y prueba programas sencillos, reconociendo... |   8 % |
+| 2  | Escribe y prueba programas sencillos, reconociendo... |   7 % |
 | 3  | Escribe y depura código, analizando y utilizando... |  15 % |
 | 4  | Desarrolla programas organizados en clases... |  18 % |
-| 5  | Realiza operaciones de entrada y salida... |   9 % |
+| 5  | Realiza operaciones de entrada y salida... |   10 % |
 | 6  | Escribe programas que manipulen información... |  24 % |
 | 7  | Desarrolla programas aplicando características avanzadas ... |  10 % |
 | 8  | Utiliza bases de datos... |  6 % |

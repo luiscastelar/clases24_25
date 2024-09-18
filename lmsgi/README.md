@@ -142,8 +142,8 @@ La ponderación se realizará según la dedicación prevista:
 | 2 | Lenguajes de marcas en entornos web. HTML | 24 h |
 | 3 | Lenguajes de marcas en entornos web. CSS | 38 h | 
 | 5 | Transmisión y almacenamiento de información | 24 h |
-| 6 | Manipulación de documentos Web. JavaScript | 28 h | 
-| - | Estancia en EMPRESA (RA1 y RA7) | 13 h | 
+| 6 | Manipulación de documentos Web. JavaScript | 29 h | 
+| - | Estancia en EMPRESA (RA1 y RA7) | 12 h | 
 
 
 
