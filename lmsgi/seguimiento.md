@@ -30,7 +30,7 @@ _Se trabaja el RA 2_.
 + [ ] Hojas de estilo (CSS).
 + [ ] Validación de documentos HTML y CSS.
 
-_Se trabaja el RA 3_.
+_Se trabaja el RA 2_.
 
 
 # UT4 - Transmisión y almacenamiento de información.
@@ -65,7 +65,4 @@ _Se trabaja los RA 4, 5 y 6_.
 + [ ] Eliminación de elementos.
 + [ ] Manipulación de estilos.
 
-_Se trabaja el RA 4_.
-
-
-
+_Se trabaja el RA 3 y 5_.

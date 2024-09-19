@@ -130,7 +130,7 @@ Cualquier plagio, copia entre estudiantes o uso de fuentes no referidas conlleva
 El auto-plagio también podrán ser calificados negativamente si no está referenciado de forma expresa, o si no está permitido en el desarrollo de la actividad/práctica/prueba.
 
 
-# Contenidos y cronología
+## Contenidos y cronología
 | Nº | Unidad de Trabajo                                      | horas |
 |----|--------------------------------------------------------|-------|
 | 1  | Introducción a la programación                         | 12    |

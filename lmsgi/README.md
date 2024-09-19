@@ -24,7 +24,7 @@ Cualquiera de las siguientes referencias son **muy** recomendables y se tomarán
 
 + [UT1 - Git reference manual](https://git-scm.com/docs)
 + [UT1 - Markdown](https://www.markdownguide.org/)
-+ ...
++ [UT2 y UT3 - Curso muy completo HTML + CSS](https://www.mclibre.org/consultar/htmlcss/index.html)
 + 
 
 ---
@@ -131,11 +131,7 @@ Cualquier plagio, copia entre estudiantes o uso de fuentes no referidas conlleva
 El auto-plagio también podrán ser calificados negativamente si no está referenciado de forma expresa, o si no está permitido en el desarrollo de la actividad/práctica/prueba.
 
 
-## Calificación
-El alumnado será calificado al finalizar cada trimestre, **en sesión de evaluación** y obtendrán una calificación final del módulo resultado de la *media* *ponderada de todos los Resultados de Aprendizaje evaluadas en el curso* *(la nota de los boletines trimestrales es sólo informativa)*.
-
-La ponderación se realizará según la dedicación prevista:
-
+## Contenidos y cronología
 | N | Uni. Trabajo | Dedicación | 
 |---|--------------|------------|
 | 1 | Introducción a los lenguajes de marcas | 3 h |
@@ -146,7 +142,20 @@ La ponderación se realizará según la dedicación prevista:
 | - | Estancia en EMPRESA (RA1 y RA7) | 12 h | 
 
 
+## Calificación
+El alumnado será calificado al finalizar cada trimestre, **en sesión de evaluación** y obtendrán una calificación final del módulo resultado de la *media* *ponderada de todos los Resultados de Aprendizaje evaluadas en el curso* *(la nota de los boletines trimestrales es sólo informativa)*.
 
+La ponderación se realizará según la dedicación prevista:
+| Nº  | Resultado de Aprendizaje | Peso |
+| --- | --- | --- |
+| 1   | Reconoce las características de lenguajes de marcas… | 3 % |
+| 2   | Utiliza lenguajes de marcas para la transisión y prenstación... web… | 47 % |
+| 3   | Accede y manipula documentos web… | 20 % |
+| 4   | Establece mecanismos de validación de documentos… | 6 % |
+| 5   | Realiza conversiones sobre documentos… | 9 % |
+| 6   | Gestiona la información en formatos de intercambio… | 6 % |
+| 7   | Opera sistemas empresariales… | 9 % |
+|     | Total = | 100 % |
 
 La calificación de cada Unidad de Trabajo se obtiene a partir de una media ponderada, en base a los siguientes criterios:
 
