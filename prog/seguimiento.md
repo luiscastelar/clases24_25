@@ -3,30 +3,34 @@
 
 # UT1. Introducción a la programación
 + 20s:
+  + [ ] Programación (previa)
   + [ ] Git
 + 23s:
   + [ ] cont Git
-+ 24s:
-  + [ ] cont Git
   + [ ] Markdown
++ 24s:
   + [ ] Introducción a la programación
-+ 25s:
-  + [ ] cont intro
++ 25s: Elementos de un programa
+     + [ ] Elementos de un programa.
+     + [ ] Comentarios y Bloques.
+     + [ ] Convención de nombres.
+     + [ ] Tipos de variables. _Tipos primitivos y objetos_.
+     + [ ] Conversión de tipos “cast” implícitos y explícitos.
+     + [ ] Expresiones y operadores
+     + [ ] Constantes
+     + [ ] Literales
+     
+     
+     
 + 27s:
-  + [ ] Elementos
-     + Bloques
-     + Tipos de variables
-     + Constantes
-     + Literales
-     + Expresiones y operadores
-     + Conversión de tipos
-     + Comentarios
-+ 30s:
-  + [ ] cont Elementos
-+ 1o:
   + [ ] cont Elementos
   + [ ] “Hola mundo” con `java` y `javac` 
 
++ 30s:
+  + [ ] cont Elementos
++ 2o:
+  + [ ] **Examen ut1**
+  
 ## Java
 + [ ] _El lenguaje Java, JRE, JDK, el API y sus versiones._
 + [ ] El path _y classpath_
@@ -37,31 +41,42 @@ _Antiguas UT 1, 2 y 3?_
 
 
 # UT2. Introducción a la POO
-+ (14h) 
++ 1o:
+  + [ ] Características de los objetos.
+  + [ ] Instanciación de objetos.
+  + [ ] Utilización de métodos. Parámetros.
+  + [ ] Utilización de propiedades.
+  + [ ] Utilización de métodos estáticos.
++ 4o:
+  + [ ] Entrada desde teclado. Salida a pantalla. Formatos de visualización.
+  + [ ] Paso de parámetros por valor y por referencia.
+  + [ ] _Utilizar librerías de objetos:_
+      + [ ] _por CLI_
+      + [ ] _con maven_
+      + [ ] ~~por IDE~~ (_en UT6_)
+  + [ ] Constructores.
+  + [ ] Destrucción de objetos y liberación de memoria.
++ 7o:
+  + [ ] Concepto de clase.
+  + [ ] Estructura y miembros de una clase. Visibilidad.
+  + [ ] Creación de propiedades.
+  + [ ] Creación de métodos.
+      + [ ] Creación de métodos (_de instancia_)
+      + [ ] Creación de métodos estáticos (_de clase_)
++ 8o:
++ 9o:
++ 11o:
++ 14o:
++ 16o: **Examen ut2**
 
+
+  
 ## Fundamentos de POO
-+ [ ] Características de los objetos.
-+ [ ] Instanciación de objetos.
-+ [ ] Utilización de métodos. Parámetros.
-+ [ ] Utilización de propiedades.
-+ [ ] Utilización de métodos estáticos.
-+ [ ] Entrada desde teclado. Salida a pantalla. Formatos de visualización.
-+ [ ] Paso de parámetros por valor y por referencia.
-+ [ ] _Utilizar librerías de objetos:_
-    + [ ] _por CLI_
-    + [ ] _con maven_
-    + [ ] ~~por IDE~~ (_en UT6_)
-+ [ ] Constructores.
-+ [ ] Destrucción de objetos y liberación de memoria.
+
 
 
 ## Desarrollo de POO.
-+ [ ] Concepto de clase.
-+ [ ] Estructura y miembros de una clase. Visibilidad.
-+ [ ] Creación de propiedades.
-+ [ ] Creación de métodos.
-    + [ ] Creación de métodos (de instancia)
-    + [ ] Creación de métodos estáticos (de clase)
+
 + [ ] Creación de constructores.
 + [ ] Utilización de clases y objetos.
 + [ ] Utilización de clases heredadas.
@@ -72,12 +87,16 @@ _Antiguas UT 1, 2 y 3?_
 + [ ] _El lenguaje Java, JRE, JDK, el API y sus versiones._
 + [ ] El path _y classpath_
 + [ ] _Estructura de clases del API de Java SE._
++ [ ] _Enum_’s
 + [ ] _Clases auto-mágicas y Java “moderno”_
     + [ ] Clase `Main` estática vs la clase sin nombre con método `main`.
 
 
 # UT3. Programación estructurada y depuración de programas
-+ (14h) 
++ (14h)
++ 15o:
+  + [ ] 
++ ...
   
 Uso de estructuras de control:
 + [ ] Control de excepciones.
@@ -97,6 +116,7 @@ Uso de estructuras de control:
 + [ ] Test
   + [ ] unitarios - _JUnit_
   + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor)
+  + [ ] _Records_
 
 
 # UT4. Manipulación de información. Matrices.
