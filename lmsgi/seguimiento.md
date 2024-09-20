@@ -4,9 +4,10 @@
 
 # UT1 - Introducción a los lenguajes de marcas
 + 19s:
-  + [ ] Programación (previa)
-  + [ ] Introducción - Clasificación
+  + [x] Programación (previa)
+  + [ ] Clasificación
 + 23s:
+  + [ ] Introducción
   + [ ] Herramientas - Control de versiones (GIT)
   + [ ] Lenguaje de marcado ligero para representación -> **Markdown**
  

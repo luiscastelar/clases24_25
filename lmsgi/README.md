@@ -25,6 +25,7 @@ Cualquiera de las siguientes referencias son **muy** recomendables y se tomarán
 + [UT1 - Git reference manual](https://git-scm.com/docs)
 + [UT1 - Markdown](https://www.markdownguide.org/)
 + [UT2 y UT3 - Curso muy completo HTML + CSS](https://www.mclibre.org/consultar/htmlcss/index.html)
++ [UT2 - Libro de XHTML](https://uniwebsidad.com/libros/xhtml)
 + 
 
 ---
