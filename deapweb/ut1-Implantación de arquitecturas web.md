@@ -44,12 +44,13 @@ curl -L luiscastelar.duckdns.org/holaMundo.json
 ```
 [curl - ampliado](https://techexpert.tips/ubuntu/curl-get-headers-only/)
 
+<!-- comentado
 #### Tabajo (UT2)
 Montar servidor con soporte HTTPv3
 Fuentes:
 + [nginx http3](https://github.com/macbre/docker-nginx-http3)
 + [Montar servidor con soporte HTTPv3](https://blog.cloudflare.com/experiment-with-http-3-using-nginx-and-quiche/).
-
+-->
 
 ### Prototolo HTTPs
 + SSL
@@ -103,16 +104,17 @@ curl --header "Content-Type: application/json" \
 ```
    | IPv4               | IPv6            | Nombre / Significado                          |
    |--------------------+-----------------+-----------------------------------------------|
-   | 0.0.0.0/32         | ::/0            | wildcard (comodín)                            |
+   | 0.0.0.0/0          | ::/0            | wildcard (comodín)                            |
    |                    | ::/128          | sin especificar                               |
-   | 127.X.X.X/8        | ::1/128         | loopback (el propio host )                    |
+   | 127.X.X.X/8        | ::1/128         | loopback (el propio host)                     |
    | 10.X.X.X/8         | fc00::/7        | Redes priv (con *hasta* 2^24 - 2 host IPv4)   |
    | 172.16.X.X/12      |                 | Redes priv (con *hasta* 2^20 - 2 host IPv4)   |
    | 192.168.X.X/16     |                 | Redes priv (con *hasta* 2^24 - 2 host IPv4)   |
    | 255.255.255.255/32 | -No existe-     | Difusión                                      |
-   |                    | ff01::1/128     | All nodes (similar a difusión)                |
+   |                    | ff02::1/128     | All nodes (de la red)                         |
+   |                    | ff0e::1/128     | All nodes (de todas las redes)                |
    |                    | 2001::/32       | Túnel Teredo (conexión 6to4)                  |
-   |                    | ::/96           | IPv4 compatible *NO usar*.                    |
+   |                    | ::/96           | IPv4 compatible **NO usar**.                  |
    |                    | ::ffff:0:0/96   | IPv4 mapeada                                  |
    |                    | ::ffff:0:0:0/96 | IPv4 traducida                                |
    |                    | 64:ff9b::/96    | prefijo Well-know (IPv4 traducida automática) |
@@ -121,15 +123,18 @@ curl --header "Content-Type: application/json" \
    | Públicas           |                 |                                               |
    |--------------------+-----------------+-----------------------------------------------|
    | 169.254.X.X/16     | fe80::/10       | link-local -> no hay DHCP y hay conf dinámica |
-   | 192.168.122.X/24   |                 | Red NAT de Virtual Box                        |
+   | 192.168.56.X/24    |                 | Red NAT de Virtual Box                        |
+   |--------------------+-----------------+-----------------------------------------------|
 ```
 > (*) Lista no exhaustiva de ips de relevancia.
 
+_[Cheatsheet IPv6](http://wiki.webperfect.ch/images/4/49/IPv6_Cheatsheet.pdf)_
+
 ### Concepto de socket:
-IP+Puerto => identificación de un servicio de manera única.
+`IP:Puerto` => identificación de un servicio de manera única.
 
 #### Ejerccios:
-Ver sockets activos en el servidor:
+Ver sockets activos en el servidor (en equipo Linux):
    + Equipo propio:
 ```
 $ ss -tapon
@@ -146,10 +151,10 @@ $ nmap IP
 $ nmap IP/CIDR
 ```
 
-> Para Windows (poco habitual en servidores: \
+> Para Windows (poco habitual en servidores): \
 > Información de puestos y conexiones:
 >> CMD:	netstat -ano \
->>		netstat -abno \
+>>		    netstat -abno \
 >> PS:	Test-NetConnection IP -Port PUERTO \
 >
 > Información de rutas:
@@ -234,7 +239,7 @@ Deberéis crear un conjunto de microservicios (con docker) compuesto por 3 conte
 
 *Nota: El sistema debe ser accesible por cualquiera desde internet (VPS) o ser facilitado en un entorno reproducible (vagrant) con instrucciones claras para su ejecución.*
 
-> Forma de entrega: Subir como README.md a repositorio privado en una carpeta `T1-Docker`.
+> Forma de entrega: Subir como README.md a repositorio privado en una carpeta `ut1-Docker`.
 
 
 ## `docker compose`
@@ -256,7 +261,7 @@ Recuerda:
 > 
 > *Nota: El sistema debe ser accesible por cualquiera desde internet (VPS) o ser facilitado en un entorno reproducible (vagrant) con instrucciones claras para su ejecución.*
 
-> Forma de entrega: Subir la documentación como README.md a repositorio privado en una carpeta `T1-Compose` y añadir el `docker-compose.yml`.
+> Forma de entrega: Subir la documentación como README.md a repositorio privado en una carpeta `ut1-Compose` y añadir el `docker-compose.yml`.
 
 
 ## `Dockerfile`
