@@ -5,11 +5,11 @@
 # UT1 - Introducción a los lenguajes de marcas
 + 19s:
   + [x] Programación (previa)
-  + [ ] Clasificación
+  + [x] Clasificación
 + 23s:
   + [ ] Introducción
-  + [ ] Herramientas - Control de versiones (GIT)
   + [ ] Lenguaje de marcado ligero para representación -> **Markdown**
+  + [ ] Herramientas - Control de versiones (GIT)
  
 _Se trabaja el RA 1_.
 

@@ -109,24 +109,29 @@ curl --header "Content-Type: application/json" \
    | 127.X.X.X/8        | ::1/128         | loopback (el propio host)                     |
    | 10.X.X.X/8         | fc00::/7        | Redes priv (con *hasta* 2^24 - 2 host IPv4)   |
    | 172.16.X.X/12      |                 | Redes priv (con *hasta* 2^20 - 2 host IPv4)   |
-   | 192.168.X.X/16     |                 | Redes priv (con *hasta* 2^24 - 2 host IPv4)   |
+   | 192.168.X.X/16     |                 | Redes priv (con *hasta* 2^16 - 2 host IPv4)   |
    | 255.255.255.255/32 | -No existe-     | Difusión                                      |
-   |                    | ff02::1/128     | All nodes (de la red)                         |
-   |                    | ff0e::1/128     | All nodes (de todas las redes)                |
-   |                    | 2001::/32       | Túnel Teredo (conexión 6to4)                  |
    |                    | ::/96           | IPv4 compatible **NO usar**.                  |
    |                    | ::ffff:0:0/96   | IPv4 mapeada                                  |
    |                    | ::ffff:0:0:0/96 | IPv4 traducida                                |
-   |                    | 64:ff9b::/96    | prefijo Well-know (IPv4 traducida automática) |
-   | 192.88.99.0/24     | 2002::/16       | red 6to4                                      |
    |--------------------+-----------------+-----------------------------------------------|
-   | Públicas           |                 |                                               |
+   | Enlace local       |                 | No enrutable (sin salida a internet)          |
    |--------------------+-----------------+-----------------------------------------------|
    | 169.254.X.X/16     | fe80::/10       | link-local -> no hay DHCP y hay conf dinámica |
+   |--------------------+-----------------+-----------------------------------------------|
+   | De interés         |                 |                                               |
+   |--------------------+-----------------+-----------------------------------------------|
+   | 224.0.0.1          | ff02::1/128     | All nodes (de la red)                         |
+   | 224.0.0.2          | ff02::2/128     | All routers (de la red)                       |
+   |                    | ff0e::1/128     | All nodes (de todas las redes)                |
+   |                    | 2001::/32       | Túnel Teredo (conexión 6to4)                  |
+   |                    | 64:ff9b::/96    | prefijo Well-know (IPv4 traducida automática) |
    | 192.168.56.X/24    |                 | Red NAT de Virtual Box                        |
    |--------------------+-----------------+-----------------------------------------------|
 ```
 > (*) Lista no exhaustiva de ips de relevancia.
+
+Si bien las direcciones link-local no son utilizadas habitualmente en IPv4, todas las interfaces **deben** disponer **OBLIGATORIAMENTE** de dirección **fe80::/10**.
 
 _[Cheatsheet IPv6](http://wiki.webperfect.ch/images/4/49/IPv6_Cheatsheet.pdf)_
 

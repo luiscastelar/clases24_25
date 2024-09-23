@@ -30,14 +30,14 @@ CE: a, b, f.
   + [x] Protocolos:
     + [x] Http
     + [x] Https
-   + [ ]  TCP/IP
-      + [ ] IPv4
-      + [ ] IPv6
+
 
 ## Contenedores (“virtualización” ligera) -> **Docker**
 CE: e, f, h, i.
-  + [ ] `docker` CLI
 + 23s:
+  + [ ]  TCP/IP
+      + [ ] IPv4
+      + [ ] IPv6
   + [ ] `docker` CLI
 + 24s:
   + [ ] cont CLI

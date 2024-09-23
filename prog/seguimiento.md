@@ -3,8 +3,8 @@
 
 # UT1. Introducción a la programación
 + 20s:
-  + [ ] Programación (previa)
-  + [ ] Git
+  + [x] Programación (previa)
+  + [x] Git
 + 23s:
   + [ ] cont Git
   + [ ] Markdown

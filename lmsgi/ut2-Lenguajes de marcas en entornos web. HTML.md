@@ -19,50 +19,6 @@ Para desarrollos más allá, podremos utilizar _vs code_ + plugin _live preview_
 > + **JavaScript**. Permite diseñar la interactividad de la página. Permite que las acciones del usuario se puedan capturar y que la página reaccione a ellas. Ejemplos de sus posibilidades que cuando el usuario arrime el ratón a una imagen esta se ilumine, o que cuando el usuario haga clic en un título se muestre el contenido relacionado si estaba oculto o que el usuario pueda aumentar el tamaño de la letra de la página haciendo clic en un icono.
 >Fuente: [Jorge Sánchez](https://jorgesanchez.net/manuales/html/introduccion-html.html)
 
-## Protocolo http
-![http](https://personales.unican.es/corcuerp/ingweb/notes/images/HTTP_Steps.png)
-+ Es un protocolo de solicitud/respuesta.
-+ Un cliente realiza la solicitud de un recurso y obtine una respuesta que se compone de un código y a veces un recurso.
-
-### Códigos:
-  + 100: información.
-  + 200: correcto.
-  + 300: redirección.
-  + 400: error en cliente. P.e. el 404 es no existe recurso
-  + 500: error en servidor.
-
-De forma más completa:
-+ [Status Codes](https://httpstatuses.io/)
-+ [en vídeo](https://www.youtube.com/watch?v=LYprAkna7Z4)
-+ [Cats Codes](https://httpcats.com/) 🐈
-
-
-### Ejercicio:
-Consultar cabezeras http con `curl -I` o [ReqBin](https://reqbin.com/ "REQ BIN")
-Analizar las respuestas de:
-```
-curl -I mail.google.com
-curl -I amazon.es
-curl -I https://amazon.es
-curl -I https://www.amazon.es
-curl -I https://www.amazon.com
-curl -I https://luiscastelar.duckdns.org/holaMundo.html
-curl -I https://luiscastelar.duckdns.org/holaMundo.htm
-curl -I https://luiscastelar.duckdns.org/holaMundo.json
-curl https://luiscastelar.duckdns.org/holaMundo.json
-curl luiscastelar.duckdns.org/holaMundo.json
-curl -I luiscastelar.duckdns.org/holaMundo.json
-curl -L luiscastelar.duckdns.org/holaMundo.json
-```
-
-### Métodos
-+ GET -> obtener
-+ POST -> añadir
-+ PUT -> modificar (todo el recurso)
-+ PATCH -> modificar (parcialmente)
-+ DELETE -> borrar
-+ Otros... (no nos interesan para nuestro objeto de estudio).
-
 
 ## Versiones
 + HTML: ha evolucionado desde la 1.2 (sí, 1.2) hasta la actual versión 5 donde el salto fundamental con respecto a la 4 ha sido la separación de la presentación de los datos. Aunque soportado, no deben utilizarse las marcas de formato/presentación, ya que de ello nos encargaremos con CSS.
@@ -81,7 +37,15 @@ curl -L luiscastelar.duckdns.org/holaMundo.json
 
 
 # Primeros pasos con HTML.
-Hola mundo:
+
+## El mundo de las etiquetas
+![Estructura de una etiqueta HTML](https://lenguajehtml.com/html/introduccion/estructura-etiqueta-html/estructura-etiqueta-html.png)
+Fuente: [Manz.dev](https://lenguajehtml.com/html/introduccion/estructura-etiqueta-html/)
+
+### Atributos comunes
+[atributos](https://lenguajehtml.com/html/introduccion/atributos-comunes-html/)
+
+## Hola mundo:
 ```html
 <html>
   <head>

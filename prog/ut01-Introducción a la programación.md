@@ -23,18 +23,19 @@ Concretamente los lenguajes que utilizaremos son: `Java` y `PHP`.
 
 
 # Introducción a la programación
-[Presentación](https://docs.google.com/presentation/d/1N-r1Q85aI-BBZGKY4FboaPhIPeNRucs7gqem8ir0C3I/edit?usp=sharing)
+[**Presentación**](https://docs.google.com/presentation/d/1N-r1Q85aI-BBZGKY4FboaPhIPeNRucs7gqem8ir0C3I/edit?usp=sharing)
 
 ## Elementos
- + Bloques
- + Tipos de variables
- + Constantes
- + Literales
- + Expresiones y operadores
- + Conversión de tipos
- + Comentarios
+   + [ ] Elementos de un programa.
+   + [ ] Comentarios y Bloques.
+   + [ ] Convención de nombres.
+   + [ ] Tipos de variables. _Tipos primitivos y objetos_.
+   + [ ] Conversión de tipos “cast” implícitos y explícitos.
+   + [ ] Expresiones y operadores
+   + [ ] Constantes
+   + [ ] Literales
 
-[Presentación](https://docs.google.com/presentation/d/1j_MCgYztYLeDAEIYhAUENkZetzkev1Rzx02BuQXTcQQ/edit?usp=sharing)
+[**Presentación**](https://docs.google.com/presentation/d/1j_MCgYztYLeDAEIYhAUENkZetzkev1Rzx02BuQXTcQQ/edit?usp=sharing)
 
 ## “Hola mundo”
 En un editor de texto simple, `Notepad++` o similar escribiremos el siguiente archivo `ClasePrincipal.java`:

@@ -46,8 +46,8 @@ Cualquiera de las siguientes referencias son **muy** recomendables y se tomarán
 ## Duración:
 + Créditos ECTS: 7 -> 175 h
 + Horas totales: 130 h
-+ Duración en aula: 117 h, 4 h/sem
-+ Estancia en empresa: 13h
++ Duración en aula: 118 h, 4 h/sem
++ Estancia en empresa: 12h
 + Trabajo en casa: 45 h
 
 
@@ -138,8 +138,8 @@ El auto-plagio también podrán ser calificados negativamente si no está refere
 | 1 | Introducción a los lenguajes de marcas | 3 h |
 | 2 | Lenguajes de marcas en entornos web. HTML | 24 h |
 | 3 | Lenguajes de marcas en entornos web. CSS | 38 h | 
-| 5 | Transmisión y almacenamiento de información | 24 h |
-| 6 | Manipulación de documentos Web. JavaScript | 29 h | 
+| 4 | Transmisión y almacenamiento de información | 24 h |
+| 5 | Manipulación de documentos Web. JavaScript | 29 h | 
 | - | Estancia en EMPRESA (RA1 y RA7) | 12 h | 
 
 

@@ -4,7 +4,7 @@
 *[Imagen de lucabravo en Freepik](https://www.freepik.es/foto-gratis/encendido-computadora-portatil-gris_12661377.htm#fromView=search&page=1&position=12&uuid=ba352f2f-2e6f-406e-a49c-56327cc23d01)*
 
 # Anotaciones de interés:
-+ Moodle: [0614 Despliegue de Aplicaciones Web](https://moodle.educarex.es/iescastelarfp/course/view.php?id=107) - “tema0”
++ Moodle: [0485 Programación](https://moodle.educarex.es/iescastelarfp/course/view.php?id=107) - “tema0”
 + [Recordatorios](../recordatorios.md)
 
 
@@ -42,7 +42,7 @@ Cualquiera de las siguientes referencias son **muy** recomendables y se tomarán
 + Créditos ECTS: 14 -> 350 h
 + Horas totales: 220 h
 + Duración en aula: 200 h, 7 h/sem
-+ Estancia en empresa: 22h
++ Estancia en empresa: 20h
 + Trabajo en casa: 130 h
 
 
