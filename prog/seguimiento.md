@@ -6,19 +6,19 @@
   + [x] Programación (previa)
   + [x] Git
 + 23s:
-  + [ ] cont Git
-  + [ ] Markdown
+  + [x] cont Git
+  + [x] Markdown
 + 24s:
   + [ ] Introducción a la programación
 + 25s: Elementos de un programa
-     + [ ] Elementos de un programa.
-     + [ ] Comentarios y Bloques.
-     + [ ] Convención de nombres.
-     + [ ] Tipos de variables. _Tipos primitivos y objetos_.
-     + [ ] Conversión de tipos “cast” implícitos y explícitos.
-     + [ ] Expresiones y operadores
-     + [ ] Constantes
-     + [ ] Literales
+   + [ ] Elementos de un programa.
+   + [ ] Comentarios y Bloques.
+   + [ ] Convención de nombres.
+   + [ ] Tipos de variables. _Tipos primitivos y objetos_.
+   + [ ] Conversión de tipos “cast” implícitos y explícitos.
+   + [ ] Expresiones y operadores
+   + [ ] Constantes
+   + [ ] Literales
      
      
      

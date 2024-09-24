@@ -74,6 +74,48 @@ Tenemos varias opciones para ellos:
 > Por otro lado, salvo casos excepcionales, el despliegue final se realizará en servidores linux, por lo que la solución anterior nos permite desarrollar sobre un “gemelo digital”.
 
 
+## PREPARACIÓN para aula:
+**Entorno de trabajo en el aula**: Instalar *Docker Desktop* en aquellos equipos que lo permitan.
+
+Para los que **NO**, o para los que quieran control total de su sistema docker (incluida la red):
++ Vagrantfile:
+```ruby
+Vagrant.configure("2") do |config|
+  config.vm.box = "generic/debian12"
+   config.vm.network "public_network"
+   config.vm.synced_folder "./", "/vagrant"
+   config.vm.provision "shell", path: "provision.sh"
+  # config.vm.network "forwarded_port", guest: 80, host: 8080
+  # config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
+  # config.vm.provider "virtualbox" do |vb|
+  #   vb.memory = "1024"
+  # end
+end
+```
+
++ provision.sh:
+```bash
+apt-get update && apt-get install -y curl
+
+sudo -u vagrant docker --version
+if [[ ! $? -eq 0 ]]; then
+	sudo -u vagrant curl -fsSL https://get.docker.com -o install-docker.sh
+	sh install-docker.sh
+
+	groupadd docker
+	usermod -aG docker vagrant
+fi
+sudo -u vagrant docker --version
+
+ip a | grep "inet "
+```
+
+**En entorno de producción**: 
+Daremos por hecho que el entorno es GNU/Linux e instalaremos docker cli utilizando el script obtenido en https://get.docker.com
+
+*Si nuestro entorno de producción fuera NO Linux no podremos utilizar docker*.
+
+
 # ¿FUNCIONA?
 
 Para ver si el sistema de contenedores está funcionando sólo tendremos
@@ -108,7 +150,7 @@ máquina `docker ps -a`.
 
 ```bash
 CONTAINER ID   IMAGE                              COMMAND            CREATED       STATUS                 PORTS                                                                                            NAMES
-98dc0d69ddde   lscr.io/linuxserver/nginx:latest   "/init"            7 days ago    Up 2 hours             0.0.0.0:8080->80/tcp, :::8080->80/tcp, 443/tcp                                                       Dashboard
+98dc0d69ddde   lscr.io/linuxserver/nginx:latest   "/init"            7 days ago    Up 2 hours             0.0.0.0:8080->80/tcp, :::8080->80/tcp, 443/tcp                                                   Dashboard
 af88fc3300c7   portainer/portainer-ce:latest      "/portainer"       9 days ago    Up 2 hours             0.0.0.0:8000->8000/tcp, :::8000->8000/tcp, 0.0.0.0:9443->9443/tcp, :::9443->9443/tcp, 9000/tcp   portainer
 8b2f6784af22   containrrr/watchtower:latest       "/watchtower"      2 weeks ago   Up 2 hours (healthy)   8080/tcp                                                                                         wtower
 0591e9984b51   zerotier/zerotier:latest           "/entrypoint.sh"   3 weeks ago   Up 2 hours (healthy)                                                                                                    zerotier
@@ -146,7 +188,6 @@ tapicería, motor, etc (contenedor), y podremos comprar tantos distintos
 como queramos sin afectar al resto (o tantos como podamos permitirnos 😉).
 
 **¿Cómo hacerlo? `docker run`**
-
 ```bash
 docker run mysql
 # creará una instancia de la imagen mysql ... pero no podremos acceder al contenedor al ser
@@ -163,8 +204,7 @@ docker run -p 13306:3306 mysql
 # ejemplo de conexión a través del CLI de GNU/Linux.
 
 docker run -P mysql
-# creará el remapeo de puertos de forma automática. Más adelante veremos como saber que
-# puerto se le ha asignado.
+# creará el remapeo de puertos de forma automática. Con `docker ps` veremos que puerto se le ha asignado.
 ```
 
 Cada vez que lanzamos un `docker run` se genera un NUEVO contenedor y se

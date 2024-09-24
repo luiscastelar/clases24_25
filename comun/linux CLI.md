@@ -67,6 +67,7 @@ Nota:
 |--------|-------------|
 | ping | ping - pong |
 | ss | network socket `ss -putlan` |
+| ss | network socket `ss -eltapon` |
 
 
 # Remoto

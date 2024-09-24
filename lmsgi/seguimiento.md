@@ -7,9 +7,9 @@
   + [x] Programación (previa)
   + [x] Clasificación
 + 23s:
-  + [ ] Introducción
-  + [ ] Lenguaje de marcado ligero para representación -> **Markdown**
-  + [ ] Herramientas - Control de versiones (GIT)
+  + [x] Introducción
+  + [x] Lenguaje de marcado ligero para representación -> **Markdown**
+  + [x] Herramientas - Control de versiones (GIT)
  
 _Se trabaja el RA 1_.
 

@@ -35,10 +35,10 @@ CE: a, b, f.
 ## Contenedores (“virtualización” ligera) -> **Docker**
 CE: e, f, h, i.
 + 23s:
-  + [ ]  TCP/IP
-      + [ ] IPv4
-      + [ ] IPv6
-  + [ ] `docker` CLI
+  + [x]  TCP/IP
+      + [x] IPv4
+      + [x] IPv6
+  + [x] `docker` CLI
 + 24s:
   + [ ] cont CLI
 + 26s:
@@ -69,13 +69,23 @@ CE: e, f, h, i.
 
 # UT2. Servidores WEB
 Duración: 14 h
-+ 7o:
++ 7o: Apache
+  + [ ] Configuración avanzada del servidor web.
+  + [ ] Módulos: instalación, configuración y uso.
+  + [ ] Hosts virtuales. Creación, configuración y utilización.
+  + [ ] Autenticación y control de acceso.
 + 8o:
 + 10o:
+  + [ ] El protocolo HTTPS.
+  + [ ] Certificados. Servidores de certificados.
+  + [ ] Documentación.
+  + [ ] Despliegue de aplicaciones sobre servidores web.
+  + [ ] Despliegue de servidores web mediante tecnologías de virtualización en la nube y en contenedores.
 + 17o:
 + 21o:
-+ 22o:
-+ 24o:
+  + [ ] Monitorización
++ 22o: Implantación
++ 24o: Nginx
 + 28o: **Examen**
 
 ## Contenido
@@ -84,6 +94,9 @@ Duración: 14 h
 + [ ] Proxy (e, f, g, i)
 + [ ] Implantación (local) aplicación Angular/React (h, i)
 + [ ] Monitorización (j)
+
+
+
 
 *Asociado al RA2*.
 

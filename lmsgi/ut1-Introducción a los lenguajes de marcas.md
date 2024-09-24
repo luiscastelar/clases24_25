@@ -68,8 +68,8 @@ Fuentes:
 # Control de versiones -> GIT
 > Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
 
-+ [Básico](https://github.com/luiscastelar/clases24_25/blob/main/comun/GIT.md)
-+ [Medio](https://github.com/luiscastelar/clases24_25/blob/main/comun/GIT-ramas.md)
++ [Básico](https://github.com/luiscastelar/clases24_25/blob/main/comun/git.md)
++ [Medio](https://github.com/luiscastelar/clases24_25/blob/main/comun/git-ramas.md)
 
 
 # Lenguaje de marcado ligero para representación -> Markdown

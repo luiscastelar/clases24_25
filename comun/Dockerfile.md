@@ -255,9 +255,19 @@ Vamos a repetir los apartados anteriores vía COMPOSE, abriendo una puerta nueva
 Los ficheros yml además nos proporcionan un plus, poder integrarlos en nuestro flujo de trabajo **GIT**, realizando seguimiento de cambios y compartir dichas recetas con facilidad.
 
 
-## Securizando COMPOSE
-
+## Securizando 
+### COMPOSE
 Para guardar nuestros *secretos* y no compartirlos con GIT tenemos los ficheros “.env” donde podremos definir variables de entorno en nuestros yamel que dejaremos fuera del repositorio GIT mediante la inclusión del patrón correspondiente en el fichero “.gitignore”.
+
+
+### Bajar privilegios
+Crearemos un usuario sin privilegios y cambiaremos a él con `USER`:
+```Dockerfile
+#...
+RUN useradd -r -U noPrivilegiado
+USER noPrivilegiado:noPrivilegiado
+# ENTRYPOINT ...
+```
 
 
 # Buenas prácticas
@@ -265,3 +275,17 @@ Para guardar nuestros *secretos* y no compartirlos con GIT tenemos los ficheros 
 + [... con Java](https://www.snyk.io/blog/docker-for-java-developers/)
 + [... con imagenes](https://www.snyk.io/blog/10-docker-image-security-best-practices/)
 + [... con node.js](https://snyk.io/blog/10-best-practices-to-containerize-nodejs-web-applications-with-docker/)
+
+
+# Construcciones típicas
++ Spring:
+  + [Facilito](https://gurselgazii.medium.com/dockerizing-your-maven-spring-boot-application-a-step-by-step-guide-e267c2d9e8e1)
+  + [Spring](https://blog.devops.dev/dockerizing-spring-boot-applications-065d6551fd81)
++ Laravel
+  + [Copiar-Pegar by April Rieger](https://medium.com/@aprilrieger/effortlessly-dockerize-your-php-laravel-app-a-step-by-step-guide-c1a6ffcc2b74)
+  + [Explicado punto por punto by Adedayo Adedoyin](https://medium.com/@joshuaadedoyin2/dockerizing-a-laravel-project-a-step-by-step-guide-db24df8a2e2c)
+  + [Hilando fino by Charbel El-Jalkh](https://engineering.carsguide.com.au/how-to-dockerize-a-laravel-application-77a24ba669c5)
++ Node.js
+  + [Sencillo desde 0](https://medium.com/featurepreneur/a-guide-to-dockerize-your-node-js-application-c24b5e129995)
+  + [Copiar-Pegar by Burak Boduroglu](https://dev.to/burakboduroglu/dockerizing-a-nodejs-app-a-comprehensive-guide-for-easy-deployment-13o1)
+  + [Todo - Desde la app al GH Actions](https://semaphoreci.com/community/tutorials/dockerizing-a-node-js-web-application)
