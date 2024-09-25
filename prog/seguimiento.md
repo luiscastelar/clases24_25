@@ -9,8 +9,10 @@
   + [x] cont Git
   + [x] Markdown
 + 24s:
-  + [ ] Introducción a la programación
-+ 25s: Elementos de un programa
+  + [x] Introducción a la programación (hasta `classpath`)
+  + [x] “Hola mundo” con `java` y `javac` 
++ 25s: 
+   + [ ] cont Introducción a la programación
    + [ ] Elementos de un programa.
    + [ ] Comentarios y Bloques.
    + [ ] Convención de nombres.
@@ -18,13 +20,10 @@
    + [ ] Conversión de tipos “cast” implícitos y explícitos.
    + [ ] Expresiones y operadores
    + [ ] Constantes
-   + [ ] Literales
-     
-     
+   + [ ] Literales     
      
 + 27s:
   + [ ] cont Elementos
-  + [ ] “Hola mundo” con `java` y `javac` 
 
 + 30s:
   + [ ] cont Elementos
@@ -32,12 +31,12 @@
   + [ ] **Examen ut1**
   
 ## Java
-+ [ ] _El lenguaje Java, JRE, JDK, el API y sus versiones._
-+ [ ] El path _y classpath_
++ [x] _El lenguaje Java, JRE, JDK_
++ [ ] _el API y sus versiones._
++ [x] El path _y classpath_
 + [ ] _**Convención de nombres**_.
 + [ ] _Tipos de datos_
       
-_Antiguas UT 1, 2 y 3?_
 
 
 # UT2. Introducción a la POO
