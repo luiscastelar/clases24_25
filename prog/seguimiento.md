@@ -63,6 +63,7 @@
       + [ ] Creación de métodos (_de instancia_)
       + [ ] Creación de métodos estáticos (_de clase_)
 + 8o:
++ 
 + 9o:
 + 11o:
 + 14o:
@@ -76,11 +77,6 @@
 
 ## Desarrollo de POO.
 
-+ [ ] Creación de constructores.
-+ [ ] Utilización de clases y objetos.
-+ [ ] Utilización de clases heredadas.
-+ [ ] Creación de bibliotecas(paquetes)
-      Nota: _La traducción de library es biblioteca_.
 
 ## Java
 + [ ] _El lenguaje Java, JRE, JDK, el API y sus versiones._

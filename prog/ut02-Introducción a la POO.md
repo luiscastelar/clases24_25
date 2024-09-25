@@ -119,6 +119,22 @@ public static void main( String[] args ) {
 Al ser una clase, podemos definir y sobreescribir métodos (ver [aquí](https://www.baeldung.com/a-guide-to-java-enums)).
 
 
+## Versiones
++ Java SE, Java ME y Java EE
++ Versiones de Java SE:
+  + [Desde Java 1.0 hasta 1.5](https://internetpasoapaso.com/versiones-java/)
+  + Renombrado
+  + [Desde J6SE hasta J8SE](https://internetpasoapaso.com/versiones-java/)
+  + Cambio de ciclo de lanzamientos cada 6 meses:
+    + 1 version LTS
+    + 2 versiones “cortas”
+  + [Desde Java 9 SE hasta 2024](https://internetpasoapaso.com/versiones-java/)
++ Kits de desarrollo:
+  + OpenJDK -> la oficial
+  + Temurin -> la universal
+  + MS OpenJDK -> la ideal para azure
+  + Amazon Corretto -> la ideal para AWS
+  + RH OpenJDK -> la ideal para la nube de Red Hat
 
 # Prácticas
 ## Práctica “Hola Mundo”:
