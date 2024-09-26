@@ -38,12 +38,23 @@ CE: e, f, h, i.
   + [x]  TCP/IP
       + [x] IPv4
       + [x] IPv6
-  + [x] `docker` CLI
+  + [x] `docker` CLI (hasta instalación)
 + 24s:
-  + [ ] cont CLI
+  + [x] cont CLI (hasta correr mysql)
+    + [x] run, start, stop
 + 26s:
   + [ ] cont CLI
+    + [ ] estado
+    + [ ] De `-i` a `-d` y viceversa
+    + [ ] redes
+    + [ ] volúmenes
+    + [ ] tags
+    + [ ] `docker cp`
   + [ ] `docker compose`
+    + [ ] composerize
+    + [ ] versión sin `-` (guion o _dash_)
+    + [ ] comandos up, down, ps y log
+    + [ ] secretos y `.env`
 + 30s:
   + [ ] `Dockerfile` 
 + 1o:

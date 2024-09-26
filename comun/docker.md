@@ -135,7 +135,7 @@ Docker implementa un sistema de logs donde cualquier salida por
 y podremos acceder y consultarla con:
 
 ``` bash
-docker logs CONTENEDOR
+docker logs {{CONTENEDOR}}
 ```
 
 Donde CONTEDEDOR podrá ser el nombre del mismo o su ID (CONTAINER ID),
@@ -241,6 +241,30 @@ Ahora estamos preparados para algo un poco más completo y real...
          #     -e ... -> variables de entorno (según contenedor).
 ```
 
+
+## Modo interactivo `-i` y modo desatendido `-d`
+Cuando lanzamos un contenedor podemos hacerlo de forma interactiva `-i` (_foreground_) o de forma desatendida `-d` (_background_).
+
+    docker exec -it {{CONTENEDOR}} {{COMANDO}}
+     # Donde el comando puede ser cualquier comando disponible en el contenedor,
+     # incluidos /bin/bash o /bin/sh (este último siempre disponible).
+
+    docker run -d {{CONTENEDOR}}
+
+
+**De interactivo a desatendido:** <kbd>Ctrl</kbd> + <kbd>p</kbd> y <kbd>Ctrl</kbd> + <kbd>q</kbd>.
+
+**De desatendido a interactivo:** `docker exec -it {{CONTENEDOR}} {{COMANDO}}`
+
+Donde:
+  + `-i` para que se pase a interactivo
+  + `-t` para que nos cargue una terminal
+  + {{CONTENEDOR}} con el nombre del contenedor al que queremos acceder
+  + {{COMANDO}} que queremos ejecutar. P.e.: `docker exec -it ubuntu /bin/sh` con el que cargaremos un `sh` del contenedor.
+
+> Hay contenedores que no tienen sistema ya que sólo contienen un proceso o aplicación. A menudo los basados en aplicaciones RUST.
+
+
 ## ESTADO de CONTENEDORES y LIMPIEZA
 
 Para ver nuestro "almacen" de contenedores utilizaremos los comandos
@@ -335,7 +359,16 @@ Conectando contenedores a redes macvlan paso a paso -> [aquí](https://blog.oddb
 
 > *Opción poco elegante pero funcional (en GNU/Linux)*:
 > Se puede crear un alias de interface, asignarle una IP y conectar los contenedores con esa IP en vez de con la inicial.
-> *Para esta solución perdemos aislamiento del contenedor y tendremos que vigilar los servicios que levantamos en el host*.
+> *Para esta solución perdemos aislamiento del contenedor y tendremos que vigilar los servicios que levantamos en el mismo*.
+
+```bash
+sudo ip link add {{ALIAS}} link {{DISPOSITIVO}} type macvlan mode bridge
+sudo ip a add {{IP}} dev {{ALIAS}}
+sudo ip a show {{ALIAS}}
+```
+Donde:
+  + {{ALIAS}} es el nombre que le daremos a la nueva interfaz
+  + {{IP}} la ip que le asignaremos manualmente.
 
 
 ### Modo legacy ➡️ NO USAR
@@ -373,11 +406,6 @@ docker run --name tienda-mysql -v $(pwd):/var/lib/mysql -e MYSQL_ROOT_PASSWORD=t
 
 Existen otras opciones de persistencia. Ver documentación oficial.
 
-## MODO INTERACTIVO
-
-    sudo docker exec -it CONTENEDOR COMANDO
-     # Donde el comando puede ser cualquier comando disponible en el contenedor,
-     # incluidos /bin/bash o /bin/sh (este último siempre disponible).
 
 ## COPIAR DATOS ENTRE HOST y CONTENEDOR (cp):
 
@@ -456,8 +484,7 @@ Tenemos 3 opciones: a mano o con el contenedor de `watchtower` .
 
 
 ### A MANO:
-**Importante**: Opción recomendada para contenedores en producción **críticos**. 3
-pasos:
+**Importante**: Opción recomendada para contenedores en producción **críticos**. 3 pasos:
 ```bash
 docker pull IMAGEN_NUEVA
 docker stop CONTENEDOR_BASADO_EN_IMAGEN_ANTIGUA
@@ -525,9 +552,7 @@ la versión mediante `docker compose -v`.
 -   `docker compose down` destruye la composición (no los volúmenes).
 -   `docker compose ps` muestra las composiciones en funcionamiento con
     sus puertos.
--   `docker compose config` muestra y valida el archivo yml.
--   `docker compose rm` elimina uno o varios contenedores.
--   `docker compose -h` muestra ayuda.
+-   `docker compose log` muestra los logs de TODOS los contenedores del compose.
 -   ...
 
 Por defecto, el programa toma el archivo `compose.yml` o `docker-compose.yml`.
@@ -565,10 +590,9 @@ Por ejemplo: ".env": key1=16daz key2=d4
 Si ya controlamos `docker` cli podremos utilizar el servicio para 
 convertir de docker cli a docker compose [composerize](https://www.composerize.com/).
 
----
 
 # Dockerfile
-[Desarrollo con contenedores (ED)](https://github.com/luiscastelar/clases23-24/blob/main/ed/ED-09-Desarrollo%20con%20contenedores.md)
+[Desarrollo con contenedores (ED)](https://github.com/luiscastelar/clases24_25/blob/main/comun/Dockerfile.md)
 
 
 ---
@@ -581,7 +605,6 @@ Algunos tips sobre que debemos saber: [learning-zone](https://github.com/learnin
 
 
 # EXTRA de SEGURIDAD:
-
 `docker`  se ejecuta en modo root por lo que pueden aparecer algunos 
 problemas de seguridad, sobre todo en sistemas multi-usuario. 
 Puedes saber más en los siguientes enlaces:
@@ -590,13 +613,11 @@ Puedes saber más en los siguientes enlaces:
 - [Doc. Of. DOCKER sobre ejecución en modo rootless](https://docs.docker.com/engine/security/rootless/)
 
 
-
-
+---
 # IMÁGENES ÚTILES:
 *Este es un listado subjetivo y realizado en mayo de 2021. Tomarlo con precaución.*
 
 ## GUI - Gestión de IMAGENES/CONTENEDORES/VOLÚMENES
-
 ```bash
 docker volume create portainer_data
 docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always \
@@ -608,7 +629,6 @@ docker start portainer
 
 ## Servidor SSH:
 Nos permite compartir una parte concreta de nuestro servidor.
-
 ```bash
 # Servidor SSH
     docker run -d --name=ssh -p 7777:22 -v /nube:/nube  ugeek/ssh:amd64
@@ -638,7 +658,6 @@ Nos permite compartir una parte concreta de nuestro servidor.
 ```
 
 ## MySQL/Mariadb
-
 ``` {.bash}
 # lanzamos consulta directamente
 mysql -h 0.0.0.0 -uroot -p -D"mysql" -P 3307 -e "show tables; select * ...;"
@@ -652,7 +671,6 @@ mysql -h 0.0.0.0 -uroot -p"pass1234"
 ```
 
 ## Firefox (VNC)
-
 ```bash
 docker run -d --name=firefox -p 5800:5800 -p 5900:5900 \
        -v /home/hpserver/docker/appdata/firefox:/config:rw --shm-size 2g \
@@ -660,7 +678,6 @@ docker run -d --name=firefox -p 5800:5800 -p 5900:5900 \
 ```
 
 ## Kanboard:
-
 ```bash
 # Kanboard
     sudo docker create --name=kanboard -p "80:80"
@@ -671,9 +688,7 @@ docker run -d --name=firefox -p 5800:5800 -p 5900:5900 \
     # toma la variable de sistema $INFORMATICA
 ```
 
-
 ## OTRAS IMÁGENES INTERESANTES
-
     # transmission
       docker run -d  --name=transmission  -e PUID=1000  -e PGID=1000  -e TZ=Europe/Madrid \
         -e TRANSMISSION_WEB_HOME=/combustion-release/  -e USER=torrent  -e PASS=torrent \
@@ -691,7 +706,6 @@ docker run -d --name=firefox -p 5800:5800 -p 5900:5900 \
 
 
 # CAMBIAR PUERTOS ➡️ ****NO USAR****:
-
 No usar ésto en producción **NUNCA**. Puede causar efectos imprevisibles.
 
 ```bash

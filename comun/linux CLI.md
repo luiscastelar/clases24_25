@@ -106,4 +106,15 @@ Nota:
 + [**Ampliación**](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/)
 + [Hoja resúmen](https://phoenixnap.com/kb/wp-content/uploads/2023/11/linux-commands-cheat-sheet-pdf.pdf)
 + [Pelao Nerd](https://youtu.be/0BA4k3jweaE?si=EivnGioae7QBAz1v)
-  
+
+
+
+# Gestión de procesos
++ Lanzar proceso en _foreground_ (primer plano): `nano archivo.txt`
++ Lanzar proceso en _background_ (segundo plano): `nano archivo.txt &` (añadir **&** al final)
++ Lanzar conjunto de procesos en _background_: `(cat archivo.txt | nano - ) &`
++ Ver procesos en _background_: `jobs` o `ps`
++ Recuperar procesos de _background_ a _foreground_: `jobs` nos da el _jobID_ y con él `fg %1` (donde 1 sería el _jobID_). Esto es: si _jobs_ nos arrojó `[7]+  Ejecutando              kate &`, nosotros podremos traerlo con un `fg %7`.
++ Congelar proceso _foreground_: <kbd>Ctrl</kbd> + <kbd>z</kbd>
++ Recuperar proceso congelado a _foreground_: `fg %1`
++ Recuperar proceso congelado a _background_: `bg `

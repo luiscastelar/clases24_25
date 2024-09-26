@@ -43,9 +43,16 @@ Para desarrollos más allá, podremos utilizar _vs code_ + plugin _live preview_
 Fuente: [Manz.dev](https://lenguajehtml.com/html/introduccion/estructura-etiqueta-html/)
 
 ### Atributos comunes
-[atributos](https://lenguajehtml.com/html/introduccion/atributos-comunes-html/)
+[Atributos](https://lenguajehtml.com/html/introduccion/atributos-comunes-html/)
 
-## Hola mundo:
++ `id`: es un identificador único de elemento. Viene a sustituir `name` ya _deprecated_ (-> “deprecado” -> obsoleto).
++ `class`: es un identificador de grupo utilizado para asignar estilos a todos los elementos de un grupo. Todo _tag_ (etiqueta) puede tener o no uno o varias clases asignadas (separadas por espacios). P.e.: `<button class="boton azul">` pertenecerá a las clases “boton” y “azul”.
++ `style`: permite asignar estilos css sobre el mismo elemento. Nosotros no lo utilizaremos ya que vamos a establecer la separación absoluta de contenido-presentación-acción con html-css-js respectivamente.
+
+## Estructura:
+![estructura](https://lenguajehtml.com/html/documento/estructura-documento-html/estructura-documento-html.png)Fuente: [Manz](https://lenguajehtml.com/html/documento/estructura-documento-html/estructura-documento-html.png)
+
+### Hola mundo:
 ```html
 <html>
   <head>

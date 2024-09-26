@@ -10,40 +10,42 @@
   + [x] Markdown
 + 24s:
   + [x] Introducción a la programación (hasta `classpath`)
-  + [x] “Hola mundo” con `java` y `javac` 
+  + [x] “Hola mundo” con `java` y `javac` (profesor)
 + 25s: 
-   + [ ] cont Introducción a la programación
-   + [ ] Elementos de un programa.
-   + [ ] Comentarios y Bloques.
-   + [ ] Convención de nombres.
-   + [ ] Tipos de variables. _Tipos primitivos y objetos_.
-   + [ ] Conversión de tipos “cast” implícitos y explícitos.
-   + [ ] Expresiones y operadores
-   + [ ] Constantes
-   + [ ] Literales     
-     
+  + [x] cont Introducción a la programación
+  + [x] Elementos de un programa.
+  + [x] Comentarios y Bloques.
+  + [x] Convención de nombres.
+  + [x] Tipos de variables. _Tipos primitivos y objetos_.
+  + [x] Conversión de tipos “cast” implícitos y explícitos.
+  + [x] Constantes
 + 27s:
-  + [ ] cont Elementos
-
-+ 30s:
-  + [ ] cont Elementos
+  + [ ] Expresiones y operadores
+  + [ ] Literales
+  + [ ] Operador condicional o ternario
+  + [ ] Ejercicios
+    + [ ] “Hola mundo”
+    + [ ] Asignación y operación
+    + [ ] Con operador condicional
++ ~~30s:~~
 + 2o:
   + [ ] **Examen ut1**
   
 ## Java
 + [x] _El lenguaje Java, JRE, JDK_
-+ [ ] _el API y sus versiones._
++ [x] _el API y sus versiones._
 + [x] El path _y classpath_
-+ [ ] _**Convención de nombres**_.
-+ [ ] _Tipos de datos_
++ [x] _**Convención de nombres**_.
++ [x] _Tipos de datos_
       
 
 
 # UT2. Introducción a la POO
-+ 1o:
++ 30s:
   + [ ] Características de los objetos.
   + [ ] Instanciación de objetos.
   + [ ] Utilización de métodos. Parámetros.
++ 1o:
   + [ ] Utilización de propiedades.
   + [ ] Utilización de métodos estáticos.
 + 4o:
