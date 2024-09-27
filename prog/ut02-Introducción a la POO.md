@@ -22,17 +22,19 @@
 ## Buenas prácticas en el nombrado de variables y métodos
 ### Variables y referencias
 1. Uso de constantes nominales sobre números sin sentido.
-```java
-if( duracion > 86 000 )
-  // ¿Qué significa?
 
-final int DIA = 86 000 // segundos
-...
-if( duracion > DIA )
-  // Mas claro, ¿verdad?
-```
+   ¿Qué significa `if( duracion > 86 000 )`?
+  <details>
+  ```java
+  final int DIA = 86 000 // segundos
+  ...
+  if( duracion > DIA )
+    // Mas claro, ¿verdad?
+  ```
+  </details>
+   
 2. [**Buenas** prácticas](https://javascript.plainenglish.io/variable-naming-best-practices-in-javascript-94af115f42cd)
-3. Uso más genérico cuando sea posible (lo veremos en UT6)
+3. Uso del objeto mas genérico cuando sea posible (lo veremos en UT6)
 
 # Teclado y pantalla
 

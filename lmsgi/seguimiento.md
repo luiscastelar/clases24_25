@@ -16,11 +16,13 @@ _Se trabaja el RA 1_.
 
 # UT2 - Lenguajes de marcas en entornos web. HTML.
 
-+ [ ] Estándares web. Versiones. Clasificación.
-+ [ ] Estructura de un documento HTML.
-+ [ ] Identificación de etiquetas y atributos de HTML.
-+ [ ] Herramientas de diseño web.
-+ [ ] Validación de documentos HTML.
++ [x] Estándares web. Versiones. Clasificación.
++ [x] Estructura de un documento HTML.
++ [x] Identificación de etiquetas y atributos de HTML.
++ [x] Herramientas de diseño web.
++ [x] Validación de documentos HTML.
++ Etiquetas:
+  + [ ] 
 
 
 _Se trabaja el RA 2_.

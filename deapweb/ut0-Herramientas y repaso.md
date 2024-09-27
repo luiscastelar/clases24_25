@@ -11,6 +11,7 @@
 + [Doc español](https://markdown.es/sintaxis-markdown/)
 + [Cheat-sheet](https://www.markdownguide.org/cheat-sheet)
 + [Tablas en md](https://www.tablesgenerator.com/markdown_tables)
++ [Keyboard generator](https://kbd.hsuan.xyz/)
 + [Resúmen en vídeo](https://www.youtube.com/watch?v=oxaH9CFpeEE)
 
 Puedes ver ejemplos pasando al modo *Code* cualquier archivo de este repositorio.

@@ -75,7 +75,7 @@ Seleccionemos un juego de caracteres que soporte los caracteres españoles. Para
 
 
 # Depuración / Validación
-Para comenzar a depurar abriremos las herramientas para desarrolladores `F12`
+Para comenzar a depurar abriremos las herramientas para desarrolladores <kbd>F12</kbd> o <kbd>⌃ Control</kbd> + <kbd>⇧ Shift</kbd> + <kbd>I</kbd>
 
 Podemos ver el aviso `Quirks Mode`, donde el navegador indica que se encuentra en un modo retrocompatible con web antiguas.
 
@@ -84,6 +84,8 @@ Para solucionarlo sólo tenemos que añadir al comienzo la [declaración de tipo
 
 ## Validación
 [w3c - World Wide Web Consortium](https://validator.w3.org/)
+
+Como podréis comprobar, la validación de nuestra sencilla web nos arroja un _warning_ respecto al idioma, que si bien no es damático, si deberemos solucionar simplemente añadiendo el idioma a la etiqueta `<html>`, quedando tal que así `<html lang="es">`.
 
 
 # Estructura de un documento HTML.
@@ -97,7 +99,7 @@ Ver [mdn](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/
 Modifica la página básica para añadir dichos elementos y dar forma a nuestra web.
 
 ## HTML5 vs ...
-- [HTML vs XHTML](https://desarrolloweb.com/articulos/diferencias-html-xhtml.html)
+- [HTML vs XHTML](https://desarrolloweb.com/articulos/diferencias-html-xhtml.html) ->  [etiquetas en XHTML](https://uniwebsidad.com/libros/xhtml/capitulo-2/sintaxis-de-las-etiquetas-xhtml)
 - [HTML5 vs anteriores](https://htmldesdecero.es/blog/html5-diferencias-html/)
 
 

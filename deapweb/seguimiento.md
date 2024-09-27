@@ -27,7 +27,7 @@ CE: a, b, f.
   + [x] [Breve repaso de comandos linux](https://github.com/luiscastelar/clases24_25/blob/main/comun/linux%20CLI.md)
 + 19s:
   + [x] Arquitecturas web
-  + [x] Protocolos:
+  + Protocolos:
     + [x] Http
     + [x] Https
 
@@ -35,26 +35,27 @@ CE: a, b, f.
 ## Contenedores (“virtualización” ligera) -> **Docker**
 CE: e, f, h, i.
 + 23s:
-  + [x]  TCP/IP
+  + TCP/IP
       + [x] IPv4
       + [x] IPv6
-  + [x] `docker` CLI (hasta instalación)
+  + `docker` CLI
+    + [x] instalación
 + 24s:
-  + [x] cont CLI (hasta correr mysql)
+  + cont CLI (hasta correr mysql)
     + [x] run, start, stop
 + 26s:
-  + [ ] cont CLI
-    + [ ] estado
-    + [ ] De `-i` a `-d` y viceversa
-    + [ ] redes
-    + [ ] volúmenes
-    + [ ] tags
-    + [ ] `docker cp`
-  + [ ] `docker compose`
-    + [ ] composerize
-    + [ ] versión sin `-` (guion o _dash_)
-    + [ ] comandos up, down, ps y log
-    + [ ] secretos y `.env`
+  + cont CLI
+    + [x] estado
+    + [x] De `-i` a `-d` y viceversa
+    + [x] redes
+    + [x] volúmenes
+    + [x] tags
+    + [x] `docker cp`
+  + `docker compose`
+    + [x] composerize
+    + [x] versión sin `-` (guion o _dash_)
+    + [x] comandos up, down, ps y log
+    + [x] secretos y `.env`
 + 30s:
   + [ ] `Dockerfile` 
 + 1o:
