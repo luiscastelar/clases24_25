@@ -221,11 +221,11 @@ Existen algunas cosas que podemos realizar para mejorar la accesibilidad de nues
 La más sencilla y rápida es añadir el atributo `title` en aquellas etiquetas que queremos que sean descritas como imágenes o botones.
 
 Por ejemplo:
-```html
-<p>Texto ambiguo que requiere una imagen aclaratoria <br />
-<img src="ruta_a_imagen.jpg" title="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />
-</p>
-```
+<div>
+  <p>Texto ambiguo que requiere una imagen aclaratoria <br />
+    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" title="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />
+  </p>
+</div>
 
 
 ## Otros
