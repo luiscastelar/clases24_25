@@ -40,7 +40,7 @@ Para desarrollos más allá, podremos utilizar _vs code_ + plugin _live preview_
 
 ## El mundo de las etiquetas
 ![Estructura de una etiqueta HTML](https://lenguajehtml.com/html/introduccion/estructura-etiqueta-html/estructura-etiqueta-html.png)
-Fuente: [Manz.dev](https://lenguajehtml.com/html/introduccion/estructura-etiqueta-html/)
+Fuente: [Manz.dev](https://lenguajehtml.com/html/)
 
 ### Atributos comunes
 [Atributos](https://lenguajehtml.com/html/introduccion/atributos-comunes-html/)
@@ -50,7 +50,8 @@ Fuente: [Manz.dev](https://lenguajehtml.com/html/introduccion/estructura-etiquet
 + `style`: permite asignar estilos css sobre el mismo elemento. Nosotros no lo utilizaremos ya que vamos a establecer la separación absoluta de contenido-presentación-acción con html-css-js respectivamente.
 
 ## Estructura:
-![estructura](https://lenguajehtml.com/html/documento/estructura-documento-html/estructura-documento-html.png)Fuente: [Manz](https://lenguajehtml.com/html/documento/estructura-documento-html/estructura-documento-html.png)
+![estructura](https://lenguajehtml.com/html/documento/estructura-documento-html/estructura-documento-html.png)
+Fuente: [Manz](https://lenguajehtml.com/html/)
 
 ### Hola mundo:
 ```html
@@ -103,15 +104,6 @@ Modifica la página básica para añadir dichos elementos y dar forma a nuestra 
 - [HTML5 vs anteriores](https://htmldesdecero.es/blog/html5-diferencias-html/)
 
 
-# Identificación de etiquetas y atributos de HTML.
-Ver [uniwebsidad](https://uniwebsidad.com/libros/xhtml/capitulo-2/etiquetas-y-atributos)
-
-Referencia de etiquetas en [w3schools](https://www.w3schools.com/html/).
-
-
-# Enlaces
-Ver en [uniwebsidad](https://uniwebsidad.com/libros/xhtml/capitulo-4)
-
 
 # Un mínimo visual
 Estamos en html5 por lo que no vamos a utilizar etiquetas visuales y por tanto para dar algo de _style_ a nuestra web vamos a introducir un pié en el CSS (UT3).
@@ -121,6 +113,10 @@ Añadiremos al `<head>` la hoja de estilo `default.css` que tenéis disponible e
 
 
 # Elementos del HTML
+Manual de Referencia de etiquetas en [w3schools](https://www.w3schools.com/tags/default.asp).
+
+
+
 _Fuente: [MCLibre - Bartolomé Sintes](https://www.mclibre.org/consultar/htmlcss/index.html)_
 
 Los elementos del HTML están definidos en la norma HTML living standard, del WHATWG. Esta norma se puede consultar en la web en su [versión paginada](https://html.spec.whatwg.org/multipage/) o en su [versión de una sola página](https://html.spec.whatwg.org/).
@@ -218,9 +214,9 @@ En la norma, las diferentes etiquetas están agrupadas en las siguientes categor
 ## Accesibilidad
 Existen algunas cosas que podemos realizar para mejorar la accesibilidad de nuestra web para personas con deficiencias visuales. 
 
-La más sencilla y rápida es añadir el atributo `title` en aquellas etiquetas que queremos que sean descritas como imágenes o botones.
+La más sencilla y rápida es añadir el atributo `title` en aquellas etiquetas que queremos que sean descritas como imágenes o botones .
 
-Por ejemplo:
+Por ejemplo `<img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" title="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />` mostrará la descripción al pasar por encima... pero si tenemos un navegador adaptado será lo que nos muestre:
 <div>
   <p>Texto ambiguo que requiere una imagen aclaratoria <br />
     <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" title="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />

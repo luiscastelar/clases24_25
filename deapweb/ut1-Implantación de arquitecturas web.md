@@ -9,6 +9,14 @@ Modelos de capas:
 + Modelo 3 capas: cliente - servidor - datos -> P.e.: React + Node.js + MySQL
 + Modelo 4 capas: cliente - contenedor web - lógica de negocio - datos -> P.e.: Vue + Spring(API) + Microservicios + PostgreSQL
 
+### Patrones de arquitecturas:
++ [MVC - Modelo-Vista-Controlador](https://www.interviewbit.com/blog/mvc-architecture/)
++ [MVVM - Modelo-Vista-VistaModelo](https://tecno-simple.com/que-es-mvvm-model-view-viewmodel/)
++ [BFF - BackendForFrontend](https://levelup.gitconnected.com/backend-for-frontend-bff-architecture-64fa9f316a5a)
++ [MVT - Modelo-Vista-Template](https://dev.to/great_devxy/what-is-django-mvt-architecture-what-differs-mvt-from-mvc-architecture-3ahg) habitual en frameworks como DJango
++ [Modelos según _stack_ tecnológico](https://programmerclick.com/article/97071905653/)
+
+  
 ### Escalabilidad de sistemas:
 + **Escalabilidad vertical**: Habitualmente, la separación lógica en capas se implementa de tal forma que se permita una separación física de las mismas. Interponiendo elementos conectores que actúen de middlewares es posible distribuir la aplicación de forma vertical (una máquina por cada capa del sistema), e incluso si esto no fuera suficiente, distribuyendo los elementos de una misma capa entre distintas máquinas servidoras.
 + **Escalabilidad horizontal**: Se trata de clonar el sistema en otra máquina de características similares y balancear la carga de trabajo mediante un dispositivo externo.

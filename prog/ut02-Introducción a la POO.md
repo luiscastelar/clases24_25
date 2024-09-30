@@ -21,10 +21,11 @@
 
 ## Buenas prácticas en el nombrado de variables y métodos
 ### Variables y referencias
-1. Uso de constantes nominales sobre números sin sentido.
+1. Uso de constantes nominales sobre números sin sentido / Evitar números mágicos.
 
    ¿Qué significa `if( duracion > 86 000 )`?
   <details>
+  
   ```java
   final int DIA = 86 000 // segundos
   ...
@@ -170,3 +171,4 @@ Basándonos en el ejercicio 3 donde nos pedían realizar una clase Libro para ge
 + Crea un directorio para ella `ut2-biblioteca`. Dentro irá tu práctica y el README.md con la documentación de la misma.
 + Añade los archivos fuente y las capturas que creas oportuno (si es texto, captura con `tee`).
 + **Recuerda**: debes añadir un README.md explicando paso a paso lo realizado. Aquellos pasos no explicados conllevarán una puntuación de 0 puntos.
+
