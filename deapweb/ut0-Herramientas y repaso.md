@@ -7,14 +7,22 @@
 + [Medio](https://github.com/luiscastelar/clases24_25/blob/main/comun/g-ramas.md)
 
 # Lenguaje de marcado ligero para representación -> Markdown
+> Markdown es un lenguaje de marcado ligero que se puede utilizar para agregar elementos de formato a documentos de texto sin formato.
+
+### Documentación
 + [Doc **OFICIAL**](https://www.markdownguide.org/basic-syntax)
 + [Doc español](https://markdown.es/sintaxis-markdown/)
++ [Resúmen en vídeo](https://www.youtube.com/watch?v=oxaH9CFpeEE)
 + [Cheat-sheet](https://www.markdownguide.org/cheat-sheet)
+
+### Herramientas
++ [Editor online](https://stackedit.io/app#) sincronizable con drive y github.
 + [Tablas en md](https://www.tablesgenerator.com/markdown_tables)
 + [Keyboard generator](https://kbd.hsuan.xyz/)
-+ [Resúmen en vídeo](https://www.youtube.com/watch?v=oxaH9CFpeEE)
 
+### Ejemplos
 Puedes ver ejemplos pasando al modo *Code* cualquier archivo de este repositorio.
+
 
 # Virtualización asistida -> Vagrant
 > **Vagrant** es un software de código abierto que nos permite crear y mantener entornos de desarrollo portables, puede trabajar con VMware, VirtualBox, Hyper-V, KVM, AWS e incluso también con contenedores de Docker, por tanto, es ideal para simplificar la configuración de estos software de virtualización.

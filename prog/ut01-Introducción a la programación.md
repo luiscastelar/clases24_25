@@ -8,12 +8,20 @@
 + [Medio](https://github.com/luiscastelar/clases24_25/blob/main/comun/git-ramas.md)
 
 ## Lenguaje de marcado ligero para representación -> Markdown
+> Markdown es un lenguaje de marcado ligero que se puede utilizar para agregar elementos de formato a documentos de texto sin formato.
+
+### Documentación
 + [Doc **OFICIAL**](https://www.markdownguide.org/basic-syntax)
 + [Doc español](https://markdown.es/sintaxis-markdown/)
-+ [Cheat-sheet](https://www.markdownguide.org/cheat-sheet)
-+ [Tablas en md](https://www.tablesgenerator.com/markdown_tables)
 + [Resúmen en vídeo](https://www.youtube.com/watch?v=oxaH9CFpeEE)
++ [Cheat-sheet](https://www.markdownguide.org/cheat-sheet)
 
+### Herramientas
++ [Editor online](https://stackedit.io/app#) sincronizable con drive y github.
++ [Tablas en md](https://www.tablesgenerator.com/markdown_tables)
++ [Keyboard generator](https://kbd.hsuan.xyz/)
+
+### Ejemplos
 Puedes ver ejemplos pasando al modo *Code* cualquier archivo de este repositorio.
 
 ## Lenguaje vehicular
