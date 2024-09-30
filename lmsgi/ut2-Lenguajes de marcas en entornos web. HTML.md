@@ -215,11 +215,28 @@ En la norma, las diferentes etiquetas están agrupadas en las siguientes categor
     
     _Veremos en profundidad los scprit en la UT5_.
 
+## Accesibilidad
+Existen algunas cosas que podemos realizar para mejorar la accesibilidad de nuestra web para personas con deficiencias visuales. 
+
+La más sencilla y rápida es añadir el atributo `title` en aquellas etiquetas que queremos que sean descritas como imágenes o botones.
+
+Por ejemplo:
+```html
+<p>Texto ambiguo que requiere una imagen aclaratoria <br />
+<img src="ruta_a_imagen.jpg" title="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />
+</p>
+```
+
+
 ## Otros
 *   SVG: [SVG (1)](https://www.mclibre.org/consultar/htmlcss/html/html-svg.html) - [SVG (2)](https://www.mclibre.org/consultar/htmlcss/html/html-svg-2.html)  
     [Formas básicas](https://www.mclibre.org/consultar/htmlcss/html/svg-formas-1.html) - [Formas avanzadas](https://www.mclibre.org/consultar/htmlcss/html/svg-formas-2.html)  
     [Texto](https://www.mclibre.org/consultar/htmlcss/html/svg-texto.html)
 *   [MathML](https://www.mclibre.org/consultar/htmlcss/html/html-mathml.html)
+
+
+## Obsoletas
+[Puedes consultar](https://lenguajehtml.com/html/documento/etiquetas-html-obsoletas/) las etiquetas que no debemos utilizar y el reemplazo a realizar si te las encuentras.
 
 
 # Referencias:
