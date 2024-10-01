@@ -63,6 +63,9 @@ Para hacer las cosas algo más cómodas podemos crear un alias del tag a *latest
 
 ¿Pero y si queremos mostrar el contenido de archiv.txt? ` docker run --rm luistest cat /home/alumno/archiv.txt`
 
+_Nota: En el proceso `build` se ha generado un warning ya que el método habitual de ejecutar parámetros en mediante arrays Json. Para evitarlo deberemos añadir el comando `SHELL [“/bin/bash”, “-c”]._
+
+
 **Fuentes:**
 + [Lo básico](https://luisiblogdeinformatica.com/crear-dockerfile/)
 + [Creando mi primera imagen](https://www.freecodecamp.org/espanol/news/guia-de-docker-para-principiantes-como-crear-tu-primera-aplicacion-docker/)
@@ -76,12 +79,13 @@ Sustituiremos por tanto el *ENTRYPOINT* por:
 ```Dockerfile
 ...
 ENTRYPOINT ["/bin/sh", "-c"]
-CMD ["echo $minombre"]
+CMD ["echo 'Hola mundo'"]
 ```
 
-Y ahora ejecutaremos ` docker run --rm luistest cat /home/alumno/archiv.txt`
+Y ahora ejecutaremos ` docker run --rm luistest 'cat /home/alumno/archiv.txt'`
 
-Para construir la imagen: `docker build -t luistest:version002 .`
+_Nota: el comando pasado al contenedor deber ir entrecomillas simples o dobles para que sea tomado completo ya que de otra forma el `IFS` deberá ser procesado por el comando definido en el `ENTRYPOINT`._
+
 
 *EL `ENTRYPOINT ["/bin/sh", "-c"]` es en realidad el valor por defecto, por lo que podremos omitirlo en realidad*.
 
@@ -131,6 +135,7 @@ ENV destino=${dst}
 CMD ping -c4 $destino
 ```
 
+Para ejecutarlo: `docker run --rm -e destino="as.com" {{IMAGEN}}`
 
 ## Una imagen con aplicación Java stand-alone:
 Vamos a realizar una base sobre la que podremos en realidad ejecutar aplicaciones Java (versión < 22) incluso con las *preview features*.

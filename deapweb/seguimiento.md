@@ -57,15 +57,20 @@ CE: e, f, h, i.
     + [x] comandos up, down, ps y log
     + [x] secretos y `.env`
 + 30s:
-  + [ ] `Dockerfile` 
+  + [x] Dudas docker cli
+  + `Dockerfile` 
+    + [x] Comandos `FROM`, `COPY` y `ENTRYPOINT`
+    + [x] `docker build` y `docker tag`
+    + [x] Comando `CMD` vs `ENTRYPOINT`
+    + [x] Comando `ARG` vs `ENV`. 
 + 1o:
   + [ ] `Dockerfile` 
 + 3o:
   + [ ] `Dockerfile`
 + 14o:
-  + [ ] **Defensa de prácticas**
+  + [ ] **Examen / Defensa [^1] de prácticas**
 + 15o:
-  + [ ] **Defensa de prácticas**
+  + [ ] **Examen / Defensa de prácticas**
 
 ## Aplicación:
 + [ ] Servidor web (c, f, h, i)
@@ -223,4 +228,7 @@ Despliegue de aplicaciones web (front, back y persistencia) sobre nube pública 
 + [ ] Servidor/Contenedor de aplicaciones (Tomcat).
 + [ ] Despliegue de aplicaciones en un entorno de red en un servidor Linux.
 + [ ] Despliegue en la nube.
-  
+
+
+  # Notas:
+[^1]: Aunque de forma general está programado un examen, si el alumno o alumna ha facilitado el proceso de enseñanza-aprendizaje no molestando a los compañeros, este examen podrá ser sustituido por la defensa de las práctica

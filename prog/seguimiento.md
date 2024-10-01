@@ -20,13 +20,13 @@
   + [x] Conversión de tipos “cast” implícitos y explícitos.
   + [x] Constantes
 + 27s:
-  + [ ] Expresiones y operadores
-  + [ ] Literales
-  + [ ] Operador condicional o ternario
-  + [ ] Ejercicios
-    + [ ] “Hola mundo”
-    + [ ] Asignación y operación
-    + [ ] Con operador condicional
+  + [x] Expresiones y operadores
+  + [x] Literales
+  + [x] Operador condicional o ternario
+  + [x] Ejercicios
+    + [x] “Hola mundo”
+    + [x] Asignación y operación
+    + [x] Con operador condicional
 + ~~30s:~~
 + 2o:
   + [ ] **Examen ut1**
@@ -42,21 +42,24 @@
 
 # UT2. Introducción a la POO
 + 30s:
-  + [ ] Características de los objetos.
-  + [ ] Instanciación de objetos.
-  + [ ] Utilización de métodos. Parámetros.
+  + [x] Características de los objetos.
+  + [x] Instanciación de objetos.
+  + [x] “nombres” de objetos (referencias).
+  + [x] Destrucción de objetos y liberación de memoria.
+  + [x] Ámbito de variables.
 + 1o:
+  + [ ] Ámbito de variables. Ocultación y `this`
+  + [ ] Utilización de métodos. Parámetros.
   + [ ] Utilización de propiedades.
   + [ ] Utilización de métodos estáticos.
+  + [ ] Constructores.
 + 4o:
   + [ ] Entrada desde teclado. Salida a pantalla. Formatos de visualización.
   + [ ] Paso de parámetros por valor y por referencia.
   + [ ] _Utilizar librerías de objetos:_
       + [ ] _por CLI_
       + [ ] _con maven_
-      + [ ] ~~por IDE~~ (_en UT6_)
-  + [ ] Constructores.
-  + [ ] Destrucción de objetos y liberación de memoria.
+      + [ ] ~~por IDE~~ (_en UT6_)  
 + 7o:
   + [ ] Concepto de clase.
   + [ ] Estructura y miembros de una clase. Visibilidad.
@@ -72,17 +75,7 @@
 + 16o: **Examen ut2**
 
 
-  
-## Fundamentos de POO
-
-
-
-## Desarrollo de POO.
-
-
 ## Java
-+ [ ] _El lenguaje Java, JRE, JDK, el API y sus versiones._
-+ [ ] El path _y classpath_
 + [ ] _Estructura de clases del API de Java SE._
 + [ ] _Enum_’s
 + [ ] _Clases auto-mágicas y Java “moderno”_

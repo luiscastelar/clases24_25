@@ -112,6 +112,29 @@ Añadiremos al `<head>` la hoja de estilo `default.css` que tenéis disponible e
 `<link rel="stylesheet" type="text/css" href="./css/default.css" media="screen" />`
 
 
+# Enlaces
+Ver en [uniwebsidad](https://uniwebsidad.com/libros/xhtml/capitulo-4)
+
+1. tag `<a></a>`
+2. atributo obligatorio `href="marca.com"`
+3. otros atributos:
+   + `target=_blank`
+   + `download="archivo.txt"`
+4. 
+
+## Rutas:
+| Tipo | Formato | Significado |
+|---|---|---|
+| implícita | “foto.jpg” | se encuentra en el directorio actual |
+| relativa | “./foto.jpg” | relativa al directorio actual |
+| relativa | “../foto.jpg” | relativa al padre del directorio actual |
+| absoluta | “/dir/foto.jpg” | desde el directorio base |
+| absoluta | “https://marca.com/foto.jpg” | desde internet |
+
+Respecto a las absolutas desde internet, debemos saber [más cosas](https://es.semrush.com/blog/que-es-una-url/).
+
+
+
 # Elementos del HTML
 Manual de Referencia de etiquetas en [w3schools](https://www.w3schools.com/tags/default.asp).
 
