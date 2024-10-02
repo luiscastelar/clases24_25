@@ -1,7 +1,9 @@
 #curso24_25 #prog [estado::Working]
 
 
-# UT1. Introducción a la programación
+# Materia PLANIFICADA
+
+## UT1. Introducción a la programación
 + 20s:
   + [x] Programación (previa)
   + [x] Git
@@ -31,7 +33,7 @@
 + 2o:
   + [ ] **Examen ut1**
   
-## Java
+### Java
 + [x] _El lenguaje Java, JRE, JDK_
 + [x] _el API y sus versiones._
 + [x] El path _y classpath_
@@ -40,49 +42,52 @@
       
 
 
-# UT2. Introducción a la POO
+## UT2. Introducción a la POO
 + 30s:
   + [x] Características de los objetos.
+  + [x] Concepto de clase.
   + [x] Instanciación de objetos.
   + [x] “nombres” de objetos (referencias).
   + [x] Destrucción de objetos y liberación de memoria.
   + [x] Ámbito de variables.
 + 1o:
-  + [ ] Ámbito de variables. Ocultación y `this`
-  + [ ] Utilización de métodos. Parámetros.
-  + [ ] Utilización de propiedades.
-  + [ ] Utilización de métodos estáticos.
-  + [ ] Constructores.
+  + [x] Ámbito de variables. Ocultación y `this`
+  + [x] Utilización de métodos. Parámetros.
+  + [x] Creación de propiedades.
+  + [x] Utilización de propiedades.
+  + [x] Constructores.
 + 4o:
+  + [ ] POO: Encapsulamiento, Abstracción, Herencia y Polimorfismo.
+  + [ ] D.R.Y. (Don’t Repeat Yourself).
+  + [ ] Método `toString()`.
++ 7o:
   + [ ] Entrada desde teclado. Salida a pantalla. Formatos de visualización.
-  + [ ] Paso de parámetros por valor y por referencia.
   + [ ] _Utilizar librerías de objetos:_
       + [ ] _por CLI_
       + [ ] _con maven_
       + [ ] ~~por IDE~~ (_en UT6_)  
-+ 7o:
-  + [ ] Concepto de clase.
   + [ ] Estructura y miembros de una clase. Visibilidad.
-  + [ ] Creación de propiedades.
   + [ ] Creación de métodos.
       + [ ] Creación de métodos (_de instancia_)
       + [ ] Creación de métodos estáticos (_de clase_)
+  + [ ] Utilización de métodos estáticos.
 + 8o:
 + 
 + 9o:
 + 11o:
 + 14o:
+  + [ ] Paso de parámetros por valor y por referencia.
 + 16o: **Examen ut2**
 
 
-## Java
+### Java
 + [ ] _Estructura de clases del API de Java SE._
 + [ ] _Enum_’s
 + [ ] _Clases auto-mágicas y Java “moderno”_
     + [ ] Clase `Main` estática vs la clase sin nombre con método `main`.
 
 
-# UT3. Programación estructurada y depuración de programas
+## UT3. Programación estructurada y depuración de programas
 + (14h)
 + 15o:
   + [ ] 
@@ -100,7 +105,7 @@ Uso de estructuras de control:
 + [ ] Crearción de excepciones.
       
 
-## Entorno Integrado de Desarrollo -IDE-
+### Entorno Integrado de Desarrollo -IDE-
 + [ ] Utilizar el entorno integrado de desarrollo en la creación y compilación de programas ~~simples~~.
 + [ ] Depuración
 + [ ] Test
@@ -109,7 +114,7 @@ Uso de estructuras de control:
   + [ ] _Records_
 
 
-# UT4. Manipulación de información. Matrices.
+## UT4. Manipulación de información. Matrices.
 + (14h) 
 
 + [ ] Estructuras estáticas y dinámicas.
@@ -117,11 +122,11 @@ Uso de estructuras de control:
 + [ ] _La clase `Arrays`_
 + [ ] Matrices (arrays multidimensionales).
 
-## Genéricos
+### Genéricos
 + [ ] Genéricos.
 
 
-# UT5. Manipulación de información. Cadenas.
+## UT5. Manipulación de información. Cadenas.
 + (14h) 
 
 + [ ] Estructuras estáticas y dinámicas.
@@ -132,16 +137,16 @@ Uso de estructuras de control:
 + [ ] _La clase StringBuffer (thread-safe)_
     + [ ] _StringBuilder (**no** thread-safe)_
 
-## EXpresiones REGurales -RegEx-
+### EXpresiones REGurales -RegEx-
 + [ ] Construcción de patrones
 + [ ] _cadena.matches( patron )_
 
-## Internacionalización y localización -i18n- e -i10n-
+### Internacionalización y localización -i18n- e -i10n-
 + [ ] Identificar las clases relacionadas con el tratamiento de documentos escritos en diferentes lenguajes de intercambio de datos.
 + [ ] Realizar programas que realicen manipulaciones sobre documentos escritos en diferentes lenguajes de intercambio de datos.
 
 
-# UT6. Manipulación de información. Colecciones.
+## UT6. Manipulación de información. Colecciones.
 + (32h) 
 
 + [ ] Colecciones
@@ -152,7 +157,7 @@ Uso de estructuras de control:
     + [ ] _La clase ArrayList_
 + [ ] Iteradores
 
-## Programación funcional
+### Programación funcional
 + [ ] Interfaces funcionales
 + [ ] Expresiones Lambda
 + [ ] Métodos referencia
@@ -172,7 +177,7 @@ Uso de estructuras de control:
         + [ ] Reducción
  
 
-# UT7. POO II
+## UT7. POO II
 + (14h) 
 
 + [ ] Definir y utilizar clases heredadas.
@@ -187,7 +192,7 @@ Uso de estructuras de control:
 
 
 
-# UT8. Operaciones de E/S
+## UT8. Operaciones de E/S
 + (28h) 
 
 + [ ] Flujos. Tipos: bytes y caracteres. Clases relacionadas.
@@ -199,7 +204,7 @@ Uso de estructuras de control:
 + [ ] Patrones de diseño. DAO.
 
 
-# UT9. Gestión de información almacenada en bases de datos relacionales
+## UT9. Gestión de información almacenada en bases de datos relacionales
 + (28h) 
 
 f) Crear aplicaciones que muestren la información almacenada en bases de datos.
@@ -236,7 +241,7 @@ Mantenimiento de la persistencia de los objetos:
 + [ ] Tipos de datos colección.
 
 
-# UT10. Interfaces Gráficas de Usuario. WebUI.
+## UT10. Interfaces Gráficas de Usuario. WebUI.
 + (28h) 
 
 + [ ] Interfaces gráficas.
@@ -244,3 +249,7 @@ Mantenimiento de la persistencia de los objetos:
 + [ ] Creación de controladores de eventos.
 
 
+
+---
+# Materia impartida
+---

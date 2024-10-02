@@ -10,7 +10,7 @@
 Para crear un README en texto plano, pero con un formato agradable y *convertible* recurriremos al formato Markdown ([Fazt Code - Markdown](https://www.youtube.com/watch?v=oxaH9CFpeEE) )
 
 
-**Ejercicio**: 
+## Ejercicio: 
 1. Crear un repo con README.md conectado con GitHub.
 2. Añadir colaborador (profe `@luiscastelar`).
 3. El `README.md` contendrá vuestro nombre y email coorporativo.
@@ -22,6 +22,29 @@ Para crear un README en texto plano, pero con un formato agradable y *convertibl
   ```
 
 *Aplicaciones auxiliares:* [GitFiend](https://gitfiend.com/) o [GitG](https://wiki.gnome.org/Apps/Gitg) como apoyo visual a *git bash*. También [Git Extensions](https://gitextensions.github.io/) como plug-in de VS.
+
+
+## Conectando nuevos equipos
+### Nuevo repositorio
+Cuando queramos conectar nuevos equipos, p.e. el de casa, al repositorio `BARE` (central) deberemos:
+1. Tener acceso al repositorio `BARE` mediante pares de llaves público/privadas, o por token[^1].
+2. Obtener la dirección del repositorio `BARE` al que queremos conectar. Ésta debe ser del tipo `git@github.com:luiscastelar/pruebasDAW1.git`. Ésta dirección tiene 3 partes:
+   + `git@github.com` -> el servidor al que nos estamos conectando [^2].
+   + `luiscastelar` -> vuestro nombre de usuario en github (o el servidor al que os conectéis).
+   + `pruebasDAW1.git` -> el repositorio al que os estáis conectando.
+3. Clonar el repositorio sobre el directorio que deseemos con `git clone git@github.com:luiscastelar/pruebasDAW1.git {{NOMBRE DEL DIRECTORIO}}`.
+
+
+### A repositorio ya existente
+También podemos conectar un repositorio local ya creado anteriormente y con contenido con el comando `git remote add origin git@github.com:luiscastelar/pruebasDAW1.git`, y posteriormente sincronizar sus contenidos con:
+```bash
+git pull origin main
+git push -u origin main
+```
+_Con el primer comando descargamos el contenido remoto y con el segundo subimos el contenido local y establecemos `origin` como `push` por defecto_.
+
+A menudo se producirán conflictos en el `git pull` que deberemos resolver a mano.
+
 
 ## Revertir cambios
 + git reset --soft HEAD~1
@@ -48,7 +71,7 @@ Pues que tenemos que unir los caminos. Tenemos 2 opciones: merge y rebase.
 
 
 ## Nooooo: 
-![](pub23/ed/assets/git_push_--force.jpg)
+![](https://luiscastelar.duckdns.org/memes/lmsgi-git-push-force.jpg)
 
 
 ## PRÁCTICA (voluntaria)
@@ -77,3 +100,6 @@ Haz sólo lo que no tengas ya en el ejercicio anterior:
   + [Pelao Nerd - 1](https://youtu.be/kEPF-MWGq1w) y [Pelao - 2](https://youtu.be/7-JHoPyJy-Q)
 
 
+# Notas al pie
+[^1]: Es un sistema de acceso a nuestro repositorio que se genera un token con los permisos necesarios a el repositorio adecuado y con fecha de caducidad, lo cual otorga bastante seguridad. [Información sobre acceso por token].
+[^2]: Puede haber otros servidores interesantes, p.e. gitlab, gitbucket, o el vuestro privado.

@@ -120,7 +120,7 @@ Ver en [uniwebsidad](https://uniwebsidad.com/libros/xhtml/capitulo-4)
 3. otros atributos:
    + `target=_blank`
    + `download="archivo.txt"`
-4. 
+4. Enlaces internos `href="#idDelElemento`
 
 ## Rutas:
 | Tipo | Formato | Significado |
@@ -138,101 +138,123 @@ Respecto a las absolutas desde internet, debemos saber [más cosas](https://es.s
 # Elementos del HTML
 Manual de Referencia de etiquetas en [w3schools](https://www.w3schools.com/tags/default.asp).
 
+>Los elementos del HTML están definidos en la norma HTML living standard, del WHATWG. Esta norma se puede consultar en la web en su [versión paginada](https://html.spec.whatwg.org/multipage/) o en su [versión de una sola página](https://html.spec.whatwg.org/).
+>
+>A cada elemento corresponde una etiqueta (también llamadas marcas), por lo que estos tres términos (elementos, etiqueta y marca) son intercambiables.
+>
+>En la norma, las diferentes etiquetas están agrupadas en las siguientes categorías:
+>
+>##   **Elemento raíz**
+>    
+>    El elemento raíz de una página web es el elemento `<html>`, que abarca todo el documento excepto la declaración de tipo de documento inicial.
+>    
+>    El elemento raíz contiene dos elementos: `<head>` (la parte no visible de la página) y `<body>` (la parte visible).
+>    
+>    El elemento raíz `<html>` se comenta en la lección [Raíz y metadatos](https://www.mclibre.org/consultar/htmlcss/html/html-metadatos.html#etiqueta-html).
+>
+>##   **Secciones**
+>    
+>    Las secciones son las partes temáticas en las que se puede dividir el contenido de una página web.
+>    
+>    La sección más importante es `<body>` que abarca todo el contenido de la página web que se visualiza en el navegador. Los otros tipos de secciones son `<body>`, `<article>`, `<section>`, `<nav>`, `<aside>`, `<h1>` ...`<h6>`, `<hgroup>`, `<header>`, `<footer>` y `<address>`.
+>    
+>    Las secciones se comentan en la lección [Secciones](https://www.mclibre.org/consultar/htmlcss/html/html-secciones.html).
+>    
+>##   **Bloques de contenido**
+>    
+>    Las etiquetas de bloque permiten definir bloques de contenido coherente, formado por texto e imágenes. Visualmente, cada bloque se suele mostrar separado del resto de bloques.
+>    
+>    El bloque de contenido más simple es el párrafo (etiqueta `<p>`), pero existen otros tipos como `<hr>`, `<pre>`, `<blockquote>`, `<figure>`, `<figcaption>`, `<div>` y `<main>`, además de los diferentes tipos de lista `<ol>`, `<ul>` y `<dl>` (y sus componentes `<li>`, `<dt>` y `<dd>`).
+>    
+>    Los bloques de contenido se comentan en las lecciones [Bloques de contenido](https://www.mclibre.org/consultar/htmlcss/html/html-bloques.html) y [Listas](https://www.mclibre.org/consultar/htmlcss/html/html-listas.html).
+>    
+>##   **Texto en línea**
+>    
+>    Las etiquetas de texto en línea son las más numerosas y se emplean para identificar fragmentos de texto que tienen un significado especial. Normalmente, los elementos de texto en línea se encuentran dentro de elementos de bloque, modificaciones o tablas.
+>    
+>    Las etiquetas de texto en línea más habituales son `<br>`, `<span>`, `<em>` y `<strong>`, así como la etiqueta de enlace `<a>`.
+>    
+>    Otras etiquetas que se utilizan menos son `<small>`, `<s>`, `<cite>`, `<q>`, `<dfn>`, `<abbr>`, `<time>`, `<kbd>`, `<sub>`, `<sup>`, `<i>`, `<b>` y `<mark>`.
+>    
+>    Las etiquetas de texto en línea utilizadas más raramente son `<data>`, `<code>`, `<var>`, `<samp>`, `<u>`, `<ruby>`, `<rb>`, `<rt>`, `<rtc>`, `<rp>`, `<bdi>`, `<bdo>` y `<wbr>`.
+>    
+>    Los elementos de texto en línea se comentan en las lecciones [Texto en línea](https://www.mclibre.org/consultar/htmlcss/html/html-texto.html) y [Otros](https://www.mclibre.org/consultar/htmlcss/html/html-otros.html).
+>>    
+>##   **Metadatos**
+>    
+>    Los metadatos son información de carácter general que no se muestra en la ventana del navegador. Las etiquetas de metadatos son: `<head>`, `<title>`, `<base>`, `<link>`, `<meta>` y `<style>`.
+>    
+>    Los metadatos se encuentran dentro de la sección `<head>`.
+>    
+>    Los metadatos se comentan en la lección [Raíz y metadatos](https://www.mclibre.org/consultar/htmlcss/html/html-metadatos.html).
+>    
+>##   **Modificaciones**
+>    
+>    Esta categoría incluye únicamente dos etiquetas, `<del>` y `<ins>`, pensadas para identificar las modificaciones que se han realizado en un texto.
+>    
+>    Las modificaciones se comentan en la lección [Modificaciones](https://www.mclibre.org/consultar/htmlcss/html/html-modificaciones.html).
+>    
+>##   **Contenido incrustado**
+>    
+>    Una página web es un documento de texto, pero puede contener elementos "incrustados" como imágenes, vídeo, audio, etc.
+>    
+>    La principal etiqueta es la etiqueta `<img>`, que permite incluir imágenes, pero existen etiquetas para otros tipos de formatos: `<picture>`, `<source>`, `<iframe>`, `<embed>`, `<object>`, `<param>`, `<video>`, `<audio>`, `<track>`, `<map>` y `<area>`.
+>    
+>    Los contenidos incrustados se comentan en las lecciones [Imágenes](https://www.mclibre.org/consultar/htmlcss/html/html-imagenes.html) ([formatos](https://www.mclibre.org/consultar/htmlcss/html/html-imagenes-formatos.html)) y [Objetos](https://www.mclibre.org/consultar/htmlcss/html/html-objetos.html).
+>    
+>##   **Tablas**
+>    
+>    Una página web puede mostrar información en formato de tabla, con filas y columnas.
+>    
+>    Las etiquetas que permiten definir las tablas son: `<table>`, `<td>`, `<th>` `<tr>` `<thead>`, `<tbody>` `<tfoot>`, `<caption>`, `<col>` y `<colspan>`.
+>    
+>    Las tablas se comentan en la lección [Tablas](https://www.mclibre.org/consultar/htmlcss/html/html-tablas.html).
+>    
+>##   **Formularios**
+>    
+>    Una página web puede contener formularios, que permiten al usuario proporcionar información. Normalmente dicha información se envía a un servidor para ser procesada por un programa, aunque también puede ser procesada en el navegador mediante un programa escrito en el lenguaje JavaScript.
+>    
+>    Las etiquetas relacionadas con formularios son: `<form>`, `<fieldset>`, `<label>`, `<input>`, `<button>`, `<textarea>` y `<select>`.
+>    
+>    Los formularios se comentan en la lección [Formularios](https://www.mclibre.org/consultar/htmlcss/html/html-formularios.html) y [formularios 2](https://www.mclibre.org/consultar/htmlcss/html/html-formularios-2.html)
+>    
+>##   **Elementos interactivos**
+>    
+>    Los elementos HTML son normalmente elementos fijos y su posible interactividad se consigue mediante JavaScript, pero existen un par de elementos que permiten cierta interactividad (muy limitada) sin necesidad de JavaScript: `<details>`, `<summary>` y `<dialog>`.
+>    
+>    Los elementos interactivos se comentan en la lección [Interactivos](https://www.mclibre.org/consultar/htmlcss/html/html-interactivos.html).
+>    
+>##   **Scripts**
+>    
+>    Los navegadores son capaces de ejecutar programas escritos en el lenguaje de programación JavaScript. Estos programas se suelen denominar _scripts_. Varias etiquetas permiten integrar estos programas en una página web: `<script>`, `<noscript>`, `<template>`, `<slot>` y `<canvas>`.
+>    
+>_Fuente: [MCLibre - Bartolomé Sintes](https://www.mclibre.org/consultar/htmlcss/index.html)_
+    
+_Veremos en profundidad los scprit en la UT5_.
 
 
-_Fuente: [MCLibre - Bartolomé Sintes](https://www.mclibre.org/consultar/htmlcss/index.html)_
+## Escapado de caracteres
+En ocasiones se puede dar que queramos utilizar caracteres que utilizamos como marcas de html, p.e. `<`, `>`, un espacio ` `. 
+| Result | Description            | Name    | Number  |
+|--------|------------------------|---------|---------|
+|        | non-breaking space     | &nbsp;  | &#160;  |
+| <      | less than              | &lt;    | &#60;   |
+| >      | greater than           | &gt;    | &#62;   |
+| &      | ampersand              | &amp;   | &#38;   |
+| "      | double quotation mark  | &quot;  | &#34;   |
+| '      | single quotation mark  | &apos;  | &#39;   |
+| ¢      | cent                   | &cent;  | &#162;  |
+| £      | pound                  | &pound; | &#163;  |
+| ¥      | yen                    | &yen;   | &#165;  |
+| €      | euro                   | &euro;  | &#8364; |
+| ©      | copyright              | &copy;  | &#169;  |
+| ®      | trademark              | &reg;   | &#174;  |
+Fuente: [w3schools](https://www.w3schools.com/html/html_entities.asp)
 
-Los elementos del HTML están definidos en la norma HTML living standard, del WHATWG. Esta norma se puede consultar en la web en su [versión paginada](https://html.spec.whatwg.org/multipage/) o en su [versión de una sola página](https://html.spec.whatwg.org/).
+Podremos utilizar el código o el nombre para la sustitución que el navegador sustituirá por su carácter correspondiente.
 
-A cada elemento corresponde una etiqueta (también llamadas marcas), por lo que estos tres términos (elementos, etiqueta y marca) son intercambiables.
+Antiguamente, antes de la codificación utf-8 requeríamos escapar los caracteres típicos españoles como “ñ“ `&ntilde;`, “á“ `&aacute` o las olvidadas comillas españolas “«“ `&laquo;` y “»“ `&raquo;`. [Tabla completa](https://www.thoughtco.com/html-codes-spanish-characters-4062194).
 
-En la norma, las diferentes etiquetas están agrupadas en las siguientes categorías:
-
-+   **Elemento raíz**
-    
-    El elemento raíz de una página web es el elemento `<html>`, que abarca todo el documento excepto la declaración de tipo de documento inicial.
-    
-    El elemento raíz contiene dos elementos: `<head>` (la parte no visible de la página) y `<body>` (la parte visible).
-    
-    El elemento raíz `<html>` se comenta en la lección [Raíz y metadatos](https://www.mclibre.org/consultar/htmlcss/html/html-metadatos.html#etiqueta-html).
-
-+   **Metadatos**
-    
-    Los metadatos son información de carácter general que no se muestra en la ventana del navegador. Las etiquetas de metadatos son: `<head>`, `<title>`, `<base>`, `<link>`, `<meta>` y `<style>`.
-    
-    Los metadatos se encuentran dentro de la sección `<head>`.
-    
-    Los metadatos se comentan en la lección [Raíz y metadatos](https://www.mclibre.org/consultar/htmlcss/html/html-metadatos.html).
-    
-+   **Secciones**
-    
-    Las secciones son las partes temáticas en las que se puede dividir el contenido de una página web.
-    
-    La sección más importante es `<body>` que abarca todo el contenido de la página web que se visualiza en el navegador. Los otros tipos de secciones son `<body>`, `<article>`, `<section>`, `<nav>`, `<aside>`, `<h1>` ...`<h6>`, `<hgroup>`, `<header>`, `<footer>` y `<address>`.
-    
-    Las secciones se comentan en la lección [Secciones](https://www.mclibre.org/consultar/htmlcss/html/html-secciones.html).
-    
-+   **Bloques de contenido**
-    
-    Las etiquetas de bloque permiten definir bloques de contenido coherente, formado por texto e imágenes. Visualmente, cada bloque se suele mostrar separado del resto de bloques.
-    
-    El bloque de contenido más simple es el párrafo (etiqueta `<p>`), pero existen otros tipos como `<hr>`, `<pre>`, `<blockquote>`, `<figure>`, `<figcaption>`, `<div>` y `<main>`, además de los diferentes tipos de lista `<ol>`, `<ul>` y `<dl>` (y sus componentes `<li>`, `<dt>` y `<dd>`).
-    
-    Los bloques de contenido se comentan en las lecciones [Bloques de contenido](https://www.mclibre.org/consultar/htmlcss/html/html-bloques.html) y [Listas](https://www.mclibre.org/consultar/htmlcss/html/html-listas.html).
-    
-+   **Texto en línea**
-    
-    Las etiquetas de texto en línea son las más numerosas y se emplean para identificar fragmentos de texto que tienen un significado especial. Normalmente, los elementos de texto en línea se encuentran dentro de elementos de bloque, modificaciones o tablas.
-    
-    Las etiquetas de texto en línea más habituales son `<br>`, `<span>`, `<em>` y `<strong>`, así como la etiqueta de enlace `<a>`.
-    
-    Otras etiquetas que se utilizan menos son `<small>`, `<s>`, `<cite>`, `<q>`, `<dfn>`, `<abbr>`, `<time>`, `<kbd>`, `<sub>`, `<sup>`, `<i>`, `<b>` y `<mark>`.
-    
-    Las etiquetas de texto en línea utilizadas más raramente son `<data>`, `<code>`, `<var>`, `<samp>`, `<u>`, `<ruby>`, `<rb>`, `<rt>`, `<rtc>`, `<rp>`, `<bdi>`, `<bdo>` y `<wbr>`.
-    
-    Los elementos de texto en línea se comentan en las lecciones [Texto en línea](https://www.mclibre.org/consultar/htmlcss/html/html-texto.html) y [Otros](https://www.mclibre.org/consultar/htmlcss/html/html-otros.html).
-    
-+   **Modificaciones**
-    
-    Esta categoría incluye únicamente dos etiquetas, `<del>` y `<ins>`, pensadas para identificar las modificaciones que se han realizado en un texto.
-    
-    Las modificaciones se comentan en la lección [Modificaciones](https://www.mclibre.org/consultar/htmlcss/html/html-modificaciones.html).
-    
-+   **Contenido incrustado**
-    
-    Una página web es un documento de texto, pero puede contener elementos "incrustados" como imágenes, vídeo, audio, etc.
-    
-    La principal etiqueta es la etiqueta `<img>`, que permite incluir imágenes, pero existen etiquetas para otros tipos de formatos: `<picture>`, `<source>`, `<iframe>`, `<embed>`, `<object>`, `<param>`, `<video>`, `<audio>`, `<track>`, `<map>` y `<area>`.
-    
-    Los contenidos incrustados se comentan en las lecciones [Imágenes](https://www.mclibre.org/consultar/htmlcss/html/html-imagenes.html) ([formatos](https://www.mclibre.org/consultar/htmlcss/html/html-imagenes-formatos.html)) y [Objetos](https://www.mclibre.org/consultar/htmlcss/html/html-objetos.html).
-    
-+   **Tablas**
-    
-    Una página web puede mostrar información en formato de tabla, con filas y columnas.
-    
-    Las etiquetas que permiten definir las tablas son: `<table>`, `<td>`, `<th>` `<tr>` `<thead>`, `<tbody>` `<tfoot>`, `<caption>`, `<col>` y `<colspan>`.
-    
-    Las tablas se comentan en la lección [Tablas](https://www.mclibre.org/consultar/htmlcss/html/html-tablas.html).
-    
-+   **Formularios**
-    
-    Una página web puede contener formularios, que permiten al usuario proporcionar información. Normalmente dicha información se envía a un servidor para ser procesada por un programa, aunque también puede ser procesada en el navegador mediante un programa escrito en el lenguaje JavaScript.
-    
-    Las etiquetas relacionadas con formularios son: `<form>`, `<fieldset>`, `<label>`, `<input>`, `<button>`, `<textarea>` y `<select>`.
-    
-    Los formularios se comentan en la lección [Formularios](https://www.mclibre.org/consultar/htmlcss/html/html-formularios.html) y [formularios 2](https://www.mclibre.org/consultar/htmlcss/html/html-formularios-2.html)
-    
-+   **Elementos interactivos**
-    
-    Los elementos HTML son normalmente elementos fijos y su posible interactividad se consigue mediante JavaScript, pero existen un par de elementos que permiten cierta interactividad (muy limitada) sin necesidad de JavaScript: `<details>`, `<summary>` y `<dialog>`.
-    
-    Los elementos interactivos se comentan en la lección [Interactivos](https://www.mclibre.org/consultar/htmlcss/html/html-interactivos.html).
-    
-+   **Scripts**
-    
-    Los navegadores son capaces de ejecutar programas escritos en el lenguaje de programación JavaScript. Estos programas se suelen denominar _scripts_. Varias etiquetas permiten integrar estos programas en una página web: `<script>`, `<noscript>`, `<template>`, `<slot>` y `<canvas>`.
-    
-    _Veremos en profundidad los scprit en la UT5_.
 
 ## Accesibilidad
 Existen algunas cosas que podemos realizar para mejorar la accesibilidad de nuestra web para personas con deficiencias visuales. 

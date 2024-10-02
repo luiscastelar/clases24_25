@@ -4,6 +4,7 @@
 [**Presentación**](https://docs.google.com/presentation/d/1eZQizU8G9x8VFZFp5ja6H9hd6TJB91NZUxk0MNaVNYs/edit?usp=sharing)
 
 ## Recursos bibliográficos:
+<details>
 + [W3S - Creación de clases e instanciación de objetos](https://www.w3schools.com/java/java_classes.asp)
 + [W3Schools](https://www.w3schools.com/java/java_oop.asp)
 + [JavaTPoint](https://www.javatpoint.com/java-oops-concepts)
@@ -18,6 +19,58 @@
 + [Pildoras informaticas - Curso Java desde 0 - POO 2](https://www.youtube.com/watch?v=ZY5pwm92cWQ&list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk&index=30)
 + [Pildoras informaticas - Curso Java desde 0 - POO 3](https://www.youtube.com/watch?v=ZY5pwm92cWQ&list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk&index=31)
 
+</details>
+
+## Construyendo la primera clase
+Vamos a construir la clase coche y la instanciaremos desde el método `main`.
+
+Veremos la referencia al objeto y comprobaremos que si 2 variables contienen una referencia al mismo objeto mostrarán el mismo `hash`:
+```java
+Coche cocheDeJuan = new Coche("Toyota");
+Coche cocheDeAlicia = cocheDeJuan;
+
+System.out.println("Coche de Juan es " + cocheDeJuan);
+    // out: Juan - Coche@7ad041f3
+System.out.println("Coche de Alicia, es " + cocheDeAlicia);
+    // out: Alicia - Coche@7ad041f3
+```
+
+## Método `toString()`
+Un método importante en _Java_ es el método `toString()` que utilizaremos para representar objetos como cadenas que lo describan.
+```java
+@Override
+public String toString(){
+  return "Objeto Coche\n"
+        + "{\n"
+        + "   Marca: " + marca + "\n"
+        + "   Modelo: " + modelo + "\n"
+        + "   Vel max: " + velocidadMaxima + " km/h\n"
+        + "}";
+} // toString()
+```
+
+Como podéis ver, cuando se mima un poco el formato la representación del objeto mejora sensiblemente.
+
+Aparece algo nuevo en el código, una “@“ (arroba) y la palabra `Override`. Ésto es una _annotation_ (anotación), que el compilador utilizará de guía para realizar ciertas operaciones especiales con el código que le acompañe.
+
+En concreto, la anotación `@Override` obliga a que el método siguiente sea sobreescrito o arroje un error de compilación. 
+
+¿Qué quiere decir? Pues que si nosotros hemos cometido un error en el nombre o en los argumentos el compilador nos avisará. Veamos ésto.
+
+Vamos a modificar la palabra `toString` por `tostring` y comprobemos los resultados.
+<details>
+
+```bash
+./Coche.java:16: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+1 error
+```
+
+Efectivamente, el compilador nos avisa que en realidad no estamos sobreescribiendo nada y por tanto que tenemos un error en el método.
+</details>
+
+¿Y si elimninamos la anotación `@Override`? ¿Cuál será el resultado?
 
 ## Buenas prácticas en el nombrado de variables y métodos
 ### Variables y referencias

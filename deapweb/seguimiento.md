@@ -1,27 +1,12 @@
 #curso24_25 #deapweb
 
-
-# UT0. Herramientas y repaso
-Duración: 4 h
-
-+ 12s:
-  + [x] Programación (previa)
-  + [x] Control de versiones -> **GIT**
-  + [x] Lenguaje de marcado ligero para representación -> **Markdown**
-  + [x] Virtualización asistida -> **Vagrant**
-+ 16s:
-  + [x] Aclaraciones
-  + [x] Ejercicios Vagrant
-  + [x] Corrección práctica GIT.
-  
-        
-*Git y Markdown asociados a RA6 y Vagrant asociado a RA1*.
+# Materia PLANIFICADA
 
 
-# UT1. Implantación de arquitecturas web
+## UT1. Implantación de arquitecturas web
 Duración: 16 h
 
-## Bases del despliegue:
+### Bases del despliegue:
 CE: a, b, f.
 + 17s: 
   + [x] [Breve repaso de comandos linux](https://github.com/luiscastelar/clases24_25/blob/main/comun/linux%20CLI.md)
@@ -32,7 +17,7 @@ CE: a, b, f.
     + [x] Https
 
 
-## Contenedores (“virtualización” ligera) -> **Docker**
+### Contenedores (“virtualización” ligera) -> **Docker**
 CE: e, f, h, i.
 + 23s:
   + TCP/IP
@@ -64,27 +49,34 @@ CE: e, f, h, i.
     + [x] Comando `CMD` vs `ENTRYPOINT`
     + [x] Comando `ARG` vs `ENV`. 
 + 1o:
-  + [ ] `Dockerfile` 
+  + [x] Charla sobre el ruido ambiente
+  + `Dockerfile`
+    + [x] App Java _Stand-alone_
+    + [x] Sustitución de archivos de configuración en caliente
 + 3o:
-  + [ ] `Dockerfile`
+  + [ ] Servidores: web, aplicaciones y vps
+  + [ ] `Dockerfile` optimizado en 2 estapas
+  + [ ] Docker hub
+  + [ ] Seguridad (no root)
+  + [ ] Buenas prácticas
 + 14o:
   + [ ] **Examen / Defensa [^1] de prácticas**
 + 15o:
   + [ ] **Examen / Defensa de prácticas**
 
-## Aplicación:
+### Aplicación:
 + [ ] Servidor web (c, f, h, i)
 + [ ] Servidor de aplicaciones (d, f, h, i)
 + [ ] Servidores en la nube (vps) (e, f, h, i)
 
-## Tareas:
+### Tareas:
 1. Documentar los procesos.
 2. Implementar los procesos documentados por un compañero.
 
 *Asociado al RA1*.
 
 
-# UT2. Servidores WEB
+## UT2. Servidores WEB
 Duración: 14 h
 + 7o: Apache
   + [ ] Configuración avanzada del servidor web.
@@ -105,7 +97,7 @@ Duración: 14 h
 + 24o: Nginx
 + 28o: **Examen**
 
-## Contenido
+### Contenido
 + [ ] Servidor web Apache (a, b, c, d, g, i)
 + [ ] Servidor web Nginx (a, b, c, d, g, i)
 + [ ] Proxy (e, f, g, i)
@@ -118,7 +110,7 @@ Duración: 14 h
 *Asociado al RA2*.
 
 
-# UT3. Servidor de aplicaciones
+## UT3. Servidor de aplicaciones
 Duración: 9h -> 30o a 13n
 
 + 29o:
@@ -127,14 +119,14 @@ Duración: 9h -> 30o a 13n
 + 5n:
 + 11n: **Examen**
 
-## Contenido:
+### Contenido:
 + [ ] Contenedor de aplicaciones Tomcat (a, b, c, d, e, h, i)
 + [ ] Despliegue de aplicación web Servlet/Spring/Quarkus (f, g, h, i)
 
 *Asociado al RA3*.
 
 
-# UT4. Gestión de servidores y archivos
+## UT4. Gestión de servidores y archivos
 Duración: 10 h -> 13n a 27n
 + 7n:
   + [ ] FTP (a, b, c, d, g)
@@ -157,7 +149,7 @@ Duración: 10 h -> 13n a 27n
 *Asociado a los RA4 y RA6*.
 
 
-# UT5. Servicios de red
+## UT5. Servicios de red
 Duración: 7 h -> 27n a 4d
 + [ ] DNS (a, b, g, h)
 + [ ] LDAP (c, d, g, h)
@@ -204,6 +196,33 @@ Despliegue de aplicaciones web (front, back y persistencia) sobre nube pública 
 **Duración: 100 horas.**
 
 
+
+---
+# Materia impartida
+---
+
+## UT0. Herramientas y repaso
+Duración: 4 h
+
++ 12s:
+  + [x] Programación (previa)
+  + [x] Control de versiones -> **GIT**
+  + [x] Lenguaje de marcado ligero para representación -> **Markdown**
+  + [x] Virtualización asistida -> **Vagrant**
++ 16s:
+  + [x] Aclaraciones
+  + [x] Ejercicios Vagrant
+  + [x] Corrección práctica GIT.
+  
+        
+*Git y Markdown asociados a RA6 y Vagrant asociado a RA1*.
+
+
+
+
+
+---
+
 # Contenidos mínimos:
 + [ ] Sitios web estáticos y dinámicos.
 + [ ] Aplicaciones web.
@@ -230,5 +249,5 @@ Despliegue de aplicaciones web (front, back y persistencia) sobre nube pública 
 + [ ] Despliegue en la nube.
 
 
-  # Notas:
+# Notas al pie:
 [^1]: Aunque de forma general está programado un examen, si el alumno o alumna ha facilitado el proceso de enseñanza-aprendizaje no molestando a los compañeros, este examen podrá ser sustituido por la defensa de las práctica

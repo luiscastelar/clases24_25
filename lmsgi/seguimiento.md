@@ -1,20 +1,8 @@
 #curso24_25 #lmsgi [estado::Working]
 
+# Materia PLANIFICADA
 
-
-# UT1 - Introducción a los lenguajes de marcas
-+ 19s:
-  + [x] Programación (previa)
-  + [x] Clasificación
-+ 23s:
-  + [x] Introducción
-  + [x] Lenguaje de marcado ligero para representación -> **Markdown**
-  + [x] Herramientas - Control de versiones (GIT)
- 
-_Se trabaja el RA 1_.
-
-
-# UT2 - Lenguajes de marcas en entornos web. HTML.
+## UT2 - Lenguajes de marcas en entornos web. HTML.
 + 26s:
   + [x] Estándares web. Versiones. Clasificación.
   + [x] Estructura de un documento HTML.
@@ -56,7 +44,7 @@ _Se trabaja el RA 1_.
 _Se trabaja el RA 2_.
 
 
-# UT3 - Lenguajes de marcas en entornos web. CSS.
+## UT3 - Lenguajes de marcas en entornos web. CSS.
 38h -> 9,5 semanas ~ del 7n al 6f
 + [ ] Hojas de estilo (CSS).
 + [ ] Validación de documentos HTML y CSS.
@@ -68,10 +56,10 @@ _Se trabaja el RA 2_.
 _Se trabaja el RA 2_.
 
 
-# UT4 - Transmisión y almacenamiento de información.
+## UT4 - Transmisión y almacenamiento de información.
 24h -> 6 semanas ~ 10f al 24m
 
-## Definición de esquemas y vocabularios en lenguajes de marcas:
+### Definición de esquemas y vocabularios en lenguajes de marcas:
 + [ ] Tecnologías para la definición de documentos. Estructura y sintaxis.
 + [ ] Creación de descripciones de documentos.
 + [ ] Asociación de descripciones con documentos. Validación.
@@ -94,7 +82,7 @@ _Se trabaja el RA 2_.
 _Se trabaja los RA 4, 5 y 6_.
 
 
-# UT5 - Manipulación de documentos Web. JavaScript.
+## UT5 - Manipulación de documentos Web. JavaScript.
 28h -> 7 semanas ~ del 27m al 26may
 + [ ] Lenguajes de script de cliente. Características y sintaxis básica. Estándares.
 + [ ] Selección y acceso a elementos.
@@ -103,3 +91,20 @@ _Se trabaja los RA 4, 5 y 6_.
 + [ ] Manipulación de estilos.
 
 _Se trabaja el RA 3 y 5_.
+
+
+---
+# Materia impartida
+---
+
+## UT1 - Introducción a los lenguajes de marcas
++ 19s:
+  + [x] Programación (previa)
+  + [x] Clasificación
++ 23s:
+  + [x] Introducción
+  + [x] Lenguaje de marcado ligero para representación -> **Markdown**
+  + [x] Herramientas - Control de versiones (GIT)
+ 
+_Se trabaja el RA 1_.
+
