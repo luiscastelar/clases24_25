@@ -3,44 +3,6 @@
 
 # Materia PLANIFICADA
 
-## UT1. Introducción a la programación
-+ 20s:
-  + [x] Programación (previa)
-  + [x] Git
-+ 23s:
-  + [x] cont Git
-  + [x] Markdown
-+ 24s:
-  + [x] Introducción a la programación (hasta `classpath`)
-  + [x] “Hola mundo” con `java` y `javac` (profesor)
-+ 25s: 
-  + [x] cont Introducción a la programación
-  + [x] Elementos de un programa.
-  + [x] Comentarios y Bloques.
-  + [x] Convención de nombres.
-  + [x] Tipos de variables. _Tipos primitivos y objetos_.
-  + [x] Conversión de tipos “cast” implícitos y explícitos.
-  + [x] Constantes
-+ 27s:
-  + [x] Expresiones y operadores
-  + [x] Literales
-  + [x] Operador condicional o ternario
-  + [x] Ejercicios
-    + [x] “Hola mundo”
-    + [x] Asignación y operación
-    + [x] Con operador condicional
-+ ~~30s:~~
-+ 2o:
-  + [ ] **Examen ut1**
-  
-### Java
-+ [x] _El lenguaje Java, JRE, JDK_
-+ [x] _el API y sus versiones._
-+ [x] El path _y classpath_
-+ [x] _**Convención de nombres**_.
-+ [x] _Tipos de datos_
-      
-
 
 ## UT2. Introducción a la POO
 + 30s:
@@ -56,16 +18,15 @@
   + [x] Creación de propiedades.
   + [x] Utilización de propiedades.
   + [x] Constructores.
++ 2o:
+  + [x] POO: Encapsulamiento, Abstracción, Herencia y Polimorfismo.
+  + [x] D.R.Y. (Don’t Repeat Yourself).
+  + [x] Método `toString()`.
 + 4o:
-  + [ ] POO: Encapsulamiento, Abstracción, Herencia y Polimorfismo.
-  + [ ] D.R.Y. (Don’t Repeat Yourself).
-  + [ ] Método `toString()`.
-+ 7o:
   + [ ] Entrada desde teclado. Salida a pantalla. Formatos de visualización.
-  + [ ] _Utilizar librerías de objetos:_
-      + [ ] _por CLI_
-      + [ ] _con maven_
-      + [ ] ~~por IDE~~ (_en UT6_)  
+  + [ ] _Utilizar librerías de objetos: import_
+  + [ ] _Estructura de clases del API de Java SE._
++ 7o:
   + [ ] Estructura y miembros de una clase. Visibilidad.
   + [ ] Creación de métodos.
       + [ ] Creación de métodos (_de instancia_)
@@ -81,7 +42,7 @@
 
 
 ### Java
-+ [ ] _Estructura de clases del API de Java SE._
+
 + [ ] _Enum_’s
 + [ ] _Clases auto-mágicas y Java “moderno”_
     + [ ] Clase `Main` estática vs la clase sin nombre con método `main`.
@@ -253,3 +214,41 @@ Mantenimiento de la persistencia de los objetos:
 ---
 # Materia impartida
 ---
+
+## UT1. Introducción a la programación
++ 20s:
+  + [x] Programación (previa)
+  + [x] Git
++ 23s:
+  + [x] cont Git
+  + [x] Markdown
++ 24s:
+  + [x] Introducción a la programación (hasta `classpath`)
+  + [x] “Hola mundo” con `java` y `javac` (profesor)
++ 25s: 
+  + [x] cont Introducción a la programación
+  + [x] Elementos de un programa.
+  + [x] Comentarios y Bloques.
+  + [x] Convención de nombres.
+  + [x] Tipos de variables. _Tipos primitivos y objetos_.
+  + [x] Conversión de tipos “cast” implícitos y explícitos.
+  + [x] Constantes
++ 27s:
+  + [x] Expresiones y operadores
+  + [x] Literales
+  + [x] Operador condicional o ternario
+  + [x] Ejercicios
+    + [x] “Hola mundo”
+    + [x] Asignación y operación
+    + [x] Con operador condicional
++ ~~30s:~~
++ 2o:
+  + [x] **Examen ut1**
+  
+### Java
++ [x] _El lenguaje Java, JRE, JDK_
++ [x] _el API y sus versiones._
++ [x] El path _y classpath_
++ [x] _**Convención de nombres**_.
++ [x] _Tipos de datos_
+      

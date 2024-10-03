@@ -313,7 +313,7 @@ Lo veremos ampliamente **en UT3**.
 ![vps profesor Raul](https://raul-profesor.github.io/DEAW/img/vps.gif)Fuente: [profesor Raúl](https://raul-profesor.github.io/DEAW/debian_teoria/)
 
 Para el trabajo en clase utilizaremos un servidor vps basado en los siguientes proveedores:
-+ AWS
++ AWS[^1]
 + [Azure](https://portal.azure.com/#home)
 + Otros
 
@@ -342,3 +342,12 @@ La ventaja de realizarlo sin cuenta educativa es que será permanente ya que no 
 
 
 **[Referencias Free-Hosting](https://github.com/cloudcommunity/Free-Hosting)**
+
+
+# Notas al pie
+[^1]: Servicios AWS a utilizar:
++ Opción AWS Academy ($100 de saldo)
++ [Opción generales (para el PFC)](https://aws.amazon.com/es/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all):
+  + [VPS - ec2](https://aws.amazon.com/ec2): nos ofrecen 750 horas/mes gratuitas durante 12 meses.
+  + [Disco - s3](https://aws.amazon.com/s3): almacenamiento 5GB (para imágenes y similares).
+  + [DB - rds](https://aws.amazon.com/rds/): mysql/mariaDB, postgreSQL, ... 

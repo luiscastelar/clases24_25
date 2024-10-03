@@ -55,7 +55,7 @@ CE: e, f, h, i.
     + [x] Sustitución de archivos de configuración en caliente
 + 3o:
   + [ ] Servidores: web, aplicaciones y vps
-  + [ ] `Dockerfile` optimizado en 2 estapas
+  + [ ] `Dockerfile` optimizado en 2 etapas
   + [ ] Docker hub
   + [ ] Seguridad (no root)
   + [ ] Buenas prácticas
