@@ -1,0 +1,84 @@
+/* ----------------------------------------------------------------------------
+ *  Cambiando el tema general de la web 
+ *---------------------------------------------------------------------------*/
+/*body {
+    background-color: #444;
+}
+
+main {
+    background-color: #eee;
+}*/
+
+/* ----------------------------------------------------------------------------
+ *  Cabecera y pie (de la web) 
+ *---------------------------------------------------------------------------*/
+ body > header, body > footer {
+    background-color: #444;
+    color: white;
+    font-size: large;
+    /*font-style: normal;*/
+}
+
+/* ----------------------------------------------------------------------------
+ *  Forma de los artículos
+ *---------------------------------------------------------------------------*/
+article > header {
+    background-color: lightgray;
+    color: darkblue;
+    padding: 0.5em;
+    font-size: medium;
+}
+
+article > footer {
+    font-style: italic;
+    color: #444;
+}
+
+/* ----------------------------------------------------------------------------
+ *  Bloque central de la web
+ *---------------------------------------------------------------------------*/
+ #pagina {
+    border: dotted 1px blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+aside {
+    background-color: yellow;
+    margin: 1em auto;
+    padding: 1em;
+    /*width: 300px;*/
+    max-width: 300px;
+}
+
+main {
+    width: 70%;
+}
+
+nav, main, article, section {
+    margin: 1em 0 1em 1em; /*top right botton left*/
+    border: dotted 1px green;
+}
+
+/* ----------------------------------------------------------------------------
+ *  Menú de navegación
+ *---------------------------------------------------------------------------*/
+ nav {
+    /* Distibución flexible y "responsiva" */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    border: 0px;
+}
+
+nav > div {
+    background-color: #4f46e5;
+    color: white;
+    padding: .5em 2em;
+    /* Efecto profundidad */
+    box-shadow: 5px 8px 10px grey;
+}
