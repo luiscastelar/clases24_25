@@ -1,4 +1,4 @@
-#curso24_25 #prog [estado::ToDo] _Duración: 14h_
+#curso24_25 #prog [estado::Done] _Duración: 14h_
 
 # Introducción a la Programación Orientada a Objetos -POO-
 [**Presentación**](https://docs.google.com/presentation/d/1eZQizU8G9x8VFZFp5ja6H9hd6TJB91NZUxk0MNaVNYs/edit?usp=sharing)
@@ -97,13 +97,14 @@ Efectivamente, el compilador nos avisa que en realidad no estamos sobreescribien
 + [API 21](https://docs.oracle.com/en/java/javase/21/docs//api/java.base/java/util/Scanner.html)
 
 ## Métodos:
-+ String next() -> Captura un token (palabra)
-+ int nextInt() -> Captura un entero
-+ double nextDouble() -> Captura un double
-+ String nextLine() -> Captura toda una línea (hasta `\n`)
++ `String next()` -> Captura un token (palabra)
++ `int nextInt()` -> Captura un entero
++ `double nextDouble()` -> Captura un double
++ `String nextLine()` -> Captura toda una línea (hasta `\n`)
 
-+ Scanner useDelimiter(String patron) -> Modifica separador de tokens.
-+ Pattern delimiter() -> Devuelve el separador de tokens actual (para salvarlo).
+Algunos métodos para hilar más fino:
++ `Scanner useDelimiter(String patron)` -> Modifica separador de tokens.
++ `Pattern delimiter()` -> Devuelve el separador de tokens actual (para salvarlo).
 
 
 
@@ -112,6 +113,7 @@ Efectivamente, el compilador nos avisa que en realidad no estamos sobreescribien
 Debes establecer los criterios más restrictivos posibles de visibilidad.
 
 <details>
+
 1. Modifica la clase “HolaMundo” de forma que muestre por pantalla “hola {{nombre}}“, siendo {{nombre}} el primer argumento pasado por CLI.
 
 2. Modifica la clase “HolaMundo” de forma que reclame un nombre por teclado.
@@ -142,17 +144,9 @@ Debes establecer los criterios más restrictivos posibles de visibilidad.
     - Métodos `setters` y `getters`
     - Método `prestamo` que incremente el atributo correspondiente cada vez que se realice un préstamo del libro. No se podrán prestar libros de los que no queden ejemplares disponibles para prestar. Devuelve true si se ha podido realizar la operación y false en caso contrario.
     - Método `devolucion` que decremente el atributo correspondiente cuando se produzca la devolución de un libro. No se podrán devolver libros que no se hayan prestado. Devuelve true si se ha podido realizar la operación y false en caso contrario.
-    - Método `toString` para mostrar los datos de los libros. Este método se heredada de Object y lo debemos modificar (override) para adaptarlo a la clase Libro. \
-      Escribe un programa para probar el funcionamiento de la clase Libro. \
-      *Nota: uso de `@Override`. Devuelve una representación textual del objeto.*
-      ```
-      ...
-      @Override
-      public String toString() {
-          return "El texto que queramos " + atr_objeto ;
-      }
-      ```
-
+    - Método `toString` para mostrar los datos de los libros.
+    - Escribe un programa para probar el funcionamiento de la clase Libro.
+    - 
 [Más ejercicios POO by Universidad Complutense de Madrid](https://github.com/luiscastelar/clases24_25/blob/main/prog/ut2/EjerciciosClasesYObjetos-UCM.pdf)
 
 </details>
@@ -216,12 +210,12 @@ _Para cambiar el Promt String: `PS1={{Tu nombre completo}}@programacion \w :/$`_
 
 
 ## Práctica “Biblioteca”
-Basándonos en el ejercicio 3 donde nos pedían realizar una clase Libro para gestionar una biblioteca:
+Basándonos en el ejercicio 5 donde nos pedían realizar una clase Libro para gestionar una biblioteca:
 + Añade un constructor que reciba el título y los ejemplares totales disponibles en la biblioteca.
 + Realiza una clase para probar todos los métodos desarrollados.
 
 **Recuerda**:
-+ Crea un directorio para ella `ut2-biblioteca`. Dentro irá tu práctica y el README.md con la documentación de la misma.
++ Crea un directorio para ella `ut2-biblioteca`. Dentro irá tu práctica y el `README.md` con la documentación de la misma.
 + Añade los archivos fuente y las capturas que creas oportuno (si es texto, captura con `tee`).
-+ **Recuerda**: debes añadir un README.md explicando paso a paso lo realizado. Aquellos pasos no explicados conllevarán una puntuación de 0 puntos.
++ Aquellos pasos no explicados en el `README.md` conllevarán una puntuación de **0 puntos**.
 
