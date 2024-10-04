@@ -118,17 +118,16 @@ Ver en [uniwebsidad](https://uniwebsidad.com/libros/xhtml/capitulo-4)
 1. tag `<a></a>`
 2. atributo obligatorio `href="marca.com"`
 3. otros atributos:
-   + `target=_blank`
+   + `target="_blank"`
    + `download="archivo.txt"`
-4. Enlaces internos `href="#idDelElemento`
+4. Enlaces internos `href="#idDelElemento"` 
 
 ## Rutas:
 | Tipo | Formato | Significado |
 |---|---|---|
-| implícita | “foto.jpg” | se encuentra en el directorio actual |
+| implícita | “foto.jpg” | se encuentra en el directorio actual[^1] |
 | relativa | “./foto.jpg” | relativa al directorio actual |
 | relativa | “../foto.jpg” | relativa al padre del directorio actual |
-| absoluta | “/dir/foto.jpg” | desde el directorio base |
 | absoluta | “https://marca.com/foto.jpg” | desde internet |
 
 Respecto a las absolutas desde internet, debemos saber [más cosas](https://es.semrush.com/blog/que-es-una-url/).
@@ -279,9 +278,30 @@ Por ejemplo `<img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-sem
 ## Obsoletas
 [Puedes consultar](https://lenguajehtml.com/html/documento/etiquetas-html-obsoletas/) las etiquetas que no debemos utilizar y el reemplazo a realizar si te las encuentras.
 
+# Práctica:
+**Haz tu web-currículo.**
+
+¿Que no sabes cómo? Pues esta es la vida del desarrollador... algunos tips:
+1. Busca algunos estilos de web-currículo que pudieran interesarte para tener claro que te gustaría mostrar.
+2. Seamos prácticos, ahora no estás buscando trabajo. Pero sí lo harás cuando acabes el ciclo por lo que debes indicar las `skill`s y `soft-skill`s que tendrás cuando hayas acabado. Marca en cada una el nivel de logro actual por lo que sólo deberás actualizar el cv cuando hayas finalizado el ciclo[^2].
+3. A trabajar.
+
+
+**Evaluación y calificación:**
++ La dimensión y profundidad de esta práctica es libre y competitiva repartiendo la probabilidad de contratarte para la redacción de mi web entre todos los alumnos de 0 a 3 puntos (de décima en décima).
++ Utilización rica de etiquetas y atributos: 5 puntos.
++ Contenido: 2 puntos.
++ Respeto del estándar HTML5: **restará** 1 punto por `warning` y 3 por `error`.
+
+
 
 # Referencias:
 + [Curso muy completo](https://www.mclibre.org/consultar/htmlcss/index.html)
 + [Otro](https://uniwebsidad.com/libros/xhtml)
 + [W3School](https://www.w3schools.com/html/default.asp)
 + [Curso Itef](http://www.ite.educacion.es/formacion/materiales/182/cd/indice.htm)
+
+---
+# Notas al pie
+[^1]: en realidad la dirección queda calculada respecto a la dirección base si es especificada mediante el tag `<base href="https://url.es/lo_que_sea">`.
+[^2]: inserta un campo con una clase específica para el indicador, p.e. rojo, naranja, amarillo, verde, que luego “maquillaremos” con css en la ut3.
