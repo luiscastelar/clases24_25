@@ -3,67 +3,6 @@
 # Materia PLANIFICADA
 
 
-## UT1. Implantación de arquitecturas web
-Duración: 16 h
-
-### Bases del despliegue:
-CE: a, b, f.
-+ 17s: 
-  + [x] [Breve repaso de comandos linux](https://github.com/luiscastelar/clases24_25/blob/main/comun/linux%20CLI.md)
-+ 19s:
-  + [x] Arquitecturas web
-  + Protocolos:
-    + [x] Http
-    + [x] Https
-
-
-### Contenedores (“virtualización” ligera) -> **Docker**
-CE: e, f, h, i.
-+ 23s:
-  + TCP/IP
-      + [x] IPv4
-      + [x] IPv6
-  + `docker` CLI
-    + [x] instalación
-+ 24s:
-  + cont CLI (hasta correr mysql)
-    + [x] run, start, stop
-+ 26s:
-  + cont CLI
-    + [x] estado
-    + [x] De `-i` a `-d` y viceversa
-    + [x] redes
-    + [x] volúmenes
-    + [x] tags
-    + [x] `docker cp`
-  + `docker compose`
-    + [x] composerize
-    + [x] versión sin `-` (guion o _dash_)
-    + [x] comandos up, down, ps y log
-    + [x] secretos y `.env`
-+ 30s:
-  + [x] Dudas docker cli
-  + `Dockerfile` 
-    + [x] Comandos `FROM`, `COPY` y `ENTRYPOINT`
-    + [x] `docker build` y `docker tag`
-    + [x] Comando `CMD` vs `ENTRYPOINT`
-    + [x] Comando `ARG` vs `ENV`. 
-+ 1o:
-  + [x] Charla sobre el ruido ambiente
-  + `Dockerfile`
-    + [x] App Java _Stand-alone_
-    + [x] Sustitución de archivos de configuración en caliente
-+ 3o:
-  + [ ] Servidores: web, aplicaciones y vps
-  + [ ] `Dockerfile` optimizado en 2 etapas
-  + [ ] Docker hub
-  + [ ] Seguridad (no root)
-  + [ ] Buenas prácticas
-+ 14o:
-  + [ ] **Examen / Defensa [^1] de prácticas**
-+ 15o:
-  + [ ] **Examen / Defensa de prácticas**
-
 ### Aplicación:
 + [ ] Servidor web (c, f, h, i)
 + [ ] Servidor de aplicaciones (d, f, h, i)
@@ -218,6 +157,67 @@ Duración: 4 h
 *Git y Markdown asociados a RA6 y Vagrant asociado a RA1*.
 
 
+
+## UT1. Implantación de arquitecturas web
+Duración: 16 h
+
+### Bases del despliegue:
+CE: a, b, f.
++ 17s: 
+  + [x] [Breve repaso de comandos linux](https://github.com/luiscastelar/clases24_25/blob/main/comun/linux%20CLI.md)
++ 19s:
+  + [x] Arquitecturas web
+  + Protocolos:
+    + [x] Http
+    + [x] Https
+
+
+### Contenedores (“virtualización” ligera) -> **Docker**
+CE: e, f, h, i.
++ 23s:
+  + TCP/IP
+      + [x] IPv4
+      + [x] IPv6
+  + `docker` CLI
+    + [x] instalación
++ 24s:
+  + cont CLI (hasta correr mysql)
+    + [x] run, start, stop
++ 26s:
+  + cont CLI
+    + [x] estado
+    + [x] De `-i` a `-d` y viceversa
+    + [x] redes
+    + [x] volúmenes
+    + [x] tags
+    + [x] `docker cp`
+  + `docker compose`
+    + [x] composerize
+    + [x] versión sin `-` (guion o _dash_)
+    + [x] comandos up, down, ps y log
+    + [x] secretos y `.env`
++ 30s:
+  + [x] Dudas docker cli
+  + `Dockerfile` 
+    + [x] Comandos `FROM`, `COPY` y `ENTRYPOINT`
+    + [x] `docker build` y `docker tag`
+    + [x] Comando `CMD` vs `ENTRYPOINT`
+    + [x] Comando `ARG` vs `ENV`. 
++ 1o:
+  + [x] Charla sobre el ruido ambiente
+  + `Dockerfile`
+    + [x] App Java _Stand-alone_
+    + [x] Sustitución de archivos de configuración en caliente
++ 3o:
+  + [x] Servidores: web, aplicaciones y vps
+  + [x] `Dockerfile` optimizado en 2 etapas
+  + [x] Docker hub
+  + [x] Seguridad (no root)
+  + [ ] Buenas prácticas
++ 14o:
+  + [ ] **Examen / Defensa [^1] de prácticas**
++ 15o:
+  + [ ] **Examen / Defensa de prácticas**
 
 
 

@@ -1,9 +1,9 @@
 #curso24_25 #prog #ed [estado::done] 
 
 # Introducción
-Habiendo realizado la última semana bastantes ejercicios de ~AceptaElReto.com~ para prepararnos para el concurso ~ProgramaMe.com~ hemos visto (y sufrido) el sistema automatizado de corrección de soluciones.
+Habiendo realizado la última semana bastantes ejercicios de `AceptaElReto.com` para prepararnos para el concurso `ProgramaMe.com` hemos visto (y sufrido) el sistema automatizado de corrección de soluciones.
 
-Concretamente, en nuestras carnes ya habíamos probado lo dura que es la informática cuando ejecutas y te arroja errores por comas, nombres de variables e incluso la confusión de escribir ALG0 con un 0 en vez de una O (demonios quien los pondría tan próximos). Pero es que cuando todo parece ir bien, llega un /robo-juez/ y nos dice que la respuesta es incorrecta ~Wrong Answer~... pero ¿ésto de que va? ¿porqué es tan duro dicho juez? ...
+Concretamente, en nuestras carnes ya habíamos probado lo dura que es la informática cuando ejecutas y te arroja errores por comas, nombres de variables e incluso la confusión de escribir ALG0 con un 0 en vez de una O (demonios quien los pondría tan próximos). Pero es que cuando todo parece ir bien, llega un /robo-juez/ y nos dice que la respuesta es incorrecta `Wrong Answer`... pero ¿ésto de que va? ¿porqué es tan duro dicho juez? ...
 
 ... las pruebas unitarias son así.
 
@@ -13,7 +13,7 @@ Concretamente, en nuestras carnes ya habíamos probado lo dura que es la inform�
 3. Rezar.
 
 # Al lío
-Crear las pruebas para una ~Calculadora~ básica que implemente los métodos estáticos ~int suma(int a, int b)~, ~int resta(int m, int s)~, e ~float division(float dividendo, float divisor)~.
+Crear las pruebas para una `Calculadora` básica que implemente los métodos estáticos `int suma(int a, int b)`, `int resta(int m, int s)`, e `float division(float dividendo, float divisor)`~.
 
 
 ## **Fuentes:**

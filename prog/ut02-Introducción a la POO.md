@@ -93,6 +93,7 @@ Efectivamente, el compilador nos avisa que en realidad no estamos sobreescribien
 # Teclado y pantalla
 
 ## Clase Scanner
++ [Vademecum]
 + [Como usarla _Scanner_](https://ifgeekthen.nttdata.com/s/post/que-es-y-como-usar-la-clase-scanner-en-java-MCGCZBXHLT3VDXRLUQLJ4O2X4XKM?language=es)
 + [API 21](https://docs.oracle.com/en/java/javase/21/docs//api/java.base/java/util/Scanner.html)
 

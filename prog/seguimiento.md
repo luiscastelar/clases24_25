@@ -21,31 +21,35 @@
 + 2o:
   + [x] POO: Encapsulamiento, Abstracción, Herencia y Polimorfismo.
   + [x] D.R.Y. (Don’t Repeat Yourself).
+  + [x] Estructura y miembros de una clase. Visibilidad.
   + [x] Método `toString()`.
 + 4o:
-  + [ ] Entrada desde teclado. Salida a pantalla. Formatos de visualización.
-  + [ ] _Utilizar librerías de objetos: import_
+  + [ ] Interfaz: Modularidad, Reutilización de código, facilidad de pruebas y mantenimiento, y abstracción.
   + [ ] _Estructura de clases del API de Java SE._
-+ 7o:
-  + [ ] Estructura y miembros de una clase. Visibilidad.
+  + [ ] “naming” de variables y otras buenas prácticas
+  + [ ] getters y setters.
   + [ ] Creación de métodos.
       + [ ] Creación de métodos (_de instancia_)
       + [ ] Creación de métodos estáticos (_de clase_)
   + [ ] Utilización de métodos estáticos.
++ 7o:
+  + [ ] Seguir “jugando”
 + 8o:
-+ 
+  + [ ] Entrada desde teclado. Salida a pantalla.
+  + [ ] _Utilizar librerías de objetos: import_
+  + [ ] `enum`s
+  + [ ] Formatos de visualización.
 + 9o:
-+ 11o:
-+ 14o:
   + [ ] Paso de parámetros por valor y por referencia.
+  + [ ] Resolución dudas ejercicios y prácticas.
++ 11o:
+  + [ ] _Clases auto-mágicas y Java “moderno”_: Clase con `main` estático vs la **clase sin nombre** con método **`main` no-estático**.
+  + [ ] Resolución dudas ejercicios y prácticas.
++ 14o:
+  + [ ] Resolución dudas ejercicios y prácticas.
 + 16o: **Examen ut2**
 
-
-### Java
-
-+ [ ] _Enum_’s
-+ [ ] _Clases auto-mágicas y Java “moderno”_
-    + [ ] Clase `Main` estática vs la clase sin nombre con método `main`.
+_Trabajados los RA 2 y 4._
 
 
 ## UT3. Programación estructurada y depuración de programas
@@ -74,6 +78,8 @@ Uso de estructuras de control:
   + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor)
   + [ ] _Records_
 
+_Trabajado el RA 3._
+
 
 ## UT4. Manipulación de información. Matrices.
 + (14h) 
@@ -86,6 +92,8 @@ Uso de estructuras de control:
 ### Genéricos
 + [ ] Genéricos.
 
+_Trabajados los RA 3, 4 y 6._
+
 
 ## UT5. Manipulación de información. Cadenas.
 + (14h) 
@@ -93,7 +101,7 @@ Uso de estructuras de control:
 + [ ] Estructuras estáticas y dinámicas.
 + [ ] Cadenas de caracteres. Expresiones regulares.
 
-+ [ ] _Pool de strings_
++ [ ] _Pool de Strings_
 + [ ] _La clase String_
 + [ ] _La clase StringBuffer (thread-safe)_
     + [ ] _StringBuilder (**no** thread-safe)_
@@ -105,6 +113,8 @@ Uso de estructuras de control:
 ### Internacionalización y localización -i18n- e -i10n-
 + [ ] Identificar las clases relacionadas con el tratamiento de documentos escritos en diferentes lenguajes de intercambio de datos.
 + [ ] Realizar programas que realicen manipulaciones sobre documentos escritos en diferentes lenguajes de intercambio de datos.
+
+_Trabajados los RA 3, 4 y 6._
 
 
 ## UT6. Manipulación de información. Colecciones.
@@ -137,6 +147,8 @@ Uso de estructuras de control:
         + [ ] Recolección
         + [ ] Reducción
  
+_Trabajados los RA 3, 4 y 6._
+
 
 ## UT7. POO II
 + (14h) 
@@ -150,7 +162,7 @@ Uso de estructuras de control:
 + [ ] Sobreescritura de métodos.
 + [ ] Constructores y herencia.
 
-
+_Trabajados los RA 4 y 7._
 
 
 ## UT8. Operaciones de E/S
@@ -163,6 +175,8 @@ Uso de estructuras de control:
 + [ ] Creación y eliminación de ficheros y directorios.
 + [ ] Serialización de objetos.
 + [ ] Patrones de diseño. DAO.
+
+_Trabajados los RA 3, 4, 5, 6, 7 y 8._
 
 
 ## UT9. Gestión de información almacenada en bases de datos relacionales
@@ -178,7 +192,6 @@ Gestión de bases de datos:
 + [ ] Acceso a bases de datos. Estándares. Características.
 + [ ] Establecimiento de conexiones.
 + [ ] Almacenamiento, recuperación, actualización y eliminación de información en bases de datos.
-
 
 
 a) Identificar las características de las bases de datos orientadas a objetos.
@@ -201,6 +214,8 @@ Mantenimiento de la persistencia de los objetos:
 + [ ] Tipos de datos objeto; atributos y métodos.
 + [ ] Tipos de datos colección.
 
+_Trabajados los RA 3, 4, 6, 7, 8 y 9._
+
 
 ## UT10. Interfaces Gráficas de Usuario. WebUI.
 + (28h) 
@@ -209,6 +224,7 @@ Mantenimiento de la persistencia de los objetos:
 + [ ] Concepto de evento.
 + [ ] Creación de controladores de eventos.
 
+_Trabajados los RA 4, 5, 6, 7 y 8._
 
 
 ---
@@ -252,3 +268,4 @@ Mantenimiento de la persistencia de los objetos:
 + [x] _**Convención de nombres**_.
 + [x] _Tipos de datos_
       
+_Trabajado el Resultado de Aprendizaje 1._

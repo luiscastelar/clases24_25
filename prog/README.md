@@ -20,8 +20,11 @@ Cualquiera de las siguientes referencias son **muy** recomendables y se tomarán
 
 + [UT1 - Git reference manual](https://git-scm.com/docs)
 + [UT1 - Markdown](https://www.markdownguide.org/)
-+ ...
-+ 
++
++ [Vademecum](https://web.dit.upm.es/~pepe/libros/vademecum/index.html?n=index.html)
++ [Java SE 21 - API](https://docs.oracle.com/en/java/javase/21/docs//api/index.html)
++ [Javanotes 9](https://math.hws.edu/javanotes/contents-with-subsections.html)
++  ... 
 
 ---
 
