@@ -325,6 +325,7 @@ La ventaja de realizarlo sin cuenta educativa es que será permanente ya que no 
 
 ## Otros servidores de despliegue:
 **Con opciones gratis:**
++ [Free-for.dev](https://free-for.dev/#/): recopilatorio completo de servicios gratuitos para desarrolladores.
 + [Render](https://render.com/)
   + backend: python, nodeJs
   + frontend: ¿todos?

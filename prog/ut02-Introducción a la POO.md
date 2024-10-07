@@ -80,9 +80,9 @@ Efectivamente, el compilador nos avisa que en realidad no estamos sobreescribien
   <details>
   
   ```java
-  final int DIA = 86 000 // segundos
+  final int SEGUNDOS_EN_UN_DIA = 86 000 // segundos
   ...
-  if( duracion > DIA )
+  if( duracion > SEGUNDOS_EN_UN_DIA )
     // Mas claro, ¿verdad?
   ```
   </details>

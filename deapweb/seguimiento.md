@@ -2,19 +2,6 @@
 
 # Materia PLANIFICADA
 
-
-### Aplicación:
-+ [ ] Servidor web (c, f, h, i)
-+ [ ] Servidor de aplicaciones (d, f, h, i)
-+ [ ] Servidores en la nube (vps) (e, f, h, i)
-
-### Tareas:
-1. Documentar los procesos.
-2. Implementar los procesos documentados por un compañero.
-
-*Asociado al RA1*.
-
-
 ## UT2. Servidores WEB
 Duración: 14 h
 + 7o: Apache
@@ -23,6 +10,7 @@ Duración: 14 h
   + [ ] Hosts virtuales. Creación, configuración y utilización.
   + [ ] Autenticación y control de acceso.
 + 8o:
+  + [ ] continuación `auth digest`
 + 10o:
   + [ ] El protocolo HTTPS.
   + [ ] Certificados. Servidores de certificados.
@@ -30,6 +18,7 @@ Duración: 14 h
   + [ ] Despliegue de aplicaciones sobre servidores web.
   + [ ] Despliegue de servidores web mediante tecnologías de virtualización en la nube y en contenedores.
 + 17o:
+  + [ ] continuación configuración de `host` para acceso externo
 + 21o:
   + [ ] Monitorización
 + 22o: Implantación
@@ -42,9 +31,6 @@ Duración: 14 h
 + [ ] Proxy (e, f, g, i)
 + [ ] Implantación (local) aplicación Angular/React (h, i)
 + [ ] Monitorización (j)
-
-
-
 
 *Asociado al RA2*.
 
@@ -218,6 +204,18 @@ CE: e, f, h, i.
   + [ ] **Examen / Defensa [^1] de prácticas**
 + 15o:
   + [ ] **Examen / Defensa de prácticas**
+
+
+### Aplicación:
++ [x] Servidor web (c, f, h, i)
++ [x] Servidor de aplicaciones (d, f, h, i)
++ [x] Servidores en la nube (vps) (e, f, h, i)
+
+### Tareas:
+1. Documentar los procesos.
+2. Implementar los procesos documentados por un compañero.
+
+*Asociado al RA1*.
 
 
 

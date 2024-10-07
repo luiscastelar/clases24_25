@@ -248,6 +248,7 @@ En ocasiones se puede dar que queramos utilizar caracteres que utilizamos como m
 | €      | euro                   | &euro;  | &#8364; |
 | ©      | copyright              | &copy;  | &#169;  |
 | ®      | trademark              | &reg;   | &#174;  |
+
 Fuente: [w3schools](https://www.w3schools.com/html/html_entities.asp)
 
 Podremos utilizar el código o el nombre para la sustitución que el navegador sustituirá por su carácter correspondiente.

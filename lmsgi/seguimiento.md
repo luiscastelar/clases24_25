@@ -15,8 +15,8 @@
   + [x] Un mínimo visual
   + [x] Crear repositorio Git
 + 3o:
-  + [ ] Enlaces
-  + [ ] Secciones
+  + [x] Enlaces
+  + [x] Secciones
 + 7o:
   + [ ] Texto en línea
   + [ ] Bloques de contenido    

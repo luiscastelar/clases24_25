@@ -24,17 +24,18 @@
   + [x] Estructura y miembros de una clase. Visibilidad.
   + [x] Método `toString()`.
 + 4o:
-  + [ ] Interfaz: Modularidad, Reutilización de código, facilidad de pruebas y mantenimiento, y abstracción.
-  + [ ] _Estructura de clases del API de Java SE._
-  + [ ] “naming” de variables y otras buenas prácticas
-  + [ ] getters y setters.
+  + [x] Interfaz: Modularidad, Reutilización de código, facilidad de pruebas y mantenimiento, y abstracción.
+  + [x] _Estructura de clases del API de Java SE._
+  + [x] “naming” de variables y otras buenas prácticas
+  + [x] getters y setters.
+  + [ ] continuación ejercicio `toString()`
++ 7o:
+  + [ ] Seguir “jugando”
++ 8o:
   + [ ] Creación de métodos.
       + [ ] Creación de métodos (_de instancia_)
       + [ ] Creación de métodos estáticos (_de clase_)
   + [ ] Utilización de métodos estáticos.
-+ 7o:
-  + [ ] Seguir “jugando”
-+ 8o:
   + [ ] Entrada desde teclado. Salida a pantalla.
   + [ ] _Utilizar librerías de objetos: import_
   + [ ] `enum`s
