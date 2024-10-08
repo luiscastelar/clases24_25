@@ -147,7 +147,22 @@ Debes establecer los criterios más restrictivos posibles de visibilidad.
     - Método `devolucion` que decremente el atributo correspondiente cuando se produzca la devolución de un libro. No se podrán devolver libros que no se hayan prestado. Devuelve true si se ha podido realizar la operación y false en caso contrario.
     - Método `toString` para mostrar los datos de los libros.
     - Escribe un programa para probar el funcionamiento de la clase Libro.
-    - 
+   <details>
+   
+   Tip:
+   ```java
+   public boolean prestamo(){
+        // Verificamos si hay ejemplares
+        //boolean isPrestable = CONDICIONAL
+        // Actulizamos ejemplares
+        //ejemplaresPrestados = CONDICIONAL
+        // Retornamos situacion
+        return isPrestable;
+    }
+   ```
+    _CONDICIONAL debe sustituirse por el operador condicional con los argumentos adecuados_
+   </details>
+   
 [Más ejercicios POO by Universidad Complutense de Madrid](https://github.com/luiscastelar/clases24_25/blob/main/prog/ut2/EjerciciosClasesYObjetos-UCM.pdf)
 
 </details>

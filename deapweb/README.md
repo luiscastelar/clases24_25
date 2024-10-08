@@ -134,15 +134,15 @@ La ponderación se realizará según la dedicación prevista:
 | UT | Uni. Trabajo | Dedicación | Peso |
 |---|----------|----------|----------|
 | 0 | Herramientas y repaso | 5 h | |
-|  | -> RA1 |  | 1 % |
-|  | -> RA6 |  | 4 % |
+|  | -> RA1 |  |  |
+|  | -> RA6 |  |  |
 | 1 | Implantación arq. web (RA1) | 20 h | 20 % |
-| 2 | Servidores web | 15 h | 15 % |
-| 3 | Servidor de aplicaciones | 10 h | 10 % |
+| 2 | Servidores web | 14 h | 14 % |
+| 3 | Servidor de aplicaciones | 9 h | 9 % |
 | 4 | Gest. de serv y archivos | 10 h | |
 |  | -> RA4 |  | 3 % |
 |  | -> RA6 | | 7 % |
-| 5 | Servicios de red | 10 h | 10 % |
+| 5 | Servicios de red | 7 h | 7 % |
 |  | Proyecto Integrador (NO dual) | 40 h | 40 % |
 |  |   |   |   |
 |  | Proyecto Integrador (DUAL) | 16 h | 16 % |

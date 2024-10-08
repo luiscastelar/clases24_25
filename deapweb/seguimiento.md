@@ -5,12 +5,12 @@
 ## UT2. Servidores WEB
 Duración: 14 h
 + 7o: Apache
-  + [ ] Configuración avanzada del servidor web.
-  + [ ] Módulos: instalación, configuración y uso.
-  + [ ] Hosts virtuales. Creación, configuración y utilización.
-  + [ ] Autenticación y control de acceso.
+  + [x] Configuración avanzada del servidor web.
+  + [x] Hosts virtuales. Creación, configuración y utilización.
 + 8o:
-  + [ ] continuación `auth digest`
+  + [ ] Módulos: instalación, configuración y uso.
+  + [ ] Autenticación y control de acceso.
+  + [ ] Autenticación con `auth digest`.
 + 10o:
   + [ ] El protocolo HTTPS.
   + [ ] Certificados. Servidores de certificados.

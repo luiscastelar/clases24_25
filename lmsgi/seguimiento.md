@@ -18,8 +18,8 @@
   + [x] Enlaces
   + [x] Secciones
 + 7o:
-  + [ ] Texto en línea
-  + [ ] Bloques de contenido    
+  + [x] Texto en línea
+  + [x] Bloques de contenido    
 + 10o:
   + [ ] Metadatos
   + [ ] ~~Tablas~~ -> Nuevas tablas

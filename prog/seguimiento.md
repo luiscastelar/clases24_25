@@ -28,8 +28,10 @@
   + [x] _Estructura de clases del API de Java SE._
   + [x] “naming” de variables y otras buenas prácticas
   + [x] getters y setters.
-  + [ ] continuación ejercicio `toString()`
+  + [x] continuación ejercicio `toString()`
 + 7o:
+  + [x] resolución dudas getters & setters
+  + [x] resolución dudas git (por 4 vez)
   + [ ] Seguir “jugando”
 + 8o:
   + [ ] Creación de métodos.
@@ -56,28 +58,32 @@ _Trabajados los RA 2 y 4._
 ## UT3. Programación estructurada y depuración de programas
 + (14h)
 + 15o:
-  + [ ] 
-+ ...
+  + [ ] Diagrama de actividades
+  + [ ] Control de excepciones
+    + [ ] try/catch/finally
+    + [ ] Clase Exception
++ 16o:
+  + [ ] Aserciones.
+  + [ ] Estructuras de control.
+    + [ ] Estructuras de selección.  
++ 18o:
+  + [ ] Estructuras de control.
+    + [ ] Estructuras de repetición.
+    + [ ] Estructuras con saltos (_break_ y _continue_).
++ 21o:
+  + [ ] Documentación -> _javadoc_
+  + [ ] Creación de excepciones.
++ 22o:
+  + [ ] Utilizar el entorno integrado de desarrollo en la creación y compilación de programas ~~simples~~.
+  + [ ] Depuración.
+  + [ ] Test unitarios - `JUnit`.
++ 23o:
+  + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor).
++ 28o:
+  + [ ] Defensa de prácticas.
++ 29o: **Examen**
   
-Uso de estructuras de control:
-+ [ ] Control de excepciones.
-+ [ ] Aserciones.
-+ [ ] Estructuras de selección.
-+ [ ] Estructuras de repetición.
-+ [ ] Estructuras con saltos (_break_ y _continue_).
-+ [ ] Estructuras de control.
-+ [ ] ~~Depuración~~ (en UT6)
-+ [ ] Documentación -> _javadoc_
-+ [ ] Crearción de excepciones.
-      
 
-### Entorno Integrado de Desarrollo -IDE-
-+ [ ] Utilizar el entorno integrado de desarrollo en la creación y compilación de programas ~~simples~~.
-+ [ ] Depuración
-+ [ ] Test
-  + [ ] unitarios - _JUnit_
-  + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor)
-  + [ ] _Records_
 
 _Trabajado el RA 3._
 
@@ -85,6 +91,8 @@ _Trabajado el RA 3._
 ## UT4. Manipulación de información. Matrices.
 + (14h) 
 
++ 25o:
++ 30o:
 + [ ] Estructuras estáticas y dinámicas.
 + [ ] Creación de vectores (arrays unidimensionales).
 + [ ] _La clase `Arrays`_
@@ -121,6 +129,7 @@ _Trabajados los RA 3, 4 y 6._
 ## UT6. Manipulación de información. Colecciones.
 + (32h) 
 
++ [ ] ~~Depuración~~ (en UT6)
 + [ ] Colecciones
     + [ ] Listas -> _List_ -> _ArrayList_
     + [ ] Conjuntos -> _Set_ -> _HashSet_
@@ -162,6 +171,7 @@ _Trabajados los RA 3, 4 y 6._
 + [ ] Interfaces.
 + [ ] Sobreescritura de métodos.
 + [ ] Constructores y herencia.
++ [ ] _Records_
 
 _Trabajados los RA 4 y 7._
 
