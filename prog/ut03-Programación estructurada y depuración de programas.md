@@ -407,6 +407,9 @@ Fuente:
 + [CodinGame](https://www.codingame.com/training)
 + [CodeWars](https://www.codewars.com/)
 
+## Ejercicios de algorítmia
++ [algorítmia](https://elhacker.info/manuales/Lenguajes%20de%20Programacion/Java/Ejercicios-de-Programacion-en-Java.pdf)
+
 
 # PRÁCTICA
 + [Altura de un árbol general](https://www.aceptaelreto.com/problem/statement.php?id=310&cat=10)

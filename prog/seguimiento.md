@@ -32,24 +32,23 @@
 + 7o:
   + [x] resolución dudas getters & setters
   + [x] resolución dudas git (por 4 vez)
-  + [ ] Seguir “jugando”
+  + [x] Seguir “jugando”
 + 8o:
-  + [ ] Creación de métodos.
-      + [ ] Creación de métodos (_de instancia_)
-      + [ ] Creación de métodos estáticos (_de clase_)
-  + [ ] Utilización de métodos estáticos.
-  + [ ] Entrada desde teclado. Salida a pantalla.
-  + [ ] _Utilizar librerías de objetos: import_
-  + [ ] `enum`s
-  + [ ] Formatos de visualización.
+  + [x] Creación de métodos.
+      + [x] Creación de métodos (_de instancia_)
+      + [x] Creación de métodos estáticos (_de clase_)
+  + [x] Utilización de métodos estáticos.
+  + [x] Entrada desde teclado. Salida a pantalla.
+  + [x] _Utilizar librerías de objetos: import_
+  + [x] `enum`s
 + 9o:
   + [ ] Paso de parámetros por valor y por referencia.
-  + [ ] Resolución dudas ejercicios y prácticas.
-+ 11o:
   + [ ] _Clases auto-mágicas y Java “moderno”_: Clase con `main` estático vs la **clase sin nombre** con método **`main` no-estático**.
+  + [ ] _Records_
++ 11o:
   + [ ] Resolución dudas ejercicios y prácticas.
-+ 14o:
-  + [ ] Resolución dudas ejercicios y prácticas.
++ 14o:  
+  + [ ] **Defensa de prácticas**
 + 16o: **Examen ut2**
 
 _Trabajados los RA 2 y 4._

@@ -213,7 +213,7 @@ Al ser una clase, podemos definir y sobreescribir métodos (ver [aquí](https://
    + Línea de ejecución.
    + Resultado.
 
-_Para cambiar el Promt String: `PS1={{Tu nombre completo}}@programacion \w :/$`_ 
+_Para cambiar el Promt String: `PS1="{{Tu nombre completo}}@programacion \w :/$"`_ 
 
 **Puntuación**:
 + El programa está bien (2 puntos).

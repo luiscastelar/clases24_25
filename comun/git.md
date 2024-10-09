@@ -95,7 +95,9 @@ Haz sólo lo que no tengas ya en el ejercicio anterior:
 12. Vuelve al `HEAD` y documentalo todo.
 
 ## Referencias:
-  + Documentación OFICIAL -> [Git reference manual](https://git-scm.com/docs)
+  + Documentación OFICIAL -> [Git reference manual](https://git-scm.com/docs) y en [español](https://git-scm.com/book/es/v2)
+  + [David Poza](https://davidinformatico.com/apuntes-git)
+  + [Manuel Cillero](https://manuel.cillero.es/doc/apuntes-tic/herramientas/git/)
   + Vídeos aclarativos -> [PildorasInformáticas 1-5, 10-11](https://www.youtube.com/watch?v=ANF1X42_ae4&list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU)
   + [Pelao Nerd - 1](https://youtu.be/kEPF-MWGq1w) y [Pelao - 2](https://youtu.be/7-JHoPyJy-Q)
 
