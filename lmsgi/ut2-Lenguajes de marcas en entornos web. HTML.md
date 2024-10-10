@@ -109,7 +109,7 @@ Modifica la página básica para añadir dichos elementos y dar forma a nuestra 
 Estamos en html5 por lo que no vamos a utilizar etiquetas visuales y por tanto para dar algo de _style_ a nuestra web vamos a introducir un pié en el CSS (UT3).
 
 Añadiremos al `<head>` la hoja de estilo `default.css` que tenéis disponible en el repositorio... y ¡magia! 
-`<link rel="stylesheet" type="text/css" href="./css/default.css" media="screen" />`
+`<link rel="stylesheet" type="text/css" href="https://luiscastelar.duckdns.org/2024/assets/lmsgi/default.css" media="screen" />`
 
 
 # Enlaces
@@ -209,6 +209,11 @@ Manual de Referencia de etiquetas en [w3schools](https://www.w3schools.com/tags/
 >    
 >    Las tablas se comentan en la lección [Tablas](https://www.mclibre.org/consultar/htmlcss/html/html-tablas.html).
 >    
+> _Fuente: [MCLibre - Bartolomé Sintes](https://www.mclibre.org/consultar/htmlcss/index.html)_
+
+### Tablas con `DIV`s
+Lo trabajaremos en la ut3 sobre CSS - [enlace](https://estradawebgroup.com/Post/Como-crear-una-tabla-utilizando-DIVs-y-CSS/4152)
+    
 >##   **Formularios**
 >    
 >    Una página web puede contener formularios, que permiten al usuario proporcionar información. Normalmente dicha información se envía a un servidor para ser procesada por un programa, aunque también puede ser procesada en el navegador mediante un programa escrito en el lenguaje JavaScript.
@@ -227,9 +232,10 @@ Manual de Referencia de etiquetas en [w3schools](https://www.w3schools.com/tags/
 >    
 >    Los navegadores son capaces de ejecutar programas escritos en el lenguaje de programación JavaScript. Estos programas se suelen denominar _scripts_. Varias etiquetas permiten integrar estos programas en una página web: `<script>`, `<noscript>`, `<template>`, `<slot>` y `<canvas>`.
 >    
->_Fuente: [MCLibre - Bartolomé Sintes](https://www.mclibre.org/consultar/htmlcss/index.html)_
+> _Fuente: [MCLibre - Bartolomé Sintes](https://www.mclibre.org/consultar/htmlcss/index.html)_
     
 _Veremos en profundidad los scprit en la UT5_.
+
 
 
 ## Escapado de caracteres

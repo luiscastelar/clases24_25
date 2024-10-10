@@ -8,9 +8,9 @@ Duración: 14 h
   + [x] Configuración avanzada del servidor web.
   + [x] Hosts virtuales. Creación, configuración y utilización.
 + 8o:
-  + [ ] Módulos: instalación, configuración y uso.
-  + [ ] Autenticación y control de acceso.
-  + [ ] Autenticación con `auth digest`.
+  + [x] Módulos: instalación, configuración y uso.
+  + [x] Autenticación y control de acceso.
+  + [x] Autenticación con `auth digest`.
 + 10o:
   + [ ] El protocolo HTTPS.
   + [ ] Certificados. Servidores de certificados.

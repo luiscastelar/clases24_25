@@ -24,6 +24,24 @@
 ### Ejemplos
 Puedes ver ejemplos pasando al modo *Code* cualquier archivo de este repositorio.
 
+## Markdown Github-flavor
+GitHub tiene algunas extensiones interesantes:
+
+> [!NOTE]
+> Una nota especial
+
+> [!IMPORTANT]
+> Esto es importante
+
+> [!TIP]
+> Consejos útiles
+
+> [!WARNING]
+> Una advertencia
+
+> [!CAUTION]
+> Otra curiosa
+
 ## Lenguaje vehicular
 En este módulo formativo utilizaremos fundamentalmente 2 lenguajes de programación para practicar los conceptos de programación imperativa, tanto procedimental como orientada a objetos, y nos adentraremos en la programación declarativa a través del paradigma de programación funcional.
 
