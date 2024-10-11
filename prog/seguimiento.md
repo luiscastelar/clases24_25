@@ -42,12 +42,12 @@
   + [x] _Utilizar librerías de objetos: import_
   + [x] `enum`s
 + 9o:
-  + [ ] Paso de parámetros por valor y por referencia.
-  + [ ] _Clases auto-mágicas y Java “moderno”_: Clase con `main` estático vs la **clase sin nombre** con método **`main` no-estático**.
-  + [ ] _Records_
+  + [x] Paso de parámetros por valor y por referencia.
+  + [x] _Clases auto-mágicas y Java “moderno”_: Clase con `main` estático vs la **clase sin nombre** con método **`main` no-estático**.
 + 11o:
   + [ ] Resolución dudas ejercicios y prácticas.
-+ 14o:  
++ 14o:
+  + [ ] _Records_
   + [ ] **Defensa de prácticas**
 + 16o: **Examen ut2**
 

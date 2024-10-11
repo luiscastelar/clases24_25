@@ -21,8 +21,8 @@
   + [x] Texto en línea
   + [x] Bloques de contenido    
 + 10o:
-  + [ ] Metadatos
-  + [ ] ~~Tablas~~ -> Nuevas tablas
+  + [x] Metadatos
+  + [x] ~~Tablas~~ -> Nuevas tablas
 + 14o:
   + [ ] Formularios
   + [ ] Modificaciones

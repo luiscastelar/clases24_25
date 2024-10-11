@@ -12,11 +12,11 @@ Duración: 14 h
   + [x] Autenticación y control de acceso.
   + [x] Autenticación con `auth digest`.
 + 10o:
-  + [ ] El protocolo HTTPS.
-  + [ ] Certificados. Servidores de certificados.
-  + [ ] Documentación.
-  + [ ] Despliegue de aplicaciones sobre servidores web.
-  + [ ] Despliegue de servidores web mediante tecnologías de virtualización en la nube y en contenedores.
+  + [x] El protocolo HTTPS.
+  + [x] Certificados. Servidores de certificados.
+  + [x] Documentación.
+  + [x] Despliegue de aplicaciones sobre servidores web.
+  + [x] Despliegue de servidores web mediante tecnologías de virtualización en la nube y en contenedores.
 + 17o:
   + [ ] continuación configuración de `host` para acceso externo
 + 21o:
@@ -26,9 +26,9 @@ Duración: 14 h
 + 28o: **Examen**
 
 ### Contenido
-+ [ ] Servidor web Apache (a, b, c, d, g, i)
-+ [ ] Servidor web Nginx (a, b, c, d, g, i)
-+ [ ] Proxy (e, f, g, i)
++ [x] Servidor web Apache (a, b, c, d, g, i)
++ [ ] ~~Servidor web Nginx (a, b, c, d, g, i)~~
++ [x] Proxy (e, f, g, i)
 + [ ] Implantación (local) aplicación Angular/React (h, i)
 + [ ] Monitorización (j)
 

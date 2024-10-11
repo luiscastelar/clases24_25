@@ -137,11 +137,11 @@ Respecto a las absolutas desde internet, debemos saber [más cosas](https://es.s
 # Elementos del HTML
 Manual de Referencia de etiquetas en [w3schools](https://www.w3schools.com/tags/default.asp).
 
->Los elementos del HTML están definidos en la norma HTML living standard, del WHATWG. Esta norma se puede consultar en la web en su [versión paginada](https://html.spec.whatwg.org/multipage/) o en su [versión de una sola página](https://html.spec.whatwg.org/).
+> Los elementos del HTML están definidos en la norma HTML living standard, del WHATWG. Esta norma se puede consultar en la web en su [versión paginada](https://html.spec.whatwg.org/multipage/) o en su [versión de una sola página](https://html.spec.whatwg.org/).
 >
->A cada elemento corresponde una etiqueta (también llamadas marcas), por lo que estos tres términos (elementos, etiqueta y marca) son intercambiables.
+> A cada elemento corresponde una etiqueta (también llamadas marcas), por lo que estos tres términos (elementos, etiqueta y marca) son intercambiables.
 >
->En la norma, las diferentes etiquetas están agrupadas en las siguientes categorías:
+> En la norma, las diferentes etiquetas están agrupadas en las siguientes categorías:
 >
 >##   **Elemento raíz**
 >    

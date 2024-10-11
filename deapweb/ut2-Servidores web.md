@@ -55,7 +55,7 @@ Las ventajas de la gestión mediante proxy inverso son:
 
 ~~Certificados. Servidores de certificados.~~ => innecesaria la gestión si optamos por un Proxy Inverso
 
-Como opciones recomendadas tenemos [Nginx Proxy Manager](https://nginxproxymanager.com/), [Traeffic](https://hub.docker.com/_/traefik/), [Caddy](https://github.com/lucaslorentz/caddy-docker-proxy) o HAProxy.
+Como opciones recomendadas tenemos [Nginx Proxy Manager](https://nginxproxymanager.com/), [Traefik](https://hub.docker.com/_/traefik/), [Caddy](https://github.com/lucaslorentz/caddy-docker-proxy) o HAProxy.
 
 
 # Puesta en producción
