@@ -247,10 +247,10 @@ Deberéis crear un conjunto de microservicios (con docker) compuesto por 3 conte
 + Microservicio `mariaDB` no accesible desde el mundo, sólo desde la red interna. Éste debe inicializarse con la creación del usuario `pepe` y el pass `despliegue`.
 + Microservicio `php-apache` que pueda acceder a la bbdd y desde el exterior en el puerto 80. Debe contener un `phpinfo()` en el archivo `info.php` de la raíz púbilica.
 + Microservicio `phpMyAdmin` que pueda accedar a la bbdd y sea accesible desde el exterior en el puerto 8080 o 443 si lo realizas desde un VPS. \
-*Nota: para simplificar esta última conexión deberéis pasarle la variable de entorno `PMA_HOST=nombre_contenedor_mariaDB`.
 
+_Nota: para simplificar esta última conexión deberéis pasarle la variable de entorno PMA_HOST=nombre_contenedor_mariaDB`._
 
-*Nota: El sistema debe ser accesible por cualquiera desde internet (VPS) o ser facilitado en un entorno reproducible (vagrant) con instrucciones claras para su ejecución.*
+_Nota 2: El sistema debe ser accesible por cualquiera desde internet (VPS) o ser facilitado en un entorno reproducible (vagrant) con instrucciones claras para su ejecución._
 
 > Forma de entrega: Subir como README.md a repositorio privado en una carpeta `ut1-Docker`.
 
@@ -314,7 +314,7 @@ Lo veremos ampliamente **en UT3**.
 
 Para el trabajo en clase utilizaremos un servidor vps basado en los siguientes proveedores:
 + AWS[^1]
-+ [Azure](https://portal.azure.com/#home)
++ [Azure](https://portal.azure.com/#home)[^2]
 + Otros
 
 Se reseñan los 2 primeros dado que nuestra organización `@iescastelar.com` tiene cuenta educativa con ellos y podéis generar instancias de máquinas virtuales de forma gratuíta (con algunas limitaciones) sin proporcionar tarjetas de crédito.
@@ -351,4 +351,11 @@ La ventaja de realizarlo sin cuenta educativa es que será permanente ya que no 
 + [Opción generales (para el PFC)](https://aws.amazon.com/es/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all):
   + [VPS - ec2](https://aws.amazon.com/ec2): nos ofrecen 750 horas/mes gratuitas durante 12 meses.
   + [Disco - s3](https://aws.amazon.com/s3): almacenamiento 5GB (para imágenes y similares).
-  + [DB - rds](https://aws.amazon.com/rds/): mysql/mariaDB, postgreSQL, ... 
+  + [DB - rds](https://aws.amazon.com/rds/): mysql/mariaDB, postgreSQL, ...
+
+[^2]: Para crear un vps (_12 meses gratis_) en `Azure` deberemos seguir los siguientes pasos:
+  1. Ir a https://azureforeducation.microsoft.com/devtools
+  2. Crear cuenta @outlook.com
+  3. Iniciar con ella
+  4. Activar M-Autenticator, G-Autenticator o similar
+  5. Cuando te diga que no hay acceso -> si que lo hay pero en https://portal.azure.com

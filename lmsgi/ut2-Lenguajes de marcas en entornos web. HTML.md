@@ -286,12 +286,19 @@ Por ejemplo `<img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-sem
 [Puedes consultar](https://lenguajehtml.com/html/documento/etiquetas-html-obsoletas/) las etiquetas que no debemos utilizar y el reemplazo a realizar si te las encuentras.
 
 # Práctica:
-**Haz tu web-currículo.**
-
+**Haz tu web-currículo.**  
 ¿Que no sabes cómo? Pues esta es la vida del desarrollador... algunos tips:
 1. Busca algunos estilos de web-currículo que pudieran interesarte para tener claro que te gustaría mostrar.
 2. Seamos prácticos, ahora no estás buscando trabajo. Pero sí lo harás cuando acabes el ciclo por lo que debes indicar las `skill`s y `soft-skill`s que tendrás cuando hayas acabado. Marca en cada una el nivel de logro actual por lo que sólo deberás actualizar el cv cuando hayas finalizado el ciclo[^2].
 3. A trabajar.
+
+**Formulario**  
+Debes añadirle un formulario (de contacto o de compra o lo que creas más oportuno) en el que deberás incluir la dirección destino `https://lmsgi.luiscastelar.duckdns.org/recibe_formulario.php` y el campo nif/nie siguiente `<p>NIF o NIE: <input type="text" name="nif" maxlength="8"/></p>`. 
+
+El uso del formulario con el destino facilitado y el campo añadido asegurará que tu formulario es recibido, procesado, registrado y valorado.
+
+_Nota: sólo será valorado el último envío que realices. Asegúrate que es el correcto leyendo que he recibido y la puntuación otorgada a cada apartado._
+_Nota 2: según la tabla aportada, estima que necesitarás **30 puntos** para que el formulario sea considerado **suficiente**. De ahí para arriba podrás añadir lo que quieras._
 
 
 **Evaluación y calificación:**

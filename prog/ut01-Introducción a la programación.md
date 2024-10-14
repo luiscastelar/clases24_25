@@ -7,40 +7,12 @@
 + [Básico](https://github.com/luiscastelar/clases24_25/blob/main/comun/git.md)
 + [Medio](https://github.com/luiscastelar/clases24_25/blob/main/comun/git-ramas.md)
 
+
 ## Lenguaje de marcado ligero para representación -> Markdown
 > Markdown es un lenguaje de marcado ligero que se puede utilizar para agregar elementos de formato a documentos de texto sin formato.
 
-### Documentación
-+ [Doc **OFICIAL**](https://www.markdownguide.org/basic-syntax)
-+ [Doc español](https://markdown.es/sintaxis-markdown/)
-+ [Resúmen en vídeo](https://www.youtube.com/watch?v=oxaH9CFpeEE)
-+ [Cheat-sheet](https://www.markdownguide.org/cheat-sheet)
++ [Más información](https://github.com/luiscastelar/clases24_25/blob/main/comun/markdown.md)
 
-### Herramientas
-+ [Editor online](https://stackedit.io/app#) sincronizable con drive y github.
-+ [Tablas en md](https://www.tablesgenerator.com/markdown_tables)
-+ [Keyboard generator](https://kbd.hsuan.xyz/)
-
-### Ejemplos
-Puedes ver ejemplos pasando al modo *Code* cualquier archivo de este repositorio.
-
-## Markdown Github-flavor
-GitHub tiene algunas extensiones interesantes:
-
-> [!NOTE]
-> Una nota especial
-
-> [!IMPORTANT]
-> Esto es importante
-
-> [!TIP]
-> Consejos útiles
-
-> [!WARNING]
-> Una advertencia
-
-> [!CAUTION]
-> Otra curiosa
 
 ## Lenguaje vehicular
 En este módulo formativo utilizaremos fundamentalmente 2 lenguajes de programación para practicar los conceptos de programación imperativa, tanto procedimental como orientada a objetos, y nos adentraremos en la programación declarativa a través del paradigma de programación funcional.
