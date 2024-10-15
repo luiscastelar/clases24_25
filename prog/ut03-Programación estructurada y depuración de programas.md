@@ -27,7 +27,9 @@ try {
 		// Imprime el método y el mensaje... lo mismo que si no lo controláramos.
 }
 ```
-*Nota: Éstos mensajes son muy útiles en el `desarrollo`, pero deberemos ocultarlos en la puesta en `producción` para no dar pistas a usuarios maliciosos.*
+
+> [!NOTE]
+> Éstos mensajes son muy útiles en el `desarrollo`, pero deberemos ocultarlos en la puesta en `producción` para no dar pistas a usuarios maliciosos.
 
 El control de excepciones también dispone de la palabra `finally` que nos abrirá un sección de código que se ejecutará tanto si se ha producido una excepción como si no, y donde ubicaremos las instrucciones que lleven a un estado seguro limpiando.
 
@@ -61,8 +63,9 @@ try{
 ```
 
 
+> [!TIP]
+> A partir de Java22 podemos usar una variable sin nombre “\_” si no necesitamos esa variable, evitando así los warnings del IDE o lint.
 
-_A partir de Java22 podemos usar una variable sin nombre “\_” si no necesitamos esa variable, evitando así los warnings del IDE o lint._
 <details>
 
 ```java
@@ -111,11 +114,11 @@ Muy probablemente, desde el método que lo lanzamos podamos pedirle al usuario u
 ![errores y excepciones](https://1.bp.blogspot.com/-ScmTq0JbbYA/V6CXif8gsiI/AAAAAAAABeY/fBCJQaj6VQ8YcdUqV-yggEzGOon4XyPkACLcB/s640/ExcepcionesCheckedUnchecked.png)
 
 
- Fuentes:
+ ### Fuentes:
  + [Excepciones controladas y no controladas](https://aprendiendoaprogramarbyem.blogspot.com/2016/08/excepciones-verificadas-y-no-verificadas.html) y [2](https://misapuntesdeprogramacion.wordpress.com/2013/02/07/excepciones/)
 
 ## [NO] - Excepciones personalizadas
-[Eso](https://somoshackersdelaprogramacion.es/excepciones-en-java)
+[Excepciones personalizadas](https://somoshackersdelaprogramacion.es/excepciones-en-java)
 
 # assert - “Afirmación”
 ```java
@@ -172,7 +175,9 @@ if (EXPRESION) {
 	...
 }
 ```
-_Nota: su uso estará sujeto a la más absoluta excepcionalidad._
+
+> [!WARNING]
+> Su uso estará sujeto a la más absoluta excepcionalidad.
 
 ### `switch`
 Condicionales múltiples con SWITCH-CASE:
@@ -192,8 +197,13 @@ switch (EXPRESION) {
 		break;]
 }
 ```
-_Nota: si omitimos los `break` se ejecutarán las siguientes sentencias._
-_Nota 2: los `[` y `]` indican que la parte `default` es opcional._
+
+> [!NOTE]
+> Si omitimos los `break` se ejecutarán las siguientes sentencias.
+
+> [!NOTE]
+> Nota 2: los `[` y `]` indican que la parte `default` es opcional.
+
 
 #### El infierno de los `switch`s:
 La construcción `switch` es sin duda la que más ha ido evolucionando a lo largo del tiempo, con las siguientes mejoras en cada versión nueva del lenguaje:
@@ -246,6 +256,7 @@ int result = switch (str) {
 
 
 ### Ejercicios
+<details>
 1.  Realiza un programa que reciba dos números por teclado e indique cuál es mayor o si son iguales.
 2.  Realiza un programa que pida un número por teclado y nos indique si es par o impar.
 3.  Crea un programa que pida al usuario dos números y muestre el resultado de su división. Si el segundo número es 0, debe mostrar un mensaje de error.
@@ -279,7 +290,7 @@ int result = switch (str) {
     Nota 2: Si el número del dado introducido es menor que 1 o mayor que 6, se mostrará el mensaje: “ERROR: número incorrecto”. \
 15. Realiza un programa que pida el día de la semana (del 1 al 7) y escriba el día correspondiente. Si introducimos otro número nos da un error.
 16. Realiza un programa que pida un número entero entre uno y doce e imprima el número de días que tiene el mes correspondiente.
-
+</details>
 
 ## De repetición:
 ### `while`
@@ -317,13 +328,18 @@ for (int i=MAX; i > 0; ){
   System.out.println( "Mi primera lista ordenada " + --i );
 }
 ```
-Uso _típico_:
-1. Pre-ejecución: Inicializamos un contador. Típicamente se utilizan las variables `i`, `j` y `k`. Son la excepción a la norma del “naming”.
-2. Verificamos condición y si se cumple ejecutamos el bloque contenido en entre `{` y `}`.
-3. Post-ejecución: Incrementamos el contador y volvemos al punto 2.
 
-_Nota: los bloques pre-ejecución y post-ejecución pueden utilizarse para lo que queramos._
-_Nota 2: los bloques pre-ejecución y post-ejecución pueden NO utilizarse, pero los `;` deben aparecer._
+> [!TIP]
+> Uso _típico_:
+> 1. Pre-ejecución: Inicializamos un contador. Típicamente se utilizan las variables `i`, `j` y `k`. Son la excepción a la norma del “naming”.
+> 2. Verificamos condición y si se cumple ejecutamos el bloque contenido en entre `{` y `}`.
+> 3. Post-ejecución: Incrementamos el contador y volvemos al punto 2.
+
+> [!TIP]
+> Los bloques pre-ejecución y post-ejecución pueden utilizarse para lo que queramos.
+
+> [!CAUTION]
+> Los bloques pre-ejecución y post-ejecución pueden NO utilizarse, pero los `;` deben aparecer.
 
 El bucle `for` es tan potente que permite emular cualquiera de los otros bucles, e incluso a los `if`: `for( ; a < b ; ){ *Hago algo* }`
 
@@ -331,7 +347,7 @@ El bucle `for` es tan potente que permite emular cualquiera de los otros bucles,
 ### Bucles anidados:
 Los bucles pueden anidarse. 
 
-Ejercicio: Imprime en pantalla las tablas de multiplicar (del 0 al 10).
+**Ejercicio**: Imprime en pantalla las tablas de multiplicar (del 0 al 10).
 
 
 ## Saltos: `break` y `continue`
@@ -354,7 +370,8 @@ Dados los [tipos de pruebas](https://www.loadview-testing.com/es/blog/tipos-de-p
 + [ ] Depuración
 + [ ] Test
   + [ ] unitarios - _JUnit_
-     + Testeando la salida de consola con [JUnit](https://www.mastertheboss.com/various-stuff/testing-java/how-to-verify-the-console-output-in-junit-tests/)
+   > [!IMPORTANT]
+   > Testeando la salida de consola con [JUnit](https://www.mastertheboss.com/various-stuff/testing-java/how-to-verify-the-console-output-in-junit-tests/)
       
   + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor)
   + [ ] _Records_
@@ -366,7 +383,13 @@ Dados los [tipos de pruebas](https://www.loadview-testing.com/es/blog/tipos-de-p
 
 
 ## TDD - Test-Driven Development
-> Desarrollo guiado por pruebas de software, o Test-driven development es una práctica de ingeniería de software que involucra otras dos prácticas: Escribir las pruebas primero y Refactorización. Para escribir las pruebas generalmente se utilizan las pruebas unitarias. En primer lugar, se escribe una prueba y se verifica que la nueva prueba falla. A continuación, se implementa el código que hace que la prueba pase satisfactoriamente y seguidamente se refactoriza el código escrito. El propósito del *desarrollo guiado por pruebas* es lograr un **código limpio que funcione**. La idea es que los requisitos sean traducidos a pruebas, de este modo, cuando las pruebas pasen se garantizará que el software cumple con los requisitos que se han establecido.
+> Desarrollo guiado por pruebas de software, o Test-driven development es una práctica de ingeniería de software que involucra otras dos prácticas: Escribir las pruebas primero y Refactorización.
+>
+> Para escribir las pruebas generalmente se utilizan las pruebas unitarias.
+>
+> En primer lugar, se escribe una prueba y se verifica que la nueva prueba falla. A continuación, se implementa el código que hace que la prueba pase satisfactoriamente y seguidamente se refactoriza el código escrito.
+>
+> El propósito del *desarrollo guiado por pruebas* es lograr un **código limpio que funcione**. La idea es que los requisitos sean traducidos a pruebas, de este modo, cuando las pruebas pasen se garantizará que el software cumple con los requisitos que se han establecido.
 >
 > Fuente: [Wikipedia](https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas)
 
@@ -382,7 +405,8 @@ Continuar en [wikipedia](https://es.wikipedia.org/wiki/Javadoc)
 
 Uso típico `javadoc PAQUETES` o `javadoc FUENTES`, siendo éstas uno o varios archivos `.java`
 
-_Nota: a menudo, windows no encuentra adecuadamente el programa `javadoc` pero fácilmente podemos instanciarlo indicando la ruta completa `c:\Program Files\Java\jdk-21\bin\javadoc `_
+> [!NOTE]
+> A menudo, windows no encuentra adecuadamente el programa `javadoc` pero fácilmente podemos instanciarlo indicando la ruta completa `c:\Program Files\Java\jdk-21\bin\javadoc `
 
 
 # Buenas prácticas
@@ -433,7 +457,8 @@ Deberéis implementarlo mediante objetos, bucles y condicionales... vamos, lo qu
 
 ---
 # Notas
+> [!NOTE]
+> [^1]: Sólo cuando ya sepas programar y tu código hable por ti. Ahora que estamos aprendiendo, a veces, no codificamos lo que hemos programado mentalmente por lo que mejor si dejas claro al profesor lo que en realidad querías hacer.
 
-[^1]: Sólo cuando ya sepas programar y tu código hable por ti. Ahora que estamos aprendiendo, a veces, no codificamos lo que hemos programado mentalmente por lo que mejor si dejas claro al profesor lo que en realidad querías hacer.
-
-[^2]: Pese a que la fuente avisa de que deben evitarse, nosotros lo tendremos prohibido, tanto rutas como otros elementos. Usar archivo de _properties_.
+> [!NOTE]
+> [^2]: Pese a que la fuente avisa de que deben evitarse, nosotros lo tendremos prohibido, tanto rutas como otros elementos. Usar archivo de _properties_.
