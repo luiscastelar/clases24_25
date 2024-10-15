@@ -356,6 +356,52 @@ Cuando dadas las circunstancias queremos detener un bucle o anular el procesado 
     + `continue`: interrumpe sólo la iteración actual, pasando a ejecutar la siguiente.
 
 
+## Recursividad
+Otra forma de resolver los problemas anteriores es mediante recursividad. Partamos del ejemplo de capturar los argumentos de entrada a nuestra aplicación. Para ello recuperaremos el ejercicio de la unidad anterior:
+```java
+public class Main {
+    public static void main(String[] args) {
+        boolean isTieneArgumentos = ( args.length > 0 )? true : false;
+        String texto = isTieneArgumentos ? args[0] : "No hay argumentos";
+        System.out.println(texto);
+    }
+}
+```
+
+Aquí sólo estamos atrapando el primer argumento (el 0). Ahora podemos modificarlo para recorrer la lista de argumentos:
+ ```java
+public class Main {
+    public static void main(String[] args) {
+        int size = args.length;
+        for(int i = 0; i < size; i++){
+            System.out.print(args[i] + " ");
+        }
+    }
+}
+```
+
+Adentrándonos en la programación funcional, podemos reescribir la solución de la siguiente forma más fácil de ver:
+```java
+public class Main {
+    public static void main(String[] args) {
+        String texto = obtenerTexto( 0, args );
+        System.out.println(texto);
+    }
+}
+```
+
+Donde la función obtener texto nos devolverá todos los argumentos comenzando por el argumento 0.
+<details>
+
+Y la función será:
+```java
+private static String obtenerTexto( int indice, String[] args ) {
+    int size = args.length;
+    return (size-indice > 0)? args[indice] + " " + obtenerTexto( ++indice , args ) : "";
+}
+```
+</details>
+
 ## Ejercicios
 + [Cuanta los minutos](https://www.aceptaelreto.com/problem/statement.php?id=148&cat=5)
 + [¿Qué lado de la calle?](https://www.aceptaelreto.com/problem/statement.php?id=217&cat=5)
@@ -370,8 +416,8 @@ Dados los [tipos de pruebas](https://www.loadview-testing.com/es/blog/tipos-de-p
 + [ ] Depuración
 + [ ] Test
   + [ ] unitarios - _JUnit_
-   > [!IMPORTANT]
-   > Testeando la salida de consola con [JUnit](https://www.mastertheboss.com/various-stuff/testing-java/how-to-verify-the-console-output-in-junit-tests/)
+> [!IMPORTANT]
+> Testeando la salida de consola con [JUnit](https://www.mastertheboss.com/various-stuff/testing-java/how-to-verify-the-console-output-in-junit-tests/)
       
   + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor)
   + [ ] _Records_
@@ -456,9 +502,7 @@ Deberéis implementarlo mediante objetos, bucles y condicionales... vamos, lo qu
 
 
 ---
-# Notas
-> [!NOTE]
-> [^1]: Sólo cuando ya sepas programar y tu código hable por ti. Ahora que estamos aprendiendo, a veces, no codificamos lo que hemos programado mentalmente por lo que mejor si dejas claro al profesor lo que en realidad querías hacer.
+# Notas:
+[^1]: Sólo cuando ya sepas programar y tu código hable por ti. Ahora que estamos aprendiendo, a veces, no codificamos lo que hemos programado mentalmente por lo que mejor si dejas claro al profesor lo que en realidad querías hacer.
 
-> [!NOTE]
-> [^2]: Pese a que la fuente avisa de que deben evitarse, nosotros lo tendremos prohibido, tanto rutas como otros elementos. Usar archivo de _properties_.
+[^2]: Pese a que la fuente avisa de que deben evitarse, nosotros lo tendremos prohibido, tanto rutas como otros elementos. Usar archivo de _properties_.

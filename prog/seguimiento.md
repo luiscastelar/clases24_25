@@ -4,59 +4,9 @@
 # Materia PLANIFICADA
 
 
-## UT2. Introducción a la POO
-+ 30s:
-  + [x] Características de los objetos.
-  + [x] Concepto de clase.
-  + [x] Instanciación de objetos.
-  + [x] “nombres” de objetos (referencias).
-  + [x] Destrucción de objetos y liberación de memoria.
-  + [x] Ámbito de variables.
-+ 1o:
-  + [x] Ámbito de variables. Ocultación y `this`
-  + [x] Utilización de métodos. Parámetros.
-  + [x] Creación de propiedades.
-  + [x] Utilización de propiedades.
-  + [x] Constructores.
-+ 2o:
-  + [x] POO: Encapsulamiento, Abstracción, Herencia y Polimorfismo.
-  + [x] D.R.Y. (Don’t Repeat Yourself).
-  + [x] Estructura y miembros de una clase. Visibilidad.
-  + [x] Método `toString()`.
-+ 4o:
-  + [x] Interfaz: Modularidad, Reutilización de código, facilidad de pruebas y mantenimiento, y abstracción.
-  + [x] _Estructura de clases del API de Java SE._
-  + [x] “naming” de variables y otras buenas prácticas
-  + [x] getters y setters.
-  + [x] continuación ejercicio `toString()`
-+ 7o:
-  + [x] resolución dudas getters & setters
-  + [x] resolución dudas git (por 4 vez)
-  + [x] Seguir “jugando”
-+ 8o:
-  + [x] Creación de métodos.
-      + [x] Creación de métodos (_de instancia_)
-      + [x] Creación de métodos estáticos (_de clase_)
-  + [x] Utilización de métodos estáticos.
-  + [x] Entrada desde teclado. Salida a pantalla.
-  + [x] _Utilizar librerías de objetos: import_
-  + [x] `enum`s
-+ 9o:
-  + [x] Paso de parámetros por valor y por referencia.
-  + [x] _Clases auto-mágicas y Java “moderno”_: Clase con `main` estático vs la **clase sin nombre** con método **`main` no-estático**.
-+ 11o:
-  + [ ] Resolución dudas ejercicios y prácticas.
-+ 14o:
-  + [ ] _Records_
-  + [ ] **Defensa de prácticas**
-+ 16o: **Examen ut2**
-
-_Trabajados los RA 2 y 4._
-
-
 ## UT3. Programación estructurada y depuración de programas
-+ (14h)
 + 15o:
+  + [ ] Argumentos de entrada - `String[] args` (de ut2)
   + [ ] Diagrama de actividades
   + [ ] Control de excepciones
     + [ ] try/catch/finally
@@ -279,3 +229,55 @@ _Trabajados los RA 4, 5, 6, 7 y 8._
 + [x] _Tipos de datos_
       
 _Trabajado el Resultado de Aprendizaje 1._
+
+
+## UT2. Introducción a la POO
++ 30s:
+  + [x] Características de los objetos.
+  + [x] Concepto de clase.
+  + [x] Instanciación de objetos.
+  + [x] “nombres” de objetos (referencias).
+  + [x] Destrucción de objetos y liberación de memoria.
+  + [x] Ámbito de variables.
++ 1o:
+  + [x] Ámbito de variables. Ocultación y `this`
+  + [x] Utilización de métodos. Parámetros.
+  + [x] Creación de propiedades.
+  + [x] Utilización de propiedades.
+  + [x] Constructores.
++ 2o:
+  + [x] POO: Encapsulamiento, Abstracción, Herencia y Polimorfismo.
+  + [x] D.R.Y. (Don’t Repeat Yourself).
+  + [x] Estructura y miembros de una clase. Visibilidad.
+  + [x] Método `toString()`.
++ 4o:
+  + [x] Interfaz: Modularidad, Reutilización de código, facilidad de pruebas y mantenimiento, y abstracción.
+  + [x] _Estructura de clases del API de Java SE._
+  + [x] “naming” de variables y otras buenas prácticas
+  + [x] getters y setters.
+  + [x] continuación ejercicio `toString()`
++ 7o:
+  + [x] resolución dudas getters & setters
+  + [x] resolución dudas git (por 4 vez)
+  + [x] Seguir “jugando”
++ 8o:
+  + [x] Creación de métodos.
+      + [x] Creación de métodos (_de instancia_)
+      + [x] Creación de métodos estáticos (_de clase_)
+  + [x] Utilización de métodos estáticos.
+  + [x] Entrada desde teclado. Salida a pantalla.
+  + [x] _Utilizar librerías de objetos: import_
+  + [x] `enum`s
++ 9o:
+  + [x] Paso de parámetros por valor y por referencia.
+  + [x] _Clases auto-mágicas y Java “moderno”_: Clase con `main` estático vs la **clase sin nombre** con método **`main` no-estático**.
++ 11o:
+  + [x] Resolución dudas ejercicios y prácticas.
++ 14o:
+  + [x] _Records_
+  + [ ] Argumentos de entrada(`String[] args`)
+  + [ ] ~~**Defensa de prácticas**~~
++ 16o: **Examen ut2**
+
+_Trabajados los RA 2 y 4._
+

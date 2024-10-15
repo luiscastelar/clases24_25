@@ -1,7 +1,6 @@
 #curso24_25 #lmsgi [estado::Done] _Duración: 3h_
 
 # Introducción
-
 > Un **lenguaje de marcado** o **lenguaje de marcas** es una forma de codificar un documento que, junto con el texto, incorpora etiquetas o marcas que contienen información adicional acerca de la estructura del texto o su presentación.
 > 
 > Fuente: [concepto de juangualberto](https://juangualberto.github.io/lmsgi/tema01/concepto.html)

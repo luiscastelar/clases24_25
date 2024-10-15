@@ -108,6 +108,37 @@ Algunos métodos para hilar más fino:
 + `Pattern delimiter()` -> Devuelve el separador de tokens actual (para salvarlo).
 
 
+## Coloreando la salida
+```java
+public class ClasePrincipal{
+	public static void main( String[] args ){
+		final String NEGRO = "\u001B[30m";
+		final String AZUL = "\u001B[34m";
+		final String GREEN_BACKGROUND = "\u001B[42m";
+		
+		String texto = "Hola mundo";
+		System.out.println( AZUL + texto + NEGRO + GREEN_BACKGROUND + " y más cosas");
+	
+	}
+}
+```
+
+<details>
+
+Tabla de códigos de colores ANSI:
+
+| **Nombre del color** | **Código de colores** | **Color de fondo** | **Código de color de fondo** |
+| --- | --- | --- | --- |
+| NEGRO | \\u001B\[30m | FONDO NEGRO | \\u001B\[40m |
+| ROJO | \\u001B\[31m | FONDO ROJO | \\u001B\[41m |
+| VERDE | \\u001B\[32m | FONDO VERDE | \\u001B\[42m |
+| AMARILLO | \\u001B\[33m | FONDO AMARILLO | \\u001B\[43m |
+| AZUL | \\u001B\[34m | FONDO AZUL | \\u001B\[44m |
+| PÚRPURA | \\u001B\[35m | FONDO PÚRPURA | \\u001B\[45m |
+| CIAN | \\u001B\[36m | FONDO CIAN | \\u001B\[46m |
+| BLANCO | \\u001B\[37m | FONDO BLANCO | \\u001B\[47m |
+
+</details>
 
 
 ## Ejercicios
@@ -170,7 +201,9 @@ Debes establecer los criterios más restrictivos posibles de visibilidad.
 ---
 
 # Especial Java
-## Tipos enumerados:
+<details>
+
+## `enum` - Tipos enumerados:
 Es un tipo de clase especial que se utilizar como un subconjunto de datos (cerrados)
 
 ```java
@@ -201,6 +234,29 @@ Al ser una clase, podemos definir y sobreescribir métodos (ver [aquí](https://
   + MS OpenJDK -> la ideal para azure
   + Amazon Corretto -> la ideal para AWS
   + RH OpenJDK -> la ideal para la nube de Red Hat
+
+
+## `record` - Registros
+Es un tipo de clase especial **inmutable**, esto es, que no se puede modificar sus valores después de crearlos.
+```java
+public record Alumno (String nombre, int edad){}
+```
+El compilador creará los getters, el constructor completo y el método `toString()` que nos permitirá de forma sencilla operar con ellos.
+
+
+## Paso de argumentos por consola
+```java
+public class Main {
+    public static void main(String[] args) {
+        boolean isTieneArgumentos = ( args.length > 0 )? true : false;
+        String texto = isTieneArgumentos ? args[0] : "No hay argumentos";
+        System.out.println(texto);
+    }
+}
+```
+
+</details>    
+---
 
 # Prácticas
 ## Práctica “Hola Mundo”:

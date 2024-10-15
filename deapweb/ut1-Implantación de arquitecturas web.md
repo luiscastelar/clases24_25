@@ -36,7 +36,7 @@ Modelos de capas:
 #### Ejercicios
 Consultar cabezeras http con `curl -I`
 Analizar las respuestas de:
-```
+```bash
 curl -I mail.google.com
 curl -I amazon.es
 curl -I https://amazon.es
@@ -86,7 +86,7 @@ Juega con la API REST de muestra ofrecida por [GoREST](https://gorest.co.in/)
   - Uno: curl https://gorest.co.in/public/v2/users/2936
 + Para POST, PUT, PATCH y DELETE requerimos autenticarnos y pasarle los datos a cambiar... \
 *El uso de curl con datos:*
-```
+```bash
 curl --header "Content-Type: application/json" \
      --request POST \
      --data '{"username":"xyz","password":"xyz"}' \
@@ -109,35 +109,34 @@ curl --header "Content-Type: application/json" \
   - CIDR (Enrutamiento [interdominio] sin clases).
   - VLSM (Máscara de red de longitud variable).
   - IPs de relevancia:
-```
+
    | IPv4               | IPv6            | Nombre / Significado                          |
-   |--------------------+-----------------+-----------------------------------------------|
+   |--------------------|-----------------|-----------------------------------------------|
    | 0.0.0.0/0          | ::/0            | wildcard (comodín)                            |
    |                    | ::/128          | sin especificar                               |
    | 127.X.X.X/8        | ::1/128         | loopback (el propio host)                     |
-   | 10.X.X.X/8         | fc00::/7        | Redes priv (con *hasta* 2^24 - 2 host IPv4)   |
-   | 172.16.X.X/12      |                 | Redes priv (con *hasta* 2^20 - 2 host IPv4)   |
-   | 192.168.X.X/16     |                 | Redes priv (con *hasta* 2^16 - 2 host IPv4)   |
+   | 10.X.X.X/8         | fc00::/7        | Redes priv (con *hasta* 2^24 - 2 host IPv4)     |
+   | 172.16.X.X/12      |                 | Redes priv (con *hasta* 2^20 - 2 host IPv4)     |
+   | 192.168.X.X/16     |                 | Redes priv (con *hasta* 2^16 - 2 host IPv4)     |
    | 255.255.255.255/32 | -No existe-     | Difusión                                      |
-   |                    | ::/96           | IPv4 compatible **NO usar**.                  |
+   |                    | ::/96           | IPv4 compatible **NO usar**.                      |
    |                    | ::ffff:0:0/96   | IPv4 mapeada                                  |
    |                    | ::ffff:0:0:0/96 | IPv4 traducida                                |
-   |--------------------+-----------------+-----------------------------------------------|
+   |--------------------|-----------------|-----------------------------------------------|
    | Enlace local       |                 | No enrutable (sin salida a internet)          |
-   |--------------------+-----------------+-----------------------------------------------|
+   |--------------------|-----------------|-----------------------------------------------|
    | 169.254.X.X/16     | fe80::/10       | link-local -> no hay DHCP y hay conf dinámica |
-   |--------------------+-----------------+-----------------------------------------------|
+   |--------------------|-----------------|-----------------------------------------------|
    | De interés         |                 |                                               |
-   |--------------------+-----------------+-----------------------------------------------|
+   |--------------------|-----------------|-----------------------------------------------|
    | 224.0.0.1          | ff02::1/128     | All nodes (de la red)                         |
    | 224.0.0.2          | ff02::2/128     | All routers (de la red)                       |
    |                    | ff0e::1/128     | All nodes (de todas las redes)                |
    |                    | 2001::/32       | Túnel Teredo (conexión 6to4)                  |
    |                    | 64:ff9b::/96    | prefijo Well-know (IPv4 traducida automática) |
    | 192.168.56.X/24    |                 | Red NAT de Virtual Box                        |
-   |--------------------+-----------------+-----------------------------------------------|
-```
-> (*) Lista no exhaustiva de ips de relevancia.
+   |--------------------|-----------------|-----------------------------------------------|
+ _Lista no exhaustiva de ips de relevancia._
 
 Si bien las direcciones link-local no son utilizadas habitualmente en IPv4, todas las interfaces **deben** disponer **OBLIGATORIAMENTE** de dirección **fe80::/10**.
 
@@ -149,7 +148,7 @@ _[Cheatsheet IPv6](http://wiki.webperfect.ch/images/4/49/IPv6_Cheatsheet.pdf)_
 #### Ejerccios:
 Ver sockets activos en el servidor (en equipo Linux):
    + Equipo propio:
-```
+```bash
 $ ss -tapon
 # ss -tapon
 $ netstat -tapon
@@ -158,29 +157,44 @@ $ lsof -i -P -n
 ```
 > $ para usuario sin privilegios y # para root. Éste segundo nos dará información más detallada, como el nombre de los procesos entre otros.
    + Otro equipo:
-```
+```bash
 $ nc -vc IP PUERTO
 $ nmap IP
 $ nmap IP/CIDR
 ```
 
-> Para Windows (poco habitual en servidores): \
-> Información de puestos y conexiones:
->> CMD:	netstat -ano \
->>		    netstat -abno \
->> PS:	Test-NetConnection IP -Port PUERTO \
->
-> Información de rutas:
->> CMD:	route print
->
-> Extra: Información sobre los procesos
->> CMD:	tasklist /FI "pid eq NUM_PID_DEL_PROCESO" /V /FO List
->
->> **Localizar y matar procesos**
->> PS: Get-NetTCPConnection -LocalPort PUERTO
->> PS o CMD: taskkill /F /PID PID_PROCESO
+#### Para Windows
+Muy presente en aplicaciones `.net`:
+```cmd
+# Información de puestos y conexiones:
+netstat -ano
+netstat -abno
 
-# Tareas:
+# Información de rutas:
+route print
+
+# Extra: Información sobre los procesos
+tasklist /FI "pid eq NUM_PID_DEL_PROCESO" /V /FO List
+
+# Matar procesos
+taskkill /F /PID PID_PROCESO
+```
+
+```powershell
+# Información de puestos y conexiones:
+Test-NetConnection IP -Port PUERTO
+
+# Información de rutas:
+Get-NetRoute
+
+# Extra: Información sobre los procesos
+Get-NetTCPConnection -LocalPort PUERTO
+
+# Matar procesos
+taskkill /F /PID PID_PROCESO
+```
+
+**Tareas:**
 1. Dado el mapa de red, asigna direcciones de forma coherente y razonada a TODOS los dispositivos en sus interfaces de capa 3.
 ![capas](https://luiscastelar.duckdns.org/2024/assets/deapweb/T1-mapa_de_red.png)
 2. Obtén las cabeceras de una petición GET a *amazon.es* pero disfrazando el *user-agent* para parecer un Firefox versión 105.0.1.
@@ -341,10 +355,10 @@ La ventaja de realizarlo sin cuenta educativa es que será permanente ya que no 
 + [DigitalOcean](https://www.digitalocean.com/pricing) ($200/60d)
 + [IBM Cloud](https://www.ibm.com/cloud/free) (VPS 30 días + otros Always Free)
 
-
 **[Referencias Free-Hosting](https://github.com/cloudcommunity/Free-Hosting)**
 
 
+---
 # Notas al pie
 [^1]: Servicios AWS a utilizar:
 + Opción AWS Academy ($100 de saldo)

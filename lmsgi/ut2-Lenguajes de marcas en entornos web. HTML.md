@@ -8,8 +8,8 @@ Para aprender usaremos [codi.link](https://codi.link).
 
 Para desarrollos más allá, podremos utilizar _vs code_ + plugin _live preview_.
 
-# Estándares web. Versiones. Clasificación.
 
+# Estándares web. Versiones. Clasificación.
 > **HTML, CSS y JavaScript**: Una aplicación web, es una aplicación creada usando como base el lenguaje HTML. Por lo tanto, se trata de una aplicación que se ejecuta en un navegador de Internet.
 >
 > Las aplicaciones web utilizan lenguajes que apoyan la labor de HTML y que son traducibles por parte de los navegadores. Esencialmente las aplicaciones web actuales utilizan:
@@ -297,8 +297,11 @@ Debes añadirle un formulario (de contacto o de compra o lo que creas más oport
 
 El uso del formulario con el destino facilitado y el campo añadido asegurará que tu formulario es recibido, procesado, registrado y valorado.
 
-_Nota: sólo será valorado el último envío que realices. Asegúrate que es el correcto leyendo que he recibido y la puntuación otorgada a cada apartado._
-_Nota 2: según la tabla aportada, estima que necesitarás **30 puntos** para que el formulario sea considerado **suficiente**. De ahí para arriba podrás añadir lo que quieras._
+> [!NOTE]
+> Sólo será valorado el último envío que realices. Asegúrate que es el correcto leyendo que he recibido y la puntuación otorgada a cada apartado.
+
+> [!IMPORTANT]
+> Según la tabla aportada, estima que necesitarás **30 puntos** para que el formulario sea considerado **suficiente**. De ahí para arriba podrás añadir lo que quieras.
 
 
 **Evaluación y calificación:**
@@ -318,4 +321,5 @@ _Nota 2: según la tabla aportada, estima que necesitarás **30 puntos** para qu
 ---
 # Notas al pie
 [^1]: en realidad la dirección queda calculada respecto a la dirección base si es especificada mediante el tag `<base href="https://url.es/lo_que_sea">`.
+
 [^2]: inserta un campo con una clase específica para el indicador, p.e. rojo, naranja, amarillo, verde, que luego “maquillaremos” con css en la ut3.
