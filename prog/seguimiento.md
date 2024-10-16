@@ -6,33 +6,32 @@
 
 ## UT3. Programación estructurada y depuración de programas
 + 15o:
-  + [ ] Argumentos de entrada - `String[] args` (de ut2)
-  + [ ] Diagrama de actividades
+  + [x] Diagrama de actividades
+  + [x] Control de excepciones
+    + [x] try/catch/finally
+    + [x] Clase Exception
++ ~~16o: Examen UT2~~
++ 18o:
   + [ ] Control de excepciones
-    + [ ] try/catch/finally
-    + [ ] Clase Exception
-+ 16o:
+    + [ ] throw y throws
   + [ ] Aserciones.
   + [ ] Estructuras de control.
-    + [ ] Estructuras de selección.  
-+ 18o:
+    + [ ] Estructuras de selección.
++ 21o:
   + [ ] Estructuras de control.
     + [ ] Estructuras de repetición.
     + [ ] Estructuras con saltos (_break_ y _continue_).
-+ 21o:
   + [ ] Documentación -> _javadoc_
-  + [ ] Creación de excepciones.
 + 22o:
   + [ ] Utilizar el entorno integrado de desarrollo en la creación y compilación de programas ~~simples~~.
   + [ ] Depuración.
   + [ ] Test unitarios - `JUnit`.
 + 23o:
   + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor).
+  + [ ] Creación de excepciones.
 + 28o:
   + [ ] Defensa de prácticas.
-+ 29o: **Examen**
-  
-
++ 30o: **Examen**
 
 _Trabajado el RA 3._
 
@@ -41,11 +40,26 @@ _Trabajado el RA 3._
 + (14h) 
 
 + 25o:
-+ 30o:
-+ [ ] Estructuras estáticas y dinámicas.
-+ [ ] Creación de vectores (arrays unidimensionales).
-+ [ ] _La clase `Arrays`_
-+ [ ] Matrices (arrays multidimensionales).
+  + [ ] Estructuras estáticas y dinámicas.
+  + [ ] Declaración y asignación de vectores (_array_ unidimensionales)
+  + [ ] Trabajando con _array_’s: `for`
++ 29o:
+  + [ ] Trabajando con _array_’s: `for-each`
+  + [ ] _La clase `Arrays`_
++ ~~1n~~: Festivo
++ 4n:
+  + [ ] _String[] args_
+  + [ ] _vargars_
+  + [ ] Ejercicios
++ 5n:
+  + [ ] Matrices (arrays multidimensionales).
++ 6n:
+  + [ ] Ejercicios
++ 8n:
+  + [ ] Defensa prácticas
++ 11n:
+  + [ ] Defensa prácticas
++ 13n: **Examen**
 
 ### Genéricos
 + [ ] Genéricos.
@@ -55,7 +69,8 @@ _Trabajados los RA 3, 4 y 6._
 
 ## UT5. Manipulación de información. Cadenas.
 + (14h) 
-
++ 12n:
++ 15n:
 + [ ] Estructuras estáticas y dinámicas.
 + [ ] Cadenas de caracteres. Expresiones regulares.
 
@@ -275,8 +290,9 @@ _Trabajado el Resultado de Aprendizaje 1._
   + [x] Resolución dudas ejercicios y prácticas.
 + 14o:
   + [x] _Records_
-  + [ ] Argumentos de entrada(`String[] args`)
   + [ ] ~~**Defensa de prácticas**~~
++ 15o:
+  + [x] Argumentos de entrada(`String[] args`)
 + 16o: **Examen ut2**
 
 _Trabajados los RA 2 y 4._

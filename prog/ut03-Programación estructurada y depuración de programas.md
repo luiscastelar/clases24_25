@@ -23,7 +23,7 @@ try {
 		// Imprime un mensaje descriptivo
 	System.out.println(e.toString());
 		// Imprime la clase que generó la excepción y un mensaje descriptivo
-	System.out.println(e.printStackTrace());
+	e.printStackTrace();
 		// Imprime el método y el mensaje... lo mismo que si no lo controláramos.
 }
 ```
