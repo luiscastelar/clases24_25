@@ -36,20 +36,20 @@ Además ha realizado añadidos muy interesantes como:
 + Expresiones [matemáticas](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 + Alertas:o
 
-  > [!NOTE]
-  > Una nota especial
+> [!NOTE]
+> Una nota especial
   
-  > [!IMPORTANT]
-  > Esto es importante
+ > [!IMPORTANT]
+ > Esto es importante
   
-  > [!TIP]
-  > Consejos útiles
+ > [!TIP]
+ > Consejos útiles
   
-  > [!WARNING]
-  > Una advertencia
+ > [!WARNING]
+ > Una advertencia
   
-  > [!CAUTION]
-  > Otra curiosa
+ > [!CAUTION]
+ > Otra curiosa
 
 + Menciones de usuarios de github con `@nombre_de_usuario`
 + Referencias a _issues_ y _pull request_ con `#17`
