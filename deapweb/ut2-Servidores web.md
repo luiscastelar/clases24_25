@@ -72,6 +72,48 @@ Los contenedores web que sirven ana... y alejandro... no serán accesibles desde
 _Nota: El dominio `duckdns.org` está filtrado desde la red educarex, no así desde la red de aula._
 
 
+
+## Creación de instancia
+Primero crearemos una instancia en Azuere, AWS, OC (Oracle Cloud) u otra máquina externa con acceso al mundo por vuestra parte (antiguo pc, raspberry pi, etc.)
+
+## Creación de pares de llaves
+Con `ssh-keygen -t ed25519 ` volcaremos un par de llaves público/privadas en `~/.ssh/` (tanto en Windows como en Linux). Pondremos contraseña de descifrar las llaves en equipos públicos (como el de clase).
+
+Deberemos tomar la llave pública (la que lleva `.pub`) e insertarla en le archivo `.ssh/authorized_keys` del **servidor**. Para ello, en el servidor ejecutaremos `echo ‘contenido de la llave’ >> ~/.ssh/authorized_keys`.
+
+A partir de este momento podremos acceder al servidor sin que nos solicite contraseña de acceso del servidor (sólo la de la llave si la creamos).
+
+## Acceso al VPS
+`ssh {{USUARIO}}@{{IP DEL SERVIDOR}}` o `ssh {{USUARIO}}@{{FQDN}}`
+
+## DNS o DynDNS
+1. Deberemos darnos de alta en [duckdns](https://github.com/linuxserver/docker-duckdns) y obtener el token.
+2. Obtener un subdominio del tipo “misubdominio.duckdns.org”.
+3. Ahora para tener actualizada la IP a la que debe apuntar nuestro subdominio tenemos varias opciones:
+   + [Contenedor docker](https://github.com/linuxserver/docker-duckdns)
+   + Script de linux + CRON:
+     + Script duck.sh:`echo url="https://www.duckdns.org/update?domains=exampledomain&token=a7c4d0ad-114e-40ef-ba1d-d217904a50f2&ip=" | curl -k -o ~/duckdns/duck.log -K -`
+     + Cron -> `crontab -e` y añadir `*/5 * * * * ~/duckdns/duck.sh >/dev/null 2>&1` (vigilar la ruta)[^1]
+
+   + [Script de powershell + `Task Scheduler`](https://github.com/ataylor32/duckdns-powershell)
+
+## Firewall del VPS
+Deberemos tener presente que lo habitual es tener seguridad por defecto, por lo que al iniciar sólo tendremos acceso al ssh por puerto 22 y por pares de llaves o esa es la situación que deberemos crear de inicio.
+
+1. Verificar que no podemos entrar al VPS por contraseña. Sólo por pares de llaves. [En caso contrario](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server-es)
+2. Abrir los puertos 80 y 443 y que apunten a la instancia. Tendremos que conocer la ip privada de la misma.
+
+Si nuestro proveedor tiene abierto por defecto, o lo cerramos todo (excepto el puerto de ssh) o cerramos securizamos en la instancia.
+
+Llegados a este punto... ==Asustar con logs== `tail -f /var/log/auth.log` y en `luiscastelar.duckdns.org` mostrar el fail2ban `sudo tail -f /var/log/fail2ban.log`.
+
+Resumiendo, sólo hoy he recibido `sudo \cat /var/log/auth.log | grep 'Oct 17' | wc -l`
+
+---
+# Notas al pie
+[^1]: Siempre es aconsejable poner la ruta absoluta ya que a veces podemos despistarnos de quien es el usuario que está ejecutando el script de cron, ya que la `~` hará referencia al `home` de dicho usuario.
+
+
 # Monitorización
 1. Redes de monitorización y gestión
 ![separacion de redes](https://luiscastelar.duckdns.org/2024/assets/deapweb/separacion-de-redes.png)
