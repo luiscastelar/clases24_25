@@ -25,11 +25,13 @@
   + [x] ~~Tablas~~ -> Nuevas tablas
 + 14o:
   + [x] Formularios
-  + [ ] Modificaciones
+  + [x] Modificaciones
 + 17o:
-  + [ ] Elementos interactivos
-  + [ ] Scripts
+  + [ ] Elementos interactivos: `<script>`, `<canvas>`, `<template>` y `<slot>`
+  + [ ] DOM y Shadow DOM
+  + [ ] Trabajo en práctica
 + 21o:
+  + [ ] Caracteres especiales. Escapado
   + [ ] Accesibilidad
   + [ ] Otras etiquetas
   + [ ] Obsoletas
@@ -39,13 +41,25 @@
   + [ ] **Defensa de prácticas**
 + 31o:
   + [ ] **Defensa de prácticas**
-+ 4n: **EXAMEN**
++ 4n: **EXAMEN** en papel. [Puedes utilizar la chuleta](https://www.emezeta.com/weblog/html5-cheatsheet/html5-cheatsheet-emezeta.pdf)
 
 _Se trabaja el RA 2_.
+
+### Recuperación:
+Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Deberás demostrar los abances y conocimientos adquiridos.
 
 
 ## UT3 - Lenguajes de marcas en entornos web. CSS.
 38h -> 9,5 semanas ~ del 7n al 6f
++ 7n:
+  + [ ] Introducción
+  + [ ] Estilo inline, hojas internas y externas
+  + [ ] Herencia de reglas
+  + [ ] Prioridad de reglas
+  + [ ] Selectores
++ 11n:
+  + [ ] Selectores
+  + [ ] 
 + [ ] Hojas de estilo (CSS).
 + [ ] Validación de documentos HTML y CSS.
 + [ ] Selectores

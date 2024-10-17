@@ -12,6 +12,7 @@
     + [x] Clase Exception
 + ~~16o: Examen UT2~~
 + 18o:
+  + [ ] Resolver examen 
   + [ ] Control de excepciones
     + [ ] throw y throws
   + [ ] Aserciones.
@@ -294,6 +295,7 @@ _Trabajado el Resultado de Aprendizaje 1._
 + 15o:
   + [x] Argumentos de entrada(`String[] args`)
 + 16o: **Examen ut2**
++ 18o: Resolver examen en aula
 
 _Trabajados los RA 2 y 4._
 

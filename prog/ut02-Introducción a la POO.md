@@ -291,3 +291,5 @@ Basándonos en el ejercicio 5 donde nos pedían realizar una clase Libro para ge
 + Añade los archivos fuente y las capturas que creas oportuno (si es texto, captura con `tee`).
 + Aquellos pasos no explicados en el `README.md` conllevarán una puntuación de **0 puntos**.
 
+# Referencias
++ [Apuntes de Jose Luis Comesaña](https://github.com/rosepac/daw-temario/blob/main/PROG/PR03.pdf)

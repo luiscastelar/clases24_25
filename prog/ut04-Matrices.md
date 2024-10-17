@@ -237,7 +237,9 @@ Requisitos de uso:
 + El método debe tener un sólo `varargs`
 + Debe ser el último/s argumento del método.
 
-[Más info](https://www.baeldung.com/java-varargs)
+### Fuentes:
++ [Ejemplo de uso](https://www.arquitecturajava.com/java-varargs-colecciones/)
++ [Más info](https://www.baeldung.com/java-varargs)
 
 ---
 # Notas

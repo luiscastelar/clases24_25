@@ -233,8 +233,35 @@ Lo trabajaremos en la ut3 sobre CSS - [enlace](https://estradawebgroup.com/Post/
 >    Los navegadores son capaces de ejecutar programas escritos en el lenguaje de programación JavaScript. Estos programas se suelen denominar _scripts_. Varias etiquetas permiten integrar estos programas en una página web: `<script>`, `<noscript>`, `<template>`, `<slot>` y `<canvas>`.
 >    
 > _Fuente: [MCLibre - Bartolomé Sintes](https://www.mclibre.org/consultar/htmlcss/index.html)_
-    
+
+### Tag `script`
+En la web actual se refiere a _scripts_ de _JavaScript_, pero existen (o existían) otros lenguajes de script como VBSript (variante de Visual Basic).
+
 _Veremos en profundidad los scprit en la UT5_.
+
+
+### Tag `<noscript>`
+Dentro de los scripts podemos incluir el tag `<noscript>` para compatibilidad con navegadores antiguos o por accesibilidad como lectores de pantalla, navegadores textuales, etc.
+
+
+#### Tag `<canvas>`
+El tag `<canvas>` permite dibujar gráficos y animaciones mediante la [canvas scripting API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) o el [WebGL API](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API).
+
+
+### Modelo de Objetos de Documento - DOM
+![DOM](http://www.elvisualista.com/wp-content/uploads/2018/07/g-20.1-grafico-pagina-dom.png)
+Es la representación lógica de la estructura del documento. Es fundamental para la manipulación por parte de _scripts_.
+
+
+#### Shadow DOM
+![Shadow DOM](https://media.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6k5jghjo3029yyypg73s.jpg)
+El “DOM en la Sombra” es un DOM que puede ser asociado a un elemento del DOM principal, pero que no es mostrado (en la sombra) hasta que no se manipula con _JavaScript_.
+
+
+#### Tags `<template>` y `<slot>`
+El tag `<template>` es un mecanismo para mantener fragmentos HTML en el _shadow DOM_ preparados para fusionar con en el _DOM_. La fusión se realiza mediante JavaScript.
+
+El elemento HTML `<slot>`, parte del conjunto de tecnologías de componentes web, es un marcador de posición dentro de un componente web que puede rellenar con su propio marcado, lo que le permite crear árboles DOM separados y presentarlos juntos.
 
 
 
@@ -285,14 +312,15 @@ Por ejemplo `<img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-sem
 ## Obsoletas
 [Puedes consultar](https://lenguajehtml.com/html/documento/etiquetas-html-obsoletas/) las etiquetas que no debemos utilizar y el reemplazo a realizar si te las encuentras.
 
-# Práctica:
-**Haz tu web-currículo.**  
+
+# Práctica: Haz tu web-currículo.
 ¿Que no sabes cómo? Pues esta es la vida del desarrollador... algunos tips:
 1. Busca algunos estilos de web-currículo que pudieran interesarte para tener claro que te gustaría mostrar.
 2. Seamos prácticos, ahora no estás buscando trabajo. Pero sí lo harás cuando acabes el ciclo por lo que debes indicar las `skill`s y `soft-skill`s que tendrás cuando hayas acabado. Marca en cada una el nivel de logro actual por lo que sólo deberás actualizar el cv cuando hayas finalizado el ciclo[^2].
 3. A trabajar.
 
-**Formulario**  
+
+## Formulario
 Debes añadirle un formulario (de contacto o de compra o lo que creas más oportuno) en el que deberás incluir la dirección destino `https://lmsgi.luiscastelar.duckdns.org/recibe_formulario.php` y el campo nif/nie siguiente `<p>NIF o NIE: <input type="text" name="nif" maxlength="8"/></p>`. 
 
 El uso del formulario con el destino facilitado y el campo añadido asegurará que tu formulario es recibido, procesado, registrado y valorado.
@@ -304,7 +332,16 @@ El uso del formulario con el destino facilitado y el campo añadido asegurará q
 > Según la tabla aportada, estima que necesitarás **30 puntos** para que el formulario sea considerado **suficiente**. De ahí para arriba podrás añadir lo que quieras.
 
 
-**Evaluación y calificación:**
+## Forma de entrega
+1. Se realizará a través del repositorio de Github compartido con el profesor a principio de curso.
+2. Se ubicará en la siguiente ruta: `{{REPO}}/lmsgi/ut2/practica`, donde {{REPO}} es tu repositorio de Github.
+3. Deberá contener únicamente archivos html e imágenes asociadas.
+4. Deberá enlazar a css proporcionado por CDN `<link rel="stylesheet" type="text/css" href="https://luiscastelar.duckdns.org/2024/assets/lmsgi/default.css" media="screen" />`
+5. El formulario deberá remitir los datos a `https://lmsgi.luiscastelar.duckdns.org/recibe_formulario.php`
+6. El punto de entrada al mismo será un archivo denominado `index.html`
+   
+
+## Evaluación y calificación:
 + La dimensión y profundidad de esta práctica es libre y competitiva repartiendo la probabilidad de contratarte para la redacción de mi web entre todos los alumnos de 0 a 3 puntos (de décima en décima).
 + Utilización rica de etiquetas y atributos: 5 puntos.
 + Contenido: 2 puntos.
