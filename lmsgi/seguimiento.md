@@ -27,14 +27,15 @@
   + [x] Formularios
   + [x] Modificaciones
 + 17o:
-  + [ ] Elementos interactivos: `<script>`, `<canvas>`, `<template>` y `<slot>`
-  + [ ] DOM y Shadow DOM
-  + [ ] Trabajo en práctica
+  + [x] Elementos interactivos: `<script>`, `<canvas>`, `<template>` y `<slot>`
+  + [x] DOM y Shadow DOM
+  + [x] Caracteres especiales. Escapado
+  + [x] Trabajo en práctica
 + 21o:
-  + [ ] Caracteres especiales. Escapado
   + [ ] Accesibilidad
   + [ ] Otras etiquetas
   + [ ] Obsoletas
+  + [ ] Trabajo en práctica
 + 24o:
   + [ ] Trabajo en práctica
 + 28o:
@@ -46,26 +47,66 @@
 _Se trabaja el RA 2_.
 
 ### Recuperación:
-Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Deberás demostrar los abances y conocimientos adquiridos.
+Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Deberás demostrar los avances y conocimientos adquiridos.
 
 
 ## UT3 - Lenguajes de marcas en entornos web. CSS.
-38h -> 9,5 semanas ~ del 7n al 6f
-+ 7n:
+38h -> 9,5 semanas 
+### Semana 1
+* Jueves: 07.11:
   + [ ] Introducción
-  + [ ] Estilo inline, hojas internas y externas
-  + [ ] Herencia de reglas
+  + [ ] Estilos in-line, in-file y externas
+  + [ ] Cascada - Herencia de reglas 
+  + [ ] Selectores
+    + [ ] Juego
+
+### Semana 2
+* Lunes: 11.11
   + [ ] Prioridad de reglas
-  + [ ] Selectores
-+ 11n:
-  + [ ] Selectores
-  + [ ] 
-+ [ ] Hojas de estilo (CSS).
-+ [ ] Validación de documentos HTML y CSS.
-+ [ ] Selectores
-+ [ ] propiedades básicas
-+ [ ] flexbox
-+ [ ] grid
+    + [ ] Normalización de estilos
+  + [ ] Textos
+* Jueves: 14.11
+  + [ ] Textos
+
+### Semana 3
+* Lunes: 18.11
+* Jueves: 21.11
+
+### Semana 4
+* ~~Lunes: 25.11~~ No lectivo
+* Jueves: 28.11
+
+### Semana 5
+* Lunes: 02.12
+* Jueves: 05.12
+
+### Semana 6
+* ~~Lunes: 09.12~~ Festivo
+* Jueves: 12.12
+
+### Semana 7
+* Lunes: 16.12
+* Jueves: 19.12
+
+*(Vacaciones escolares del 20 de diciembre al 7 de enero)*
+
+### Semana 8
+* Jueves: 09.01
+
+### Semana 9
+* Lunes: 13.01
+* Jueves: 16.01
+
+### Semana 10
+* Lunes: 20.01
+* Jueves: 23.01
+
+### Semana 11
+* Lunes: 27.01
+* Jueves: 30.01
+
+### Semana 12
+* Lunes: 3.02
 
 _Se trabaja el RA 2_.
 

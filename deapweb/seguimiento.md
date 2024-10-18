@@ -18,7 +18,7 @@ Duración: 14 h
   + [x] Despliegue de aplicaciones sobre servidores web.
   + [x] Despliegue de servidores web mediante tecnologías de virtualización en la nube y en contenedores.
 + 17o:
-  + [ ] continuación configuración de `host` para acceso externo
+  + [x] continuación configuración de `host` para acceso externo
 + 21o:
   + [ ] Monitorización
 + 22o: Implantación

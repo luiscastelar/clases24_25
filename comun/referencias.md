@@ -1,5 +1,9 @@
 #curso24_25 #común #deapweb #prog #lmsgi #bbdd #ed #psp #sad [estado:: Working]
 
+# Free ebook Fundation
++ [free-programming-books-es](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-es.md)
+
+
 # Midu.dev
 
 <!-- #include [[pub24/submodules/midu.dev/README]] -->

@@ -105,9 +105,9 @@ Deberemos tener presente que lo habitual es tener seguridad por defecto, por lo 
 
 Si nuestro proveedor tiene abierto por defecto, o lo cerramos todo (excepto el puerto de ssh) o cerramos securizamos en la instancia.
 
-Llegados a este punto... ==Asustar con logs== `tail -f /var/log/auth.log` y en `luiscastelar.duckdns.org` mostrar el fail2ban `sudo tail -f /var/log/fail2ban.log`.
+Llegados a este punto.. `tail -f /var/log/auth.log` y en `midominio.duckdns.org` mostrar el fail2ban `sudo tail -f /var/log/fail2ban.log`.
 
-Resumiendo, sólo hoy he recibido `sudo \cat /var/log/auth.log | grep 'Oct 17' | wc -l`
+Resumiendo, sólo hoy he recibido `sudo cat /var/log/auth.log | grep 'Oct 17' | wc -l`
 
 ---
 # Notas al pie
