@@ -1,0 +1,6 @@
+[submodule "submodules/midu.dev"]
+	path = submodules/midu.dev
+	url = https://github.com/midudev/libros-programacion-gratis.git
+[submodule "submodules/rosepac"]
+	path = submodules/rosepac
+	url = https://github.com/rosepac/biblioteca-espanol-gratis.git
