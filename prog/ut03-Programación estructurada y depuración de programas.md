@@ -102,7 +102,7 @@ Con lo anterior hemos lanzado cuando hemos querido la excepción y además hemos
 
 Además, podemos delegar la gestión en el método que lo invocó con `throws`:
 ```java
-public division(float dividendo, float divisor) throws ArithmeticException {
+public float division(float dividendo, float divisor) throws ArithmeticException {
   // Aquí el código de la división
 }
 ```
@@ -112,13 +112,15 @@ Muy probablemente, desde el método que lo lanzamos podamos pedirle al usuario u
 
 ## Excepciones controladas y no controladas
 ![errores y excepciones](https://1.bp.blogspot.com/-ScmTq0JbbYA/V6CXif8gsiI/AAAAAAAABeY/fBCJQaj6VQ8YcdUqV-yggEzGOon4XyPkACLcB/s640/ExcepcionesCheckedUnchecked.png)
+Ver [Exception vs RuntimeException](https://www.youtube.com/watch?v=EFr-3m-DG_Y)
 
-
- ### Fuentes:
- + [Excepciones controladas y no controladas](https://aprendiendoaprogramarbyem.blogspot.com/2016/08/excepciones-verificadas-y-no-verificadas.html) y [2](https://misapuntesdeprogramacion.wordpress.com/2013/02/07/excepciones/)
-
+ 
 ## [NO] - Excepciones personalizadas
 [Excepciones personalizadas](https://somoshackersdelaprogramacion.es/excepciones-en-java)
+
+## Fuentes:
+ + [Excepciones controladas y no controladas](https://aprendiendoaprogramarbyem.blogspot.com/2016/08/excepciones-verificadas-y-no-verificadas.html) y [2](https://misapuntesdeprogramacion.wordpress.com/2013/02/07/excepciones/)
+
 
 # assert - “Afirmación”
 ```java

@@ -98,7 +98,7 @@ Se trata de una clase preparada para trabajar con arrays y que TODOS sus método
 
 Que NO debemos instanciar dicha clase, si no operarla directamente. P.e.:
 `String[] nuevaCadena = Arrays.copyOf( cadena )`
-
+</details>
 
 ## Métodos útiles (java.util.Arrays)
 |Nombre|Descripción|Parámetros|Dato devuelto|
@@ -256,8 +256,4 @@ Requisitos de uso:
 
 ---
 # Notas
-[^1]: “Hardcodeado” es un término utilizado en el mundo de la programación para referirse a la práctica de incorporar directamente en el código fuente de un programa ciertos datos o valores específicos, en lugar de obtenerlos de manera dinámica o a través de una fuente externa.
-
-Fuente: [udoe.es](https://udoe.es/hardcodeado-todo-lo-que-necesitas-saber-sobre-esta-practica/)
-
-Debe evitarse de forma general, y en especial con variables de entrono y password que estará completamente **prohibido**.
+[^1]: “Hardcodeado” es un término utilizado en el mundo de la programación para referirse a la práctica de incorporar directamente en el código fuente de un programa ciertos datos o valores específicos, en lugar de obtenerlos de manera dinámica o a través de una fuente externa. _Fuente: [udoe.es](https://udoe.es/hardcodeado-todo-lo-que-necesitas-saber-sobre-esta-practica/)_. Debe evitarse de forma general, y en especial con variables de entrono y password que estará completamente **prohibido**.

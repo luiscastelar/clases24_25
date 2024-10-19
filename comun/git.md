@@ -1,7 +1,13 @@
 #curso24_25 #común #deapweb #prog #lmsgi #bbdd #ed #psp #sad [estado:: Done]
 
 # GIT básico
-[Introducción a GIT por TodoCode](https://www.youtube.com/watch?v=mCVQgSyjCkI&list=PLQxX2eiEaqby-qh4raiKfYyb4T7WyHsfW) y [blog de Diego Martín](https://www.diegocmartin.com/tutorial-git/).
+Lectura **OBLIGATORIA** => [blog de Diego Martín](https://www.diegocmartin.com/tutorial-git/).
+
+Y en modo vídeo:
+1. [Introducción a GIT por TodoCode](https://www.youtube.com/watch?v=mCVQgSyjCkI&list=PLQxX2eiEaqby-qh4raiKfYyb4T7WyHsfW)
+2. [Curso completo - Makigas](https://www.youtube.com/watch?v=jSJ8xhKtfP4&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU)
+
+
 
 ## Resumen de zonas:
 

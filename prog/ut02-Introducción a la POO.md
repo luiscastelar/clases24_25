@@ -243,6 +243,7 @@ public record Alumno (String nombre, int edad){}
 ```
 El compilador creará los getters, el constructor completo y el método `toString()` que nos permitirá de forma sencilla operar con ellos.
 
+[Aquí](https://www.youtube.com/watch?v=TYtA8cJUzxA) te dejo un vídeo de refuerzo.
 
 ## Paso de argumentos por consola
 ```java
