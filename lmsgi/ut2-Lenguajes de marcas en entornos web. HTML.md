@@ -292,10 +292,10 @@ Antiguamente, antes de la codificación utf-8 requeríamos escapar los caractere
 ## Accesibilidad
 Existen algunas cosas que podemos realizar para mejorar la accesibilidad de nuestra web para personas con deficiencias visuales. 
 
-La más sencilla y rápida es añadir el atributo `alt` en imágenes  lo cual garantiza que se mostrará una descripción en aquellos navegadores que no muestren la imagen, facilitanto la accesibilidad. P.e. `<img src="imagen_que_no_se_muestra.png" title="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />`:
+La más sencilla y rápida es añadir el atributo `alt` en imágenes  lo cual garantiza que se mostrará una descripción en aquellos navegadores que no muestren la imagen, facilitanto la accesibilidad. P.e. `<img src="imagen_que_no_se_muestra.png" alt="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />`:
 <div>
   <p>Texto ambiguo que requiere una imagen aclaratoria <br />
-    <img src="imagen_que_no_se_muestra.png" title="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />
+    <img src="imagen_que_no_se_muestra.png" alt="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />
   </p>
 </div>
 
