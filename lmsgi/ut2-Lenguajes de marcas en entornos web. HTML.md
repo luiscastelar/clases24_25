@@ -292,13 +292,19 @@ Antiguamente, antes de la codificación utf-8 requeríamos escapar los caractere
 ## Accesibilidad
 Existen algunas cosas que podemos realizar para mejorar la accesibilidad de nuestra web para personas con deficiencias visuales. 
 
-La más sencilla y rápida es añadir el atributo `title` en aquellas etiquetas que queremos que sean descritas como imágenes o botones .
+La más sencilla y rápida es añadir el atributo `alt` en imágenes  lo cual garantiza que se mostrará una descripción en aquellos navegadores que no muestren la imagen, facilitanto la accesibilidad. P.e. `<img src="imagen_que_no_se_muestra.png" title="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />`:
+<div>
+  <p>Texto ambiguo que requiere una imagen aclaratoria <br />
+    <img src="imagen_que_no_se_muestra.png" title="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />
+  </p>
+</div>
 
-Por ejemplo `<img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" title="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />` mostrará la descripción al pasar por encima... pero si tenemos un navegador adaptado será lo que nos muestre:
+Por otro lado, también tenemos la etiqueta `title` que podremos utilizar en imágenes y enlaces para describir su función. P.e. `<img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" title="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />` mostrará la descripción al pasar por encima... pero si tenemos un navegador adaptado será lo que nos muestre:
 <div>
   <p>Texto ambiguo que requiere una imagen aclaratoria <br />
     <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" title="Esta imagen aclara el concepto de mejora de la accesibilidad en html" />
   </p>
+  <p><a href="#primeros-pasos-con-html" title="Volver a Primeros pasos">Ir</>
 </div>
 
 
