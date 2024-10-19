@@ -3,6 +3,11 @@
 
 
 # Introducción
+<div align="center">
+
+![array](https://i0.wp.com/somoshackersdelaprogramacion.es/wp-content/uploads/2022/05/arrays01.jpg?w=500&ssl=1)
+</div>
+
 Un _array_ es un objeto que almacena un tipo **uniforme** de datos, primitivos u objetos, pero **SIEMPRE** iguales.
 
 
@@ -82,6 +87,9 @@ for ( int valor : algunosEnteros ){
 ```
 > Cabría esperar que las salidas fueran idénticas, pero debemos ser conscientes que en realidad el ámbito de `valor` está restringido al bloque, por lo que al salir desaparece.
 
+## Fuentes:
++ [Arrays estáticos](https://somoshackersdelaprogramacion.es/arrays-estaticos-en-java)
+
 # Clase `Arrays`
 Se trata de una clase preparada para trabajar con arrays y que TODOS sus métodos son “estáticos”.
 
@@ -106,6 +114,11 @@ Que NO debemos instanciar dicha clase, si no operarla directamente. P.e.:
 
 
 ## Arrays multidimensionales (Matrices)
+<div align="center">
+
+![matrices](https://maritzacondori.wordpress.com/wp-content/uploads/2015/11/arraymulti.jpg?w=214)
+</div>
+
 Las matrices o arrays multidimensionales son una construcción de 2 o más dimensiones, convirtiendo un vector en una matriz de 2 o más dimensiones.
 
 ```java
