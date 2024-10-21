@@ -259,6 +259,7 @@ int result = switch (str) {
 
 ### Ejercicios
 <details>
+
 1.  Realiza un programa que reciba dos números por teclado e indique cuál es mayor o si son iguales.
 2.  Realiza un programa que pida un número por teclado y nos indique si es par o impar.
 3.  Crea un programa que pida al usuario dos números y muestre el resultado de su división. Si el segundo número es 0, debe mostrar un mensaje de error.
