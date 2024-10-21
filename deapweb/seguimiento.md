@@ -20,6 +20,7 @@ Duración: 14 h
 + 17o:
   + [x] continuación configuración de `host` para acceso externo
 + 21o:
+  + [ ] Proxy
   + [ ] Monitorización
 + 22o: Implantación
 + 24o: Nginx

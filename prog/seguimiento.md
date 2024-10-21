@@ -12,16 +12,17 @@
     + [x] Clase Exception
 + ~~16o: Examen UT2~~
 + 18o:
-  + [ ] Resolver examen 
-  + [ ] Control de excepciones
-    + [ ] throw y throws
-  + [ ] Aserciones.
-  + [ ] Estructuras de control.
-    + [ ] Estructuras de selección.
+  + [x] Resolver examen 
+  + [x] Control de excepciones
+    + [x] throw y throws
+  + [x] Aserciones.
+  + [x] Estructuras de control.
+    + [x] Estructuras de selección. `if`.
 + 21o:
   + [ ] Estructuras de control.
-    + [ ] Estructuras de repetición.
-    + [ ] Estructuras con saltos (_break_ y _continue_).
+    + [ ] Estructuras de selección. `switch`.
+    + [ ] Estructuras de repetición. `while`, `do-while` y `for`
+    + [ ] Estructuras con saltos (`break` y `continue`).
   + [ ] Documentación -> _javadoc_
 + 22o:
   + [ ] Utilizar el entorno integrado de desarrollo en la creación y compilación de programas ~~simples~~.

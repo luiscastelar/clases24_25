@@ -56,7 +56,7 @@ Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Debe
 * Jueves: 07.11:
   + [ ] Introducción
   + [ ] Estilos in-line, in-file y externas
-  + [ ] Cascada - Herencia de reglas 
+  + [ ] Cascada - Herencia de reglas
   + [ ] Selectores
     + [ ] Juego
 

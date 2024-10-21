@@ -109,9 +109,15 @@ Llegados a este punto.. `tail -f /var/log/auth.log` y en `midominio.duckdns.org`
 
 Resumiendo, sólo hoy he recibido `sudo cat /var/log/auth.log | grep 'Oct 17' | wc -l`
 
----
-# Notas al pie
-[^1]: Siempre es aconsejable poner la ruta absoluta ya que a veces podemos despistarnos de quien es el usuario que está ejecutando el script de cron, ya que la `~` hará referencia al `home` de dicho usuario.
+
+## Acceso por túnel ssh
+Para la gestión del proxy, como para acceder al equipo antes de ser público podremos conectarnos vía _tunnel ssh - proxy socks_. 
+
+Para ello, desde consola abriremos un túnel proxy socks dinámico con `ssh -ND {{PUERTO_LOCAL_DEL_PROXY}} usr@servidor`, p.e. `ssd -ND 9999 usr@sevidor.es`
+
+Después activaremos la conexión proxy del navegador con los datos `proxy shocks`, ip `localhost` y puerto `9999`.
+
+Podremos acceder a los servicios de la máquina con su IP_PRIVADA y el puerto que corresponda. Con `localhost` no podemos ya que, salvo que se indique lo contrario, ésto apuntará al equipo desde el que hacemos la petición y no al que queremos acceder.
 
 
 # Monitorización
@@ -123,3 +129,8 @@ Resumiendo, sólo hoy he recibido `sudo cat /var/log/auth.log | grep 'Oct 17' | 
 
 # Examen
 De cara al examen podéis probar los ejercicios en local, ya que el mismo se realizará sin acceso a internet y consistirá en realizar algunas de las tareas expuestas en el desarrollo de esta unidad.
+
+
+---
+# Notas al pie
+[^1]: Siempre es aconsejable poner la ruta absoluta ya que a veces podemos despistarnos de quien es el usuario que está ejecutando el script de cron, ya que la `~` hará referencia al `home` de dicho usuario.

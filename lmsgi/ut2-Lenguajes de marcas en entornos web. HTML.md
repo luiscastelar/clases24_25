@@ -4,7 +4,7 @@
 1. Bloc de notas (_Recomendado Notepad++_).
 2. Navegador web (_Recomendado Firefox_).
    
-Para aprender usaremos [codi.link](https://codi.link).
+Para aprender usaremos [codi.link](https://codi.link) o [codepen.io]
 
 Para desarrollos más allá, podremos utilizar _vs code_ + plugin _live preview_.
 
