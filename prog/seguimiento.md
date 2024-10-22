@@ -19,18 +19,26 @@
   + [x] Estructuras de control.
     + [x] Estructuras de selección. `if`.
 + 21o:
-  + [ ] Estructuras de control.
-    + [ ] Estructuras de selección. `switch`.
-    + [ ] Estructuras de repetición. `while`, `do-while` y `for`
-    + [ ] Estructuras con saltos (`break` y `continue`).
-  + [ ] Documentación -> _javadoc_
+  + [x] Estructuras de control.
+    + [x] Estructuras de selección. `switch`.
+    + [x] Estructuras de repetición. `while`
+    + [x] Ejercicios de _aceptaelreto.com_ 116
+      + [x] Se proponen el 148, 217, 158, 166
 + 22o:
+  + [ ] Estructuras de repetición. `do-while`
+    + [ ] determinar que ejercicios más adecuados con `while` y cuales con `do-while` razonando la respuesta
+  + [ ] Estructuras de repetición. `for`
+    + [ ] Muestra la table de multiplicar de un número dado por consola como argumento
+    + [ ] Muestra todas si recibe el argumento `-a` o `--all`
+  + [ ] Estructuras con saltos (`break` y `continue`).
+  + [ ] Documentación -> _javadoc_
   + [ ] Utilizar el entorno integrado de desarrollo en la creación y compilación de programas ~~simples~~.
   + [ ] Depuración.
   + [ ] Test unitarios - `JUnit`.
 + 23o:
   + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor).
-  + [ ] Creación de excepciones.
+    + [ ] Causística especial de Java con la fase roja.
+  + [ ] ~~Creación de excepciones~~.
 + 28o:
   + [ ] Defensa de prácticas.
 + 30o: **Examen**

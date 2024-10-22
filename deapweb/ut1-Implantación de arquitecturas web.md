@@ -357,6 +357,54 @@ La ventaja de realizarlo sin cuenta educativa es que será permanente ya que no 
 
 **[Referencias Free-Hosting](https://github.com/cloudcommunity/Free-Hosting)**
 
+## “Ampliando” la RAM con Swap
+Dado que las instancias suelen venir muy limitadas de RAM, pero con discos decentes, lo que podemos hacer es crear un archivo de `swap` que permita simular una ram mayor.
+
+Pasos:
+Crear el script `swap_on.sh`:
+```sh
+#!/bin/bash
+if [[ $# -gt 0 ]]; then MEM=$1; else MEM=4; fi
+
+free -h
+sudo swapon --show
+sudo fallocate -l ${MEM}G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sleep 5
+free -h
+echo "$(whoami) $(date)" >> ~/swap_on.log
+```
+
+El script lo podemos llamar al iniciar la máquina pasándole la cantidad de GB deseados o por defecto 4, p.e.`swap_on.sh 2` -> aportará 2GB de _swap_.
+
+También podemos ser mas finos y lanzarlo como un servicio de inicio con _systemd_:
+1. Crear el _timer_ en `/etc/systemd/system/crearSwap.timer`:
+```toml
+[Unit]
+Description= Timer para swap
+
+[Timer]
+Unit=crearSwap.service
+#OnBootSec=5min
+OnBootSec=30sec
+
+[Install]
+WantedBy=timers.target
+```
+
+2. Crear el servicio en `/etc/systemd/system/crearSwap.service`:
+```toml
+[Unit]
+Description= Servicio para crear Swap
+
+[Service]
+Type=simple
+ExecStart=/path/completo/swap_on.sh
+```
+
+_Sustituye `/path/completo` por lo que corresponda._
 
 ---
 # Notas al pie
@@ -367,7 +415,7 @@ La ventaja de realizarlo sin cuenta educativa es que será permanente ya que no 
   + [Disco - s3](https://aws.amazon.com/s3): almacenamiento 5GB (para imágenes y similares).
   + [DB - rds](https://aws.amazon.com/rds/): mysql/mariaDB, postgreSQL, ...
 
-[^2]: Para crear un vps (_12 meses gratis_) en `Azure` deberemos seguir los siguientes pasos:
+[^2]: **Azure**: Para crear un vps (_12 meses gratis_) en `Azure` deberemos seguir los siguientes pasos:
   1. Ir a https://azureforeducation.microsoft.com/devtools
   2. Crear cuenta @outlook.com
   3. Iniciar con ella
