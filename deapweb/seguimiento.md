@@ -22,8 +22,8 @@ Duración: 14 h
 + 21o:
   + [x] Proxy
 + 22o: Implantación
-  + [ ] Apache
-  + [ ] Rsync 
+  + [x] Apache
+  + [ ] ~~`rsync`~~ -> problemas en windows -> Usar `rsync` desde `vagrant` o `wsl`.
 + 24o: 
   + [ ] Monitorización
   + [ ] Nginx

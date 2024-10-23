@@ -312,7 +312,7 @@ Bucles `do-while`: la iteración se ejecutará al menos 1 vez, y si se cumple, s
 do {
 	*sentencias a ejecutar mientras que se cumpla la condición*
 	...
-} while (*condicion*)
+} while (*condicion*);
 ```
 
 ### `for`

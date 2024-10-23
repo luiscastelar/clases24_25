@@ -25,17 +25,19 @@
     + [x] Ejercicios de _aceptaelreto.com_ 116
       + [x] Se proponen el 148, 217, 158, 166
 + 22o:
-  + [ ] Estructuras de repetición. `do-while`
-    + [ ] determinar que ejercicios más adecuados con `while` y cuales con `do-while` razonando la respuesta
-  + [ ] Estructuras de repetición. `for`
-    + [ ] Muestra la table de multiplicar de un número dado por consola como argumento
+  + [x] Estructuras de repetición. `do-while`
+    + [x] determinar que ejercicios más adecuados con `while` y cuales con `do-while` razonando la respuesta
+  + [x] Estructuras de repetición. `for`
+    + [x] Muestra la table de multiplicar de un número dado por consola como argumento
     + [ ] Muestra todas si recibe el argumento `-a` o `--all`
-  + [ ] Estructuras con saltos (`break` y `continue`).
-  + [ ] Documentación -> _javadoc_
-  + [ ] Utilizar el entorno integrado de desarrollo en la creación y compilación de programas ~~simples~~.
-  + [ ] Depuración.
-  + [ ] Test unitarios - `JUnit`.
+  + [x] Estructuras con saltos (`break` y `continue`).
+  + [x] Documentación -> _javadoc_
+  + [x] Utilizar el entorno integrado de desarrollo en la creación y compilación de programas ~~simples~~.
+  + [x] Depuración.
 + 23o:
+  + [ ] Resolución ejercicio tablas de multiplicar.
+  + [ ] Dudas de ejercicios
+  + [ ] Test unitarios - `JUnit`.
   + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor).
     + [ ] Causística especial de Java con la fase roja.
   + [ ] ~~Creación de excepciones~~.

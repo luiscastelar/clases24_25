@@ -32,10 +32,10 @@
   + [x] Caracteres especiales. Escapado
   + [x] Trabajo en práctica
 + 21o:
-  + [ ] Accesibilidad
-  + [ ] Otras etiquetas
-  + [ ] Obsoletas
-  + [ ] Trabajo en práctica
+  + [x] Accesibilidad
+  + [x] Otras etiquetas
+  + [x] Obsoletas
+  + [x] Trabajo en práctica
 + 24o:
   + [ ] Trabajo en práctica
 + 28o:
@@ -65,8 +65,18 @@ Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Debe
   + [ ] Prioridad de reglas
     + [ ] Normalización de estilos
   + [ ] Textos
+    + [ ] Colores
+    + [ ] Variables
 * Jueves: 14.11
   + [ ] Textos
+    + [ ] Alineación
+    + [ ] Tamaño
+    + [ ] Intensidad. Cursiva. Capital
+    + [ ] Decoración
+    + [ ] Interlineado
+    + [ ] Tipos de letras. Familias
+    + [ ] Regla general para fuentes.
+    + [ ] Reglas básicas de tipografía.
 
 ### Semana 3
 * Lunes: 18.11
