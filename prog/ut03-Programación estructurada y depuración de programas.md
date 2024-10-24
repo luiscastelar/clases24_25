@@ -268,10 +268,10 @@ int result = switch (str) {
     + El exponente sea positivo: imprime resultado en pantalla.
     + El exponente sea 0, el resultado es 1.
     + El exponente sea negativo, el resultado es 1/potencia con el exponente positivo.
-6. Realiza un programa que calcule la aceptación de una solicitud en base a los siguientes parámetros: edad, nota y sexo.
-    + Mínimo: Nota (5), edad (18), sexo M -> POSIBLE
-    + Mínimo: Nota (5), edad (18), sexo F -> ACEPTADA
-    + Otros casos -> NO ACEPTADA
+6. Realiza un programa que calcule la aceptación de una solicitud en base a los siguientes parámetros: edad y nota.
+    + Mínimo: Nota (5), edad (18) -> `POSIBLE`
+    + Mínimo: Nota (7), edad (18) -> `ACEPTADA`
+    + Otros casos -> `NO ACEPTADA`
 7. Realiza un programa que pida los puntos centrales de dos circunferencias (x1, y1), (x2, y2) y los radios de las mismas (r1, r2). El programa debe clasificar según corresponda como: exteriores, tangentes exteriores, secantes, tangentes interiores, interiores o concéntricas.
 8. Realiza un programa que clasifique un triángulo tras recibir el tamaño de sus lados. Se debe clasificar como triángulo rectángulo, isósceles, equilátero o escaleno.
 9. Escribe un programa que reciba un año y nos diga si es bisiesto o no.

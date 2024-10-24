@@ -125,10 +125,32 @@ Podremos acceder a los servicios de la máquina con su IP_PRIVADA y el puerto qu
 ![separacion de redes](https://luiscastelar.duckdns.org/2024/assets/deapweb/separacion-de-redes.png)
 2. Servicios de monitorización y gestión:
    + Uptime-kuma
+   + Zabbix
+
+
+## Sobre logs
+Deberéis estudiar el punto donde se arrojan los logs de las aplicaciones desplegadas. A menudo las imágenes `docker` de servicios como `apache` y `nginx` enlazan los logs estándar con los dispositivos `/dev/stdout` y `/dev/stderr`, como se muestra en la captura:
+```bash
+usr@FQDN:~/ruta/completa/servidor_apache$ docker exec -it apache bash -c 'ls -la /var/log/apache2'
+total 12
+drwxrwxrwt 2 www-data www-data 4096 Oct 17 01:38 .
+drwxr-xr-x 1 root     root     4096 Oct 17 01:38 ..
+lrwxrwxrwx 1 www-data www-data   11 Oct 17 01:38 access.log -> /dev/stdout
+lrwxrwxrwx 1 www-data www-data   11 Oct 17 01:38 error.log -> /dev/stderr
+lrwxrwxrwx 1 www-data www-data   11 Oct 17 01:38 other_vhosts_access.log -> /dev/stdout
+
+```
+
+Como vemos, los logs `access.log` y `error.log` han sido redireccionados a la salidas estandar y de error. Para visualizarlos por tanto deberemos usar _docker_ con `docker logs apache`
+
+Para la monitorización completa deberíamos modificar esta redirección ya que de otra forma perdemos la granularidad de aplicaciones externas o las mismas deben soportar la monitorización a través de contenedores.
+
+Algún punto interesante que podemos ver en los logs `172.19.0.3 - - [22/Oct/2024:21:28:12 +0000] "GET /.env HTTP/1.1" 404 461 "-" "Mozilla/5.0 (Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0"
+`. ¿Qué pensáis que ha pasado?
 
 
 # Examen
-De cara al examen podéis probar los ejercicios en local, ya que el mismo se realizará sin acceso a internet y consistirá en realizar algunas de las tareas expuestas en el desarrollo de esta unidad.
+~~De cara al examen podéis probar los ejercicios en local, ya que el mismo se realizará sin acceso a internet y consistirá en realizar algunas de las tareas expuestas en el desarrollo de esta unidad.~~
 
 
 ---

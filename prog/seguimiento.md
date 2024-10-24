@@ -35,15 +35,18 @@
   + [x] Utilizar el entorno integrado de desarrollo en la creación y compilación de programas ~~simples~~.
   + [x] Depuración.
 + 23o:
-  + [ ] Resolución ejercicio tablas de multiplicar.
+  + [x] Resolución ejercicio tablas de multiplicar.
+  + [x] Dudas de ejercicios
+  + [x] Recursividad
+  + [ ] ~~Creación de excepciones~~.
++ 28o:
   + [ ] Dudas de ejercicios
   + [ ] Test unitarios - `JUnit`.
   + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor).
     + [ ] Causística especial de Java con la fase roja.
-  + [ ] ~~Creación de excepciones~~.
-+ 28o:
-  + [ ] Defensa de prácticas.
 + 30o: **Examen**
+
+**Entrega de práctica:** 20 de noviembre.
 
 _Trabajado el RA 3._
 
