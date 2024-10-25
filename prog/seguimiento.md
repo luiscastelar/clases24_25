@@ -39,11 +39,8 @@
   + [x] Dudas de ejercicios
   + [x] Recursividad
   + [ ] ~~Creación de excepciones~~.
-+ 28o:
++ 25o:
   + [ ] Dudas de ejercicios
-  + [ ] Test unitarios - `JUnit`.
-  + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor).
-    + [ ] Causística especial de Java con la fase roja.
 + 30o: **Examen**
 
 **Entrega de práctica:** 20 de noviembre.
@@ -55,6 +52,10 @@ _Trabajado el RA 3._
 + (14h) 
 
 + 25o:
+  + [ ] Test unitarios - `JUnit`.
+  + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor).
+    + [ ] Causística especial de Java con la fase roja.
++ 28o:
   + [ ] Estructuras estáticas y dinámicas.
   + [ ] Declaración y asignación de vectores (_array_ unidimensionales)
   + [ ] Trabajando con _array_’s: `for`
