@@ -1,13 +1,13 @@
 ---
-Title:    Cadena de caracteres
-Author:   Luis Ferreira
-Date:     25 de octubre de 2024
-Comment:  Precedido de las unidades
-          1. Introducción a la programación
-          2. Introducción a la POO
-          3. Programación estructurada
-          4. Matrices
-CSS:      https://luiscastelar.duckdns.org/assets/css/just-read.css
+Title:    Cadena de caracteres  
+Author:   Luis Ferreira  
+Date:     25 de octubre de 2024  
+Comment:  Precedido de las unidades  
+          1. Introducción a la programación  
+          2. Introducción a la POO  
+          3. Programación estructurada  
+          4. Matrices  
+CSS:      https://luiscastelar.duckdns.org/assets/css/just-read.css  
 ---
 
 #curso24_25 #prog [estado::Done]
