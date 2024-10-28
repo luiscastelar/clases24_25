@@ -29,7 +29,7 @@
     + [x] determinar que ejercicios más adecuados con `while` y cuales con `do-while` razonando la respuesta
   + [x] Estructuras de repetición. `for`
     + [x] Muestra la table de multiplicar de un número dado por consola como argumento
-    + [ ] Muestra todas si recibe el argumento `-a` o `--all`
+    + [x] Muestra todas si recibe el argumento `-a` o `--all`
   + [x] Estructuras con saltos (`break` y `continue`).
   + [x] Documentación -> _javadoc_
   + [x] Utilizar el entorno integrado de desarrollo en la creación y compilación de programas ~~simples~~.
@@ -40,7 +40,8 @@
   + [x] Recursividad
   + [ ] ~~Creación de excepciones~~.
 + 25o:
-  + [ ] Dudas de ejercicios
+  + [x] Dudas de ejercicios
+  + [x] Test unitarios - `JUnit`.
 + 30o: **Examen**
 
 **Entrega de práctica:** 20 de noviembre.
@@ -51,15 +52,14 @@ _Trabajado el RA 3._
 ## UT4. Manipulación de información. Matrices.
 + (14h) 
 
-+ 25o:
++ 28o:
   + [ ] Test unitarios - `JUnit`.
   + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor).
-    + [ ] Causística especial de Java con la fase roja.
-+ 28o:
+    + [ ] Casuística especial de Java con la fase roja.
   + [ ] Estructuras estáticas y dinámicas.
++ 29o:
   + [ ] Declaración y asignación de vectores (_array_ unidimensionales)
   + [ ] Trabajando con _array_’s: `for`
-+ 29o:
   + [ ] Trabajando con _array_’s: `for-each`
   + [ ] _La clase `Arrays`_
 + ~~1n~~: Festivo
