@@ -25,6 +25,7 @@ Para comenzar dando estilo a la web debemos conocer que aunque se nos permite re
   body {
     background-color: ligthblue;
   }
+  </style>
   ```
 + como hojas de estilo externas, como ya lo hacíamos en la unidad anterior con la etiqueta `<link rel="stylesheet" type="text/css" href="https://luiscastelar.duckdns.org/2024/assets/lmsgi/default.css" media="screen" />`.
 
@@ -37,7 +38,7 @@ Esta última permite que un conjunto de páginas compartan una uniformidad y eje
 ## Cascada. Herencia de reglas
 Al aplicar estilos a una etiqueta, éste no afecta únicamente a él, si no a todos los que tenga anidados.  P.e.: 
 ```HTML
-<div style="font-weight: bold>
+<div style="font-weight: bold;">
   Hola
   <p style="text-decoration: underline;">mundo</p>
 </div>
@@ -47,7 +48,7 @@ Mientras que ambas palabras aparecen en negrita, sólo aparece subrayada la pala
 
 <details>
   <summary>Ver resultado</summary>
-  <div style="font-weight: bold>
+  <div style="font-weight: bold;">
     Hola
     <p style="text-decoration: underline;">mundo</p>
   </div>
