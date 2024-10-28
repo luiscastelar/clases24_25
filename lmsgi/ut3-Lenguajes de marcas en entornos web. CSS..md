@@ -39,19 +39,18 @@ Esta última permite que un conjunto de páginas compartan una uniformidad y eje
 Al aplicar estilos a una etiqueta, éste no afecta únicamente a él, si no a todos los que tenga anidados.  P.e.: 
 ```HTML
 <div style="font-weight: bold;">
-  Hola
-  <p style="text-decoration: underline;">mundo</p>
+  Texto negrita.
+  <div style="text-decoration: underline;">Texto subrayado que hereda la negrita.</div>
+  <div style="font-weight: normal;">Texto que sobreescribe la propiedad.</div>
 </div>
+<div style="text-decoration: underline;">Texto que no hereda por estar fuera.</div>
 ```
 
 Mientras que ambas palabras aparecen en negrita, sólo aparece subrayada la palabra mundo.
 
 <details>
   <summary>Ver resultado</summary>
-  <div style="font-weight: bold;">
-    Hola
-    <p style="text-decoration: underline;">mundo</p>
-  </div>
+  <iframe src=”https://luiscastelar.duckdns.org/2024/lmsgi/snippets/herencia.html” title="Herencia de atributos"\></iframe>  
 </details>
 
 
