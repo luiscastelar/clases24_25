@@ -50,7 +50,7 @@ Mientras que ambas palabras aparecen en negrita, sólo aparece subrayada la pala
 
 <details>
   <summary>Ver resultado</summary>
-  <iframe src=”https://luiscastelar.duckdns.org/2024/lmsgi/snippets/herencia.html” title="Herencia de atributos"\></iframe>  
+  <iframe src="https://luiscastelar.duckdns.org/2024/lmsgi/snippets/herencia.html" title="Herencia de atributos"\></iframe>  
 </details>
 
 
