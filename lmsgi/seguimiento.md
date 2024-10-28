@@ -37,12 +37,14 @@
   + [x] Obsoletas
   + [x] Trabajo en práctica
 + 24o:
-  + [ ] Trabajo en práctica
+  + [x] Trabajo en práctica
 + 28o:
+  + [ ] Metodología de trabajo UT3
+  + [ ] Normas defensa y clases
   + [ ] **Defensa de prácticas**
 + 31o:
   + [ ] **Defensa de prácticas**
-+ 4n: **EXAMEN** en papel. [Puedes utilizar la chuleta](https://www.emezeta.com/weblog/html5-cheatsheet/html5-cheatsheet-emezeta.pdf)
++ 4n: **EXAMEN** UT1 y UT2 en papel. [Puedes utilizar la chuleta](https://www.emezeta.com/weblog/html5-cheatsheet/html5-cheatsheet-emezeta.pdf)
 
 _Se trabaja el RA 2_.
 
@@ -52,6 +54,15 @@ Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Debe
 
 ## UT3 - Lenguajes de marcas en entornos web. CSS.
 38h -> 9,5 semanas 
+### Clase invertida
+_Trabajo en clase mientras se realizan las exposiciones de la UT2_.
++ 28o:
+  + [ ] Lecciones 1 a 8 del curso de referencia.
+  + [ ] Juego de selectores.
++ 31o:
+  + [ ] Lecciones 1 a 10 del curso de referencia.
+  + [ ] Variables y pseudo-clase `:root`.
+
 ### Semana 1
 * Jueves: 07.11:
   + [ ] Introducción
@@ -59,15 +70,14 @@ Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Debe
   + [ ] Cascada - Herencia de reglas
   + [ ] Selectores
     + [ ] Juego
+  + [ ] Prioridad de reglas
+    + [ ] Normalización de estilos
 
 ### Semana 2
 * Lunes: 11.11
-  + [ ] Prioridad de reglas
-    + [ ] Normalización de estilos
   + [ ] Textos
     + [ ] Colores
     + [ ] Variables
-* Jueves: 14.11
   + [ ] Textos
     + [ ] Alineación
     + [ ] Tamaño
@@ -77,6 +87,13 @@ Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Debe
     + [ ] Tipos de letras. Familias
     + [ ] Regla general para fuentes.
     + [ ] Reglas básicas de tipografía.
+* Jueves: 14.11
+  * [ ] Modelo de cajas
+    * [ ] Dimensiones
+    * [ ] Desboradmientos
+    * [ ] Box-sizing
+    * [ ] Márgenes y rellenos
+    * [ ] Propiedades lógicas
 
 ### Semana 3
 * Lunes: 18.11
@@ -84,7 +101,7 @@ Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Debe
 
 ### Semana 4
 * ~~Lunes: 25.11~~ No lectivo
-* Jueves: 28.11
+* Jueves: 28.11 **EXAMEN** de UT1, UT2 y parcialmente UT3. Puedes utilizar sólo la [chuleta CSS](https://lenguajecss.com/css/cheatsheets/) o similar (consultar antes del examen).
 
 ### Semana 5
 * Lunes: 02.12

@@ -15,6 +15,12 @@ Para desarrollos mas complejos utilizaremos _vs code_ + plugin _live preview_.
 # Introducción
 Continuando con los lenguajes de marca para entornos web y, habiendo visto en la unidad anterior todo lo relativo al contenido y la semántica del mismo, en esta unidad trabajaremos el estilo del mismo con el lenguaje CSS3.
 
+Esta unidad la trabajaremos con la metodología de clase invertida por lo que es el alumno el que deberá mirarse los contenidos antes de la clase y utilizaremos la misma para discutir y trabajar las actividades propuestas. 
+
+Para ello, en el archivo `seguimiento` verás marcadas las actividades a realzar con el prefijo [FC] **previa** a los días señalados.
+
+Deberás realizar las clases del curso de [CSS - Códica](https://basicos.codica.la/languages/css).
+
 
 ## Estilos in-line, in-file y externos
 Para comenzar dando estilo a la web debemos conocer que aunque se nos permite realizarlo desde 3 enfoques distintos:
