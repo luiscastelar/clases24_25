@@ -4,61 +4,13 @@
 # Materia PLANIFICADA
 
 
-## UT3. Programación estructurada y depuración de programas
-+ 15o:
-  + [x] Diagrama de actividades
-  + [x] Control de excepciones
-    + [x] try/catch/finally
-    + [x] Clase Exception
-+ ~~16o: Examen UT2~~
-+ 18o:
-  + [x] Resolver examen 
-  + [x] Control de excepciones
-    + [x] throw y throws
-  + [x] Aserciones.
-  + [x] Estructuras de control.
-    + [x] Estructuras de selección. `if`.
-+ 21o:
-  + [x] Estructuras de control.
-    + [x] Estructuras de selección. `switch`.
-    + [x] Estructuras de repetición. `while`
-    + [x] Ejercicios de _aceptaelreto.com_ 116
-      + [x] Se proponen el 148, 217, 158, 166
-+ 22o:
-  + [x] Estructuras de repetición. `do-while`
-    + [x] determinar que ejercicios más adecuados con `while` y cuales con `do-while` razonando la respuesta
-  + [x] Estructuras de repetición. `for`
-    + [x] Muestra la table de multiplicar de un número dado por consola como argumento
-    + [x] Muestra todas si recibe el argumento `-a` o `--all`
-  + [x] Estructuras con saltos (`break` y `continue`).
-  + [x] Documentación -> _javadoc_
-  + [x] Utilizar el entorno integrado de desarrollo en la creación y compilación de programas ~~simples~~.
-  + [x] Depuración.
-+ 23o:
-  + [x] Resolución ejercicio tablas de multiplicar.
-  + [x] Dudas de ejercicios
-  + [x] Recursividad
-  + [ ] ~~Creación de excepciones~~.
-+ 25o:
-  + [x] Dudas de ejercicios
-  + [x] Test unitarios - `JUnit`.
-+ 30o: **Examen**
-
-**Entrega de práctica:** 20 de noviembre.
-
-_Trabajado el RA 3._
-
-
 ## UT4. Manipulación de información. Matrices.
-+ (14h) 
++ (13h) 
 
 + 28o:
-  + [ ] Test unitarios - `JUnit`.
-  + [ ] Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor).
-    + [ ] Casuística especial de Java con la fase roja.
-  + [ ] Estructuras estáticas y dinámicas.
+  + [x] Estructuras estáticas y dinámicas.
+  + [x] Declaración y asignación de vectores (_array_ unidimensionales)
 + 29o:
-  + [ ] Declaración y asignación de vectores (_array_ unidimensionales)
   + [ ] Trabajando con _array_’s: `for`
   + [ ] Trabajando con _array_’s: `for-each`
   + [ ] _La clase `Arrays`_
@@ -76,9 +28,6 @@ _Trabajado el RA 3._
 + 11n:
   + [ ] Defensa prácticas
 + 13n: **Examen**
-
-### Genéricos
-+ [ ] Genéricos.
 
 _Trabajados los RA 3, 4 y 6._
 
@@ -117,6 +66,11 @@ _Trabajados los RA 3, 4 y 6._
 + [ ] Uso de listas
     + [ ] _La clase ArrayList_
 + [ ] Iteradores
+
+      
+### Genéricos
++ [ ] Genéricos.
+
 
 ### Programación funcional
 + [ ] Interfaces funcionales
@@ -314,3 +268,52 @@ _Trabajado el Resultado de Aprendizaje 1._
 
 _Trabajados los RA 2 y 4._
 
+
+## UT3. Programación estructurada y depuración de programas
+(14h)
+
++ 15o:
+  + [x] Diagrama de actividades
+  + [x] Control de excepciones
+    + [x] try/catch/finally
+    + [x] Clase Exception
++ ~~16o: Examen UT2~~
++ 18o:
+  + [x] Resolver examen 
+  + [x] Control de excepciones
+    + [x] throw y throws
+  + [x] Aserciones.
+  + [x] Estructuras de control.
+    + [x] Estructuras de selección. `if`.
++ 21o:
+  + [x] Estructuras de control.
+    + [x] Estructuras de selección. `switch`.
+    + [x] Estructuras de repetición. `while`
+    + [x] Ejercicios de _aceptaelreto.com_ 116
+      + [x] Se proponen el 148, 217, 158, 166
++ 22o:
+  + [x] Estructuras de repetición. `do-while`
+    + [x] determinar que ejercicios más adecuados con `while` y cuales con `do-while` razonando la respuesta
+  + [x] Estructuras de repetición. `for`
+    + [x] Muestra la table de multiplicar de un número dado por consola como argumento
+    + [x] Muestra todas si recibe el argumento `-a` o `--all`
+  + [x] Estructuras con saltos (`break` y `continue`).
+  + [x] Documentación -> _javadoc_
+  + [x] Utilizar el entorno integrado de desarrollo en la creación y compilación de programas ~~simples~~.
+  + [x] Depuración.
++ 23o:
+  + [x] Resolución ejercicio tablas de multiplicar.
+  + [x] Dudas de ejercicios
+  + [x] Recursividad
+  + [ ] ~~Creación de excepciones~~.
++ 25o:
+  + [x] Dudas de ejercicios
+  + [x] Test unitarios - `JUnit`.
++ 28o: 
+  + [x] Test unitarios - `JUnit`.
+  + [ ] ~~Desarrollo Dirigido a Test -TDD- (rojo, verde, refactor).~~
++ 30o: **Examen**
+
+**Entrega de práctica:** 20 de noviembre.
+
+_Trabajado el RA 3._

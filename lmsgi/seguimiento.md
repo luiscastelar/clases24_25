@@ -39,9 +39,9 @@
 + 24o:
   + [x] Trabajo en práctica
 + 28o:
-  + [ ] Metodología de trabajo UT3
-  + [ ] Normas defensa y clases
-  + [ ] **Defensa de prácticas**
+  + [x] Metodología de trabajo UT3
+  + [x] Normas defensa y clases
+  + [x] **Defensa de prácticas**
 + 31o:
   + [ ] **Defensa de prácticas**
 + 4n: **EXAMEN** UT1 y UT2 en papel. [Puedes utilizar la chuleta](https://www.emezeta.com/weblog/html5-cheatsheet/html5-cheatsheet-emezeta.pdf)
@@ -57,7 +57,7 @@ Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Debe
 ### Clase invertida
 _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 + 28o:
-  + [ ] Lecciones 1 a 8 del curso de referencia.
+  + [x] Lecciones 1 a 8 del curso de referencia.
   + [ ] Juego de selectores.
 + 31o:
   + [ ] Lecciones 1 a 10 del curso de referencia.

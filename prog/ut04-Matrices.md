@@ -24,7 +24,7 @@ Un _array_ es un objeto que almacena un tipo **uniforme** de datos, primitivos u
 Podemos realizarla en la declaración `String[] cadena = {"esto", "es", "un", "array","de","Strings"}`, o posteriormente si la hemos inicializado:
 
 ```java
-String[] cadena = new String[3]; // array de 4 strings
+String[] cadena = new String[4]; // array de 4 strings
 cadena[0]="esto";
 cadena[3]="array";
 // cadena = {"esto", null, null, "array"}

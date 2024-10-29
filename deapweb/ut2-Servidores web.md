@@ -153,6 +153,42 @@ Algún punto interesante que podemos ver en los logs `172.19.0.3 - - [22/Oct/202
 ~~De cara al examen podéis probar los ejercicios en local, ya que el mismo se realizará sin acceso a internet y consistirá en realizar algunas de las tareas expuestas en el desarrollo de esta unidad.~~
 
 
+# Cross-Origin Resource Sharing - CORS
+![cors](https://luiscastelar.duckdns.org/2024/assets/deapweb/cors.png)
+Para protección del usuario, los navegadores bloquean las peticiones realizadas con origen cruzado, esto es, que un script ejecutado en un dominio B acceda a datos de peticiones realizadas por la web del usuario al dominio A.
+
+Como demostración crearemos la siguiente _aplicación_ en local (navegador web + <kbd>F12</kbd> + console):
+```javascript
+let url='https://miDominio.duckdns.org/holaMundo.json';
+const peticion = (url)=>{
+  fetch(url)
+    .then(res => res.json())
+    .then(res => console.log(res));
+}
+peticion(url);
+```
+
+Y obtenemos una respuesta del tipo: `Solicitud desde otro origen bloqueada: la política de mismo origen impide leer el recurso remoto en https://miDominio.duckdns.org/ (razón: falta la cabecera CORS 'Access-Control-Allow-Origin'). Código de estado: 200.`.
+
+Podemos investigar el motivo en <kbd>herramienta de desarrolladores</kbd> + <kbd>red</kbd> + <kbd>cabeceras</kbd> + <kbd>cabeceras de respuesta</kbd>.
+
+Ahora añadimos cabeceras para GET dentro del `location` que deseemos:
+```
+if ($request_method = 'GET') {
+            add_header 'Access-Control-Allow-Origin' '*' always;
+            add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS' always;
+            add_header 'Access-Control-Allow-Headers' 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range' always;
+            add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range' always;
+}
+```
+
+
+Habilitar en [Nginx](https://enable-cors.org/server_nginx.html) y en [Apache](https://enable-cors.org/server_apache.html).
+
+
+
+Fuente: [javascript.info](https://es.javascript.info/fetch-crossorigin#por-que-cors-es-necesario-una-breve-historia)
+
 ---
 # Notas al pie
 [^1]: Siempre es aconsejable poner la ruta absoluta ya que a veces podemos despistarnos de quien es el usuario que está ejecutando el script de cron, ya que la `~` hará referencia al `home` de dicho usuario.

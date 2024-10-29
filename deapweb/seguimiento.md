@@ -2,50 +2,20 @@
 
 # Materia PLANIFICADA
 
-## UT2. Servidores WEB
-Duración: 14 h
-+ 7o: Apache
-  + [x] Configuración avanzada del servidor web.
-  + [x] Hosts virtuales. Creación, configuración y utilización.
-+ 8o:
-  + [x] Módulos: instalación, configuración y uso.
-  + [x] Autenticación y control de acceso.
-  + [x] Autenticación con `auth digest`.
-+ 10o:
-  + [x] El protocolo HTTPS.
-  + [x] Certificados. Servidores de certificados.
-  + [x] Documentación.
-  + [x] Despliegue de aplicaciones sobre servidores web.
-  + [x] Despliegue de servidores web mediante tecnologías de virtualización en la nube y en contenedores.
-+ 17o:
-  + [x] continuación configuración de `host` para acceso externo
-+ 21o:
-  + [x] Proxy
-+ 22o: Implantación
-  + [x] Apache
-  + [ ] ~~`rsync`~~ -> problemas en windows -> Usar `rsync` desde `vagrant` o `wsl`.
-+ 24o: 
-  + [ ] Monitorización
-  + [ ] Nginx
-+ 28o: **Examen**
-
-### Contenido
-+ [x] Servidor web Apache (a, b, c, d, g, i)
-+ [ ] ~~Servidor web Nginx (a, b, c, d, g, i)~~
-+ [x] Proxy (e, f, g, i)
-+ [ ] Implantación (local) aplicación Angular/React (h, i)
-+ [ ] Monitorización (j)
-
-*Asociado al RA2*.
 
 
 ## UT3. Servidor de aplicaciones
 Duración: 9h -> 30o a 13n
 
 + 29o:
+  + [ ] JakartaEE
 + 31o:
+  + [ ] JakartaEE
 + 4n:
+  + [ ] Laravel
 + 5n:
+  + [ ] Node.js
+  + [ ] Flask
 + 11n: **Examen**
 
 ### Contenido:
@@ -222,29 +192,66 @@ CE: e, f, h, i.
 *Asociado al RA1*.
 
 
+## UT2. Servidores WEB
+Duración: 14 h
++ 7o: Apache
+  + [x] Configuración avanzada del servidor web.
+  + [x] Hosts virtuales. Creación, configuración y utilización.
++ 8o:
+  + [x] Módulos: instalación, configuración y uso.
+  + [x] Autenticación y control de acceso.
+  + [x] Autenticación con `auth digest`.
++ 10o:
+  + [x] El protocolo HTTPS.
+  + [x] Certificados. Servidores de certificados.
+  + [x] Documentación.
+  + [x] Despliegue de aplicaciones sobre servidores web.
+  + [x] Despliegue de servidores web mediante tecnologías de virtualización en la nube y en contenedores.
++ 17o:
+  + [x] continuación configuración de `host` para acceso externo
++ 21o:
+  + [x] Proxy
++ 22o: Implantación
+  + [x] Apache
+  + [ ] ~~`rsync`~~ -> problemas en windows -> Usar `rsync` desde `vagrant` o `wsl`.
++ 24o: 
+  + [x] Monitorización
+  + [ ] ~~Nginx~~
++ 28o: **Examen**
++ 29o:
+  + [ ] CORS
+ 
+### Contenido
++ [x] Servidor web Apache (a, b, c, d, g, i)
++ [ ] ~~Servidor web Nginx (a, b, c, d, g, i)~~
++ [x] Proxy (e, f, g, i)
++ [ ] Implantación (local) aplicación Angular/React (h, i)
++ [x] Monitorización (j)
+
+*Asociado al RA2*.
 
 ---
 
 # Contenidos mínimos:
 + [ ] Sitios web estáticos y dinámicos.
-+ [ ] Aplicaciones web.
-+ [ ] Servicios web.
++ [x] Aplicaciones web.
++ [x] Servicios web.
 + [ ] Servidores de nombres. Tipos.
 + [ ] Registros DNS.
 + [ ] Zona directa e inversa.
-+ [ ] Servidores web. Instalación.
++ [x] Servidores web. Instalación.
 + [ ] Ficheros y parámetros de configuración de servidores.
-+ [ ] Servidores virtuales.
-+ [ ] Establecimiento de conexiones seguras HTTPS.
++ [x] Servidores virtuales.
++ [x] Establecimiento de conexiones seguras HTTPS.
 + [ ] Configurando CORS.
 + [ ] Instalación y funcionamiento de FTP.
-+ [ ] Git. Funcionamiento.
++ [x] Git. Funcionamiento.
 + [ ] Git. Trabajo con ramas y en remoto.
 + [ ] Git BARE.
 + [ ] CI/CD con hooks de Git
-+ [ ] Docker. Instalación y componentes.
-+ [ ] Docker. Ciclo de vida de los contenedores.
-+ [ ] DockerFile y DockerCompose.
++ [x] Docker. Instalación y componentes.
++ [x] Docker. Ciclo de vida de los contenedores.
++ [x] DockerFile y DockerCompose.
 + [ ] JavaEE y JakartaEE.
 + [ ] Servidor/Contenedor de aplicaciones (Tomcat).
 + [ ] Despliegue de aplicaciones en un entorno de red en un servidor Linux.

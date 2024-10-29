@@ -381,7 +381,7 @@ El script lo podemos llamar al iniciar la máquina pasándole la cantidad de GB 
 
 También podemos ser mas finos y lanzarlo como un servicio de inicio con _systemd_:
 1. Crear el _timer_ en `/etc/systemd/system/crearSwap.timer`:
-```toml
+```
 [Unit]
 Description= Timer para swap
 
@@ -395,7 +395,7 @@ WantedBy=timers.target
 ```
 
 2. Crear el servicio en `/etc/systemd/system/crearSwap.service`:
-```toml
+```
 [Unit]
 Description= Servicio para crear Swap
 
