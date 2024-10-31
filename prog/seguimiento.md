@@ -11,9 +11,9 @@
   + [x] Estructuras estáticas y dinámicas.
   + [x] Declaración y asignación de vectores (_array_ unidimensionales)
 + 29o:
-  + [ ] Trabajando con _array_’s: `for`
-  + [ ] Trabajando con _array_’s: `for-each`
-  + [ ] _La clase `Arrays`_
+  + [x] Trabajando con _array_’s: `for`
+  + [x] Trabajando con _array_’s: `for-each`
+  + [x] _La clase `Arrays`_
 + ~~1n~~: Festivo
 + 4n:
   + [ ] _String[] args_

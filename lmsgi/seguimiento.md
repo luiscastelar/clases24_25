@@ -58,7 +58,7 @@ Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Debe
 _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 + 28o:
   + [x] Lecciones 1 a 8 del curso de referencia.
-  + [ ] Juego de selectores.
+  + [x] Juego de selectores.
 + 31o:
   + [ ] Lecciones 1 a 10 del curso de referencia.
   + [ ] Variables y pseudo-clase `:root`.

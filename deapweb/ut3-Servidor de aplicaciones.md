@@ -1,15 +1,8 @@
 ---
 Title: Servidores de aplicaciones
-Keywords:
-  - Servidor
-  - Aplicación
-  - JakartaEE
-  - Laravel
-  - Node.js
-  - Flask
+Keywords: Servidor, Aplicación, JakartaEE, Laravel, Node.js, Flask
 Author: Luis Ferreira
 Date:   29 de octubre de 2024
-CSS:      https://luiscastelar.duckdns.org/assets/css/just-read.css 
 ---
 #curso24_25 #deapweb [estado::ToDo]
 

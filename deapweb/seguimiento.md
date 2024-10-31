@@ -8,7 +8,7 @@
 Duración: 9h -> 30o a 13n
 
 + 29o:
-  + [ ] JakartaEE
+  + [x] JakartaEE
 + 31o:
   + [ ] JakartaEE
 + 4n:
@@ -219,7 +219,7 @@ Duración: 14 h
   + [ ] ~~Nginx~~
 + 28o: **Examen**
 + 29o:
-  + [ ] CORS
+  + [x] CORS
  
 ### Contenido
 + [x] Servidor web Apache (a, b, c, d, g, i)
