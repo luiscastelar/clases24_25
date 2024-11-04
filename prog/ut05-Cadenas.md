@@ -7,7 +7,6 @@ Comment:  Precedido de las unidades
           2. Introducción a la POO  
           3. Programación estructurada  
           4. Matrices  
-CSS:      https://luiscastelar.duckdns.org/assets/css/just-read.css  
 ---
 
 #curso24_25 #prog [estado::Done]
@@ -143,12 +142,19 @@ StringBuilder contiene muchos métodos de la clase String (charAt, indexOf, leng
 
 ## Ejercicios
 1. Busca dos métodos de `String` que no estén en `Stringbuilder`.
-2. Invierte el texto
-3. Elimina los espacios en blanco de:
+2. Escribe un programa java que pida al usuario que introduzca un texto y una letra. Después el programa tiene que calcular y presentar por pantalla, cuantas veces aparece la letra en el texto.
+3. Invierte una cadena introducida por teclado
+4. Elimina los espacios en blanco de:
   + Antes
   + Después
   + Dentro (dobles espacios)
 
+5. Suma los elementos de un array que esté introducido en una sola línea de texto.
+7. Comprueba si una palabra es palíndromo, esto es, se lee igual de derecha a izquierda que de izquierda a derecha. P.e. asa, ojo, radar, ...
+8. Comprueba si un número es capicúa. P.e. son capicúas el 131, 3443, 42624, ...
+9. Contador de palabras. Simula un <u>array asociativo</u> mediante 2 <u>arrays paralelos</u> que dada una frase nos cuente cuantas veces aparece cada palabra 
+
+   
 # Práctica
 Realiza un programa que dados los archivos `carta.txt` y `destinatarios.csv` implemente el controlador Main que:
 1. Declaración de variables

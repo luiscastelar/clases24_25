@@ -52,22 +52,33 @@ Realizaremos modificación del nombre y volveremos a empaquetarlo con `jar cf nu
 Deberemos:
 1. Crear una aplicación echo en _JakartaEE_.
 2. Levantar un servidor _Tomcat_ que despliegue nuestra aplicación.
-3. Crear una aplicación en _Spring_ utilizando _Spring Boot_.
+3. Crear una aplicación en _Spring_ utilizando _Spring Boot_ (pendiente final de trimestre)
 4. Desplegarla
 
-Deberemos subir los resultados a `ut3/jakartaEE`.
+Deberemos subir los resultados a `ut3/jakartaEE`. 
 
+> [!IMPORTANT]
+> En el README deberás comenzar indicando la URL donde ver el resultado.
+
+> [!CAUTION]
+ > No se corregirá ningún trabajo que no contenga TODOS los archivos necesarios para reproducir el resultado, así como el ``README.md`` con la explicación de que pasos deben realizarse para reproducirlo.
+
+> [!NOTE]
+> El archivo ``README.md`` no puede contener archivos fuente o de configuración, sólo extractos parciales si es necesario explicar algo sobre ellos que no pueda realizarse en un comentario dentro del archivo en cuestión. P.e. archivos json.
 
 ## WebUI
 _Tomcat_ dispone de una interfaz de administración gráfica que podemos activar mediante modificación del archivo `tomcat-users.xml`, habilitándole el rol `manager-gui` y asignándoselo a un usuario.
 
 Una vez modificada podremos acceder al él en `http://localhost:8888/manager/html`.
 
+Para su acceso remoto se requerirá modificar los permisos de acceso desde ip pública concreta (expresión regular).
+
 
 # Laravel
 1. [Ventajas de Sails](https://medium.com/@AFelipeTrujillo/crear-contenedores-laravel-y-mysql-con-sails-ventajas-y-desventajas-ca5f0b57208e)
 2. [Uso de Sails](https://mrashish75.medium.com/laravel-docker-vs-sail-680f59b9b94e)
 3. [Paso a paso](https://desarrolloweb.com/articulos/laravel-sail)
+4. Crear un [Dockerfile](https://buddy.works/guides/laravel-in-docker)
 
 > [!TIP]
 > Para los que como a mí no nos guste tener que instalar nada, podemos hacer uso de los siguientes alias:
@@ -87,6 +98,15 @@ También podemos levantar una app _Laravel_ via la [imágen de Bitnami](https://
 
 ## Práctica
 Crea la aplicación “hola mundo” de _Laravel_ y sube los resultados a `ut3/laravel`.
+
+> [!IMPORTANT]
+> En el README deberás comenzar indicando la URL donde ver el resultado.
+
+> [!CAUTION]
+ > No se corregirá ningún trabajo que no contenga TODOS los archivos necesarios para reproducir el resultado, así como el ``README.md`` con la explicación de que pasos deben realizarse para reproducirlo.
+
+> [!NOTE]
+> El archivo ``README.md`` no puede contener archivos fuente o de configuración, sólo extractos parciales si es necesario explicar algo sobre ellos que no pueda realizarse en un comentario dentro del archivo en cuestión. P.e. archivos json.
 
 
 # Node.js
@@ -150,6 +170,15 @@ Crea la aplicación “hola mundo” de _Laravel_ y sube los resultados a `ut3/l
 ## Práctica
 Reproduce lo anterior y muestra el resultado. Súbela a `ut3/node.js`.
 
+> [!IMPORTANT]
+> En el README deberás comenzar indicando la URL donde ver el resultado.
+
+> [!CAUTION]
+ > No se corregirá ningún trabajo que no contenga TODOS los archivos necesarios para reproducir el resultado, así como el ``README.md`` con la explicación de que pasos deben realizarse para reproducirlo.
+
+> [!NOTE]
+> El archivo ``README.md`` no puede contener archivos fuente o de configuración, sólo extractos parciales si es necesario explicar algo sobre ellos que no pueda realizarse en un comentario dentro del archivo en cuestión. P.e. archivos json.
+
 
 # Flask
 1. Crear `app.py`:
@@ -207,3 +236,12 @@ Reproduce lo anterior y muestra el resultado. Súbela a `ut3/node.js`.
 
 ## Práctica
 Reproduce lo anterior y muestra el resultado. Súbela a `ut3/flask`.
+
+> [!IMPORTANT]
+> En el README deberás comenzar indicando la URL donde ver el resultado.
+
+> [!CAUTION]
+ > No se corregirá ningún trabajo que no contenga TODOS los archivos necesarios para reproducir el resultado, así como el ``README.md`` con la explicación de que pasos deben realizarse para reproducirlo.
+
+> [!NOTE]
+> El archivo ``README.md`` no puede contener archivos fuente o de configuración, sólo extractos parciales si es necesario explicar algo sobre ellos que no pueda realizarse en un comentario dentro del archivo en cuestión. P.e. archivos json.

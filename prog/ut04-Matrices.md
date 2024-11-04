@@ -140,9 +140,25 @@ for (int i = 0; i < myNumbers.length; ++i) {
 # Ejercicios:
 <details>
 
-1.  Escribe un programa java que pida al usuario que introduzca un texto y una letra. Después el programa tiene que calcular y presentar por pantalla, cuantas veces aparece la letra en el texto.  
-    Utiliza el objeto LeerEntrada del exámen del T5.
-2.  Escribe un programa que pida al usuario que introduzca los datos de una factura y luego los presente por pantalla.
+1. Suma los elementos de un array `harcodeado`.
+2. Suma los elementos de un array que esté introducido por teclado.
+3. Obtén el valor medio de un array.
+4. Obtén la moda de un array. _Nota: la moda es el elemento que más se repite._
+5. Escribe un programa que pida 10 números por teclado, los almacene en un array y que luego muestre el máximo valor, el mínimo y las posiciones que ocupan en el array.
+6. Escribe un programa que genere 20 números enteros aleatorios entre 0 y 99 y los almacene en un array. El programa debe crear un nuevo array con los números primos que haya entre esos 20 números. Luego debe mostrar los dos arrays.
+
+   <details>
+   <summary>Generar número aleatorio</summary>
+   
+   ```java
+   // Generar semilla
+   Random aleatorio = new Random(System.currentTimeMillis());
+   // Producir nuevo int aleatorio entre 0 y 99
+   int intAletorio = aleatorio.nextInt(100);
+   ```
+
+   </details>
+7. Escribe un programa que pida al usuario que introduzca los datos de una factura y luego los presente por pantalla.
     
     +   La factura tendrá tres partes. La cabecera, el listado de productos con sus datos, y el pie de factura con el total de la misma. Cada una deberás implementarse con un objeto.
     +   La cabecera tendrá el siguiente texto: Producto, unidades, precio/unidad y total.
@@ -156,45 +172,60 @@ for (int i = 0; i < myNumbers.length; ++i) {
     > 
     > Total: 941.0
     
-3.  Escribe una clase que reciba un array de integers que busque un valor dentro del array y borre todas sus ocurrencias, reduciendo la dimensión del array. Es decir, no vale con poner cero en el lugar donde encontremos el valor.
+8. Escribe un programa que genere al azar 20 números enteros comprendidos entre 0 y 9. Estos números se deben introducir en un array de 4 filas por 5 columnas.
 
-    Crea una clase de prueba donde estará `hardcodeado` (en el código) el array.
+   El programa mostrará las sumas parciales de filas y columnas igual que si de una hoja de cálculo se tratara. La suma total debe aparecer en la esquina inferior derecha.
+   
+9. Escribe una clase que reciba un array de integers que busque un valor dentro del array y borre todas sus ocurrencias, reduciendo la dimensión del array. Es decir, no vale con poner cero en el lugar donde encontremos el valor.
 
-    El valor a buscar y borrar debe ser introducido por el usuario.
+   Crea una clase de prueba donde estará `hardcodeado` (en el código) el array.
 
-    El programa debe mostrar por pantalla el valor borrado, el array inicial y el array final.
+   El valor a buscar y borrar debe ser introducido por el usuario.
 
-    Una posible salida sería:
-    > Introduce el numero que quieres borrar: 5
-    > Elemento a borrar: 5
-    > Array inicial: 1 – 5 – 9 – 3 – 45 – 23 – 45 – 12 – 87 – 9 – 6 – 5 –
-    > Array final  : 1 – 9 – 3 – 45 – 23 – 45 – 12 – 87 – 9 –
+   El programa debe mostrar por pantalla el valor borrado, el array inicial y el array final.
+
+   Una posible salida sería:
+   >Introduce el numero que quieres borrar: 5
+   >Elemento a borrar: 5
+   >Array inicial: 1 – 5 – 9 – 3 – 45 – 23 – 45 – 12 – 87 – 9 – 6 – 5 –
+   >Array final  : 1 – 9 – 3 – 45 – 23 – 45 – 12 – 87 – 9 –
     
-5.  Sobre el anterior, modifica la clase `LeerEntrada` donde le crearemos el método `boolean continuar(char default)` que pregunte al usuario si queremos continuar y reciba un ‘y’ para valor `yes` defecto o un ‘n’ para valor `no`.  
-    El método devolverá `true` si recibe por teclado `y|Y|yes|YES|Yes|Sí|Si|sí|si|SÍ|SI|S|s` o nada y el valor por defecto es ‘y’.\\ El método devolverá `false` si recibe `n|N|no|No|NO` o nada y el valor por defecto es ‘n’.
+10. Sobre el anterior, modifica la clase `LeerEntrada` donde le crearemos el método `boolean continuar(char default)` que pregunte al usuario si queremos continuar y reciba un ‘y’ para valor `yes` defecto o un ‘n’ para valor `no`.
+    El método devolverá `true` si recibe por teclado `y|Y|yes|YES|Yes|Sí|Si|sí|si|SÍ|SI|S|s` o nada y el valor por defecto es ‘y’.
+
+    El método devolverá `false` si recibe `n|N|no|No|NO` o nada y el valor por defecto es ‘n’.
     
-    Mientras que este método devuleva `true` se continuará eliminando elementos del array.
+    Mientras que este método devuelva `true` se continuará eliminando elementos del array.
     
-6.  Sobre el ejercicio anterior, realiza las modificaciones necesarias para crear e instanciar una clase que genere de forma aleatoria el array inicial según los parámetros valor mínimo, valor máximo y número de elementos.  
-    _Nota: puedes utilizar distintos procedimientos para obtener el número aleatorio. Consulta [aquí](https://www.javatpoint.com/how-to-generate-random-number-in-java)_.
-7.  Crea un programa que muestre por pantalla la nota de un estudiante, de entre una lista de estudiantes con sus respectivas notas. Estos datos estarían hardcodeados.  
-    El nombre del estudiante lo introduce el usuario por teclado (usa la clase LeerEntrada). \\ Usa dos arrays, uno para guardar los nombres de los estudiantes, y el otro para guardar las notas de los mismos. Ambos tendrán 5 elementos. Puedes guardar la información relacionada en ambos arrays con el mismo valor del índice. Es decir, si por ejemplo el estudiante Pedro está en la posición 2 del array de estudiantes, su nota estaría en la posición 2 del array de notas. \\ Para comparar el nombre del estudiante introducido por teclado con los nombres de los estudiantes en el array de estudiantes, puedes usar el método equals de la Clase String.
-8.  Repite con un array multidimensional.
-9.  Crea un programa que reciba por teclado un array de enteros y ordene sus elementos almacenando la posición origial en otro array.
-10.  Desarrolla un programa java para ser usado por los camareros de un restaurante, que sirva para tomar nota de los menus que los clientes van a tomar.
-11.  Primer dato a introducir por el camarero es el número de comensales que tendrá que estar en el rango de 1-5, ya que no hay mesas de más de cinco comensales. El valor introducido debe asegurarse de que se encuentra en el rango definido.
-12.  Entonces el camarero tiene que introducir el menú seleccionado por cada cliente.
-13.  Tenemos tres menus: #1,#2 y #3. Puedes identificar cada menú por el número: menú 1, menú 2 o menú 3.
-14.  Una vez introducidos todos los datos, el programa imprimirá por pantalla los menús solicitados por cada comensal.
-15.  Tienes que emplear un array para registrar los menús que tomará cada comensal. Ten en cuenta que la dimensión de dicho array tendrá que definirse en ejecución, ya que no sabemos a priori cuantos comensales vamos a tener.
-16.  Un ejemplo de una posible salida sería:
-  > Introduce el número de comensales (máximo 5): 3
-  > Introduce el menu pedido por el comensal 1 : 1
-  > Introduce el menu pedido por el comensal 2 : 2
-  > Introduce el menu pedido por el comensal 3 : 1
-  > Comensal 1 va a tomar el menu 1
-  > Comensal 2 va a tomar el menu 2
-  > Comensal 3 va a tomar el menu 1  
+12. Sobre el ejercicio anterior, realiza las modificaciones necesarias para crear e instanciar una clase que genere de forma aleatoria el array inicial según los parámetros valor mínimo, valor máximo y número de elementos.  
+13. Crea un programa que muestre por pantalla la nota de un estudiante, de entre una lista de estudiantes con sus respectivas notas. Estos datos estarían hardcodeados.  
+    El nombre del estudiante lo introduce el usuario por teclado (usa la clase LeerEntrada).
+
+    Usa dos arrays, uno para guardar los nombres de los estudiantes, y el otro para guardar las notas de los mismos. Ambos tendrán 5 elementos. Puedes guardar la información relacionada en ambos arrays con el mismo valor del índice. Es decir, si por ejemplo el estudiante Pedro está en la posición 2 del array de estudiantes, su nota estaría en la posición 2 del array de notas.
+
+    Para comparar el nombre del estudiante introducido por teclado con los nombres de los estudiantes en el array de estudiantes, puedes usar el método equals de la Clase String.
+    
+15.  Repite con un array multidimensional.
+16.  Crea un programa que reciba por teclado un array de enteros y ordene sus elementos almacenando la posición origial en otro array.
+17.  Desarrolla un programa java para ser usado por los camareros de un restaurante, que sirva para tomar nota de los menus que los clientes van a tomar.
+18.  Primer dato a introducir por el camarero es el número de comensales que tendrá que estar en el rango de 1-5, ya que no hay mesas de más de cinco comensales. El valor introducido debe asegurarse de que se encuentra en el rango definido.
+19.  Entonces el camarero tiene que introducir el menú seleccionado por cada cliente.
+20.  Tenemos tres menus: #1,#2 y #3. Puedes identificar cada menú por el número: menú 1, menú 2 o menú 3.
+21.  Una vez introducidos todos los datos, el programa imprimirá por pantalla los menús solicitados por cada comensal.
+22. Tienes que emplear un array para registrar los menús que tomará cada comensal. Ten en cuenta que la dimensión de dicho array tendrá que definirse en ejecución, ya que no sabemos a priori cuantos comensales vamos a tener.
+23. Un ejemplo de una posible salida sería:
+    >Introduce el número de comensales (máximo 5): 3
+    >Introduce el menu pedido por el comensal 1 : 1
+    >Introduce el menu pedido por el comensal 2 : 2
+    >Introduce el menu pedido por el comensal 3 : 1
+    >Comensal 1 va a tomar el menu 1
+    >Comensal 2 va a tomar el menu 2
+    >Comensal 3 va a tomar el menu 1  
+
+24. Dada las siguientes [operaciones matemáticas con matrices](https://matesfacil.com/matrices/resueltos-matrices-suma.html), implementa una clase que realice la suma matricial, multiplicación escalar y transposición de una matriz.
+25. Amplia la clase anterior con la [multiplicación matricial](https://www.matricesydeterminantes.com/matrices/multiplicacion-de-matrices-2x2-y-3x3-ejemplos-y-ejercicios-resueltos-paso-a-paso/).
+
+
 </details>
 
 

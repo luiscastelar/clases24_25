@@ -16,18 +16,21 @@
   + [x] _La clase `Arrays`_
 + ~~1n~~: Festivo
 + 4n:
+  + [ ] Corrección ejercicios 1 y 2 de UT2 y UT3.
   + [ ] _String[] args_
   + [ ] _vargars_
   + [ ] Ejercicios
 + 5n:
+  + [ ] Corrección ejercicios 3 de UT2 y UT3, y ejercicio 1 de UT4.
   + [ ] Matrices (arrays multidimensionales).
 + 6n:
+  + [ ] Corrección ejercicios 4 de UT2 y UT3, y ejercicio 2 de UT4.
   + [ ] Ejercicios
-+ 8n:
-  + [ ] Defensa prácticas
++ 8n: 
+  + [ ] Corrección ejercicios 5 de UT2 y UT3, y ejercicio 3, 4 y 5 de UT4.
 + 11n:
-  + [ ] Defensa prácticas
-+ 13n: **Examen**
+  + [ ] Corrección ejercicios 6 de UT2 y UT3, y ejercicio 6, 7 y 8 de UT4.
++ 13n: **Examen** o Defensa de prácticas (según ejercicios de aula).
 
 _Trabajados los RA 3, 4 y 6._
 
