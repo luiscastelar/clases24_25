@@ -2,55 +2,6 @@
 
 # Materia PLANIFICADA
 
-## UT2 - Lenguajes de marcas en entornos web. HTML.
-+ 26s:
-  + [x] Estándares web. Versiones. Clasificación.
-  + [x] Estructura de un documento HTML.
-  + [x] Identificación de etiquetas y atributos de HTML.
-  + [x] Herramientas de diseño web.
-  + [x] Validación de documentos HTML.
-  + [x] Etiquetas de estructura
-+ 30s: 
-  + [x] Repaso y refuerzo sobre HTML5 vs anteriores
-  + [x] Un mínimo visual
-  + [x] Crear repositorio Git
-+ 3o:
-  + [x] Enlaces
-  + [x] Secciones
-+ 7o:
-  + [x] Texto en línea
-  + [x] Bloques de contenido    
-+ 10o:
-  + [x] Metadatos
-  + [x] ~~Tablas~~ -> Nuevas tablas
-+ 14o:
-  + [x] Formularios
-  + [x] Modificaciones
-+ 17o:
-  + [x] Elementos interactivos: `<script>`, `<canvas>`, `<template>` y `<slot>`
-  + [x] DOM y Shadow DOM
-  + [x] Caracteres especiales. Escapado
-  + [x] Trabajo en práctica
-+ 21o:
-  + [x] Accesibilidad
-  + [x] Otras etiquetas
-  + [x] Obsoletas
-  + [x] Trabajo en práctica
-+ 24o:
-  + [x] Trabajo en práctica
-+ 28o:
-  + [x] Metodología de trabajo UT3
-  + [x] Normas defensa y clases
-  + [x] **Defensa de prácticas**
-+ 31o:
-  + [x] **Defensa de prácticas**
-+ 4n: **EXAMEN** UT1 y UT2 en papel. [Puedes utilizar la chuleta](https://www.emezeta.com/weblog/html5-cheatsheet/html5-cheatsheet-emezeta.pdf)
-
-_Se trabaja el RA 2_.
-
-### Recuperación:
-Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Deberás demostrar los avances y conocimientos adquiridos.
-
 
 ## UT3 - Lenguajes de marcas en entornos web. CSS.
 38h -> 9,5 semanas 
@@ -190,3 +141,52 @@ _Se trabaja el RA 3 y 5_.
  
 _Se trabaja el RA 1_.
 
+
+## UT2 - Lenguajes de marcas en entornos web. HTML.
++ 26s:
+  + [x] Estándares web. Versiones. Clasificación.
+  + [x] Estructura de un documento HTML.
+  + [x] Identificación de etiquetas y atributos de HTML.
+  + [x] Herramientas de diseño web.
+  + [x] Validación de documentos HTML.
+  + [x] Etiquetas de estructura
++ 30s: 
+  + [x] Repaso y refuerzo sobre HTML5 vs anteriores
+  + [x] Un mínimo visual
+  + [x] Crear repositorio Git
++ 3o:
+  + [x] Enlaces
+  + [x] Secciones
++ 7o:
+  + [x] Texto en línea
+  + [x] Bloques de contenido    
++ 10o:
+  + [x] Metadatos
+  + [x] ~~Tablas~~ -> Nuevas tablas
++ 14o:
+  + [x] Formularios
+  + [x] Modificaciones
++ 17o:
+  + [x] Elementos interactivos: `<script>`, `<canvas>`, `<template>` y `<slot>`
+  + [x] DOM y Shadow DOM
+  + [x] Caracteres especiales. Escapado
+  + [x] Trabajo en práctica
++ 21o:
+  + [x] Accesibilidad
+  + [x] Otras etiquetas
+  + [x] Obsoletas
+  + [x] Trabajo en práctica
++ 24o:
+  + [x] Trabajo en práctica
++ 28o:
+  + [x] Metodología de trabajo UT3
+  + [x] Normas defensa y clases
+  + [x] **Defensa de prácticas**
++ 31o:
+  + [x] **Defensa de prácticas**
++ 4n: **EXAMEN** UT1 y UT2 en papel. [Puedes utilizar la chuleta](https://www.emezeta.com/weblog/html5-cheatsheet/html5-cheatsheet-emezeta.pdf)
+
+_Se trabaja el RA 2_.
+
+### Recuperación:
+Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Deberás demostrar los avances y conocimientos adquiridos.

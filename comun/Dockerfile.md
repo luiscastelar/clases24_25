@@ -276,7 +276,7 @@ USER noPrivilegiado:noPrivilegiado
 
 
 # Buenas prácticas
-+ [... generales - top](https://dev.to/techworld_with_nana/top-8-docker-best-practices-for-using-docker-in-production-1m39)
++ [... generales - top](https://dev.to/techworld_with_nana/top-8-docker-best-practices-for-using-docker-in-production-1m39) 
 + [... con Java](https://www.snyk.io/blog/docker-for-java-developers/)
 + [... con imagenes](https://www.snyk.io/blog/10-docker-image-security-best-practices/)
 + [... con node.js](https://snyk.io/blog/10-best-practices-to-containerize-nodejs-web-applications-with-docker/)

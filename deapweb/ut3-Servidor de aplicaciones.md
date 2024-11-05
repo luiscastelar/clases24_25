@@ -166,6 +166,12 @@ Crea la aplicación “hola mundo” de _Laravel_ y sube los resultados a `ut3/l
       entrypoint: ["node", "server.js", "argumento1", "argumento2"]
   ```
 
+> [!TIP]
+> Para un proyecto ocasional no merece la pena instalar node. Podemos correrlo en un contenedor con:
+> `alias node='docker run --rm -it -u $(id -u):$(id -g) -v $(pwd):/app -w /app  node:latest'`
+>
+> Pudiendo correr luego `node npm init` y `node npm install express` para generar `package.json` e instalar el módulo _express_.
+
 
 ## Práctica
 Reproduce lo anterior y muestra el resultado. Súbela a `ut3/node.js`.

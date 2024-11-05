@@ -10,17 +10,19 @@ Duración: 9h -> 30o a 13n
 + 29o:
   + [x] JakartaEE
 + 31o:
-  + [ ] JakartaEE
+  + [x] JakartaEE
 + 4n:
-  + [ ] Laravel
+  + [x] Laravel
+  + [x] JakartaEE
 + 5n:
   + [ ] Node.js
   + [ ] Flask
-+ 11n: **Examen**
++ 11n: **Entrega PRÁCTICAS** <u>antes</u> de la 13.00 h.
+
 
 ### Contenido:
-+ [ ] Contenedor de aplicaciones Tomcat (a, b, c, d, e, h, i)
-+ [ ] Despliegue de aplicación web Servlet/Spring/Quarkus (f, g, h, i)
++ [x] Contenedor de aplicaciones Tomcat (a, b, c, d, e, h, i)
++ [x] Despliegue de aplicación web Servlet/Spring/Quarkus (f, g, h, i)
 
 *Asociado al RA3*.
 

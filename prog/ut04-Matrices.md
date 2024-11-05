@@ -166,8 +166,11 @@ for (int i = 0; i < myNumbers.length; ++i) {
     > Un ejemplo de posible factura impresa sería:
     > 
     > Producto —Unidades —Precio/unidad —Total
+    > 
     > Mesa — 7 — 101.0 — 707.0
+    > 
     > Silla — 3 — 45.0 — 135.0
+    > 
     > Lampara — 11 — 9.0 — 99.0
     > 
     > Total: 941.0
@@ -186,8 +189,11 @@ for (int i = 0; i < myNumbers.length; ++i) {
 
    Una posible salida sería:
    >Introduce el numero que quieres borrar: 5
+   >
    >Elemento a borrar: 5
+   >
    >Array inicial: 1 – 5 – 9 – 3 – 45 – 23 – 45 – 12 – 87 – 9 – 6 – 5 –
+   >
    >Array final  : 1 – 9 – 3 – 45 – 23 – 45 – 12 – 87 – 9 –
     
 10. Sobre el anterior, modifica la clase `LeerEntrada` donde le crearemos el método `boolean continuar(char default)` que pregunte al usuario si queremos continuar y reciba un ‘y’ para valor `yes` defecto o un ‘n’ para valor `no`.

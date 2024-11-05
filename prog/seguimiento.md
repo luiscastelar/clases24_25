@@ -16,11 +16,10 @@
   + [x] _La clase `Arrays`_
 + ~~1n~~: Festivo
 + 4n:
-  + [ ] Corrección ejercicios 1 y 2 de UT2 y UT3.
-  + [ ] _String[] args_
-  + [ ] _vargars_
-  + [ ] Ejercicios
+  + [x] Corrección ejercicios 1 y 2 de UT2 y UT3.
+  + [x] _String[] args_
 + 5n:
+  + [ ] _vargars_
   + [ ] Corrección ejercicios 3 de UT2 y UT3, y ejercicio 1 de UT4.
   + [ ] Matrices (arrays multidimensionales).
 + 6n:
