@@ -492,12 +492,20 @@ Realiza un programa `TrabajarConFechas` que nos ofrezca los siguientes métodos:
 4. `int cuantosMeses(Fecha fechaInicio, Fecha fechaFin)` -> devuelve la diferencia en meses entre ambas fechas. Si se pasan las fechas en orden inadecuado devolverá un número negativo de meses. Ignoraremos el día del mes, esto es, de 31/01/2024 a 01/02/2024 hay 1 mes, ya que se computa desde enero hasta febrero.
 5. `int cuantosAnhos(Fecha fechaInicio, Fecha fechaFin)` -> devuelve la diferencia en años entre ambas fechas. Si se pasan las fechas en orden inadecuado devolverá un número negativo de años. Ignoraremos el día y mes, esto es, de 01/01/2024 a 31/12/2024 hay 0 años, ya que se computa desde 2024 hasta 2024.
 
-Respecto a la clase `Fecha`, deberá tener los campos _int_ `dia`,`mes` y `anho` y debera evitar en su constructor que se creen fechas imposibles.
+Respecto a la clase `Fecha`, deberá tener los campos _int_ `dia`,`mes` y `anho` y debera evitar en su constructor que se creen fechas imposibles. Para la depuración deberás apoyarte de `asserts`.
+
+Deberás incluir <u>test unitarios</u> que verifiquen los métodos del punto 1, 2 y 3.
 
 Fecha de entrega: **14 de noviembre**.
+Lugar: En vuestro repositorio, en la ruta  `prog/ut3/practica`.
+
+**Recuerda** vigilar el empleo de mayúsulas en rutas y nombres de archivos, clases, métodos y variables:
+1. las rutas en minúsculas.
+2. las clases en _PascalCase_.
+3. los métodos y variables en _camelCase_.
 
 <!--
-+ [Altura de un árbol general](https://www.aceptaelreto.com/problem/statement.php?id=310&cat=10)
+ + [Altura de un árbol general](https://www.aceptaelreto.com/problem/statement.php?id=310&cat=10)
 
 Deberéis implementarlo mediante objetos, bucles y condicionales... vamos, lo que hemos visto en clase y sólo eso.
 
