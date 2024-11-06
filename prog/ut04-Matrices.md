@@ -140,7 +140,7 @@ for (int i = 0; i < myNumbers.length; ++i) {
 # Ejercicios:
 <details>
 
-1. Suma los elementos de un array `harcodeado`.
+1. Suma los elementos de un array `harcodeado`[^1].
 2. Suma los elementos de un array que esté introducido por teclado.
 3. Obtén el valor medio de un array.
 4. Obtén la moda de un array. _Nota: la moda es el elemento que más se repite._
@@ -238,29 +238,46 @@ for (int i = 0; i < myNumbers.length; ++i) {
 ## PRÁCTICAS:
 
 ## Evaluación de resultados.
-Crear una aplicación que nos evalúe los resultados obtenidos en la primera evaluación, esto es, deberéis crear una aplicación que recoja:
 
-1.  Un número indeterminado de alumnos (filas)
-2.  Cada alumno tendrá un número indeterminado de módulos (no todos los alumnos tienen los mismos módulos) (columnas)
-3.  Determinar la media de las notas del alumno (filas)
-4.  Determinar la media de las notas de cada módulo (columnas)
-5.  Determinar la media global (filas y columnas)
+Crear una aplicación `ResultadosDeClase` que nos evalúe los resultados obtenidos en la primera evaluación, esto es, deberéis crear una aplicación que, partiendo de una matriz de alumnos/modulos cumpla:
 
-Restricciones: debe mostrar la tabla completa con los nombres de las materias, de los alumnos y resaltar las medias en colores. Los datos de entrada estarán “harcodeados”[^1]. **Entrega**: 9 enero
+1. Almacene los nombres de los alumnos
+2. Almacene el nombre de los módulos, que serán {“PROG”, “BBDD”, “LLMM”, “EED_”, “SSII”, “IPE1”, “ING_”}
+3. Que guarde las calificaciones teniendo en cuenta:
 
-### Para la corrección:
+   + Si la calificación es -1 significa que el alumno no se encuentra matriculado en el módulo. Dicha calificación no será tenida en cuenta para realiza la nota media, y no será representada.
+   + Si la calificación es -2 significia que el alumno ya tiene aprobado el módulo. Dicha calificación no será tenida en cuenta para realiza la nota media, y será representada con un character `A`.
+   + La nota será un entero entre 0 y 9 puntos, inclusive. 
+
+4. Determinar la media de las notas del alumno (filas) y mostrarla como la figura (azul aprobado y rojo suspenso). 
+5. Determinar la media de las notas del módulo (columnas) y mostrarla como en la figura (azul aprobado y rojo suspenso).
+6. Determinar la media de las medias de módulos
+7. Mostrar una tabla similar a la de la figura con los nombres de módulos, de alumnos las medias y las notas de cada alumno en cada módulo.
+
+![resultados](https://luiscastelar.duckdns.org/2024/prog/ut4_practica.png)
+
+**Entrega**: 26 de noviembre
+
+**Avanzado:** modificar el programa anterior elimnando la restricción de 1 dígito, almacenando y mostrando `float` con un dígito decimal. 
+
+_Puedes controlar el número de dígitos a mostrar con ``String.format(`"%.1f"`, variable)`` que nos devuelve un `String` con los decimales solicitados._
+
+
+## Para la corrección:
 
 Modificaremos la clase anterior para poder pasar test unitarios. Para ello deberemos asegurarnos que:
 
-1.  La clase se denomina `evaluacionResultados`
+1.  La clase se denomina `ResultadosDeClaseTest`
 2.  Creamos los métodos:
-    +   `listarNotaAlumno(String alumno): float []` -> devuelve las notas del alumno con 2 decimales
-    +   `listarNotasModulos(String modulo): float []` -> devuelve la nota del modulo con 2 decimales
-    +   `mediaAlumno(String alumno): float` -> devuelve la media del alumno con 2 decimales
-    +   `mediaModulo(String modulo): float` -> devuelve la media del módulo con 2 decimales
-3.  La clase carga los datos de un archivo CSV donde la primera fila serán los nombre de los módulos y la primera columna el nombre de los alumnos
-4.  Crearemos los test unitarios que nos permitan verificar los métodos anteriores. **Entrega**: 12 enero
+    +   `listarNotaAlumno(String alumno): int []` -> devuelve las notas del alumno
+    +   `listarNotasModulos(String modulo): int []` -> devuelve la nota del modulo
+    +   `mediaAlumno(String alumno): int` -> devuelve la media del alumno
+    +   `mediaModulo(String modulo): int` -> devuelve la media del módulo
+3.  Crearemos los test unitarios que nos permitan verificar los métodos anteriores.
+  
+**Entrega**: 9 enero
 
+<!--
 ## Posicionamiento de brazos robóticos.
 
 Dado [cinemática de robot (2D)](https://youtu.be/9zSRNXRuX0g), se pide generar una matriz de transformación precalculada de forma que podamos solicitarle a la apliación la ubicación de la punta en unas coordenadas cartesianas (x e y) y nos devuelva los ángulos de posicionamiento de los brazos robóticos.  
@@ -275,7 +292,7 @@ Modificaremos la clase anterior para poder pasar test unitarios. Para ello deber
 
 1.  La clase se denomina `MatricesDeTransformacion`
 2.  Implementaremos una batería de test unitarios para el método `cinematicaInversa2D(int x, int y): float[]` (testear 0,0; 0,10; 10,0; 10,10; 5,7;)
-
+-->
 
 # ... en Java
 ## varargs
