@@ -485,6 +485,18 @@ Fuente:
 
 
 # PRÁCTICA
+Realiza un programa `TrabajarConFechas` que nos ofrezca los siguientes métodos:
+1. `boolean esBisiesto(int year)` -> devuelve si un año es bisiesto.
+2. `boolean esBisiesto(Fecha f)` -> igual al anterior.
+3. `int cuantosDias(Fecha fechaInicio, Fecha fechaFin)` -> devuelve la diferencia en días entre ambas fechas. Si se pasan las fechas en orden inadecuado devolverá un número negativo de días.
+4. `int cuantosMeses(Fecha fechaInicio, Fecha fechaFin)` -> devuelve la diferencia en meses entre ambas fechas. Si se pasan las fechas en orden inadecuado devolverá un número negativo de meses. Ignoraremos el día del mes, esto es, de 31/01/2024 a 01/02/2024 hay 1 mes, ya que se computa desde enero hasta febrero.
+5. `int cuantosAnhos(Fecha fechaInicio, Fecha fechaFin)` -> devuelve la diferencia en años entre ambas fechas. Si se pasan las fechas en orden inadecuado devolverá un número negativo de años. Ignoraremos el día y mes, esto es, de 01/01/2024 a 31/12/2024 hay 0 años, ya que se computa desde 2024 hasta 2024.
+
+Respecto a la clase `Fecha`, deberá tener los campos _int_ `dia`,`mes` y `anho` y debera evitar en su constructor que se creen fechas imposibles.
+
+Fecha de entrega: **14 de noviembre**.
+
+<!--
 + [Altura de un árbol general](https://www.aceptaelreto.com/problem/statement.php?id=310&cat=10)
 
 Deberéis implementarlo mediante objetos, bucles y condicionales... vamos, lo que hemos visto en clase y sólo eso.
@@ -501,7 +513,7 @@ Deberéis implementarlo mediante objetos, bucles y condicionales... vamos, lo qu
 + [String length](https://www.javatpoint.com/java-string-length)
 + [String to Char](https://www.javatpoint.com/java-string-to-char)
 + [Char to int](https://www.javatpoint.com/java-char-to-int)
-
+-->
 
 
 ---
