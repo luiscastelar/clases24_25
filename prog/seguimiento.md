@@ -19,9 +19,9 @@
   + [x] Corrección ejercicios 1 y 2 de UT2 y UT3.
   + [x] _String[] args_
 + 5n:
-  + [ ] _vargars_
-  + [ ] Corrección ejercicios 3 de UT2 y UT3, y ejercicio 1 de UT4.
-  + [ ] Matrices (arrays multidimensionales).
+  + [x] _vargars_
+  + [x] Corrección ejercicios 3 de UT2 y UT3, y ejercicio 1 de UT4.
+  + [x] Matrices (arrays multidimensionales).
 + 6n:
   + [ ] Corrección ejercicios 4 de UT2 y UT3, y ejercicio 2 de UT4.
   + [ ] Ejercicios
@@ -29,26 +29,41 @@
   + [ ] Corrección ejercicios 5 de UT2 y UT3, y ejercicio 3, 4 y 5 de UT4.
 + 11n:
   + [ ] Corrección ejercicios 6 de UT2 y UT3, y ejercicio 6, 7 y 8 de UT4.
-+ 13n: **Examen** o Defensa de prácticas (según ejercicios de aula).
++ 27n: **Examen** o Defensa de prácticas (según ejercicios de aula).
 
 _Trabajados los RA 3, 4 y 6._
 
 
 ## UT5. Manipulación de información. Cadenas.
-+ (14h) 
-+ 12n:
-+ 15n:
-+ [ ] Estructuras estáticas y dinámicas.
-+ [ ] Cadenas de caracteres. Expresiones regulares.
-
-+ [ ] _Pool de Strings_
-+ [ ] _La clase String_
-+ [ ] _La clase StringBuffer (thread-safe)_
++ (14h)
++ Semana 1 (5h)
+  + 12n:
+    + [ ] Estructuras estáticas y dinámicas.
+    + [ ] Cadenas de caracteres.
+    + [ ] _La clase String_
+    + [ ] El método `.equals()`
+  + 13n:
+    + [ ] `String.valueOf()`
+    + [ ] _Pool de Strings_
+    + [ ] _La clase StringBuffer (thread-safe)_
     + [ ] _StringBuilder (**no** thread-safe)_
+  + 15n:
+    + [ ] EXpresiones REGurales -RegEx-
++ Semana 2 (7h)
+  + 18n:
+    + [ ] continuacion de RegEx
+  + 19n:
+    + [ ] continuacion de RegEx
+    + [ ] Construcción de patrones
+    + [ ] _cadena.matches( patron )_
+  + 20n:
+    + [ ] Defensa de prácticas
+  + 22n:
+    + [ ] Defensa de prácticas
++ Semana 3 (2h)
+  + 26n: **Examen**
+ 
 
-### EXpresiones REGurales -RegEx-
-+ [ ] Construcción de patrones
-+ [ ] _cadena.matches( patron )_
 
 ### Internacionalización y localización -i18n- e -i10n-
 + [ ] Identificar las clases relacionadas con el tratamiento de documentos escritos en diferentes lenguajes de intercambio de datos.
