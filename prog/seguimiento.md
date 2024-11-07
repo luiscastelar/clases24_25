@@ -64,11 +64,6 @@ _Trabajados los RA 3, 4 y 6._
   + 26n: **Examen**
  
 
-
-### Internacionalización y localización -i18n- e -i10n-
-+ [ ] Identificar las clases relacionadas con el tratamiento de documentos escritos en diferentes lenguajes de intercambio de datos.
-+ [ ] Realizar programas que realicen manipulaciones sobre documentos escritos en diferentes lenguajes de intercambio de datos.
-
 _Trabajados los RA 3, 4 y 6._
 
 
@@ -138,6 +133,10 @@ _Trabajados los RA 4 y 7._
 + [ ] Serialización de objetos.
 + [ ] Patrones de diseño. DAO.
 
+### Internacionalización y localización -i18n- e -i10n-
++ [ ] Identificar las clases relacionadas con el tratamiento de documentos escritos en diferentes lenguajes de intercambio de datos.
++ [ ] Realizar programas que realicen manipulaciones sobre documentos escritos en diferentes lenguajes de intercambio de datos.
+      
 _Trabajados los RA 3, 4, 5, 6, 7 y 8._
 
 
