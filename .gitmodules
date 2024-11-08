@@ -4,3 +4,6 @@
 [submodule "submodules/rosepac"]
 	path = submodules/rosepac
 	url = https://github.com/rosepac/biblioteca-espanol-gratis.git
+[submodule "submodules/java-clean-code"]
+	path = submodules/java-clean-code
+	url = https://github.com/alansastre/java-clean-code.git
