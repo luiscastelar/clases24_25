@@ -221,6 +221,7 @@ for (int i = 0; i < myNumbers.length; ++i) {
 22. Tienes que emplear un array para registrar los menús que tomará cada comensal. Ten en cuenta que la dimensión de dicho array tendrá que definirse en ejecución, ya que no sabemos a priori cuantos comensales vamos a tener.
 23. Un ejemplo de una posible salida sería:
     >Introduce el número de comensales (máximo 5): 3
+    >
     >Introduce el menu pedido por el comensal 1 : 1
     >Introduce el menu pedido por el comensal 2 : 2
     >Introduce el menu pedido por el comensal 3 : 1

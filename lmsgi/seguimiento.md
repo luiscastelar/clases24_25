@@ -16,19 +16,21 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 
 ### Semana 1
 * Jueves: 07.11:
-  + [ ] Introducción
-  + [ ] Estilos in-line, in-file y externas
-  + [ ] Cascada - Herencia de reglas
-  + [ ] Selectores
-    + [ ] Juego
-  + [ ] Prioridad de reglas
-    + [ ] Normalización de estilos
+  + [x] Introducción
+  + [x] Estilos in-line, in-file y externas
+  + [x] Cascada - Herencia de reglas
+  + [x] Selectores
+    + [x] Juego
+  + [x] Prioridad de reglas
+    + [x] Normalización de estilos
+  + [x] Textos
+    + [x] Colores
+    + [x] Variables
 
 ### Semana 2
 * Lunes: 11.11
-  + [ ] Textos
-    + [ ] Colores
-    + [ ] Variables
+  + [ ] Selectores
+    + [ ] Hermanos `+` y `~`
   + [ ] Textos
     + [ ] Alineación
     + [ ] Tamaño
@@ -38,10 +40,11 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
     + [ ] Tipos de letras. Familias
     + [ ] Regla general para fuentes.
     + [ ] Reglas básicas de tipografía.
-* Jueves: 14.11
   * [ ] Modelo de cajas
     * [ ] Dimensiones
-    * [ ] Desboradmientos
+    * [ ] Desbordamientos
+* Jueves: 14.11
+  * [ ] Modelo de cajas
     * [ ] Box-sizing
     * [ ] Márgenes y rellenos
     * [ ] Propiedades lógicas

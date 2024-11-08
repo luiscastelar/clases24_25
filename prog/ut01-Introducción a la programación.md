@@ -50,5 +50,5 @@ Es imperativo que el archivo lleve el nombre de la clase, y recuerda que `Java` 
 Al finalizar y desde la línea de comandos procederemos a compilar mediante la invocación de `javac ClasePrincipal.java` y una vez creado el archivo objeto `ClasePrincipal.class`, lo ejecutaremos con el comando `java ClasePrincipal`.
 
 # Java
-
-[Versiones de la API de Java](https://www.youtube.com/shorts/s9ReDq1vhOE)
++ [Codigo Limpio](https://github.com/alansastre/java-clean-code/blob/main/README.md)
++ [Versiones de la API de Java](https://www.youtube.com/shorts/s9ReDq1vhOE)

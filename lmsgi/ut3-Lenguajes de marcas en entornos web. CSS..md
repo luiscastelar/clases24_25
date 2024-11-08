@@ -66,6 +66,143 @@ Mientras que ambas palabras aparecen en negrita, sólo aparece subrayada la pala
 
 [**Juego de selectores**](https://flukeout.github.io/)
 
+### Hermanos
+Un [buen tutorial](https://www.gyata.ai/es/css/css-sibling-selector) para entender las diferencias.
+
+<details>
+  <summary>Y un par de ejemplos</summary>
+
+```html
+
+<div>
+  <h1>Hermanos iguales</h1>
+  <p class="tipo-2">uno</p>
+  <p class="tipo-2">dos</p>
+  <p class="tipo-2">tres</p>
+  <p class="tipo-2">cuatro</p>
+  <div class="nota">
+    <p>".tipo-2 ~ .tipo-2" -> Clase tipo-2 que haya tenido un hermano delante de tipo-2 y dentro de un div. Como todos son tipo-2, todos seleccionados, por tanto 2, 3 y 4 cumplen este requisito => aplicamos color, peso y fondo (blue).</p>
+    <p>".tipo-2 + .tipo-2" -> Clase tipo-2 que le anteceda una clase tipo-2 y dentro de un div. Como todos son tipo-2, todos seleccionados, por tanto, 2, 3 y 4 cumplen el requisito => <b>cambiamos</b> fondo (azul claro).</p></div>
+</div>
+<hr />
+<div class="tipo-1">
+  <h1>Hermanos diferentes</h1>
+  <p class="tipo-2">uno</p>
+  <p class="tipo-2">dos</p>
+  <p class="tipo-3">tres</p>
+  <p class="tipo-2">cuatro</p>
+  <div class="nota">
+    <p>".tipo-2 ~ .tipo-2" -> Clase tipo-2 que haya tenido un hermano delante de tipo-2 y dentro de un div. Como hay de 2 tipos, 2 y 4 cumplen este requisito => aplicamos color, peso y fondo (azul).</p>
+  <p>".tipo-2 + .tipo-2" -> Clase tipo-2 que le anteceda (justo delante) un hermano de tipo-2 y dentro de un div. Como hay de 2 tipos, esta condición <u>sólo la cumple 2</u> => <b>cambiamos</b> fondo (azul claro).</p>  
+  </div>
+</div>
+<hr />
+<hr />
+<div>
+  <h1>Hermanos iguales B</h1>
+  <p class="tipo-2b">uno</p>
+  <p class="tipo-2b">dos</p>
+  <p class="tipo-2b">tres</p>
+  <p class="tipo-2b">cuatro</p>
+  <div class="nota"><p>".tipo-2b + .tipo-2b" -> Clase tipo-2b que le anteceda una clase tipo-2 y dentro de un div. Como todos son tipo-2b, todos seleccionados, por tanto, 2, 3 y 4 cumplen el requisito => aplicamos fondo (azul claro).</p>
+     <p >".tipo-2b ~ .tipo-2b" -> Clase tipo-2b que le anteceda (justo delante) un hermano de tipo-2b y dentro de un div. Como todos son tipo-2b, todos seleccionados, por tanto, 2, 3 y 4 cumplen el requisito => aplicamos color y peso, y <b>cambiamos</b> fondo (azul).</p> 
+  </div>
+</div>
+<hr />
+<div class="tipo-1">
+  <h1>Hermanos diferentes B</h1>
+  <p class="tipo-2b">uno</p>
+  <p class="tipo-2b">dos</p>
+  <p class="tipo-3">tres</p>
+  <p class="tipo-2b">cuatro</p>
+  <div class="nota"><p>".tipo-2b + .tipo-2b" -> Clase tipo-2b que haya tenido un hermano delante de tipo-2b y dentro de un div. Como hay de 2 tipos, esta condición <u>sólo la cumple el 2</u> => aplicamos fondo (azul claro).</p>
+  <p >".tipo-2b ~ .tipo-2b" -> Clase tipo-2b que le anteceda (justo delante) un hermano de tipo-2 y dentro de un div. Como hay de 2 tipos, 2 y 4 cumplen este requisito => aplicamos color y peso, y <b>cambiamos</b> fondo (azul).</p>  
+</div>
+</div>
+<hr />
+<h1>Aplicaciones</h1>
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>E1</th><th colspan="2">E2 y 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>f1c1</td><td>f1c2</td><td>f1c3</td></tr>
+      <tr><td>f2c1</td><td>f2c2</td><td>f2c3</td></tr>
+      <tr><td>f3c1</td><td>f3c2</td><td>f3c3</td></tr>
+      <tr><td>f4c1</td><td>f4c2</td><td>f4c3</td></tr>
+    </tbody>
+    <tfoot>
+      <td>f1</td><td>f2</td><td>f3</td>
+    </tfoot>
+  </table>
+</div>
+
+```
+
+```css
+<style>
+  .tipo-2 ~ .tipo-2 {
+  background-color: blue;
+  color: grey;
+  font-weight: bold;
+  padding-left: 1em;
+}
+
+.tipo-2 + .tipo-2 {
+  background-color: lightblue;
+}
+
+
+.tipo-2b + .tipo-2b {
+  background-color: lightblue;
+}
+
+.tipo-2b ~ .tipo-2b {
+  background-color: blue;
+  color: grey;
+  font-weight: bold;
+  padding-left: 1em;
+}
+
+.nota {
+  font-style: italic;
+}
+
+/* Impares */
+tr, tr + tr + tr {
+  background-color: lightgray;
+}
+
+/* Pares */
+tr + tr, tr + tr + tr + tr {
+  background-color: white;
+}
+
+
+table {
+  border: 1px solid black;
+}
+td {
+  border: 1px dotted lightgray;
+}
+thead tr {
+  background-color: blue;
+  color: white;
+}
+tfoot, tfoot tr {
+  background-color: red;
+  font-weight: bold;
+}
+</style>
+
+```
+
+Y, ¿porqué no hacerlo con `nth-child(2n+1)` y `nth-child(2n)`?
+
+</details>
 
 ## Prioridad de reglas
 > Cuando tenemos varias reglas CSS en cascada que afectan a un mismo elemento, el orden de prioridad que determina como se mostrará el elemento es el siguiente:
@@ -99,6 +236,9 @@ Con respecto a la fuente de la regla:
 2. In-file
 3. Hoja externa
 
+#### Capas en cascada 
+![layers](https://css-tricks.com/wp-content/uploads/2024/06/layers-tall-outlines3.svg)
+Fuente: [css-triks](https://css-tricks.com/css-cascade-layers/).
 
 ### Normalización de estilos
 `Normalize.css` es un pequeño archivo _css_ que proporciona una mejor consistecia _cross-browser_ definiendo los estilos iniciales de todos los navegadores de forma que elimina diferencias entre ellos.

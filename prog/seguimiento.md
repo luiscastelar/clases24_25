@@ -23,8 +23,8 @@
   + [x] Corrección ejercicios 3 de UT2 y UT3, y ejercicio 1 de UT4.
   + [x] Matrices (arrays multidimensionales).
 + 6n:
-  + [ ] Corrección ejercicios 4 de UT2 y UT3, y ejercicio 2 de UT4.
-  + [ ] Ejercicios
+  + [x] Corrección ejercicios 4 de UT2 y UT3, y ejercicio 2 de UT4.
+  + [x] Ejercicios
 + 8n: 
   + [ ] Corrección ejercicios 5 de UT2 y UT3, y ejercicio 3, 4 y 5 de UT4.
 + 11n:
