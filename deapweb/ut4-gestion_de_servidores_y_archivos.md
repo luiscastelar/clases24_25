@@ -120,7 +120,73 @@ Para ello deberemos localizar los archivos de logs y configurar fail2ban para re
 
 Entrega en `ut4/fail2ban`
 
+Gestión del servicio:
++  Ver estado: `systemclt status fail2ban`
++  Activar: `systemclt start fail2ban`
++  Habilitar (al inicio): `systemclt enable fail2ban`
++  Deshabilitar: `systemclt disable fail2ban`
++  Para: `systemclt stop fail2ban`
++  Recargar configuración: `systemclt reload fail2ban`
++  Reiniciar: `systemclt restart fail2ban`
+
+Copiar el archivo `jail.conf` a `jail.local` y personalizarlo:
+```ini
+# Parte general
+[DEFAULT]
+bantime = 3h 
+findtime = 30m
+maxretry = 3
+
+backend = auto
+
+protocol = all
+
+# Accion -> Reject:
+#banaction = iptables-multiport
+#banaction_allports = iptables-allports
+# Drop:
+banaction = iptables-multiport[blocktype=DROP]
+banaction_allports = iptables-allports[blocktype=DROP]
+
+# En cada jail
+[sshd]
+enabled = true
+port = ssh
+# port = ssh,2022 si el servicio funciona en este puerto
+
+# Esto puede ir en el general o en los jail que deseemos:
+bantime = 1h
+bantime.increment = true
+# default factor (causes increment - 1h -> 1d 2d 4d 8d 16d 32d ...):
+bantime.factor = 24
+# max banning time = 5 week:
+bantime.maxtime = 16w
+```
+
+Cambiar a **`backend = systemd`** para systemas sin archivo `/var/log/auth.log`, que funcionan con `systemd` y por tanto con `journalctl`.
+
+**REJECT vs DROP**: la primera rechaza las conexiones, la segunda las descarta. El “atacante” de la primera recibe el rechazo y en la segunda es ignorado.
+
+Aporta menos información y además evita tener que procesar nuevas peticiones con lo que es más seguro a un ataque DDoS.
+
+> [!TIP]
+> Para la práctica poner el `bantime` a 2 minutos para probar rápido si banea-desbanea correctamente.
+
+Luego tenemos modos más agresivos de filtrado para protecciones extra: ddos, extra y aggressive.
+
 
 # Git BARE
 
 ## Práctica de despliegue con git
+[Leer detenidamente](https://hardfloat.es//blog/2021/03/23/desplegar-aplicaciones-con-git.html) y seguir las instrucciones **adaptando** a vuestra situación.
+
+Deberéis:
+1. Crear en local un servidor web que sirva un archivo con vuestro nombre.
+2. Conectar con un servidor web remoto siguiendo las instrucciones de git Bare + hook
+3. Llamarme que os pediré realizar un cambio y que lo pongáis en producción.
+
+_Evidentemente, el servidor remoto debe estar expuesto al mundo, y como estamos en la unidad 4, pues la dirección será `ut4.VUESTRO_SUBDOMINIO.duckdns.org`_.
+
+**TODOS** los archivos implicados en esta práctica deberán estar subidos a REPO/`ut4/practica`, así como la memoria `README.md` con la explicación detallada del proceso. 
+
+Como hablamos, duckdns ha estado dando algunos problemas de fiabilidad por lo que os recomendaría que buscarais un sustituto en _freeDNS_.

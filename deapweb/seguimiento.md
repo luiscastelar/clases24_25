@@ -5,7 +5,7 @@
 
 
 ## UT3. Servidor de aplicaciones
-Duración: 9h -> 30o a 13n
+Duración: 12h -> 30o a 13n
 
 + 29o:
   + [x] JakartaEE
@@ -15,9 +15,11 @@ Duración: 9h -> 30o a 13n
   + [x] Laravel
   + [x] JakartaEE
 + 5n:
-  + [ ] Node.js
-  + [ ] Flask
-+ 11n: **Entrega PRÁCTICAS** <u>antes</u> de la 13.00 h.
+  + [x] Node.js
+  + [x] Flask
++ 17n: **Entrega PRÁCTICAS** <u>antes</u> de la 13.00 h.
++ 18n: **Defensa**
++ 19n: **Defensa**
 
 
 ### Contenido:
@@ -28,24 +30,23 @@ Duración: 9h -> 30o a 13n
 
 
 ## UT4. Gestión de servidores y archivos
-Duración: 10 h -> 13n a 27n
+Duración: 9 h -> 13n a 27n
 + 7n:
-  + [ ] FTP (a, b, c, d, g)
-  + [ ] Acceso remoto seguro - SSH (e, g)
-+ 12n:
-  + [ ] Bastionado SSH:
-     + [ ] pares de llaves
+  + [x] FTP (a, b, c, d, g)
+  + [x] Acceso remoto seguro - SSH (e, g)  + [ ] 
+  + [x] Bastionado SSH:
+     + [x] pares de llaves
      + [ ] fail2ban
-+ 14n:
-  + [ ] cont fail2ban
++ 11n:
+  + [ ] fail2ban
   + [ ] Repositorios BARE (f, g, h)
-+ 18n:
-  + [ ] Hooks locales (CI/CD)
+  + [ ] ~~Hooks locales (CI/CD)~~
   + [ ] Hooks remotos (CI/CD)
-+ 19n:
-  + [ ] Hooks remotos (CI/CD)
++ 12n:
+  + [ ] cont Bare y Hooks (CI/CD)
 + 21n: **Defensa prácticas**
 + 26n: **Defensa prácticas**
++ 28n: **Defensa prácticas**
   
 *Asociado a los RA4 y RA6*.
 
@@ -61,7 +62,6 @@ Duración: 7 h -> 27n a 4d
 
 ---
 # Repaso y evaluación
-+ 10d: repaso
 + 12d: **Recuperación evaluación**
 + 16d: **Defensa practicas**
 + 17d: **Defensa practicas**

@@ -26,7 +26,7 @@
   + [x] Corrección ejercicios 4 de UT2 y UT3, y ejercicio 2 de UT4.
   + [x] Ejercicios
 + 8n: 
-  + [ ] Corrección ejercicios 5 de UT2 y UT3, y ejercicio 3, 4 y 5 de UT4.
+  + [x] Corrección ejercicios 5 de UT2 y UT3, y ejercicio 3, 4 y 5 de UT4.
 + 11n:
   + [ ] Corrección ejercicios 6 de UT2 y UT3, y ejercicio 6, 7 y 8 de UT4.
 + 27n: **Examen** o Defensa de prácticas (según ejercicios de aula).

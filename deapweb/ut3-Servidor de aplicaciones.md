@@ -95,6 +95,8 @@ Tener en cuenta que podemos sustituir la versión de php según las siguientes c
 
 También podemos levantar una app _Laravel_ via la [imágen de Bitnami](https://hub.docker.com/r/bitnami/laravel/).
 
+> [!NOTE]
+> Recuerda que si en el inicio falla la base de datos tendremos que “migrarla” con el comando `php artisan migrate`. Podemos hacerlo dentro del contenedor con `docker exec -it {{CONTENEDOR}} php artisan migrate`
 
 ## Práctica
 Crea la aplicación “hola mundo” de _Laravel_ y sube los resultados a `ut3/laravel`.

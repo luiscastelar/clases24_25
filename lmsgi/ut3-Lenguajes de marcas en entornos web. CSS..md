@@ -64,7 +64,7 @@ Mientras que ambas palabras aparecen en negrita, sólo aparece subrayada la pala
 ## Selectores
 [Referencia w3schools](https://www.w3schools.com/cssref/css_selectors.php)
 
-[**Juego de selectores**](https://flukeout.github.io/)
+[**Juego de selectores**](https://flukeout.github.io/) #juego
 
 ### Hermanos
 Un [buen tutorial](https://www.gyata.ai/es/css/css-sibling-selector) para entender las diferencias.
@@ -240,6 +240,11 @@ Con respecto a la fuente de la regla:
 ![layers](https://css-tricks.com/wp-content/uploads/2024/06/layers-tall-outlines3.svg)
 Fuente: [css-triks](https://css-tricks.com/css-cascade-layers/).
 
+
+### Modelo de Objetos CSS -CSSOM-
+De forma análoga al DOM tenemos el CSSOM ([ver ejemplo](https://abhisaha.com/blog/exploring-browser-rendering-process/#cssom-tree-creation)).
+
+
 ### Normalización de estilos
 `Normalize.css` es un pequeño archivo _css_ que proporciona una mejor consistecia _cross-browser_ definiendo los estilos iniciales de todos los navegadores de forma que elimina diferencias entre ellos.
 
@@ -290,7 +295,8 @@ _Nota: aunque `left`, `right` son válidos, la norma recomienda evitar su uso, y
 Puedes ampliar en el manual de `manz.dev`.
 
 
-## Tamaño de fuente
+## Fuentes
+### Tamaño de fuente
 `font-size: 24px;` nos dará el tamaño a utilizar.
 
 Unidades:
@@ -305,29 +311,23 @@ A su vez, la propiedad `font-size` establecerá el tamaño base para las unidade
 También afectará al tamaño `rem` (`em` del root).
   
 
-## Intensidad de la fuente
+### Intensidad de la fuente
 `font-weight: bold` nos devolverá una **negrita**
 
 Podemos poner valores numéricos entre 100 y 900, siendo 400 equivalente a `normal` y 700 a `bold`. El resto deben soportarlo la fuente elegida.
 
 
-## Cursiva
+### Cursiva
 `font-style: italic`, siendo posibles `italic`, `normal` y `oblique`.
 
 La primera intenta tomar la tipografía italica de la fuente elegida, si no existe, simplemente curva la normal representando la obliqua.
 
 
-## Línea horizontal
-`text-decoration: underline`, subrayará el texto. 
-
-Son posibles: `underline`, `line-through`, `overline`, `line-through double` y `underline overline`.
-
-
-## Interlineado
+### Interlineado
 `line-height: 1.3` separará un 30% respecto a la fuente. También podemos hacerlo absoluto en `px`
 
 
-## Familia de fuentes
+### Familia de fuentes
 Normalmente cada equipo tiene una fuentes instaladas según los programas y necesidades del usuario, por lo que las fuentes se definen por familias a lo que podemos sugerir una lista que, de estar disponibles, serán utilizadas.
 
 > Actualmente hay 5 de estas familias:
@@ -360,11 +360,11 @@ Normalmente cada equipo tiene una fuentes instaladas según los programas y nece
 > + Usar una separación entre caracteres superior a la media (entre + 7% – + 14%).
 
 
-## Regla general para fuentes
+### Regla general para fuentes
 Cuando queramos modificar varias características de las fuentes podemos utilizar el siguiente formato: `font: italic bold 24px Arial;`
 
 
-## Reglas básicas de tipografía
+### Reglas básicas de tipografía
 Utilizar fuentes estándar mejora la compatibilidad en todos los dispositivos.
 
 Aunque podemos cargar fuentes como cualquier otro elemento, es un proceso lento y no carente de fallos.
@@ -376,17 +376,57 @@ Un tamaño adecuado mínimo es de 14 px. Menor será problemático en móviles.
 El interlineado extra de un 50% da una mejor visualización en pantallas.
 
 
+## Decoración
+`text-decoration: underline`, subrayará el texto. 
+
+Son posibles: `underline`, `line-through`, `overline`, `line-through double` y `underline overline`.
+
+
+## Pseudoclases
+Son clases con un significado especial:
++ `:link` -> contiene un enlace `<a>`.
++ `:visited` -> cuando ese enlace ya ha sido visitado.
++ `:hover` -> cuando pasamos por encima con el ratón.
++ `:active` -> al hacer _click_ en él.
+
+Al igual que las variables, las _pseudoclases_ no son exclusivas de las fuentes, pudiendo ver la amplitud de las mismas [aquí](https://lenguajecss.com/css/pseudoclases/que-son/) y en la referencia [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes). 
+
+Algunos ya vistos en el juego de selectores: `:nth-child`, `:fist-child`, `:last-child` y `nth-of-type`.
+
+
 # Bloques
-[Modelo de cajas](http://juangualberto.github.io/lmsgi/tema02_html5/el_modelo_de_cajas.html)
+## Modelo de caja
+![modelo de cajas clásico](http://juangualberto.github.io/lmsgi/tema02_html5/cajas.jpg)
+Partiremos del [modelo de cajas clásico](https://lenguajecss.com/css/modelo-de-cajas/que-es/).
+
+### Propiedades lógicas
+Un enfoque más moderno, flexible y global es utilizar propiedades lógicas frente a las físicas que serán siempre válidas en cualquier idioma del mundo en cualquier dirección.
+
+[Ver información](https://lenguajecss.com/css/modelo-de-cajas/propiedades-logicas-css/#propiedades-de-dimensi%C3%B3n)
 
 ## Marcos
 ## Fondo
 ## Márgenes internos y externos
 ## Altura y ancho del bloque
-## Modelo de caja
 
+## Ejercicios:
+1. Reproduce la imagen del modelo de cajas sólo con html y css.
+2. Repite con variables.
 
 # Flex
+[Introducción por ManzDev](https://www.youtube.com/watch?v=esjagdcozX0)
+
+[Guía a seguir](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+## Herramientas:
++ [flex box generator](https://www.cssportal.com/css-flexbox-generator/)
+
+## Juegos
++ [Flexbox Froggy](https://flexboxfroggy.com/#es) #juego
++ [Flexbox Defense](http://www.flexboxdefense.com/) #juego
++ [Flex Box Adventure](https://codingfantasy.com/games/flexboxadventure) #juego
+
+
 ## Contenedor
 ## Dirección 
 ## Mover elementos
@@ -406,18 +446,23 @@ El interlineado extra de un 50% da una mejor visualización en pantallas.
 + [Calidad css](https://www.projectwallace.com/css-code-quality)
 
   
-# Flexbox Layout
-[Inicio](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-
-
-## Herramientas:
-+ [flex box generator](https://www.cssportal.com/css-flexbox-generator/)
-
 
 # Grid Layout
+[Introducción por ManzDev](https://www.youtube.com/watch?v=Q1CXWBtxKZU)
+
 [Inicio](https://css-tricks.com/snippets/css/complete-guide-grid/) y [otro](https://gridbyexample.com/learn/)
 
 [Playground](https://www.cssgridplayground.com/)
+
+
+## Herramienta
+[Grid generator](https://grid.layoutit.com/)
+
+
+## Juegos
++ [Garden](https://cssgridgarden.com/#es) #juego
++ [Grid Attact](https://codingfantasy.com/games/css-grid-attack/play) #juego
+
 
 
 ## Cursos:
@@ -425,20 +470,4 @@ El interlineado extra de un 50% da una mejor visualización en pantallas.
 + [codica.la](https://basicos.codica.la/languages/css/)
 + [Curso CSS - pildorasinformaticas](https://www.youtube.com/playlist?list=PLU8oAlHdN5BmpUDdnWSglIIHfIosElaVN) 
 + [Curso con muchos ejercicios](https://uniwebsidad.com/libros/css)
-
-
-# Juegos CSS
-## Selectores
-+ [Juego de selectores](https://flukeout.github.io/)
-
-
-## Flexbox
-+ [Flexbox Froggy](https://flexboxfroggy.com/#es)
-+ [Flexbox Defense](http://www.flexboxdefense.com/)
-+ [Flex Box Adventure](https://codingfantasy.com/games/flexboxadventure)
-
-
-## Grid
-+ [Garden](https://cssgridgarden.com/#es)
-+ [Grid Attact](https://codingfantasy.com/games/css-grid-attack/play)
 
