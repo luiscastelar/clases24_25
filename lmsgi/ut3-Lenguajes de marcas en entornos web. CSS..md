@@ -238,6 +238,7 @@ Con respecto a la fuente de la regla:
 
 #### Capas en cascada 
 ![layers](https://css-tricks.com/wp-content/uploads/2024/06/layers-tall-outlines3.svg)
+
 Fuente: [css-triks](https://css-tricks.com/css-cascade-layers/).
 
 

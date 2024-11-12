@@ -198,6 +198,20 @@ Debes establecer los criterios más restrictivos posibles de visibilidad.
 
 </details>
 
+
+## Evitando errores con caracteres no americanos
+```bash
+javac -d /ruta/completa/target/classes -classpath /ruta/completa/target/classes src/main/java/ut6/HolaMundo.java 
+java -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /ruta/completa/target/classes ut2.HolaMundo
+```
+
+Donde:
++ `-d` indica el destino de la clase compilada `.class`.
++ `-cp` o `-classpath` la ubicación de las clases necesarias para la compilación. Aquí podríamos haber añadido clases en `.jar` con algo así como `-cp /ruta/completa/target/clases:/ruta/donde/este/Archivo.jar`
++ `-Dfile.enconding=UTF-8`, `-Dsun.stdout.encoding=UTF-8` y `-Dsun.stderr.encoding=UTF-8` permiten configurar la codificación del archivo fuente, de la salida estandar y de error por separado.
+
+
+
 ---
 
 # Especial Java

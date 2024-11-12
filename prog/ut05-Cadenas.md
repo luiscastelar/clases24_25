@@ -2,10 +2,14 @@
 Title:    Cadena de caracteres  
 Author:   Luis Ferreira  
 Date:     25 de octubre de 2024  
-Comment:  Precedido de las unidades  
+Comment:  Precedido de las unidades
+
           1. Introducción a la programación  
+          
           2. Introducción a la POO  
+          
           3. Programación estructurada  
+          
           4. Matrices  
 ---
 

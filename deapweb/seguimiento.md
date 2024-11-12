@@ -38,10 +38,10 @@ Duración: 9 h -> 13n a 27n
      + [x] pares de llaves
      + [ ] fail2ban
 + 11n:
-  + [ ] fail2ban
-  + [ ] Repositorios BARE (f, g, h)
+  + [x] fail2ban
+  + [x] Repositorios BARE (f, g, h)
   + [ ] ~~Hooks locales (CI/CD)~~
-  + [ ] Hooks remotos (CI/CD)
+  + [x] Hooks remotos (CI/CD)
 + 12n:
   + [ ] cont Bare y Hooks (CI/CD)
 + 21n: **Defensa prácticas**

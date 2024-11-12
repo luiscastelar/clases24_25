@@ -257,7 +257,7 @@ Crear una aplicación `ResultadosDeClase` que nos evalúe los resultados obtenid
 
 ![resultados](https://luiscastelar.duckdns.org/2024/prog/ut4_practica.png)
 
-**Entrega**: 26 de noviembre
+**Entrega**: 20 de noviembre
 
 **Avanzado:** modificar el programa anterior elimnando la restricción de 1 dígito, almacenando y mostrando `float` con un dígito decimal. 
 
