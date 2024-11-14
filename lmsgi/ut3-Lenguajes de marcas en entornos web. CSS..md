@@ -414,6 +414,13 @@ Un enfoque más moderno, flexible y global es utilizar propiedades lógicas fren
 1. Reproduce la imagen del modelo de cajas sólo con html y css.
 2. Repite con variables.
 
+## Desbordamientos - Overflow
+[Overflow](https://lenguajecss.com/css/modelo-de-cajas/overflow/)
+
+## Box-sizing
+[Eso](https://lenguajecss.com/css/modelo-de-cajas/box-sizing/)
+
+
 # Flex
 [Introducción por ManzDev](https://www.youtube.com/watch?v=esjagdcozX0)
 

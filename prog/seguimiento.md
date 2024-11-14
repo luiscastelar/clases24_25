@@ -7,15 +7,16 @@
 + Total 14h ~ 2 sem
 + Semana 9 (3h)
   + 12n:
-    + [ ] Estructuras estáticas y dinámicas.
-    + [ ] Cadenas de caracteres.
-    + [ ] _La clase String_
-    + [ ] El método `.equals()`
+    + [x] Estructuras estáticas y dinámicas.
+    + [x] Cadenas de caracteres.
+    + [x] _La clase String_
+    + [x] El método `.equals()`
+    + [x] `String.valueOf()`
   + 15n:
-    + [ ] `String.valueOf()`
     + [ ] _Pool de Strings_
     + [ ] _La clase StringBuffer (thread-safe)_
     + [ ] _StringBuilder (**no** thread-safe)_
+    + [ ] Ejercicios
      
 + Semana 10 (7h)
   + 15n:

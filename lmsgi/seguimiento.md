@@ -29,22 +29,21 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 
 ### Semana 2
 * Lunes: 11.11
-  + [ ] Selectores
-    + [ ] Hermanos `+` y `~`
-  + [ ] Textos
-    + [ ] Alineación
-    + [ ] Tamaño
-    + [ ] Intensidad. Cursiva. Capital
-    + [ ] Decoración
-    + [ ] Interlineado
+  + [x] Selectores
+    + [x] Hermanos `+` y `~`
+  + [x] Textos
+    + [x] Alineación
+    + [x] Tamaño
+    + [x] Intensidad. Cursiva. Capital
+    + [x] Decoración
+    + [x] Interlineado
+* Jueves: 14.11
     + [ ] Tipos de letras. Familias
     + [ ] Regla general para fuentes.
     + [ ] Reglas básicas de tipografía.
   * [ ] Modelo de cajas
     * [ ] Dimensiones
     * [ ] Desbordamientos
-* Jueves: 14.11
-  * [ ] Modelo de cajas
     * [ ] Box-sizing
     * [ ] Márgenes y rellenos
     * [ ] Propiedades lógicas

@@ -20,6 +20,7 @@ Duración: 12h -> 30o a 13n
 + 17n: **Entrega PRÁCTICAS** <u>antes</u> de la 13.00 h.
 + 18n: **Defensa**
 + 19n: **Defensa**
++ 21n: **Defensa**
 
 
 ### Contenido:
@@ -30,13 +31,13 @@ Duración: 12h -> 30o a 13n
 
 
 ## UT4. Gestión de servidores y archivos
-Duración: 9 h -> 13n a 27n
+Duración: 11 h -> 13n a 27n
 + 7n:
   + [x] FTP (a, b, c, d, g)
   + [x] Acceso remoto seguro - SSH (e, g)  + [ ] 
   + [x] Bastionado SSH:
      + [x] pares de llaves
-     + [ ] fail2ban
+     + [x] fail2ban
 + 11n:
   + [x] fail2ban
   + [x] Repositorios BARE (f, g, h)
@@ -44,6 +45,8 @@ Duración: 9 h -> 13n a 27n
   + [x] Hooks remotos (CI/CD)
 + 12n:
   + [ ] cont Bare y Hooks (CI/CD)
++ 14n:
+  + cont Bare y Hooks (CI/CD)
 + 21n: **Defensa prácticas**
 + 26n: **Defensa prácticas**
 + 28n: **Defensa prácticas**
@@ -53,18 +56,26 @@ Duración: 9 h -> 13n a 27n
 
 ## UT5. Servicios de red
 Duración: 7 h -> 27n a 4d
-+ [ ] DNS (a, b, g, h)
-+ [ ] LDAP (c, d, g, h)
-+ [ ] nginx con LDAP (e, f, g, h)
-
++ 2d: 
+  + [ ] DNS (a, b, g, h)
++ 3d: 
+  + [ ] LDAP (c, d, g, h)
++ 5d:
+  + [ ] cont LDAP
++ 10d:
+  + [ ] nginx con autenticación LDAP (e, f, g, h)
++ 12d: **Examen**
++ 16d: **Práctica**
++ 17d: **Práctica**
+        
 *Asociado a RA5*.
-
 
 ---
 # Repaso y evaluación
++ Del 2 al 10 de diciembre: Repaso del curso
 + 12d: **Recuperación evaluación**
-+ 16d: **Defensa practicas**
-+ 17d: **Defensa practicas**
++ 16d: **Defensa practicas** pendientes
++ 17d: **Defensa practicas** pendientes
 
 
 ---
