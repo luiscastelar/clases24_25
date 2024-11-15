@@ -38,26 +38,37 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
     + [x] Decoración
     + [x] Interlineado
 * Jueves: 14.11
-    + [ ] Tipos de letras. Familias
-    + [ ] Regla general para fuentes.
-    + [ ] Reglas básicas de tipografía.
-  * [ ] Modelo de cajas
-    * [ ] Dimensiones
-    * [ ] Desbordamientos
-    * [ ] Box-sizing
-    * [ ] Márgenes y rellenos
-    * [ ] Propiedades lógicas
+    + [x] Tipos de letras. Familias.
+    + [x] Regla general para fuentes.
+    + [x] Reglas básicas de tipografía.
+    + [x] Ejercicio de tipografías.
+    + [x] Pseudo-clases:
+      + [x] `Anchor`: `:link`, `:visited`, `:hover` y `:active`
+      + [x] `nth-child()` y `nth-of-type()`
+      + [x] Ejercicios de pseudo-clases
+  * [x] Modelo de cajas
+    * [x] Márgenes y rellenos
+    * [x] Ejercicio cajas
 
 ### Semana 3
 * Lunes: 18.11
+  + [ ] Modelo de cajas
+    * [ ] Dimensiones
+    * [ ] Desbordamientos
+  * [ ] Ejercicios
 * Jueves: 21.11
+  * [ ] Ejercicios
 
 ### Semana 4
 * ~~Lunes: 25.11~~ No lectivo
-* Jueves: 28.11 **EXAMEN** de UT1, UT2 y parcialmente UT3. Puedes utilizar sólo la [chuleta CSS](https://lenguajecss.com/css/cheatsheets/) o similar (consultar antes del examen).
+* Jueves: 28.11 **EXAMEN** de recuperación UT1 y UT2, y parcial de UT3. Puedes utilizar sólo la [chuleta CSS](https://lenguajecss.com/css/cheatsheets/).
 
 ### Semana 5
 * Lunes: 02.12
+  * [ ] `Emmet`
+  + [ ] Modelo de cajas
+    * [ ] Box-sizing
+    * [ ] Propiedades lógicas
 * Jueves: 05.12
 
 ### Semana 6

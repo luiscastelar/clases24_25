@@ -64,9 +64,11 @@ Mientras que ambas palabras aparecen en negrita, sólo aparece subrayada la pala
 ## Selectores
 [Referencia w3schools](https://www.w3schools.com/cssref/css_selectors.php)
 
-[**Juego de selectores**](https://flukeout.github.io/) #juego
+[**Juego de selectores**](https://flukeout.github.io/) #juego #obligatorio
 
 ### Hermanos
+Los selectores `~` y `+` son utilizados para marcar a hermanos, siendo `~` cualquier elemento que haya tenido antes un hermano, y `+` para los que tengan un hermano INMEDIATAMENTE delante.
+
 Un [buen tutorial](https://www.gyata.ai/es/css/css-sibling-selector) para entender las diferencias.
 
 <details>
@@ -204,6 +206,27 @@ Y, ¿porqué no hacerlo con `nth-child(2n+1)` y `nth-child(2n)`?
 
 </details>
 
+
+<details> 
+  <summary>### Ejercicio OBLIGATORIO</summary>
+
+#obligatorio
+
+  + Crea un conjunto de divs y span con párrafos _lorem ipsum_[^1] con fondo de color diferente aplicando los estilos:
+    + Rojo: `div + span`
+    + Verde: `div span`
+    + Azul: `div > span`
+    + Morado: `div ~ span` que respete que `div + span` siga rojo.
+    
+          Archivos: `selectores.html` y `css/selectores.css`
+    
+          Ubicación: `ut3/ejercicios/`
+    
+          Debes crear un `index.html` que enlace al archivo especificado dentro de un `<ol>`
+
+</details>
+
+
 ## Prioridad de reglas
 > Cuando tenemos varias reglas CSS en cascada que afectan a un mismo elemento, el orden de prioridad que determina como se mostrará el elemento es el siguiente:
 >
@@ -287,6 +310,29 @@ body {
 
 Esta técnica nos permitirá alterar de forma sencilla los colores de fondo y texto en todos los objetos que lo tengan asignado.
 
+<details> 
+  <summary>### Ejercicio OBLIGATORIO</summary>
+
+#obligatorio
+
+  + Crea unos párrafos _lorem ipsum_ con fondo de color diferente, utilizando para ello un tipo distinto de modelo de selección de color.
+
+        Archivos: `color-sin-variables.html` y `css/color-sin-variables.css`
+  
+        Ubicación: `ut3/ejercicios/`
+  
+        Debes modificar el `index.html` para que enlace al archivo especificado.
+
+  + Repite el ejercicio mediante variables.
+    
+        Archivos: `color-con-variables.html` y `css/color-con-variables.css`
+  
+        Ubicación: `ut3/ejercicios/`
+  
+        Debes modificar el `index.html` para que enlace al archivo especificado.
+
+  
+</details>
 
 ## Alineación de texto
 `text-aling: valor`, siendo posibles `start`, `end`, `center` y `justify`.
@@ -376,6 +422,19 @@ Un tamaño adecuado mínimo es de 14 px. Menor será problemático en móviles.
 
 El interlineado extra de un 50% da una mejor visualización en pantallas.
 
+<details> 
+  <summary>### Ejercicio OBLIGATORIO</summary>
+
+#obligatorio
++ Deberás crear una página que contenga varios _lorem ipsum_ en un `dl` con `dt` de la etiqueta utilizada y el `dd` de texto de ejemplo del resultado.
+
+      Archivos: `textos.html` y `css/textos.css`
+
+      Ubicación: `ut3/ejercicios/`
+
+      Debes modificar el `index.html` para que enlace al archivo especificado.
+
+ </details>
 
 ## Decoración
 `text-decoration: underline`, subrayará el texto. 
@@ -395,30 +454,119 @@ Al igual que las variables, las _pseudoclases_ no son exclusivas de las fuentes,
 Algunos ya vistos en el juego de selectores: `:nth-child`, `:fist-child`, `:last-child` y `nth-of-type`.
 
 
+<details> 
+  <summary>## Ejercicios OBLIGATORIOS</summary>
+  
+  #obligatorio
+  
+### Combina Selectores y Pseudo-clases
+*   Crea una lista de elementos (usando `<ul>` o `<ol>`).
+*   Usa `nth-child()` para aplicar diferentes estilos a los elementos pares e impares.
+*   Combina esto con `:hover` para añadir un cambio visual al pasar el ratón.
+*   Repite con el `nth-of-type()`.
+
+        Archivos: `pseudoclases.html` y `css/pseudoclases.css`
+
+        Ubicación: `ut3/ejercicios/`
+    
+        Debes modificar el `index.html` para que enlace al archivo especificado.
+
+### Diseño de Tarjetas
+Crea un diseño de tarjetas (cajas) utilizando:
+
+*   Una fuente principal y una secundaria.
+*   Define el tamaño y peso de los encabezados y párrafos siguiendo las reglas básicas de tipografía.
+*   Aplica pseudo-clases `:hover` y `:active` para que las tarjetas cambien de color al interactuar.
+
+        Archivos: `tarjetas.html` y `css/tarjetas.css`
+
+        Ubicación: `ut3/ejercicios/`
+    
+        Debes modificar el `index.html` para que enlace al archivo especificado.
+
+</details>
+
+
 # Bloques
 ## Modelo de caja
 ![modelo de cajas clásico](http://juangualberto.github.io/lmsgi/tema02_html5/cajas.jpg)
 Partiremos del [modelo de cajas clásico](https://lenguajecss.com/css/modelo-de-cajas/que-es/).
-
-### Propiedades lógicas
-Un enfoque más moderno, flexible y global es utilizar propiedades lógicas frente a las físicas que serán siempre válidas en cualquier idioma del mundo en cualquier dirección.
-
-[Ver información](https://lenguajecss.com/css/modelo-de-cajas/propiedades-logicas-css/#propiedades-de-dimensi%C3%B3n)
 
 ## Marcos
 ## Fondo
 ## Márgenes internos y externos
 ## Altura y ancho del bloque
 
-## Ejercicios:
-1. Reproduce la imagen del modelo de cajas sólo con html y css.
-2. Repite con variables.
+<details> 
+  <summary>## Ejercicio OBLIGATORIO</summary>
+
+#obligatorio
+- Reproduce la imagen del modelo de cajas sólo con html y css.
+
+        Archivos: `cajas.html` y `css/cajas.css`
+
+        Ubicación: `ut3/ejercicios/`
+        
+        Debes modificar el `index.html` para que enlace al archivo especificado.
+
+- Repite con variables.
+
+        Archivos: `cajas-con-variables.html` y `css/cajas-con-variables.css`
+
+        Ubicación: `ut3/ejercicios/`
+        
+        Debes modificar el `index.html` para que enlace al archivo especificado.
+
+</details>
+
 
 ## Desbordamientos - Overflow
 [Overflow](https://lenguajecss.com/css/modelo-de-cajas/overflow/)
 
+<details> 
+  <summary>### Ejercicio OBLIGATORIO</summary>
+
+#obligatorio
+*   Diseña una caja con dimensiones fijas (400px por 300px) y un texto largo dentro (*lorem ipsum*).
+*   Aplica las propiedades `overflow: hidden`, `scroll`, y `auto` para observar las diferencias.
+*   Experimenta con `overflow-x` y `overflow-y`.
+*   Muestra un poco de cada en una página única.
+
+        Archivos: `overflow.html` y `css/overflow.css`
+
+        Ubicación: `ut3/ejercicios/`
+        
+        Debes modificar el `index.html` para que enlace al archivo especificado.
+
+</details>
+
+
 ## Box-sizing
 [Eso](https://lenguajecss.com/css/modelo-de-cajas/box-sizing/)
+
+<details> 
+  <summary>### Ejercicio OBLIGATORIO</summary>
+
+#obligatorio
+
+*   Crea dos cajas de 200px de ancho y 200px de alto.
+*   Una debe usar `box-sizing: content-box` y otra `box-sizing: border-box`.
+*   Aplica un borde de 10px y un padding de 20px a ambas. Observa cómo cambia el tamaño total de las cajas.
+
+        Archivos: `box-sizing.html` y `css/box-sizing.css`
+
+        Ubicación: `ut3/ejercicios/`
+        
+        Debes modificar el `index.html` para que enlace al archivo especificado.
+
+</details>
+
+## Propiedades lógicas
+Un enfoque más moderno, flexible y global es utilizar propiedades lógicas frente a las físicas que serán siempre válidas en cualquier idioma del mundo en cualquier dirección.
+
+[Ver información](https://lenguajecss.com/css/modelo-de-cajas/propiedades-logicas-css/#propiedades-de-dimensi%C3%B3n)
+
+
 
 
 # Flex
@@ -479,3 +627,6 @@ Un enfoque más moderno, flexible y global es utilizar propiedades lógicas fren
 + [Curso CSS - pildorasinformaticas](https://www.youtube.com/playlist?list=PLU8oAlHdN5BmpUDdnWSglIIHfIosElaVN) 
 + [Curso con muchos ejercicios](https://uniwebsidad.com/libros/css)
 
+---
+# Notas al pie:
+[^1]: _lorem ipsum_ es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final. Podemos utilizar el [generador](https://getlorem.com/es) cuando lo necesitmos.
