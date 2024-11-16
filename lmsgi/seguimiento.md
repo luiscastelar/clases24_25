@@ -7,103 +7,139 @@
 38h -> 9,5 semanas 
 ### Clase invertida
 _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
-+ 28o:
-  + [x] Lecciones 1 a 8 del curso de referencia.
-  + [x] Juego de selectores.
-+ 31o:
-  + [x] Lecciones 1 a 10 del curso de referencia.
-  + [x] Variables y pseudo-clase `:root`.
++ Semana 7:
+  + 28o:
+    + [x] Lecciones 1 a 8 del curso de referencia.
+    + [x] Juego de selectores.
+  + 31o:
+    + [x] Lecciones 1 a 10 del curso de referencia.
+    + [x] Variables y pseudo-clase `:root`.
 
-### Semana 1
-* Jueves: 07.11:
-  + [x] Introducción
-  + [x] Estilos in-line, in-file y externas
-  + [x] Cascada - Herencia de reglas
-  + [x] Selectores
-    + [x] Juego
-  + [x] Prioridad de reglas
-    + [x] Normalización de estilos
-  + [x] Textos
-    + [x] Colores
-    + [x] Variables
++ Semana 8
+  * Jueves: 07.11:
+    + [x] Introducción
+    + [x] Estilos in-line, in-file y externas
+    + [x] Cascada - Herencia de reglas
+    + [x] Selectores
+      + [x] Juego
+    + [x] Prioridad de reglas
+      + [x] Normalización de estilos
+    + [x] Textos
+      + [x] Colores
+      + [x] Variables
 
-### Semana 2
-* Lunes: 11.11
-  + [x] Selectores
-    + [x] Hermanos `+` y `~`
-  + [x] Textos
-    + [x] Alineación
-    + [x] Tamaño
-    + [x] Intensidad. Cursiva. Capital
-    + [x] Decoración
-    + [x] Interlineado
-* Jueves: 14.11
-    + [x] Tipos de letras. Familias.
-    + [x] Regla general para fuentes.
-    + [x] Reglas básicas de tipografía.
-    + [x] Ejercicio de tipografías.
-    + [x] Pseudo-clases:
-      + [x] `Anchor`: `:link`, `:visited`, `:hover` y `:active`
-      + [x] `nth-child()` y `nth-of-type()`
-      + [x] Ejercicios de pseudo-clases
-  * [x] Modelo de cajas
-    * [x] Márgenes y rellenos
-    * [x] Ejercicio cajas
++ Semana 9
+  * Lunes: 11.11
+    + [x] Selectores
+      + [x] Hermanos `+` y `~`
+    + [x] Textos
+      + [x] Alineación
+      + [x] Tamaño
+      + [x] Intensidad. Cursiva. Capital
+      + [x] Decoración
+      + [x] Interlineado
+  * Jueves: 14.11
+      + [x] Tipos de letras. Familias.
+      + [x] Regla general para fuentes.
+      + [x] Reglas básicas de tipografía.
+      + [x] Ejercicio de tipografías.
+      + [x] Pseudo-clases:
+        + [x] `Anchor`: `:link`, `:visited`, `:hover` y `:active`
+        + [x] `nth-child()` y `nth-of-type()`
+        + [x] Ejercicios de pseudo-clases
+    * [x] Modelo de cajas
+      * [x] Márgenes y rellenos
+      * [x] Ejercicio cajas
 
-### Semana 3
-* Lunes: 18.11
-  + [ ] Modelo de cajas
-    * [ ] Dimensiones
-    * [ ] Desbordamientos
-  * [ ] Ejercicios
-* Jueves: 21.11
-  * [ ] Ejercicios
++ Semana 10
+  * Lunes: 18.11
+    + [ ] Modelo de cajas
+      * [ ] Dimensiones
+      * [ ] Desbordamientos
+    * [ ] Ejercicios
+  * Jueves: 21.11
+    * [ ] Ejercicios
 
-### Semana 4
-* ~~Lunes: 25.11~~ No lectivo
-* Jueves: 28.11 **EXAMEN** de recuperación UT1 y UT2, y parcial de UT3. Puedes utilizar sólo la [chuleta CSS](https://lenguajecss.com/css/cheatsheets/).
++ Semana 11
+  * ~~Lunes: 25.11~~ No lectivo
+  * Jueves: 28.11 **EXAMEN** de recuperación UT1 y UT2, y parcial de UT3. Puedes utilizar sólo la [chuleta CSS](https://lenguajecss.com/css/cheatsheets/).
 
-### Semana 5
-* Lunes: 02.12
-  * [ ] `Emmet`
-  + [ ] Modelo de cajas
-    * [ ] Box-sizing
-    * [ ] Propiedades lógicas
-* Jueves: 05.12
++ Semana 12
+  * Lunes: 02.12
+    * [ ] `Emmet`
+    + [ ] Modelo de cajas
+      * [ ] Box-sizing
+      * [ ] Propiedades lógicas
+  * Jueves: 05.12
 
-### Semana 6
-* ~~Lunes: 09.12~~ Festivo
-* Jueves: 12.12
++ Semana 13
+  * ~~Lunes: 09.12~~ Festivo
+  * Jueves: 12.12
 
-### Semana 7
-* Lunes: 16.12
-* Jueves: 19.12
++ Semana 14
+  * Lunes: 16.12
+  * Jueves: 19.12
 
 *(Vacaciones escolares del 20 de diciembre al 7 de enero)*
 
-### Semana 8
-* Jueves: 09.01
++ Semana 15
+  * Jueves: 09.01
 
-### Semana 9
-* Lunes: 13.01
-* Jueves: 16.01
++ Semana 16
+  * Lunes: 13.01
+  * Jueves: 16.01
 
-### Semana 10
-* Lunes: 20.01
-* Jueves: 23.01
++ Semana 17
+  * Lunes: 20.01
+  * Jueves: 23.01
 
-### Semana 11
-* Lunes: 27.01
-* Jueves: 30.01
++ Semana 18
+  * Lunes: 27.01
+  * Jueves: 30.01
 
-### Semana 12
-* Lunes: 3.02
++ Semana 19
+  * Lunes: 3.02
 
 _Se trabaja el RA 2_.
 
 
 ## UT4 - Transmisión y almacenamiento de información.
 24h -> 6 semanas ~ 10f al 24m
+
++ Semana 20
+  + V6f:
+    + [ ] Introducción al XML
+    + [ ] Sintáxis XML
++ Semana 21
+  + L10
+    + [ ] DTDs
+  + V13
+    + [ ] Esquemas XML
+    + [ ] Parsers XML
++ Semana 22
+  + L17
+    + [ ] Json
+  + V20
+    + [ ] cont Json
++ Semana 22
+  + L24
+    + [ ] MariaDB y Json
+  + V27
+    + [ ] MongoDB y Bson
++ Semana 22
+  + ~~L3m~~: Carnavales
+  + V6m
+    + [ ] PokeAPI
++ Semana 22
+  + L10
+    + [ ] Yml
+    + [ ] Json2yml y Yml2json
+  + V13:
+    + [ ] Ventajas Yaml
++ Semana 22
+  + L17
+    
+
 
 ### Definición de esquemas y vocabularios en lenguajes de marcas:
 + [ ] Tecnologías para la definición de documentos. Estructura y sintaxis.
