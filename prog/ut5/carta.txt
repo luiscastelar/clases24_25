@@ -1,0 +1,6 @@
+Querido amigo $$nombre$$:
+Te escribimos porque tu email <$$email$$> ha salido premiado para recibir un oferta muy especial.
+Por cada $$saldo$$ euros que ingreses en nuestro sistema recibirás una oferta de un $$oferta$$ % de suplentento.
+No queremos entretenerte más $$nombre$$. Que pases un buen día.
+P.D.: No olvides introducir tu email $$email$$ y tu nombre $$nombre$$ en el sistema al hacer la recarga de $$saldo$$ € de saldo para obtener la oferta de $$oferta$$ % extra.
+

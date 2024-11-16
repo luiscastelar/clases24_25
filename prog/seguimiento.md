@@ -13,16 +13,14 @@
     + [x] El método `.equals()`
     + [x] `String.valueOf()`
   + 15n:
-    + [ ] _Pool de Strings_
-    + [ ] _La clase StringBuffer (thread-safe)_
-    + [ ] _StringBuilder (**no** thread-safe)_
-    + [ ] Ejercicios
+    + [x] _Pool de Strings_
+    + [x] _La clase StringBuffer (thread-safe)_
+    + [x] _StringBuilder (**no** thread-safe)_
+    + [x] Ejercicios
      
 + Semana 10 (7h)
-  + 15n:
-    + [ ] EXpresiones REGurales -RegEx-
   + 18n:
-    + [ ] continuacion de RegEx
+    + [ ] EXpresiones REGurales -RegEx-
   + 19n:
     + [ ] continuacion de RegEx
   + 20n:

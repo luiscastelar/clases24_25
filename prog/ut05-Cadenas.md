@@ -173,7 +173,7 @@ Para la implementación disponemos de la clase `TrabajarArchivo` cuya `interface
 
 Tienes disponible en `Github` la interfaz de `TrabajarArchivo`, la implementación de `Parametro`, la carta y el archivo CSV con los datos a procesar.
 
-_Nota: el carácter `$` se debe sustituir por su varlor literal `\u0024` y debe ir escapado `\\`_
+_Nota: el carácter `$` se debe sustituir por su valor literal `\u0024` y debe ir escapado `\\`_
 
 **Entrega**: 9 enero
 
