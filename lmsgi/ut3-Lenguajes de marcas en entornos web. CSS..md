@@ -208,7 +208,10 @@ Y, ¿porqué no hacerlo con `nth-child(2n+1)` y `nth-child(2n)`?
 
 
 <details> 
-  <summary>### Ejercicio OBLIGATORIO</summary>
+  <summary>
+  
+  ### Ejercicio OBLIGATORIO
+  </summary>
 
 #obligatorio
 

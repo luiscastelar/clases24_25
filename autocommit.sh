@@ -1,11 +1,16 @@
 #! /bin/bash
+if [[ $# -eq 0 ]]; then
+  message="Commit for $date"
+else
+  message="$1"
+fi
+
 
 # Date in format Day-Month-Year
 date=$(date +"%Y-%m-%d %T")
 TS=$(date +"%Y-%m-%d %T")
 
 # Commit message
-message="Commit for $date"
 DIR=$(dirname "$0")
 cd "$DIR"
 git add .

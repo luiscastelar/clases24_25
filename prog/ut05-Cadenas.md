@@ -160,26 +160,23 @@ StringBuilder contiene muchos métodos de la clase String (charAt, indexOf, leng
 
    
 # Práctica
-Realiza un programa que dados los archivos `carta.txt` y `destinatarios.csv` implemente el controlador Main que:
-1. Declaración de variables
-2. Cargamos el archivo CSV y lo parseamos dentro de una instancia de la clase Parametros
-3. Cargamos la carta a memoria
-4. Cargamos los datos CSV
-5. Cargamos los datos a parsear según usuario
-6. Ahora realizamos las sustituciones
-7. Escribimos las cartas y mostramos el resultado
+Realiza un programa que dados los archivos `carta.txt` y `destinatarios.csv` implemente el controlador que:
+1. Cargamos el archivo CSV y lo parseamos dentro de una matriz.
+2. Cargamos la carta plantilla a memoria.
+3. Generamos una carta para cada destinatario sustituyendo los patrones `$$patron$$` su correspondiente valor.
+4. Escribimos las cartas a disco con el `nombre.txt` y mostramos el resultado de la carta por pantalla (siendo nombre el destinatario de la carta).
 
-Para la implementación disponemos de la clase `TrabajarArchivo` cuya `interface` podéis verla en `Github` y la implementación de la clase `Parametros`, también en `Github`.
-
-Tienes disponible en `Github` la interfaz de `TrabajarArchivo`, la implementación de `Parametro`, la carta y el archivo CSV con los datos a procesar.
+En `Github` tenéis disponible:
++ la clase `TrabajarArchivo` empaquetada en `TrabajarArchivo.jar`.
++ los archivos `carta.txt` y `destinatarios.csv`.
 
 _Nota: el carácter `$` se debe sustituir por su valor literal `\u0024` y debe ir escapado `\\`_
 
-**Entrega**: 9 enero
+**Entrega**: 30 noviembre.
 
 
 ## Para la corrección:
-Deberéis subir todos los archivos fuente (.java ) y objeto ( .class)
+Deberéis subir todos los archivos fuente (.java ) a `ut5/practica/GeneradorDeSpam.java` que contendrá el método `main` y todos los necesarios para realizar la función enconmendada.
 
 Las cartas serán corregidas vía `diff` de manera sistemática automatizado que introducirá un `destinatarios.csv` y `carta.txt` **diferente** al proporcionado al alumno por lo que no se admitirá
 errores en nombres de archivo o redactado de las cartas combinadas.
