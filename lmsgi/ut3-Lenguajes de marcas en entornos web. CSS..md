@@ -314,7 +314,10 @@ body {
 Esta técnica nos permitirá alterar de forma sencilla los colores de fondo y texto en todos los objetos que lo tengan asignado.
 
 <details> 
-  <summary>### Ejercicio OBLIGATORIO</summary>
+  <summary>
+  
+  ### Ejercicio OBLIGATORIO
+  </summary>
 
 #obligatorio
 
