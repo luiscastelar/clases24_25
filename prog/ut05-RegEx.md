@@ -49,13 +49,19 @@ public class RegexExample1{
 ## Ejercicios:
 -   Busca la cadena "pe" dentro de:
     > PERRO (NO COINCIDE)
+    > 
     > perro (COINCIDE)
+    > 
     > pepe (COINCIDE)
+    > 
     > lep (NO COINCIDE)
 -   Letra mayúscula entre la A y la C
     > A (COINCIDE)
+    > 
     > Z (NO COINCIDE)
+    > 
     > casa (NO COINCIDE)
+    > 
     > CASA (NO COINCIDE)
 -   "Parsea" los siguientes datos de entrada: ip, puerto, tlf,
     usuario.
