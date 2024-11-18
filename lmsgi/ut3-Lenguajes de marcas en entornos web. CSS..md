@@ -429,7 +429,9 @@ Un tamaño adecuado mínimo es de 14 px. Menor será problemático en móviles.
 El interlineado extra de un 50% da una mejor visualización en pantallas.
 
 <details> 
-  <summary>### Ejercicio OBLIGATORIO</summary>
+  <summary>
+  
+  ### Ejercicio OBLIGATORIO</summary>
 
 #obligatorio
 + Deberás crear una página que contenga varios _lorem ipsum_ en un `dl` con `dt` de la etiqueta utilizada y el `dd` de texto de ejemplo del resultado.
