@@ -431,7 +431,8 @@ El interlineado extra de un 50% da una mejor visualización en pantallas.
 <details> 
   <summary>
   
-  ### Ejercicio OBLIGATORIO</summary>
+  ### Ejercicio OBLIGATORIO
+  </summary>
 
 #obligatorio
 + Deberás crear una página que contenga varios _lorem ipsum_ en un `dl` con `dt` de la etiqueta utilizada y el `dd` de texto de ejemplo del resultado.
@@ -463,7 +464,10 @@ Algunos ya vistos en el juego de selectores: `:nth-child`, `:fist-child`, `:last
 
 
 <details> 
-  <summary>## Ejercicios OBLIGATORIOS</summary>
+  <summary>
+  
+  ## Ejercicios OBLIGATORIOS
+  </summary>
   
   #obligatorio
   
@@ -506,7 +510,10 @@ Partiremos del [modelo de cajas clásico](https://lenguajecss.com/css/modelo-de-
 ## Altura y ancho del bloque
 
 <details> 
-  <summary>## Ejercicio OBLIGATORIO</summary>
+  <summary>
+  
+  ## Ejercicio OBLIGATORIO
+  </summary>
 
 #obligatorio
 - Reproduce la imagen del modelo de cajas sólo con html y css.
@@ -553,7 +560,11 @@ Partiremos del [modelo de cajas clásico](https://lenguajecss.com/css/modelo-de-
 [Eso](https://lenguajecss.com/css/modelo-de-cajas/box-sizing/)
 
 <details> 
-  <summary>### Ejercicio OBLIGATORIO</summary>
+  <summary>
+  
+  ### Ejercicio OBLIGATORIO
+  
+  </summary>
 
 #obligatorio
 
