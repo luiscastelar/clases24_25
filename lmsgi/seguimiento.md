@@ -53,10 +53,10 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 
 + Semana 10
   * Lunes: 18.11
-    + [ ] Modelo de cajas
-      * [ ] Dimensiones
-      * [ ] Desbordamientos
-    * [ ] Ejercicios
+    + [x] Modelo de cajas
+      * [x] Dimensiones (unidades em, rem, vw, vh, dvw, dvh)
+      * [x] Desbordamientos
+    * [x] Ejercicios
   * Jueves: 21.11
     * [ ] Ejercicios
 

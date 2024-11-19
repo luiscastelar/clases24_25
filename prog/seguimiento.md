@@ -20,7 +20,7 @@
      
 + Semana 10 (7h)
   + 18n:
-    + [ ] EXpresiones REGurales -RegEx-
+    + [x] EXpresiones REGurales -RegEx-
   + 19n:
     + [ ] continuacion de RegEx
   + 20n:

@@ -44,7 +44,7 @@ Duración: 11 h -> 13n a 27n
   + [ ] ~~Hooks locales (CI/CD)~~
   + [x] Hooks remotos (CI/CD)
 + 12n:
-  + [ ] cont Bare y Hooks (CI/CD)
+  + [x] cont Bare y Hooks (CI/CD)
 + 14n:
   + cont Bare y Hooks (CI/CD)
 + 21n: **Defensa prácticas**
