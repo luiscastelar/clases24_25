@@ -18,53 +18,72 @@
     + [x] _StringBuilder (**no** thread-safe)_
     + [x] Ejercicios
      
-+ Semana 10 (7h)
++ Semana 10 (5h)
   + 18n:
     + [x] EXpresiones REGurales -RegEx-
   + 19n:
-    + [ ] continuacion de RegEx
+    + [x] continuacion de RegEx
   + 20n:
     + [ ] continuacion de RegEx
     + [ ] Construcción de patrones
     + [ ] _cadena.matches( patron )_
-  + 22n:
-    + [ ] Defensa de prácticas
+  + ~~22n:~~
 
-+ Semana 11 (4h)
-  + 26n:
-    + [ ] Defensa de prácticas    
++ Semana 11 (2h)
+  + ~~26n:~~
   + 27n: **Examen**
+
++ Semana 12 (3h)
+  + 2d:
+    + [ ] Defensa de prácticas
+  + 3d:
+    + [ ] Defensa de prácticas 
  
 
 _Trabajados los RA 3, 4 y 6._
 
+## Recuperación 1ª EVALUACIÓN
+
+El 11 de diciembre se realizará el examen de recuperación de la primera evaluación.
+
+Sólo podrá optar a recuperar el alumnado que haya realizado satisfactoriamente el 80 % de las actividades del curso. La fecha máxima de entrega es el 30 de noviembre.
+
+Los ejercicios deberán encontrarse en `prog/ejercicios/src/main/java/ut2/ejercicio1.java` o `prog/ejercicios/src/test/java/ut2/testEjercicio1.java` en los casos de test. Todos los ejercicios según este patrón, donde `ut2` deberemos son los ejercicios del tema 2 y dentro de cada ejercicio deberéis documentar el enunciado y funcionamiento.
+
+---
+# 2ª EVALUACIÓN
+---
+
 
 ## UT6. Manipulación de información. Colecciones.
 + Total 30h ~ 4 sem
-+ Semana 11 (4h)
-  + 26n:
++ Semana 10 (2h)
+  + 22n:
     + [ ] Colecciones
     + [ ] Iteradores - `Iterable`
     + [ ] Clase `Collections`
-  + 29n:
+  
++ Semana 11 (4h)
+  + 26n:
     + [ ] Listas -> `List`
     + [ ] Uso de listas - `ArrayList`
+  + 29n:
+    + [ ] cont `ArrayList`
 
 + Semana 12 (5h)
-  + 2d:
-    + [ ] cont `ArrayList`
-  + 3d:
-    + [ ] cont `ArrayList`
+  + 2d: (mientras defensa)
+    + [ ] Ejercicios de listas
+  + 3d: (mientras defensa)
+    + [ ] Ejercicios de listas
   + 4d: 
     + [ ] Conjuntos -> `Set` y `HashSet`
 
 + Semana 13 (7h)
   + 10d:
     + [ ] cont `HashSet`
-  + 11d:
-    + [ ] Mapas/Diccionarios `Map` y `HashMap` (Arrays asociativos)
+  + ~~11d:~~ (recuperación 1ª EVA)
   + 13d:
-    + [ ] cont `HashMap`
+    + [ ] Mapas/Diccionarios `Map` y `HashMap` (Arrays asociativos)
 
 + Semana 14 (7h)
   + 16d:
@@ -218,7 +237,7 @@ _Trabajados los RA 4, 5, 6, 7 y 8._
 
 
 ---
-# Materia impartida
+# 1ª EVALUACIÓN
 ---
 
 ## UT1. Introducción a la programación

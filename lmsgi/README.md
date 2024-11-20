@@ -140,7 +140,7 @@ El auto-plagio también podrán ser calificados negativamente si no está refere
 | 3 | Lenguajes de marcas en entornos web. CSS | 38 h | 
 | 4 | Transmisión y almacenamiento de información | 24 h |
 | 5 | Manipulación de documentos Web. JavaScript | 29 h | 
-| - | Estancia en EMPRESA (RA1 y RA7) | 12 h | 
+| - | Estancia en EMPRESA (RA7) | 12 h | 
 
 
 ## Calificación
