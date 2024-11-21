@@ -58,7 +58,8 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
       * [x] Desbordamientos
     * [x] Ejercicios
   * Jueves: 21.11
-    * [x] Ejercicios
+    * [ ] Resolución de dudas
+    * [ ] Ejercicios
 
 + Semana 11
   * ~~Lunes: 25.11~~ No lectivo

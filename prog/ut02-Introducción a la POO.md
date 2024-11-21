@@ -5,6 +5,7 @@
 
 ## Recursos bibliográficos:
 <details>
+
 + [W3S - Creación de clases e instanciación de objetos](https://www.w3schools.com/java/java_classes.asp)
 + [W3Schools](https://www.w3schools.com/java/java_oop.asp)
 + [JavaTPoint](https://www.javatpoint.com/java-oops-concepts)
@@ -12,12 +13,18 @@
 + [TutorialsPoint](https://www.tutorialspoint.com/java/java_object_classes.htm)
   
 ### Vídeos
-+ [Porqué de POO](https://youtu.be/XmUz5WJmJVU?t=142)
-+ [Porqué modular](https://youtu.be/RZOSJ2zuxIs?t=528)
++ Versión ligera (by TodoCode):
+  + [1. ¿Qué es la POO?](https://www.youtube.com/watch?v=tcza2FEz4u4&list=PLQxX2eiEaqbwNP20GMMCjRslRq2lOLWlg&index=1&pp=iAQB)
+  + [2. ¿Qué son las clases?](https://www.youtube.com/watch?v=q9gZ9fjKIC0&list=PLQxX2eiEaqbwNP20GMMCjRslRq2lOLWlg&index=2&pp=iAQB)
+  + [3. Métodos](https://www.youtube.com/watch?v=pXX3c8BloY0&list=PLQxX2eiEaqbwNP20GMMCjRslRq2lOLWlg&index=3&pp=iAQB) (acciones disponibles en la clase u objeto).
+  + [4. Constructores](https://www.youtube.com/watch?v=fdfXkiuVHp4&list=PLQxX2eiEaqbwNP20GMMCjRslRq2lOLWlg&index=4&pp=iAQB) (creadores de objetos).
+  + [5. Getters & Setters](https://www.youtube.com/watch?v=ZHK0t5gocjA&list=PLQxX2eiEaqbwNP20GMMCjRslRq2lOLWlg&index=5&pp=iAQB) (consulta y modificación de estado o propiedades). 
 
-+ [Pildoras informaticas - Curso Java desde 0 - POO](https://www.youtube.com/watch?v=XmUz5WJmJVU&list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk&index=29)
-+ [Pildoras informaticas - Curso Java desde 0 - POO 2](https://www.youtube.com/watch?v=ZY5pwm92cWQ&list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk&index=30)
-+ [Pildoras informaticas - Curso Java desde 0 - POO 3](https://www.youtube.com/watch?v=ZY5pwm92cWQ&list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk&index=31)
++ Lista completa de vídeos: [POO Luisina](https://youtube.com/playlist?list=PLQxX2eiEaqbwNP20GMMCjRslRq2lOLWlg&si=Ua9od0yj-B8pmSvE)  
++ Versión completa (by Píldoras informáticas):
+  + [Curso Java desde 0 - POO](https://www.youtube.com/watch?v=XmUz5WJmJVU&list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk&index=29)
+  + [Curso Java desde 0 - POO 2](https://www.youtube.com/watch?v=ZY5pwm92cWQ&list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk&index=30)
+  + [Curso Java desde 0 - POO 3](https://www.youtube.com/watch?v=ZY5pwm92cWQ&list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk&index=31)
 
 </details>
 

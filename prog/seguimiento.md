@@ -23,10 +23,12 @@
     + [x] EXpresiones REGurales -RegEx-
   + 19n:
     + [x] continuacion de RegEx
+    + [x] Breve introducción para nuevos alumnos
   + 20n:
-    + [ ] continuacion de RegEx
-    + [ ] Construcción de patrones
-    + [ ] _cadena.matches( patron )_
+    + [x] continuacion de RegEx
+    + [x] Construcción de patrones
+    + [x] _cadena.matches( patron )_
+    + [ ] Continúa la breve introducción
   + ~~22n:~~
 
 + Semana 11 (2h)
