@@ -46,9 +46,11 @@ _Trabajados los RA 3, 4 y 6._
 
 ## Recuperación 1ª EVALUACIÓN
 
-El 11 de diciembre se realizará el examen de recuperación de la primera evaluación.
+El ~~11 de diciembre~~[] se realizará el examen de recuperación de la primera evaluación.
 
 Sólo podrá optar a recuperar el alumnado que haya realizado satisfactoriamente el 80 % de las actividades del curso. La fecha máxima de entrega es el 30 de noviembre.
+
+Prácticas. El proyecto irá en `prog/ut3/practica`, por lo que la práctica irá dentro en `src/main/java` sin ningún paquete, salvo que se pida lo contrario.
 
 Los ejercicios deberán encontrarse en `prog/ejercicios/src/main/java/ut2/ejercicio1.java` o `prog/ejercicios/src/test/java/ut2/testEjercicio1.java` en los casos de test. Todos los ejercicios según este patrón, donde `ut2` deberemos son los ejercicios del tema 2 y dentro de cada ejercicio deberéis documentar el enunciado y funcionamiento.
 
