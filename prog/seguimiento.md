@@ -28,8 +28,9 @@
     + [x] continuacion de RegEx
     + [x] Construcción de patrones
     + [x] _cadena.matches( patron )_
-    + [ ] Continúa la breve introducción
-  + ~~22n:~~
+    + [x] Continúa la breve introducción
+  + 22n:
+    + [x] Ejercicio DNI UT2
 
 + Semana 11 (2h)
   + ~~26n:~~
@@ -63,9 +64,7 @@ Los ejercicios deberán encontrarse en `prog/ejercicios/src/main/java/ut2/ejerci
 + Total 30h ~ 4 sem
 + Semana 10 (2h)
   + 22n:
-    + [ ] Colecciones
-    + [ ] Iteradores - `Iterable`
-    + [ ] Clase `Collections`
+    + [x] Colecciones
   
 + Semana 11 (4h)
   + 26n:
