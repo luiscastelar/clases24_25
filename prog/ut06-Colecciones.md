@@ -364,6 +364,11 @@ Ver la [documentación OFICIAL de HashMap](https://docs.oracle.com/en/java/javas
 4.  Elimina Barcelona (imprime).
 5.  Modifica la temperatura de Cáceres a 37 (imprime).
 
+### Map.computeIfAbsent()
+Dado un índice que no existe, hacer algo (función _lambda_).
+Dado un `HashMap<String, Coche>`, `map.computeIfAbsent(key, k -> new Coche("azul"));`
+
+**Referencias:** [arquitecturajava.com](https://www.arquitecturajava.com/java-map-computeifabsent-y-su-uso/)
 
 # Otras construcciones interesantes
 ## `Queue` (colas)
