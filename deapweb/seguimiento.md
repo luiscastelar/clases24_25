@@ -3,62 +3,12 @@
 # Materia PLANIFICADA
 
 
-
-## UT3. Servidor de aplicaciones
-Duración: 12h -> 30o a 13n
-
-+ 29o:
-  + [x] JakartaEE
-+ 31o:
-  + [x] JakartaEE
-+ 4n:
-  + [x] Laravel
-  + [x] JakartaEE
-+ 5n:
-  + [x] Node.js
-  + [x] Flask
-+ 17n: **Entrega PRÁCTICAS** <u>antes</u> de la 13.00 h.
-+ 18n: **Defensa**
-+ 19n: **Defensa**
-+ 21n: **Defensa**
-
-
-### Contenido:
-+ [x] Contenedor de aplicaciones Tomcat (a, b, c, d, e, h, i)
-+ [x] Despliegue de aplicación web Servlet/Spring/Quarkus (f, g, h, i)
-
-*Asociado al RA3*.
-
-
-## UT4. Gestión de servidores y archivos
-Duración: 11 h -> 13n a 27n
-+ 7n:
-  + [x] FTP (a, b, c, d, g)
-  + [x] Acceso remoto seguro - SSH (e, g)  + [ ] 
-  + [x] Bastionado SSH:
-     + [x] pares de llaves
-     + [x] fail2ban
-+ 11n:
-  + [x] fail2ban
-  + [x] Repositorios BARE (f, g, h)
-  + [ ] ~~Hooks locales (CI/CD)~~
-  + [x] Hooks remotos (CI/CD)
-+ 12n:
-  + [x] cont Bare y Hooks (CI/CD)
-+ 14n:
-  + cont Bare y Hooks (CI/CD)
-+ 21n: **Defensa prácticas**
-+ 28n: **Defensa prácticas**
-  
-*Asociado a los RA4 y RA6*.
-
-
 ## UT5. Servicios de red
 Duración: 7 h -> 27n a 4d
 + 26n: 
   + [x] DNS (a, b, g, h)
 + 28n:
-  + [ ] cont DNS
+  + [x] cont DNS
 + 3d: 
   + [ ] LDAP (c, d, g, h)
 + 5d:
@@ -244,32 +194,83 @@ Duración: 14 h
 
 *Asociado al RA2*.
 
+
+## UT3. Servidor de aplicaciones
+Duración: 12h -> 30o a 13n
+
++ 29o:
+  + [x] JakartaEE
++ 31o:
+  + [x] JakartaEE
++ 4n:
+  + [x] Laravel
+  + [x] JakartaEE
++ 5n:
+  + [x] Node.js
+  + [x] Flask
++ 17n: **Entrega PRÁCTICAS** <u>antes</u> de la 13.00 h.
++ 18n: **Defensa**
++ 19n: **Defensa**
++ 21n: **Defensa**
+
+
+### Contenido:
++ [x] Contenedor de aplicaciones Tomcat (a, b, c, d, e, h, i)
++ [x] Despliegue de aplicación web Servlet/Spring/Quarkus (f, g, h, i)
+
+*Asociado al RA3*.
+
+
+
+## UT4. Gestión de servidores y archivos
+Duración: 11 h -> 13n a 27n
++ 7n:
+  + [x] FTP (a, b, c, d, g)
+  + [x] Acceso remoto seguro - SSH (e, g)  + [ ] 
+  + [x] Bastionado SSH:
+     + [x] pares de llaves
+     + [x] fail2ban
++ 11n:
+  + [x] fail2ban
+  + [x] Repositorios BARE (f, g, h)
+  + [ ] ~~Hooks locales (CI/CD)~~
+  + [x] Hooks remotos (CI/CD)
++ 12n:
+  + [x] cont Bare y Hooks (CI/CD)
++ 14n:
+  + cont Bare y Hooks (CI/CD)
++ 21n: **Defensa prácticas**
++ 28n: **Defensa prácticas**
+  
+*Asociado a los RA4 y RA6*.
+
+
 ---
 
 # Contenidos mínimos:
-+ [ ] Sitios web estáticos y dinámicos.
++ [x] Sitios web estáticos y dinámicos.
 + [x] Aplicaciones web.
 + [x] Servicios web.
-+ [ ] Servidores de nombres. Tipos.
-+ [ ] Registros DNS.
-+ [ ] Zona directa e inversa.
++ [x] Servidores de nombres. Tipos.
++ [x] Registros DNS.
++ [x] Zona directa e inversa.
 + [x] Servidores web. Instalación.
-+ [ ] Ficheros y parámetros de configuración de servidores.
++ [x] Ficheros y parámetros de configuración de servidores.
 + [x] Servidores virtuales.
 + [x] Establecimiento de conexiones seguras HTTPS.
-+ [ ] Configurando CORS.
-+ [ ] Instalación y funcionamiento de FTP.
++ [x] Configurando CORS.
++ [x] Instalación y funcionamiento de sFTP.
 + [x] Git. Funcionamiento.
-+ [ ] Git. Trabajo con ramas y en remoto.
-+ [ ] Git BARE.
-+ [ ] CI/CD con hooks de Git
++ [x] Git. Trabajo con ramas y en remoto.
++ [x] Git BARE.
++ [x] CI/CD con hooks de Git
 + [x] Docker. Instalación y componentes.
 + [x] Docker. Ciclo de vida de los contenedores.
 + [x] DockerFile y DockerCompose.
-+ [ ] JavaEE y JakartaEE.
-+ [ ] Servidor/Contenedor de aplicaciones (Tomcat).
-+ [ ] Despliegue de aplicaciones en un entorno de red en un servidor Linux.
-+ [ ] Despliegue en la nube.
++ [x] JavaEE y JakartaEE.
++ [x] Servidor/Contenedor de aplicaciones (Tomcat).
++ [x] Despliegue de aplicaciones en un entorno de red en un servidor Linux.
++ [x] Despliegue en la nube.
 
 
 # Notas al pie:

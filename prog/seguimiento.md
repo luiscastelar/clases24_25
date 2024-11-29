@@ -68,10 +68,11 @@ Los ejercicios deberán encontrarse en `prog/ejercicios/src/main/java/ut2/ejerci
   
 + Semana 11 (4h)
   + 26n:
-    + [ ] Listas -> `List`
-    + [ ] Uso de listas - `ArrayList`
+    + [x] Listas -> `List`
+    + [x] Ejercicio iterator, for, lambda y referencia a método
   + 29n:
-    + [ ] cont `ArrayList`
+    + [ ] Juego: “La ruleta de la fortuna”
+    + [ ] Uso de listas - `ArrayList`
 
 + Semana 12 (5h)
   + 2d: (mientras defensa)
