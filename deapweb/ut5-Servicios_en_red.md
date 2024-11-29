@@ -70,9 +70,61 @@ Jerarquía de resolución:
      + `sudo systemctl start systemd-resolved`
   
   >Nota: En cierta bibliografía aparecerá como `sudo systemctl stop systemd-resolved.service`. Deberéis saber que `systemd` toma por defecto *.service* si se omite el tipo de *demonio* (service, socket, ...)
-  
 
-### Referencias webgráficas
+## Servidor DNS
+
+### DnsMasq:
+Archivo de configuración:
+```yaml
+services:
+  dns:
+    ports:
+      - 53:53/udp
+      - 5380:8080
+    volumes:
+      - ./dnsmasq.conf:/etc/dnsmasq.conf
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        #max-file: "10"
+    environment:
+      - "HTTP_USER=foo"
+      - "HTTP_PASS=bar"
+    restart: always
+    image: jpillora/dnsmasq
+```
+
+Ésto fallará ya que no tenemos el archivo `dnsmasq.conf` por lo que primero debemos levantarlo con el volumen desactivado y capturamos su contenido con `docker exec -it dnsmasq-dns-1 cat /etc/dnsmasq.conf > dnsmasq.conf`
+
+Después podremos añadir nuestros equipos de zona o incluso capturar equipos que no queremos que sean accesibles:
+```conf
+...
+address=/profesor.local/192.168.60.100
+address=/youtube.com/127.0.0.1
+address=/marca.com/127.0.0.1
+
+address=/ut4.midominio.duckdns.org/10.0.0.100
+```
+
+> [!NOTE]
+> Los dominios `.local` son dominios reservados para redes locales con lo que podemos utilizarlos sin peligro a ocultamientos.
+
+### Probarlo
+* En GNU/Linux con `dig [@servidor] FQDN` o sólo `dig FQDN`.
+* En Windows con `nslookup [-opcion] [host] [servidor]`.
+
+
+### Registros DNS
+[Resumen de registros](https://www.ionos.es/digitalguide/hosting/cuestiones-tecnicas/registros-dns/)
+
+### Servidores internos
+Los servidores de DNS internos son de gran utilidad para llevar un inventario de equipos en la red local y poder acceder a los mismos a través de nombres sencillos y no de depender de IPs que puedan variar en el tiempo o colisionar.
+
+Además, son de gran utilidad para solventar los problemas de `HairPin NAT`, `NAT reverso` o `NAT loopback`, esto es, cuando queremos acceder a servicios públicos que están en nuestra misma red.
+![hairpin](https://supportportal.juniper.net/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683c00000LUw1qAAD&operationContext=CHATTER)
+
+## Referencias webgráficas
 + [ngi.es](https://www.ngi.es/configurar-servidor-dns-con-dnsmasq/)
 + [Jose Domingo Muñoz](https://www.josedomingo.org/pledin/2020/12/servidor-dns-dnsmasq/)
 + [DNS contra contenedores docker](https://dev.to/karlredman/dnsmasq--networkmanager--private-network-setup-258l)

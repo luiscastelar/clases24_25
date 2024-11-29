@@ -48,7 +48,6 @@ Duración: 11 h -> 13n a 27n
 + 14n:
   + cont Bare y Hooks (CI/CD)
 + 21n: **Defensa prácticas**
-+ 26n: **Defensa prácticas**
 + 28n: **Defensa prácticas**
   
 *Asociado a los RA4 y RA6*.
@@ -56,8 +55,10 @@ Duración: 11 h -> 13n a 27n
 
 ## UT5. Servicios de red
 Duración: 7 h -> 27n a 4d
-+ 2d: 
-  + [ ] DNS (a, b, g, h)
++ 26n: 
+  + [x] DNS (a, b, g, h)
++ 28n:
+  + [ ] cont DNS
 + 3d: 
   + [ ] LDAP (c, d, g, h)
 + 5d:
