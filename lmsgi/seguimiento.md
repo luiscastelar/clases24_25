@@ -67,10 +67,10 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 
 + Semana 12
   * Lunes: 02.12
-    * [ ] `Emmet`
     + [ ] Modelo de cajas
       * [ ] Box-sizing
       * [ ] Propiedades lógicas
+    * [ ] `Emmet`
   * Jueves: 05.12
 
 + Semana 13

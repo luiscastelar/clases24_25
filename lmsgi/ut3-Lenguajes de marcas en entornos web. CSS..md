@@ -539,7 +539,11 @@ Partiremos del [modelo de cajas clásico](https://lenguajecss.com/css/modelo-de-
 [Overflow](https://lenguajecss.com/css/modelo-de-cajas/overflow/)
 
 <details> 
-  <summary>### Ejercicio OBLIGATORIO</summary>
+  <summary>
+  
+  ### Ejercicio OBLIGATORIO
+  
+  </summary>
 
 #obligatorio
 *   Diseña una caja con dimensiones fijas (400px por 300px) y un texto largo dentro (*lorem ipsum*).
@@ -586,6 +590,11 @@ Un enfoque más moderno, flexible y global es utilizar propiedades lógicas fren
 [Ver información](https://lenguajecss.com/css/modelo-de-cajas/propiedades-logicas-css/#propiedades-de-dimensi%C3%B3n)
 
 
+# Emmet
+Emmet es un plugin diseñado para editores de texto que ayuda en gran manera tu flujo de trabajo y te ahorra tiempo.
+
++ [Introducción a emmet](https://javascriptes.com/publicaciones/tutorial-de-emmet-que-es-emmet-y-como-utilizarlo-en-html-y-css-xSOQpmqAj5E1pXT2KJuXP)
++ [Cheat Sheet](https://docs.emmet.io/cheatsheet-a5.pdf)
 
 
 # Flex
