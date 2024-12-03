@@ -67,11 +67,13 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 
 + Semana 12
   * Lunes: 02.12
-    + [ ] Modelo de cajas
-      * [ ] Box-sizing
-      * [ ] Propiedades lógicas
-    * [ ] `Emmet`
+    + [x] Modelo de cajas
+      * [x] Box-sizing
+      * [x] Propiedades lógicas
+    * [x] `Emmet`
   * Jueves: 05.12
+    * [ ] Breve introducción a Flex
+    * [ ] [Flexbox Froggy](https://flexboxfroggy.com/#es) #juego
 
 + Semana 13
   * ~~Lunes: 09.12~~ Festivo
