@@ -38,9 +38,9 @@
 
 + Semana 12 (3h)
   + 2d:
-    + [ ] Defensa de prácticas
+    + [x] ~~Defensa de prácticas~~
   + 3d:
-    + [ ] Defensa de prácticas 
+    + [x] Defensa de prácticas 
  
 
 _Trabajados los RA 3, 4 y 6._
@@ -71,29 +71,31 @@ Los ejercicios deberán encontrarse en `prog/ejercicios/src/main/java/ut2/ejerci
     + [x] Listas -> `List`
     + [x] Ejercicio iterator, for, lambda y referencia a método
   + 29n:
-    + [ ] Juego: “La ruleta de la fortuna”
-    + [ ] Uso de listas - `ArrayList`
+    + [x] Juego: “La ruleta de la fortuna”
+    + [x] Uso de listas - `ArrayList`
 
 + Semana 12 (5h)
-  + 2d: (mientras defensa)
-    + [ ] Ejercicios de listas
+  + 2d: 
+    + [x] Ejercicios de listas
   + 3d: (mientras defensa)
-    + [ ] Ejercicios de listas
+    + [x] Ejercicios de listas
   + 4d: 
     + [ ] Conjuntos -> `Set` y `HashSet`
 
 + Semana 13 (7h)
   + 10d:
     + [ ] cont `HashSet`
-  + ~~11d:~~ (recuperación 1ª EVA)
-  + 13d:
+  + 11d:
     + [ ] Mapas/Diccionarios `Map` y `HashMap` (Arrays asociativos)
+  + 13d:
+    + [ ] cont `HashMap`
 
 + Semana 14 (7h)
   + 16d:
     + [ ] cont `HashMap`
-  + 17d:
     + [ ] Pilas `Stack`
+  + 17d:
+    + [ ] cont Pilas `Stack`
   + 18d:
     + [ ] cont Pilas `Stack`
   + 20d:
@@ -109,8 +111,10 @@ Los ejercicios deberán encontrarse en `prog/ejercicios/src/main/java/ut2/ejerci
   + 10e: Defensa de prácticas
 
 + Semana 16 (4h)
-  + 13e: Defensa de prácticas
-  + 14e: Defensa de prácticas
+  + 13e:
+    + [ ] Defensa de prácticas
+  + 14e:
+    + [ Defensa de prácticas
   + 15e: **Examen**     
 
 

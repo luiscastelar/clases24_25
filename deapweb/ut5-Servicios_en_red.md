@@ -140,11 +140,11 @@ Pasos:
 *Nota: los ficheros de configuración de `dnsmasq` se encuentran en `/etc/dnsmasq.conf`*
 
 
-### P2 - Balanceador de carga por DNS
-Sigue las instrucciones para realizar un balanceo básico con un servidor DNS.
-[Jose Domingo Muñoz](https://www.josedomingo.org/pledin/2022/02/dns-balanceo-carga/)
+### NO ~~P2 - Balanceador de carga por DNS~~
+~~Sigue las instrucciones para realizar un balanceo básico con un servidor DNS.~~
+Fuente: [ Jose Domingo Muñoz](https://www.josedomingo.org/pledin/2022/02/dns-balanceo-carga/)
 
-*Nota: Requieres 3 contenedores (2 nginx y un dnsmasq) y una red.*
+~~*Nota: Requieres 3 contenedores (2 nginx y un dnsmasq) y una red.*~~
 
 # LDAP - Protocolo Ligero de Acceso a Directorios
 
