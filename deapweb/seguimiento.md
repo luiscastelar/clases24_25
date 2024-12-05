@@ -7,14 +7,15 @@
 Duración: 7 h -> 27n a 4d
 + 26n: 
   + [x] DNS (a, b, g, h)
+  + [x] LDAP (c, d, g, h)
 + 28n:
-  + [x] cont DNS
+  + [x] cont DNS y LDAP
 + 3d: 
-  + [ ] LDAP (c, d, g, h)
+  + [x] nginx con autenticación LDAP (e, f, g, h)
 + 5d:
-  + [ ] cont LDAP
+  + [ ] cont nginx con autenticación
 + 10d:
-  + [ ] nginx con autenticación LDAP (e, f, g, h)
+  + [ ] cont nginx con autenticación
 + 12d: **Examen**
 + 16d: **Práctica**
 + 17d: **Práctica**
@@ -139,9 +140,9 @@ CE: e, f, h, i.
   + [x] Seguridad (no root)
   + [ ] Buenas prácticas
 + 14o:
-  + [ ] **Examen / Defensa [^1] de prácticas**
+  + [x] **Examen / Defensa [^1] de prácticas**
 + 15o:
-  + [ ] **Examen / Defensa de prácticas**
+  + [x] **Examen / Defensa de prácticas**
 
 
 ### Aplicación:

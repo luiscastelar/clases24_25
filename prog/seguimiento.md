@@ -3,58 +3,6 @@
 
 # Materia PLANIFICADA
 
-## UT5. Manipulación de información. Cadenas.
-+ Total 14h ~ 2 sem
-+ Semana 9 (3h)
-  + 12n:
-    + [x] Estructuras estáticas y dinámicas.
-    + [x] Cadenas de caracteres.
-    + [x] _La clase String_
-    + [x] El método `.equals()`
-    + [x] `String.valueOf()`
-  + 15n:
-    + [x] _Pool de Strings_
-    + [x] _La clase StringBuffer (thread-safe)_
-    + [x] _StringBuilder (**no** thread-safe)_
-    + [x] Ejercicios
-     
-+ Semana 10 (5h)
-  + 18n:
-    + [x] EXpresiones REGurales -RegEx-
-  + 19n:
-    + [x] continuacion de RegEx
-    + [x] Breve introducción para nuevos alumnos
-  + 20n:
-    + [x] continuacion de RegEx
-    + [x] Construcción de patrones
-    + [x] _cadena.matches( patron )_
-    + [x] Continúa la breve introducción
-  + 22n:
-    + [x] Ejercicio DNI UT2
-
-+ Semana 11 (2h)
-  + ~~26n:~~
-  + 27n: **Examen**
-
-+ Semana 12 (3h)
-  + 2d:
-    + [x] ~~Defensa de prácticas~~
-  + 3d:
-    + [x] Defensa de prácticas 
- 
-
-_Trabajados los RA 3, 4 y 6._
-
-## Recuperación 1ª EVALUACIÓN
-
-El ~~11 de diciembre~~[] se realizará el examen de recuperación de la primera evaluación.
-
-Sólo podrá optar a recuperar el alumnado que haya realizado satisfactoriamente el 80 % de las actividades del curso. La fecha máxima de entrega es el 30 de noviembre.
-
-Prácticas. El proyecto irá en `prog/ut3/practica`, por lo que la práctica irá dentro en `src/main/java` sin ningún paquete, salvo que se pida lo contrario.
-
-Los ejercicios deberán encontrarse en `prog/ejercicios/src/main/java/ut2/ejercicio1.java` o `prog/ejercicios/src/test/java/ut2/testEjercicio1.java` en los casos de test. Todos los ejercicios según este patrón, donde `ut2` deberemos son los ejercicios del tema 2 y dentro de cada ejercicio deberéis documentar el enunciado y funcionamiento.
-
 ---
 # 2ª EVALUACIÓN
 ---
@@ -80,26 +28,27 @@ Los ejercicios deberán encontrarse en `prog/ejercicios/src/main/java/ut2/ejerci
   + 3d: (mientras defensa)
     + [x] Ejercicios de listas
   + 4d: 
-    + [ ] Conjuntos -> `Set` y `HashSet`
+    + [x] Conjuntos -> `Set` y `HashSet`
+    + [ ] Mapas/Diccionarios `Map` y `HashMap` (Arrays asociativos)
 
 + Semana 13 (7h)
   + 10d:
-    + [ ] cont `HashSet`
-  + 11d:
-    + [ ] Mapas/Diccionarios `Map` y `HashMap` (Arrays asociativos)
-  + 13d:
     + [ ] cont `HashMap`
+  + 11d:
+    + [ ] cont `HashMap`
+  + 13d:
+    + [ ] Pilas `Stack`
 
 + Semana 14 (7h)
   + 16d:
-    + [ ] cont `HashMap`
-    + [ ] Pilas `Stack`
+    + [ ] cont Pilas `Stack`
   + 17d:
     + [ ] cont Pilas `Stack`
-  + 18d:
-    + [ ] cont Pilas `Stack`
-  + 20d:
     + [ ] Colas `Queue`
+  + 18d:
+    + [ ] Genéricos
+  + 20d:
+    + [ ] cont Genericos
 
 + **Vacaciones NAVIDAD**
 
@@ -194,6 +143,11 @@ _Trabajados los RA 4 y 7._
 + [ ] Realizar programas que realicen manipulaciones sobre documentos escritos en diferentes lenguajes de intercambio de datos.
       
 _Trabajados los RA 3, 4, 5, 6, 7 y 8._
+
+
+---
+# 3ª EVALUACIÓN
+---
 
 
 ## UT9. Gestión de información almacenada en bases de datos relacionales
@@ -441,3 +395,56 @@ _Trabajado el RA 3._
 **Entrega de prácticas el 20 de noviembre**
 
 _Trabajados los RA 3, 4 y 6._
+
+
+## UT5. Manipulación de información. Cadenas.
++ Total 14h ~ 2 sem
++ Semana 9 (3h)
+  + 12n:
+    + [x] Estructuras estáticas y dinámicas.
+    + [x] Cadenas de caracteres.
+    + [x] _La clase String_
+    + [x] El método `.equals()`
+    + [x] `String.valueOf()`
+  + 15n:
+    + [x] _Pool de Strings_
+    + [x] _La clase StringBuffer (thread-safe)_
+    + [x] _StringBuilder (**no** thread-safe)_
+    + [x] Ejercicios
+     
++ Semana 10 (5h)
+  + 18n:
+    + [x] EXpresiones REGurales -RegEx-
+  + 19n:
+    + [x] continuacion de RegEx
+    + [x] Breve introducción para nuevos alumnos
+  + 20n:
+    + [x] continuacion de RegEx
+    + [x] Construcción de patrones
+    + [x] _cadena.matches( patron )_
+    + [x] Continúa la breve introducción
+  + 22n:
+    + [x] Ejercicio DNI UT2
+
++ Semana 11 (2h)
+  + ~~26n:~~
+  + 27n: **Examen**
+
++ Semana 12 (3h)
+  + 2d:
+    + [x] ~~Defensa de prácticas~~
+  + 3d:
+    + [x] Defensa de prácticas 
+ 
+
+_Trabajados los RA 3, 4 y 6._
+
+## Recuperación 1ª EVALUACIÓN
+
+El ~~11 de diciembre~~[] se realizará el examen de recuperación de la primera evaluación.
+
+Sólo podrá optar a recuperar el alumnado que haya realizado satisfactoriamente el 80 % de las actividades del curso. La fecha máxima de entrega es el 30 de noviembre.
+
+Prácticas. El proyecto irá en `prog/ut3/practica`, por lo que la práctica irá dentro en `src/main/java` sin ningún paquete, salvo que se pida lo contrario.
+
+Los ejercicios deberán encontrarse en `prog/ejercicios/src/main/java/ut2/ejercicio1.java` o `prog/ejercicios/src/test/java/ut2/testEjercicio1.java` en los casos de test. Todos los ejercicios según este patrón, donde `ut2` deberemos son los ejercicios del tema 2 y dentro de cada ejercicio deberéis documentar el enunciado y funcionamiento.

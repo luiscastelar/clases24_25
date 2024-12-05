@@ -299,17 +299,17 @@ Podéis consultar la [documentación OFICIAL de HashSet](https://docs.oracle.com
 ### Iteraradores:
 Dado un `HashSet` denominado `set`, podemos recorrerlo:
 -   `set.forEach(System.out::println);`
--   `set.forEach( (s) -> System.out.println(s+" ");`
+-   `set.forEach( (s) -> System.out.println(s+" ") );`
 
 
 ### Ejercicio
-Crea un conjunto de tipo `HashSet` con elementos repetidos e impríme el resultado mediante expresiones `Lambda` o operador referencia.
+Crea un conjunto de tipo `HashSet` con elementos repetidos e imprime el resultado mediante expresiones `Lambda` o operador referencia.
 
 
 ## `TreeSet`
 Esta clase implementa la interface `SortSet` que a su vez deriva de `Set`.
 
-Se trata de un conjunto ORDENADO de elememntos ÚNICOS.
+Se trata de un conjunto ORDENADO de elementos ÚNICOS.
 
 ### Métodos
 Además de los implementados de la interface `List` tenemos los implementados de la interface `Set`:
