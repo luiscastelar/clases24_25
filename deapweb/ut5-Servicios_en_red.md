@@ -60,14 +60,8 @@ Jerarquía de resolución:
 
 2. Servicio DNS indicado en `/etc/resolv.conf`
 
-  Fichero que especifica los servidores DNS y los dominios de búsqueda... salvo que en las nuevas versiones de S.O.s basados en Gnu/Linux ya no podemos editarlo directamente. El archivo es controlado por `systemd`.
+   Fichero que especifica los servidores DNS y los dominios de búsqueda... salvo que en las nuevas versiones de S.O.s basados en Gnu/Linux ya no podemos editarlo directamente. El archivo es controlado por `systemd` [^1][^2].
 
-  Ahora:
-  1. Modificar archivo `/etc/system/resolved.conf`
-  2. Enlazar el sistema *antiguo* `sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf`
-  3. Reiniciar servicio:
-     + `sudo systemctl stop systemd-resolved`
-     + `sudo systemctl start systemd-resolved`
   
   >Nota: En cierta bibliografía aparecerá como `sudo systemctl stop systemd-resolved.service`. Deberéis saber que `systemd` toma por defecto *.service* si se omite el tipo de *demonio* (service, socket, ...)
 
@@ -166,3 +160,13 @@ Partiendo de lo anterior, montad un servidor que autentique vía LDAP el acceso 
 
 La práctica se realizará por parejas compuestas por alumno/a que provenga del grado medio de SMR y alumno/a que provenga de bachillerato o universidad.
 
+---
+# Notas al pie:
+[^1] En Ubuntu:
+  1. Modificar archivo `/etc/systemd/resolved.conf`
+  2. Enlazar el sistema *antiguo* `sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf`
+  3. Reiniciar servicio:
+     + `sudo systemctl stop systemd-resolved`
+     + `sudo systemctl start systemd-resolved`
+    
+[^2] En Debian: ``sudo nano /etc/network/interfaces``, donde añadiremos un ``dns-nameserver 192.168.60.190``
