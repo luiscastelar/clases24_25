@@ -28,11 +28,11 @@ Cualquiera de las siguientes referencias son **muy** recomendables y se tomarán
 + [**Apuntes** de Jose Luis Comesaña](https://github.com/rosepac/daw-temario/tree/main/PROG)
 
 **Libros:**
-+ [**Cómo aprobar DAW - Programación** / JC López](https://www.amazon.es/C%C3%B3mo-Aprobar-Desarrollo-Aplicaciones-Web-ebook/dp/B0B1CCPL9S)
++ [De ejercicios](https://fadmon.unal.edu.co/fileadmin/user_upload/investigacion/centro_editorial/libros/ejercicios%20de%20programacion.pdf) ... por 0
++ Cómo aprobar DAW - Programación / JC López
 + [**Java para novatos: Cómo aprender programación orientada a objetos con Java sin desesperarse en el intento (Programación para novatos)**](https://www.amazon.es/Java-para-novatos-programaci%C3%B3n-desesperarse-ebook/dp/B072V2FG6B/ref=sr_1_15?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2XJ28H5C7DE2E&dib=eyJ2IjoiMSJ9.fCJfAvBEgs5WU4JDSqc4tDRhPEbTGZy2oN7_WIILcwN9zxZw_P4M32mtQvu-idrSjIDuXISKxv19wvfROGsC4oCIz8197XcYHhK3QqqGNqgZET1uWrTN66VN8suN8ONkPQun8U4f3sffnontAlyVHNgqqd6WLABx_UtAyftbrX-qlQWBZdDae8EdAOZ5-7XZvyIvjvoCMk9gQ-o15yjj3vSJdnszwcTe6IkuKUpkoaI.caQdWp4Rp63H0rZohNkrPOzXJtJRIZXZCzAdpA5H2Sc&dib_tag=se&keywords=programaci%C3%B3n&qid=1728453786&s=digital-text&sprefix=programaci%C3%B3n%2Cdigital-text%2C104&sr=1-15) con versión Kindle por menos de 5€.
 + [Aprende Java en un fin de semana - Guía completa de iniciación](https://www.amazon.es/Aprende-Java-en-fin-semana-ebook/dp/B09NBJP6MC/ref=pd_rhf_se_s_pd_sbs_rvi_d_sccl_1_1/260-4455999-4590300?pd_rd_w=rfF0j&content-id=amzn1.sym.6ad1d31a-2b05-44ca-b80b-8098fd101e89&pf_rd_p=6ad1d31a-2b05-44ca-b80b-8098fd101e89&pf_rd_r=25681V1PWP9PWAJMGBCB&pd_rd_wg=Sw768&pd_rd_r=a90b9c67-9729-42c7-b403-f3bccfea9ef8&pd_rd_i=B09NBJP6MC&psc=1) con versión Kindle por menos de 4€.
-
-+  ... 
++  ...
 
 ---
 
