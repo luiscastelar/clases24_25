@@ -29,12 +29,12 @@
     + [x] Ejercicios de listas
   + 4d: 
     + [x] Conjuntos -> `Set` y `HashSet`
-    + [ ] Mapas/Diccionarios `Map` y `HashMap` (Arrays asociativos)
+    + [x] Mapas/Diccionarios `Map` y `HashMap` (Arrays asociativos)
 
 + Semana 13 (7h)
-  + 10d:
-    + [ ] cont `HashMap`
+  + ~~10d:~~
   + 11d:
+    + [ ] Ejercicio de repaso UT2 a 6
     + [ ] cont `HashMap`
   + 13d:
     + [ ] Pilas `Stack`
@@ -63,7 +63,7 @@
   + 13e:
     + [ ] Defensa de prácticas
   + 14e:
-    + [ Defensa de prácticas
+    + [ ] Defensa de prácticas
   + 15e: **Examen**     
 
 
