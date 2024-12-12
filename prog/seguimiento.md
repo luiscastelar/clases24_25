@@ -34,9 +34,10 @@
 + Semana 13 (7h)
   + ~~10d:~~
   + 11d:
-    + [ ] Ejercicio de repaso UT2 a 6
-    + [ ] cont `HashMap`
+    + [x] Ejercicio de repaso UT2 a 6
+    + [x] cont `HashMap`
   + 13d:
+    + [ ] cont HashMap
     + [ ] Pilas `Stack`
 
 + Semana 14 (7h)

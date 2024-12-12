@@ -76,6 +76,10 @@ Pues que tenemos que unir los caminos. Tenemos 2 opciones: merge y rebase.
 + [trayendo cambios](https://www.juannicolas.eu/dominando-git-cherry-pick-guia-basica/)
 
 
+## Uniendo repositorios
+[Unir 2 repositorios conservando el historial
+
+
 ## Nooooo: 
 ![](https://luiscastelar.duckdns.org/memes/lmsgi-git-push-force.jpg)
 

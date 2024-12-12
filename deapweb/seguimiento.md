@@ -2,26 +2,6 @@
 
 # Materia PLANIFICADA
 
-
-## UT5. Servicios de red
-Duración: 7 h -> 27n a 4d
-+ 26n: 
-  + [x] DNS (a, b, g, h)
-  + [x] LDAP (c, d, g, h)
-+ 28n:
-  + [x] cont DNS y LDAP
-+ 3d: 
-  + [x] nginx con autenticación LDAP (e, f, g, h)
-+ 5d:
-  + [ ] cont nginx con autenticación
-+ 10d:
-  + [ ] cont nginx con autenticación
-+ 12d: **Examen**
-+ 16d: **Práctica**
-+ 17d: **Práctica**
-        
-*Asociado a RA5*.
-
 ---
 # Repaso y evaluación
 + Del 2 al 10 de diciembre: Repaso del curso
@@ -245,6 +225,22 @@ Duración: 11 h -> 13n a 27n
   
 *Asociado a los RA4 y RA6*.
 
+
+
+## UT5. Servicios de red
+Duración: 7 h -> 27n a 4d
++ 26n: 
+  + [x] DNS (a, b, g, h)
+  + [x] LDAP (c, d, g, h)
++ 28n:
+  + [x] cont DNS y LDAP
++ 3d: 
+  + [x] nginx con autenticación LDAP (e, f, g, h)
++ 5d:
+  + [x] cont nginx con autenticación
++ ~~10d:~~
+        
+*Asociado a RA5*.
 
 ---
 
