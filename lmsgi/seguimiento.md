@@ -72,16 +72,21 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
       * [x] Propiedades lógicas
     * [x] `Emmet`
   * Jueves: 05.12
-    * [ ] Breve introducción a Flex
-    * [ ] [Flexbox Froggy](https://flexboxfroggy.com/#es) #juego
+    * [x] Breve introducción a Flex
+    * [x] [Flexbox Froggy](https://flexboxfroggy.com/#es) #juego
 
 + Semana 13
   * ~~Lunes: 09.12~~ Festivo
   * Jueves: 12.12
+    * [x] [Flexbox Defense](http://www.flexboxdefense.com/) #juego
+    * [x] [Flex Box Adventure](https://codingfantasy.com/games/flexboxadventure) #juego
+    * [x] Descripción de la práctica
 
 + Semana 14
   * Lunes: 16.12
+    * [ ] Continuación de estructura de la práctica
   * Jueves: 19.12
+    * [ ] Grid
 
 *(Vacaciones escolares del 20 de diciembre al 7 de enero)*
 

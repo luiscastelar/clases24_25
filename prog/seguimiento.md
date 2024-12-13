@@ -37,12 +37,12 @@
     + [x] Ejercicio de repaso UT2 a 6
     + [x] cont `HashMap`
   + 13d:
-    + [ ] cont HashMap
-    + [ ] Pilas `Stack`
+    + [ ] Concurso de programación (sólo compañeros).
 
 + Semana 14 (7h)
   + 16d:
-    + [ ] cont Pilas `Stack`
+    + [ ] cont HashMap
+    + [ ] Pilas `Stack`
   + 17d:
     + [ ] cont Pilas `Stack`
     + [ ] Colas `Queue`
@@ -53,9 +53,9 @@
 
 + **Vacaciones NAVIDAD**
 
-+ Semana 15 (3h)
++ Semana 15 (3h) Genericos 
   + 8e:
-    + [ ] Genericos
+    + [ ] Genéricos
     + [ ] Lambdas
     + [ ] Referencia a método
   + 10e: Defensa de prácticas
