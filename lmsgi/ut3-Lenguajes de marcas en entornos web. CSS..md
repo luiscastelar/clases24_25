@@ -655,6 +655,30 @@ Emmet es un plugin diseñado para editores de texto que ayuda en gran manera tu 
 + [Curso CSS - pildorasinformaticas](https://www.youtube.com/playlist?list=PLU8oAlHdN5BmpUDdnWSglIIHfIosElaVN) 
 + [Curso con muchos ejercicios](https://uniwebsidad.com/libros/css)
 
+
+# PRÁCTICAS
+
+## CSS + FLEX
+Entrega 12 de enero de la práctica del CV maquetado en CSS con el módulo FLEX.
+
+La práctica debe incluir:
++ Presentación
++ Secciones:
+  + Front-end
+  + Back-end
+  + Sistemas
+  + Soft-skills
+  + Contacto (formulario)
++ Extras
+
+_Cada parte aportará 1.5 puntos, excepto “Extras” que aportará 1 punto._
+
+
+## CSS + GRID
+Entrega 2 de febrero de la práctica del CV maquetado en CSS con el módulo GRID.
+
+_Podéis y debéis anidar FLEX y GRID._
+
 ---
 # Notas al pie:
 [^1]: _lorem ipsum_ es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final. Podemos utilizar el [generador](https://getlorem.com/es) cuando lo necesitmos.

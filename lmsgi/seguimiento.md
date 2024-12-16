@@ -84,6 +84,8 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 
 + Semana 14
   * Lunes: 16.12
+    * [ ] Flex anidados
+    * [ ] Media: print
     * [ ] Continuación de estructura de la práctica
   * Jueves: 19.12
     * [ ] Grid
@@ -92,10 +94,15 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 
 + Semana 15
   * Jueves: 09.01
+    * [ ] cont Grid
 
 + Semana 16
   * Lunes: 13.01
+    * [ ] **Defensa práctica CV-CSS-FLEX**
+    * [ ] cont Grid
   * Jueves: 16.01
+    * [ ] **Defensa práctica CV-CSS-FLEX**
+    * [ ] cont Grid
 
 + Semana 17
   * Lunes: 20.01
@@ -103,10 +110,14 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 
 + Semana 18
   * Lunes: 27.01
-  * Jueves: 30.01
+  * ~~Jueves: 30.01~~
 
 + Semana 19
   * Lunes: 3.02
+    * [ ] **Defensa práctica CV-CSS-GRID**
+    
+  + V6f:
+    * [ ] **Defensa práctica CV-CSS-GRID**
 
 _Se trabaja el RA 2_.
 
@@ -114,37 +125,48 @@ _Se trabaja el RA 2_.
 ## UT4 - Transmisión y almacenamiento de información.
 24h -> 6 semanas ~ 10f al 24m
 
-+ Semana 20
-  + V6f:
+
++ Semana 18
+  * Jueves: 30.01
     + [ ] Introducción al XML
     + [ ] Sintáxis XML
-+ Semana 21
+
++ Semana 19
+  * ~~Lunes: 3.02~~
+    
+  + ~~V6f:~~
+    
++ Semana 20
   + L10
     + [ ] DTDs
   + V13
     + [ ] Esquemas XML
     + [ ] Parsers XML
-+ Semana 22
++ Semana 21
   + L17
     + [ ] Json
   + V20
     + [ ] cont Json
+          
 + Semana 22
   + L24
     + [ ] MariaDB y Json
   + V27
     + [ ] MongoDB y Bson
-+ Semana 22
+          
++ Semana 23
   + ~~L3m~~: Carnavales
   + V6m
     + [ ] PokeAPI
-+ Semana 22
+
++ Semana 24
   + L10
     + [ ] Yml
     + [ ] Json2yml y Yml2json
   + V13:
     + [ ] Ventajas Yaml
-+ Semana 22
+
++ Semana 25
   + L17
     
 
