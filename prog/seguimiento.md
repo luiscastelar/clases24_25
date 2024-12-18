@@ -37,19 +37,22 @@
     + [x] Ejercicio de repaso UT2 a 6
     + [x] cont `HashMap`
   + 13d:
-    + [ ] Concurso de programación (sólo compañeros).
+    + [x] Concurso de programación.
 
 + Semana 14 (7h)
   + 16d:
+    + [x] Repaso ejercicios del concurso
+  + 17d:
+    + [x] Repaso ejercicios del concurso
+    + [x] Concurso de programación.
+    + [x] Repaso excepciones
+  + 18d:
     + [ ] cont HashMap
     + [ ] Pilas `Stack`
-  + 17d:
+    + [ ] Ejercicios de conscruso
+  + 20d:
     + [ ] cont Pilas `Stack`
     + [ ] Colas `Queue`
-  + 18d:
-    + [ ] Genéricos
-  + 20d:
-    + [ ] cont Genericos
 
 + **Vacaciones NAVIDAD**
 
