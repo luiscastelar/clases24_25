@@ -47,21 +47,24 @@
     + [x] Concurso de programación.
     + [x] Repaso excepciones
   + 18d:
-    + [ ] cont HashMap
-    + [ ] Pilas `Stack`
-    + [ ] Ejercicios de conscruso
+    + [x] cont HashMap
+    + [x] Pilas `Stack`
+    + [x] Ejercicios de concurso
   + 20d:
-    + [ ] cont Pilas `Stack`
-    + [ ] Colas `Queue`
+    + [x] Sin asistencia de alumnos
+    + [ ] ~~cont Pilas `Stack`~~
+    + [ ] ~~Colas `Queue`~~
 
 + **Vacaciones NAVIDAD**
 
-+ Semana 15 (3h) Genericos 
++ Semana 15 (3h) Genéricos 
   + 8e:
+    + [ ] Resolución de dudas
+    + [ ] Breve repaso de colecciones: Listas, Conjuntos, Mapas y Pilas.
+    + [ ] Referencia a colas `Queue`.
+  + 10e: 
     + [ ] Genéricos
-    + [ ] Lambdas
-    + [ ] Referencia a método
-  + 10e: Defensa de prácticas
+    + [ ] Defensa de prácticas
 
 + Semana 16 (4h)
   + 13e:
@@ -70,6 +73,40 @@
     + [ ] Defensa de prácticas
   + 15e: **Examen**     
 
+
+_Trabajados los RA 3, 4 y 6._
+
+
+## UT7. POO II
++ (14h)
++ Semana 15 (1h)
+  + 10e:
+    + [ ] Definir y utilizar clases heredadas.
+
++ Semana 16 (3h)
+  + 13e:
+    + [ ] Composición de clases.
+    + [ ] Herencia y polimorfismo.
+  + 17e:
+    + [ ] Sobreescritura de métodos.
+    + [ ] Constructores y herencia.
+    + [ ] Jerarquía de clases: Superclases y subclases.
+   
++ Semana 17 (7h)
+  + 20e:
+    + [ ] Clases y métodos abstractos y finales.
+  + 21e:
+    + [ ] Interfaces.
+  + 22e:
+  + 24e:
+    + [ ] Lambdas
+    + [ ] Referencia a método
+
++ Semana 18 (3h)
+  + 27e:
+    + [ ] _Records_
+  + 29e: **Examen**
+   
 
 ### Programación funcional
 + [ ] Interfaces funcionales
@@ -90,38 +127,6 @@
         + [ ] Recolección
         + [ ] Reducción
  
-_Trabajados los RA 3, 4 y 6._
-
-
-## UT7. POO II
-+ (14h)
-+ Semana 15 (1h)
-  + 10e:
-    + [ ] Definir y utilizar clases heredadas.
-
-+ Semana 16 (3h)
-  + 13e:
-    + [ ] Composición de clases.
-  + 17e:
-    + [ ] Herencia y polimorfismo.
-   
-+ Semana 17 (7h)
-  + 20e:
-  + 21e:
-  + 22e:
-  + 24e:
-
-+ Semana 18 (3h)
-  + 27e:
-  + 29e: **Examen**
-   
-
-+ [ ] Jerarquía de clases: Superclases y subclases.
-+ [ ] Clases y métodos abstractos y finales.
-+ [ ] Interfaces.
-+ [ ] Sobreescritura de métodos.
-+ [ ] Constructores y herencia.
-+ [ ] _Records_
 
 _Trabajados los RA 4 y 7._
 
