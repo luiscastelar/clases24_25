@@ -55,9 +55,9 @@
     + [ ] ~~cont Pilas `Stack`~~
     + [ ] ~~Colas `Queue`~~
 
-+ **Vacaciones NAVIDAD**
++ ~~**Vacaciones NAVIDAD**~~
 
-+ Semana 15 (3h) Genéricos 
++ Semana 15 (3h) 
   + 8e:
     + [ ] Resolución de dudas
     + [ ] Breve repaso de colecciones: Listas, Conjuntos, Mapas y Pilas.
