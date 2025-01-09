@@ -1,21 +1,16 @@
 #curso24_25 #deapweb
 
-# Materia PLANIFICADA
+# PLANIFICADO
 
----
-# Repaso y evaluación
-+ Del 2 al 10 de diciembre: Repaso del curso
-+ 12d: **Recuperación evaluación**
-+ 16d: **Defensa practicas** pendientes
-+ 17d: **Defensa practicas** pendientes
+## Cronograma:
++ 9 enero de 2025: **Maven**
 
 
----
-# Proyecto integrador:
-## Alumnos Dual (16h)
+## Proyecto integrador:
+### Alumnos Dual (16h)
 Despliegue de una aplicación web (front, back y persistencia) sobre nube pública o vps accesible públicamente desde internet.
 
-## Alumnos NO Dual (40h)
+### Alumnos NO Dual (40h)
 Despliegue de aplicaciones web (front, back y persistencia) sobre nube pública o vps accesible públicamente desde internet:
 + Front:
   + Vanilla (Html5 + JS + Ajax)
@@ -42,7 +37,7 @@ Despliegue de aplicaciones web (front, back y persistencia) sobre nube pública 
 
 
 ---
-# Materia impartida
+# Impartido
 ---
 
 ## UT0. Herramientas y repaso
@@ -241,6 +236,15 @@ Duración: 7 h -> 27n a 4d
 + ~~10d:~~
         
 *Asociado a RA5*.
+
+
+---
+## Repaso y evaluación
++ Del 2 al 10 de diciembre: Repaso del curso
++ 12d: **Recuperación evaluación**
++ 16d: **Defensa practicas** pendientes
++ 17d: **Defensa practicas** pendientes
+
 
 ---
 

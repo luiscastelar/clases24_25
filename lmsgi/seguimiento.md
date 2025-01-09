@@ -84,17 +84,17 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 
 + Semana 14
   * Lunes: 16.12
-    * [ ] Flex anidados
-    * [ ] Media: print
-    * [ ] Continuación de estructura de la práctica
+    * [x] Flex anidados
+    * [x] Media: print
+    * [x] Continuación de estructura de la práctica
   * Jueves: 19.12
-    * [ ] Grid
+    * [x] Continuación de estructura de la práctica
 
-*(Vacaciones escolares del 20 de diciembre al 7 de enero)*
+**Navidades** *(Vacaciones escolares del 20 de diciembre al 7 de enero)*
 
 + Semana 15
   * Jueves: 09.01
-    * [ ] cont Grid
+    * [ ] Grid
 
 + Semana 16
   * Lunes: 13.01

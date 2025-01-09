@@ -59,9 +59,9 @@
 
 + Semana 15 (3h) 
   + 8e:
-    + [ ] Resolución de dudas
-    + [ ] Breve repaso de colecciones: Listas, Conjuntos, Mapas y Pilas.
-    + [ ] Referencia a colas `Queue`.
+    + [x] Resolución de dudas
+    + [x] Breve repaso de colecciones: Listas, Conjuntos, Mapas y Pilas.
+    + [x] Referencia a colas `Queue`.
   + 10e: 
     + [ ] Genéricos
     + [ ] Defensa de prácticas
