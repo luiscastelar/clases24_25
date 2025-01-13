@@ -94,7 +94,7 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 
 + Semana 15
   * Jueves: 09.01
-    * [ ] Grid
+    * [x] Grid
 
 + Semana 16
   * Lunes: 13.01

@@ -63,8 +63,7 @@
     + [x] Breve repaso de colecciones: Listas, Conjuntos, Mapas y Pilas.
     + [x] Referencia a colas `Queue`.
   + 10e: 
-    + [ ] Genéricos
-    + [ ] Defensa de prácticas
+    + [x] Genéricos
 
 + Semana 16 (4h)
   + 13e:
@@ -81,7 +80,7 @@ _Trabajados los RA 3, 4 y 6._
 + (14h)
 + Semana 15 (1h)
   + 10e:
-    + [ ] Definir y utilizar clases heredadas.
+    + [x] Definir y utilizar clases heredadas.
 
 + Semana 16 (3h)
   + 13e:
