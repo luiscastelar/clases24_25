@@ -67,11 +67,11 @@
 
 + Semana 16 (4h)
   + 13e:
-    + [ ] Defensa de prácticas
+    + [x] Defensa de prácticas
   + 14e:
     + [ ] Defensa de prácticas
-  + 15e: **Examen**     
-
+  + 16e:
+    + [ ] Defensa de prácticas 
 
 _Trabajados los RA 3, 4 y 6._
 
@@ -84,11 +84,15 @@ _Trabajados los RA 3, 4 y 6._
 
 + Semana 16 (3h)
   + 13e:
-    + [ ] Composición de clases.
-    + [ ] Herencia y polimorfismo.
-  + 17e:
-    + [ ] Sobreescritura de métodos.
+    + [x] Composición de clases.
+    + [x] Herencia y polimorfismo.
+    + [x] Sobreescritura de métodos.
+    + [x] Ejercicio de felinos (Felinos, Leon y gatoDomestico)
+    + [x] Ejercicio de Personas
+  + 14e:
+    + [ ] Ejercicio de Personas.
     + [ ] Constructores y herencia.
+  + 17e:
     + [ ] Jerarquía de clases: Superclases y subclases.
    
 + Semana 17 (7h)
