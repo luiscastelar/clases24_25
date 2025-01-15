@@ -1,6 +1,6 @@
 #curso24_25 #prog [estado::ToDo]
 
-# Herencia
+# Introducción a la Herencia
 
 ## Diagramas de clases y relaciones
 
@@ -12,7 +12,7 @@
 
 De forma que deberéis entregar (a mano) un esquema de la aplicación desarrollada, p.e.: ![diagrama](https://online.visual-paradigm.com/repository/images/7cacd2b6-df6f-40ae-ba75-eeab9a09aa54/class-diagram-design/class-diagram-gui-example.png) 
 
-# Relaciones entre clases:
+## Relaciones entre clases:
 
 Se pueden distinguir diversos tipos de relaciones entre clases:
 - **Clientela**. Cuando una clase utiliza objetos de otra clase (por ejemplo al pasarlos como parámetros a través de un método).
@@ -20,10 +20,10 @@ Se pueden distinguir diversos tipos de relaciones entre clases:
 - **Anidamiento**. Cuando se definen clases en el interior de otra clase.
 - **Herencia**. Cuando una clase comparte determinadas características con otra (clase base), añadiéndole alguna funcionalidad específica (especialización).
 
-## Pertenencia (Has-a)
+### Pertenencia (Has-a)
 [Clientela y composición](https://www.javatpoint.com/inheritance-in-java)
 
-## Herencia (Is-a / Like-a)
+### Herencia (Is-a / Like-a)
 + [Herencia - `extends`](https://dit.upm.es//~pepe/libros/vademecum/index.html?n=305.html)
 - Consideraciones:
    `public class 〈subclass-name 〉 extends 〈existing-class-name 〉`, esto es `class NombreClase extends ClasePadre { ... }`
@@ -34,14 +34,14 @@ Se pueden distinguir diversos tipos de relaciones entre clases:
 4. `super` para acceder a los métodos y atributos de la clase padre.
 5. El constructor **DEBE** llamar al constructor de la clase padre con `super()`
 
-### super
+#### super
 Análogamente con `this` tenemos la palabra `super` que hace referencia a la clase padre, permitiéndonos acceder a sus atributos `super.variable`, a sus métodos `super.metodo()` o incluso a sus constructores con `super()`.
 
 
-### final
+#### final
 La palabra reservada `final` impide la modificación posterior de atributos, la sobreescritura de métodos o incluso la herencia de clases.
 
-### instanceof
+#### instanceof
 El operador `instanceof` es usado para verificar el tipo de objeto instanciado
 
 ```java
@@ -156,11 +156,90 @@ public class InterfazFuncional {
 
 Revisa otros principios interesantes en la fuente.
 
-
 ## Métodos estáticos factory:
-
 - [Static factory metodos](https://stackoverflow.com/questions/929021/what-are-static-factory-methods) -> no confundir con el patrón Factory Method
 - [más factory metodos](https://www.baeldung.com/java-constructors-vs-static-factory-methods)
+
+
+# Interfaces “famosas”
+## `Comparable`
+Sólo tiene el método `int compareTo(MismoTipo)` y se utiliza para tener un comparador natural de objetos, esto es, para ordenarlos decidiendo cual va antes.
+
+Cada objeto decidirá como se va a ordenar, p.e. cuando tratamos con `Vehículos` podemos ordenarlos pero, ¿teniendo en cuenta la velocidad? ¿el consumo? ¿el coste? ¿los ocupantes? ¿la autonomía? ¿la capacidad de carga?...
+
+Pues bien, `compareTo` nos devolverá un número positivo si el actual (this) es mayor que el proporcionado, negativo si es menor y 0 si son iguales.
+
+La implementación de compareTo puede tener distintas referencias, esto es, que compare por velocidad máxima, pero si son iguales, que compare por consumo menor (mejor cuanto menor o más positivo cuanto menor sea).
+
+### Ordenación
+La forma más sencilla de ordenar una lista de elementos:
++ Colecciones: `void Collections.sort(lista)`
++ Arrays: `void Arrays.sort(array)`
+
+Es void porque nos ordena la colección/array original, por lo que si queremos preservar su orden original deberemos tener la precaución de hacer una copia antes:
++ `List<Vehiculo> nuevaLista = new ArrayList<>( listaOriginal)`
++ `Vehiculo[] vehiculos = arrayOriginal.clone()`
+
+### Referencia: 
+[Comparable en arquitecturajava.com](https://www.arquitecturajava.com/java-comparable-interface-y-ordenaciones/)
+
+## `Comparator`
+Se trata de una interfaz con un único método a implementar `int compare(Tipo e1, Tipo e2)`
+
+En esta ocasión lo que tendremos una clase que nos crea un `Comparador` que podemos utilizar en el método `sort` de colecciones y arrays.
+
+Y lo mejor, que como `Comparator` es una **Interfaz funcional**, pues que podemos hacerlo “al vuelo” mediante expresiones _lambda_.
+
+### Referencia:
+[Comparator y lambdas](https://www.arquitecturajava.com/java-comparator-interface-y-lambdas/)
+
+
+## `DAO` - Data Access Object
+DAO y los `CRUD` (Create, Read, Update, Delete)
+
+```java
+public interface Dao<T> {
+    
+    T get(long id); // puede arrojar un null
+    
+    List<T> getAll(); // puede arrojar una lista vacía
+    
+    long save(T t); // devuelve el id
+    
+    void update(long id, String[] params);
+    
+    void delete(long id);
+}
+```
+
+O de forma más elegante mediante el uso de [`Optional`](https://www.arquitecturajava.com/que-es-un-java-optional/):
+```java
+public interface Dao<T> {
+    
+    Optional<T> get(long id);
+    
+    List<T> getAll();
+    
+    long save(T t);
+    
+    void update(long id, String[] params);
+    
+    void delete(long id);
+}
+```
+
+
+## `Serialize` (ut8)
+
+
+## Otras:
+
+### `DTO` - Data Transfer Objects
+
+### `Iterable`
+
+### `Iterator`
+
 
 # Varios
 ## [^1] Fechas
@@ -239,3 +318,7 @@ NombreDeLaInterfaz referenciaAlObjeto = new NombreDeLaInterfaz() {
 referenciaAlObjeto.metodoDeLaClase();
 ...
 ```
+
+# Referencias
+Además de las habituales:
++ [Libro: Desarrollo de Proyectos Informáticos con Tecnología Java](http://www3.uji.es/~belfern/libroJava.pdf#%5B%7B%22num%22%3A98%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C99.895%2C717.021%2Cnull%5D)

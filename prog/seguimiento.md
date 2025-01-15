@@ -69,8 +69,8 @@
   + 13e:
     + [x] Defensa de prácticas
   + 14e:
-    + [ ] Defensa de prácticas
-  + 16e:
+    + [x] Defensa de prácticas
+  + 15e:
     + [ ] Defensa de prácticas 
 
 _Trabajados los RA 3, 4 y 6._
@@ -90,23 +90,39 @@ _Trabajados los RA 3, 4 y 6._
     + [x] Ejercicio de felinos (Felinos, Leon y gatoDomestico)
     + [x] Ejercicio de Personas
   + 14e:
-    + [ ] Ejercicio de Personas.
-    + [ ] Constructores y herencia.
-  + 17e:
+    + [x] Ejercicio de Personas.
+    + [x] Constructores y herencia.
+  + 15e:
     + [ ] Jerarquía de clases: Superclases y subclases.
+    + [ ] Clases `final`
+    + [ ] Operador `instanceof`
+  + 17e:
+    + [ ] Métodos y clases abstractos
+    + [ ] Paquetes
+    + [ ] Interfaces
+    + [ ] Ejercicio de interfaces
    
 + Semana 17 (7h)
   + 20e:
-    + [ ] Clases y métodos abstractos y finales.
+    + [ ] Métodos `default`
+    + [ ] Interfaces funcionales
+      + [ ] Métodos **lambda**
+      + [ ] Referencia a método
   + 21e:
-    + [ ] Interfaces.
+    + [ ] Principios de diseño
+      + [ ] Herencia y composición
   + 22e:
+    + [ ] Interfaces “famosas”
+      + [ ] `Comparable`
+      + [ ] `Comparator`
+      + [ ] `DAO`
+      + [ ] Otras
   + 24e:
-    + [ ] Lambdas
-    + [ ] Referencia a método
+    + [ ] cont “famosas”
 
 + Semana 18 (3h)
   + 27e:
+    + [ ] enums
     + [ ] _Records_
   + 29e: **Examen**
    
