@@ -3,7 +3,8 @@
 # PLANIFICADO
 
 ## Cronograma:
-+ 9 enero de 2025: **Maven**
++ 9 enero de 2025:
+  + [x] **Maven**
 
 
 ## Proyecto integrador:
@@ -11,6 +12,28 @@
 Despliegue de una aplicación web (front, back y persistencia) sobre nube pública o vps accesible públicamente desde internet.
 
 ### Alumnos NO Dual (40h)
++ 13 enero:
+  + [x] Generación automática de web documental desde markdown
+  + [x] BBDD relacional vs documental
++ 14 enero:
+  + [x] Sensores de temperatura/humedad DHT11 y LM35
+  + [x] Firewall de servidor de despliegue (MySQL)
++ 16 enero:
+  + [ ] Polarización de sensores DHT11 (R4k7)
++ 20 enero:
++ 21 enero:
++ 23 enero:
++ 27 enero:
++ 28 enero:
++ 30 enero:
++ 3 febrero:
++ 4 febrero:
++ 6 febrero:
++ 10 febrero:
++ 11 febrero:
++ 13 
+
+#### Parcial
 Despliegue de aplicaciones web (front, back y persistencia) sobre nube pública o vps accesible públicamente desde internet:
 + Front:
   + Vanilla (Html5 + JS + Ajax)
