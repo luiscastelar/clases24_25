@@ -98,23 +98,33 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 
 + Semana 16
   * Lunes: 13.01
-    * [ ] **Defensa práctica CV-CSS-FLEX**
-    * [ ] cont Grid
+    * [x] **Defensa práctica CV-CSS-FLEX**
+    * [x] cont Grid
   * Jueves: 16.01
-    * [ ] **Defensa práctica CV-CSS-FLEX**
-    * [ ] cont Grid
+    * [x] **Defensa práctica CV-CSS-FLEX**
+    * [x] cont Grid
+    * [x] Regla `@layer`
 
 + Semana 17
   * Lunes: 20.01
+    * [ ] **Defensa práctica CV-CSS-FLEX**
+    * [ ] cont Grid
+    * [ ] Ejercicio de `@layer`
   * Jueves: 23.01
+    * [ ] **Defensa práctica CV-CSS-FLEX**
+    * [ ] cont Grid
+    * [ ] Regla `@import`
 
 + Semana 18
   * Lunes: 27.01
+    * [ ] **Defensa práctica CV-CSS-FLEX**
+    * [ ] cont Grid
+    * [ ] Ejercicio de `@import`
   * ~~Jueves: 30.01~~
 
 + Semana 19
   * Lunes: 3.02
-    * [ ] **Defensa práctica CV-CSS-GRID**
+    * [ ] **EXAMEN CSS base + FLEX + GRID**
     
   + V6f:
     * [ ] **Defensa práctica CV-CSS-GRID**

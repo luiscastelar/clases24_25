@@ -19,8 +19,10 @@ Despliegue de una aplicación web (front, back y persistencia) sobre nube públi
   + [x] Sensores de temperatura/humedad DHT11 y LM35
   + [x] Firewall de servidor de despliegue (MySQL)
 + 16 enero:
+  + [ ] Kanban en GitHub. Metodología y documentación.
   + [ ] Polarización de sensores DHT11 (R4k7)
 + 20 enero:
++ 
 + 21 enero:
 + 23 enero:
 + 27 enero:

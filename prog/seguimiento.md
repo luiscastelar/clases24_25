@@ -71,7 +71,7 @@
   + 14e:
     + [x] Defensa de prácticas
   + 15e:
-    + [ ] Defensa de prácticas 
+    + [x] Defensa de prácticas 
 
 _Trabajados los RA 3, 4 y 6._
 
@@ -92,12 +92,12 @@ _Trabajados los RA 3, 4 y 6._
   + 14e:
     + [x] Ejercicio de Personas.
     + [x] Constructores y herencia.
+    + [x] Jerarquía de clases: Superclases y subclases.
   + 15e:
-    + [ ] Jerarquía de clases: Superclases y subclases.
-    + [ ] Clases `final`
-    + [ ] Operador `instanceof`
+    + [x] Clases `final`
+    + [x] Operador `instanceof`
   + 17e:
-    + [ ] Métodos y clases abstractos
+    + [ ] Métodos abstractos y clases abstractas
     + [ ] Paquetes
     + [ ] Interfaces
     + [ ] Ejercicio de interfaces

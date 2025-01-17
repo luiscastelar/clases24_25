@@ -655,6 +655,53 @@ Emmet es un plugin diseñado para editores de texto que ayuda en gran manera tu 
 + [Curso CSS - pildorasinformaticas](https://www.youtube.com/playlist?list=PLU8oAlHdN5BmpUDdnWSglIIHfIosElaVN) 
 + [Curso con muchos ejercicios](https://uniwebsidad.com/libros/css)
 
+# Otras reglas
+## Capas `@layer`
+Nos permite redefinir y ordenar la aplicación de las reglas:
+```css
+/* Orden de aplicación:
+   1. reset
+   2. base
+   3. tema
+   Si no se define el orden, entonces se aplica de arriba a abajo.
+*/
+@layer reset, base, tema;
+
+@layer base {
+  body { background: pink; }
+}
+
+@layer tema {
+  body { background: lightblue; }
+}
+
+@layer reset {
+  body { background: white; }
+}
+```
+
+¿Qué ocurre si añadimos `@layer { body { background: red; } }` al final del documento? ¿Y en medio? ¿Y después de la línea 1? ¿Y antes?
+
+## 
+## `@import`
+
+> [!IMPORTANT]
+> Los `@import` deben aparecer al principio del documento, si no, serán ignorados.
+
+```css
+@import 'custom.css';
+@import "common.css" screen;
+@import url("fineprint.css") print;
+@import url('landscape.css') screen and (orientation:landscape);
+```
+
+Y combinado con `@layer`:
+```css
+@import "theme.css" layer(utilities);
+@import "otro.css" layer(); /* capa anónima */
+```
+
+Fuente: [mdn](https://developer.mozilla.org/es/docs/Web/CSS/@import)
 
 # PRÁCTICAS
 

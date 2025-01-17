@@ -242,6 +242,30 @@ public interface Dao<T> {
 
 
 # Varios
+
+## Reflexión
+La reflexión en Java en obtener información de [clases e instancias](https://www.arquitecturajava.com/el-concepto-java-reflection/)
+
+
+
+## Clases anónimas
+
+También **clases anónimas**
+```java
+...
+NombreDeLaInterfaz referenciaAlObjeto = new NombreDeLaInterfaz () {
+    ...
+    /* Aquí la implementación de TODOS los métodos de la interfaz */
+    ...
+}
+/* Aquí podemos usar cualquier método de la interfaz ya que lo tenemos implementado en el objeto */
+referenciaAlObjeto.metodoDeLaClase();
+...
+```
+
+[Vídeo de clases anónimas de Todo{ode](https://www.youtube.com/watch?v=GwUoya7Il2U)
+
+
 ## [^1] Fechas
 Trabajar con fechas y horas en la informática es un auténtico dolor de muelas, pero en Java puede ser aún peor ya que históricamente, `java.util` ha sido bastante inútil, lo cual hizo durante un tiempo tener que reinventar la rueda varias veces.
 
@@ -299,25 +323,6 @@ Apart from these, there’s also the `Instant` class, which represents a specifi
 Instant now = Instant.now(); // Current timestamp
 ```
 
-
-## Reflexión
-La reflexión en Java en obtener información de [clases e instancias](https://www.arquitecturajava.com/el-concepto-java-reflection/)
-
-
-## Clases anónimas
-
-También **clases anónimas**
-```java
-...
-NombreDeLaInterfaz referenciaAlObjeto = new NombreDeLaInterfaz() {
-    ...
-    /* Aquí la implementación de TODOS los métodos de la interfaz */
-    ...
-}
-/* Aquí podemos usar cualquier método de la interfaz ya que lo tenemos implementado en el objeto */
-referenciaAlObjeto.metodoDeLaClase();
-...
-```
 
 # Referencias
 Además de las habituales:
