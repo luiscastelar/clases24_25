@@ -682,7 +682,7 @@ Nos permite redefinir y ordenar la aplicación de las reglas:
 
 ¿Qué ocurre si añadimos `@layer { body { background: red; } }` al final del documento? ¿Y en medio? ¿Y después de la línea 1? ¿Y antes?
 
-## 
+ 
 ## `@import`
 
 > [!IMPORTANT]

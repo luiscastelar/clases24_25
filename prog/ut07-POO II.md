@@ -51,7 +51,9 @@ else System.out.println("Es otro tipo de objeto");
 // ...
 ```
 
-
+#### Referencias
++ [ProgramandoJava.com](https://www.programandojava.com/blog/herencia-en-java/)
+  
 ## Ejercicio
 Queremos crear una aplicación que maneje una colección de alumnos y profesores que gestionen los siguientes datos:
 + Alumnos: id, nombre, apellido1, apellido2, fechaNacimiento, modulosMatriculados, listaAmonestaciones.
@@ -78,6 +80,10 @@ Son aquellos métodos que no están implementados en la clase.
 
 En las clases abstractas TODOS sus métodos lo son.
 
+### Referencias
++ [ProgramandoJava.com](https://www.programandojava.com/blog/clases-abstractas-java/)
+
+  
 
 ## `package`
 La palabra reservada `package` nos permite crear nuestros propios paquetes de `Clases`.
@@ -132,6 +138,8 @@ public class InterfazFuncional {
 }
 ```
 
+## Referencias
++ [ProgramandoJava.com](https://www.programandojava.com/blog/interfaz-en-java/)
 
 # Principios de diseño
 + [Principios de diseño](https://ichi.pro/es/principios-de-diseno-de-software-que-todo-desarrollador-deberia-conocer-39386044780942)

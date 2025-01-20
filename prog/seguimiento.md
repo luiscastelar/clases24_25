@@ -97,10 +97,10 @@ _Trabajados los RA 3, 4 y 6._
     + [x] Clases `final`
     + [x] Operador `instanceof`
   + 17e:
-    + [ ] Métodos abstractos y clases abstractas
-    + [ ] Paquetes
-    + [ ] Interfaces
-    + [ ] Ejercicio de interfaces
+    + [x] Métodos abstractos y clases abstractas
+    + [x] Paquetes
+    + [x] Interfaces
+    + [x] Ejercicio de interfaces
    
 + Semana 17 (7h)
   + 20e:
@@ -109,6 +109,7 @@ _Trabajados los RA 3, 4 y 6._
       + [ ] Métodos **lambda**
       + [ ] Referencia a método
   + 21e:
+    + [ ] Avances de 50x15
     + [ ] Principios de diseño
       + [ ] Herencia y composición
   + 22e:
