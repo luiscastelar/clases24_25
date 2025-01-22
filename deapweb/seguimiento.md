@@ -19,21 +19,47 @@ Despliegue de una aplicación web (front, back y persistencia) sobre nube públi
   + [x] Sensores de temperatura/humedad DHT11 y LM35
   + [x] Firewall de servidor de despliegue (MySQL)
 + 16 enero:
-  + [ ] Kanban en GitHub. Metodología y documentación.
-  + [ ] Polarización de sensores DHT11 (R4k7)
+  + [x] Kanban en GitHub. Metodología y documentación.
+  + [x] Polarización de sensores DHT11 (R4k7)
+        
 + 20 enero:
-+ 
+  + [ ] revisión de issues
+  + [ ] ajustes de despliegue de la bbdd
 + 21 enero:
+  + [ ] herramientas de desarrollo sobre servidor tras firewall
+  + [ ] verificar configuración de bbdd (usr y pass random y en archivo .env).
+  + [ ] **Aviso de faltas de asistencia**: Aquel alumno que no alcance el 90% de presencialidad de las horas asignadas al proyecto grupal (40h) tendrá que demostrar la superación de los RA de este módulo de forma escrita.
 + 23 enero:
+  + [ ] Ver config en repo de bbdd
+ 
 + 27 enero:
 + 28 enero:
 + 30 enero:
+  
 + 3 febrero:
 + 4 febrero:
 + 6 febrero:
+  
 + 10 febrero:
 + 11 febrero:
-+ 13 
++ 13 febrero:
+
++ 17 feb:
++ 18 feb:
++ 20 feb:
+
++ 24 feb:
++ 25 feb:
++ 27 feb:
+
++ ~~3 marz: Carnavales~~
++ ~~4 marz: Carnavales~~
++ 6 marz:
+  
++ 10 marz:
++ 11 marz:
++ 13 marz: 
+  + **Examen ORDINARIA**
 
 #### Parcial
 Despliegue de aplicaciones web (front, back y persistencia) sobre nube pública o vps accesible públicamente desde internet:

@@ -104,15 +104,16 @@ _Trabajados los RA 3, 4 y 6._
    
 + Semana 17 (7h)
   + 20e:
-    + [ ] Métodos `default`
-    + [ ] Interfaces funcionales
-      + [ ] Métodos **lambda**
-      + [ ] Referencia a método
+    + [x] Métodos `default`
+    + [x] Interfaces funcionales
+      + [x] Métodos **lambda**
+      + [ ] ~~Referencia a método~~
   + 21e:
-    + [ ] Avances de 50x15
+    + [x] Control de versiones: **RAMAS**
+    + [x] Avances de juego Ruleta
+  + 22e:
     + [ ] Principios de diseño
       + [ ] Herencia y composición
-  + 22e:
     + [ ] Interfaces “famosas”
       + [ ] `Comparable`
       + [ ] `Comparator`
