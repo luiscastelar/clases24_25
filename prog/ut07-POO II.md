@@ -177,7 +177,37 @@ Cada objeto decidirá como se va a ordenar, p.e. cuando tratamos con `Vehículos
 
 Pues bien, `compareTo` nos devolverá un número positivo si el actual (this) es mayor que el proporcionado, negativo si es menor y 0 si son iguales.
 
-La implementación de compareTo puede tener distintas referencias, esto es, que compare por velocidad máxima, pero si son iguales, que compare por consumo menor (mejor cuanto menor o más positivo cuanto menor sea).
+La **implementación** de Comparable<E> y su método compareTo puede tener distintas referencias, esto es, que compare por velocidad máxima, pero si son iguales, que compare por consumo menor (mejor cuanto menor o más positivo cuanto menor sea).
+
+```java
+public class Persona implements Comparable<Persona> {
+  private final int SON_IGUALES = 0;
+  private final int ES_MAYOR = +1;
+  private final int ES_MENOR = -1;
+//...
+  @Override
+  public int compareTo(Persona p){
+    if ( this.edad() == p.edad() ) return IGUALES;
+    else if ( this.edad() > p.edad() ) return ES_MAYOR;
+    else return ES_MENOR;
+  }
+//...
+}
+```
+
+#### Excepciones
+En realidad deberíamos tener en cuenta que pueden generarse excepciones, con lo que el código anterior sería mejorable con:
+```java
+public class Persona implements Comparable<Persona> {
+//...
+  @Override
+  public int compareTo(Persona p) throws NullPointerException {
+    if ( p == null ) throw new NullPointerException("No has pasado ninguna persona");
+    //...
+  }
+//...
+}
+```
 
 ### Ordenación
 La forma más sencilla de ordenar una lista de elementos:
@@ -188,6 +218,7 @@ Es void porque nos ordena la colección/array original, por lo que si queremos p
 + `List<Vehiculo> nuevaLista = new ArrayList<>( listaOriginal)`
 + `Vehiculo[] vehiculos = arrayOriginal.clone()`
 
+
 ### Referencia: 
 [Comparable en arquitecturajava.com](https://www.arquitecturajava.com/java-comparable-interface-y-ordenaciones/)
 
@@ -197,6 +228,52 @@ Se trata de una interfaz con un único método a implementar `int compare(Tipo e
 En esta ocasión lo que tendremos una clase que nos crea un `Comparador` que podemos utilizar en el método `sort` de colecciones y arrays.
 
 Y lo mejor, que como `Comparator` es una **Interfaz funcional**, pues que podemos hacerlo “al vuelo” mediante expresiones _lambda_.
+
+**Implementación clásica:**
+```java
+public class ComparaPersonasPorNombre implements Comparator<Persona> {
+//...
+  @Override
+  public int compare(Persona p1, Persona p2) {
+    return p1.getNombre().compareTo( p2.getNombre() );
+    // Utilizamos el compareTo de la clase String, ya que p1.getNombre() devuelve un String.
+    //...
+  }
+//...
+}
+```
+
+Podríamos implementar un segundo comparador `ComparaPersonasPorEdad`, o `ComparaPersonasPorSueldo`.
+
+Luego lo usaremos pasándolo al método sort, por ejemplo.
+```java
+// Dada una lista de personas...
+lista.sort( new ComparaPersonasPorNombre() )
+```
+
+
+**Implementación con lambdas:**
+La ventaja de ser una interfaz funcional es que allá donde se espere recibir un `Comparator` podemos implementar “al vuelo” el método `compare` con una lambda:
+```java
+// Sin implementer nada, dada una lista de personas en la clase principal...
+lista.sort( (p1, p2) -> p1.getEdad() - p2.getEdad() );
+// o también;
+lista.sort( (p1, p2) -> p1.getSueldo() - p2.getSueldo() );
+//
+// Aunque si vamos a utilizar el mismo comparador varias veces:
+Comparator<Persona> comparaPorEdad = (p1, p2) -> p1.getEdad() - p2.getEdad();
+lista.sort( comparaPorEdad );
+```
+
+### Métodos default `comparing`
+Desde Java 8 tenemos además una serie de métodos que nos simplifican la forma de comparar utilizando sólo un “estractor”:
+```java
+Comparator<Persona> comparaPorEdad = Comparator.comparing(Persona::getEdad);
+list.sort( comparaPorEdad )
+// o directamente
+list.sort( Comparator.comparing(Persona::getSueldo) )
+```
+
 
 ### Referencia:
 [Comparator y lambdas](https://www.arquitecturajava.com/java-comparator-interface-y-lambdas/)
@@ -214,7 +291,7 @@ public interface Dao<T> {
     
     long save(T t); // devuelve el id
     
-    void update(long id, String[] params);
+    void update(long id, T elemento);
     
     void delete(long id);
 }
@@ -230,7 +307,7 @@ public interface Dao<T> {
     
     long save(T t);
     
-    void update(long id, String[] params);
+    void update(long id, T elemento);
     
     void delete(long id);
 }

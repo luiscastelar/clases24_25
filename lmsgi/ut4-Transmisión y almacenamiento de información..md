@@ -14,8 +14,11 @@ _24 h => ~6 semanas_
 ## Fuentes
 + [temario](https://www.ticarte.com/contenido/lenguajes-de-marcas-y-sistemas-de-gestion-de-informacion)
 + [breve](https://juangualberto.github.io/lmsgi/tema01/xml2.html)
++ [Ejemplos](https://github.com/lokeshgupta1981/Core-Java/tree/master/src/main/java/com/howtodoinjava/xml)
 
-
+## Feeds: RSS y Atom
++ [RSS](https://es.wikipedia.org/wiki/RSS)
++ [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n))
 
 # Json
 [brevísimo](https://juangualberto.github.io/lmsgi/tema01/json2.html)

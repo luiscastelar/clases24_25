@@ -8,76 +8,8 @@
 ---
 
 
-## UT6. Manipulación de información. Colecciones.
-+ Total 30h ~ 4 sem
-+ Semana 10 (2h)
-  + 22n:
-    + [x] Colecciones
-  
-+ Semana 11 (4h)
-  + 26n:
-    + [x] Listas -> `List`
-    + [x] Ejercicio iterator, for, lambda y referencia a método
-  + 29n:
-    + [x] Juego: “La ruleta de la fortuna”
-    + [x] Uso de listas - `ArrayList`
-
-+ Semana 12 (5h)
-  + 2d: 
-    + [x] Ejercicios de listas
-  + 3d: (mientras defensa)
-    + [x] Ejercicios de listas
-  + 4d: 
-    + [x] Conjuntos -> `Set` y `HashSet`
-    + [x] Mapas/Diccionarios `Map` y `HashMap` (Arrays asociativos)
-
-+ Semana 13 (7h)
-  + ~~10d:~~
-  + 11d:
-    + [x] Ejercicio de repaso UT2 a 6
-    + [x] cont `HashMap`
-  + 13d:
-    + [x] Concurso de programación.
-
-+ Semana 14 (7h)
-  + 16d:
-    + [x] Repaso ejercicios del concurso
-  + 17d:
-    + [x] Repaso ejercicios del concurso
-    + [x] Concurso de programación.
-    + [x] Repaso excepciones
-  + 18d:
-    + [x] cont HashMap
-    + [x] Pilas `Stack`
-    + [x] Ejercicios de concurso
-  + 20d:
-    + [x] Sin asistencia de alumnos
-    + [ ] ~~cont Pilas `Stack`~~
-    + [ ] ~~Colas `Queue`~~
-
-+ ~~**Vacaciones NAVIDAD**~~
-
-+ Semana 15 (3h) 
-  + 8e:
-    + [x] Resolución de dudas
-    + [x] Breve repaso de colecciones: Listas, Conjuntos, Mapas y Pilas.
-    + [x] Referencia a colas `Queue`.
-  + 10e: 
-    + [x] Genéricos
-
-+ Semana 16 (4h)
-  + 13e:
-    + [x] Defensa de prácticas
-  + 14e:
-    + [x] Defensa de prácticas
-  + 15e:
-    + [x] Defensa de prácticas 
-
-_Trabajados los RA 3, 4 y 6._
-
-
 ## UT7. POO II
-+ (14h)
++ (16h)
 + Semana 15 (1h)
   + 10e:
     + [x] Definir y utilizar clases heredadas.
@@ -112,27 +44,30 @@ _Trabajados los RA 3, 4 y 6._
     + [x] Control de versiones: **RAMAS**
     + [x] Avances de juego Ruleta
   + 22e:
-    + [ ] Principios de diseño
-      + [ ] Herencia y composición
-    + [ ] Interfaces “famosas”
-      + [ ] `Comparable`
-      + [ ] `Comparator`
-      + [ ] `DAO`
-      + [ ] Otras
+    + [x] Principios de diseño
+      + [x] Herencia y composición
+    + Interfaces “famosas”
+      + [x] `Comparable` (`compareTo`)
   + 24e:
-    + [ ] cont “famosas”
+    + cont “famosas”
+      + [x] `DAO`
 
-+ Semana 18 (3h)
++ Semana 18 (5h)
   + 27e:
+    + [ ] cont “famosas”
+      + [ ] `Comparator` (`compare` y `comparing`)
+      + [ ] Otras (`DTO`,...)
     + [ ] enums
     + [ ] _Records_
-  + 29e: **Examen**
+  + 28e:
+    + Dudas y ejercicios
+  + 31e: **Examen**
    
 
 ### Programación funcional
-+ [ ] Interfaces funcionales
-+ [ ] Expresiones Lambda
-+ [ ] Métodos referencia
++ [x] Interfaces funcionales
++ [x] Expresiones Lambda
++ [x] Métodos referencia
 + [ ] Streams
     + [ ] Creación
         + [ ] Desde colecciones
@@ -155,10 +90,34 @@ _Trabajados los RA 4 y 7._
 ## UT8. Operaciones de E/S
 + (30h) 
 + Semana 18 (4h)
-  + 28e:
-  + 31e:
+  + 29e:
 
-+ Semana 19 ()
++ Semana 19 
+  + 3f:
+  + 4f:
+  + 5f:
+  + 7f:
+ 
++ Semana 20
+  + 10f:
+  + 11f:
+  + 12f:
+  + 14f:
+
++ Semana 21
+  + 17f:
+  + 18f:
+  + 19f:
+  + 21f:
+  + 24f:
+ 
++ Semana 22
+  + 24f:
+  + 25f:
+  + 26f:
+  + 28f: **EXAMEN**
+
+
 
 + [ ] Flujos. Tipos: bytes y caracteres. Clases relacionadas.
 + [ ] Ficheros de datos. Registros.
@@ -181,7 +140,24 @@ _Trabajados los RA 3, 4, 5, 6, 7 y 8._
 
 
 ## UT9. Gestión de información almacenada en bases de datos relacionales
-+ (28h) 
++ (30h)
+
++ Semana 23 (4h)
+  + 5m:
+  + 7m:
+
++ Semana 24: 10-14m
++ Semana 25: 17-21m
++ Semana 26:
+  + 24m:
+  + 25m:
+  + 26m:
+  + 28m:
++ Semana 27 (3h):
+  + 31m:
+  + 1a:
++ Semana 28 (2h):
+  + 11a: **EXAMEN**
 
 f) Crear aplicaciones que muestren la información almacenada en bases de datos.
 g) Crear aplicaciones para gestionar la información presente en bases de datos.
@@ -219,13 +195,31 @@ _Trabajados los RA 3, 4, 6, 7, 8 y 9._
 
 
 ## UT10. Interfaces Gráficas de Usuario. WebUI.
-+ (28h) 
++ (28h)
+
++ Semana 27 (4h): 2a-4a
++ Semana 28 (5h):
+  + 7a:
+  + 8a:
+  + 11a:
++ Semana 29 (6h):
+  + 22a:
+  + 23a:
+  + 25a:
++ Semana 30 (5h): 28a-30a
++ Semana 31 (2h):
+  + 5a:
+  + 6a:
+  + 7a:
+  + 9a: **EXAMEN**
+
 
 + [ ] Interfaces gráficas.
 + [ ] Concepto de evento.
 + [ ] Creación de controladores de eventos.
 
 _Trabajados los RA 4, 5, 6, 7 y 8._
+
 
 
 ---
@@ -478,3 +472,72 @@ Sólo podrá optar a recuperar el alumnado que haya realizado satisfactoriamente
 Prácticas. El proyecto irá en `prog/ut3/practica`, por lo que la práctica irá dentro en `src/main/java` sin ningún paquete, salvo que se pida lo contrario.
 
 Los ejercicios deberán encontrarse en `prog/ejercicios/src/main/java/ut2/ejercicio1.java` o `prog/ejercicios/src/test/java/ut2/testEjercicio1.java` en los casos de test. Todos los ejercicios según este patrón, donde `ut2` deberemos son los ejercicios del tema 2 y dentro de cada ejercicio deberéis documentar el enunciado y funcionamiento.
+
+
+
+## UT6. Manipulación de información. Colecciones.
++ Total 30h ~ 4 sem
++ Semana 10 (2h)
+  + 22n:
+    + [x] Colecciones
+  
++ Semana 11 (4h)
+  + 26n:
+    + [x] Listas -> `List`
+    + [x] Ejercicio iterator, for, lambda y referencia a método
+  + 29n:
+    + [x] Juego: “La ruleta de la fortuna”
+    + [x] Uso de listas - `ArrayList`
+
++ Semana 12 (5h)
+  + 2d: 
+    + [x] Ejercicios de listas
+  + 3d: (mientras defensa)
+    + [x] Ejercicios de listas
+  + 4d: 
+    + [x] Conjuntos -> `Set` y `HashSet`
+    + [x] Mapas/Diccionarios `Map` y `HashMap` (Arrays asociativos)
+
++ Semana 13 (7h)
+  + ~~10d:~~
+  + 11d:
+    + [x] Ejercicio de repaso UT2 a 6
+    + [x] cont `HashMap`
+  + 13d:
+    + [x] Concurso de programación.
+
++ Semana 14 (7h)
+  + 16d:
+    + [x] Repaso ejercicios del concurso
+  + 17d:
+    + [x] Repaso ejercicios del concurso
+    + [x] Concurso de programación.
+    + [x] Repaso excepciones
+  + 18d:
+    + [x] cont HashMap
+    + [x] Pilas `Stack`
+    + [x] Ejercicios de concurso
+  + 20d:
+    + [x] Sin asistencia de alumnos
+    + [ ] ~~cont Pilas `Stack`~~
+    + [ ] ~~Colas `Queue`~~
+
++ ~~**Vacaciones NAVIDAD**~~
+
++ Semana 15 (3h) 
+  + 8e:
+    + [x] Resolución de dudas
+    + [x] Breve repaso de colecciones: Listas, Conjuntos, Mapas y Pilas.
+    + [x] Referencia a colas `Queue`.
+  + 10e: 
+    + [x] Genéricos
+
++ Semana 16 (4h)
+  + 13e:
+    + [x] Defensa de prácticas
+  + 14e:
+    + [x] Defensa de prácticas
+  + 15e:
+    + [x] Defensa de prácticas 
+
+_Trabajados los RA 3, 4 y 6._
