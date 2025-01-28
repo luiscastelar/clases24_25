@@ -113,7 +113,7 @@ Resumiendo, sólo hoy he recibido `sudo cat /var/log/auth.log | grep 'Oct 17' | 
 ## Acceso por túnel ssh
 Para la gestión del proxy, como para acceder al equipo antes de ser público podremos conectarnos vía _tunnel ssh - proxy socks_. 
 
-Para ello, desde consola abriremos un túnel proxy socks dinámico con `ssh -ND {{PUERTO_LOCAL_DEL_PROXY}} usr@servidor`, p.e. `ssd -ND 9999 usr@sevidor.es`
+Para ello, desde consola abriremos un túnel proxy socks dinámico con `ssh -ND {{PUERTO_LOCAL_DEL_PROXY}} usr@servidor`, p.e. **`ssd -ND 9999 usr@sevidor.es`**
 
 Después activaremos la conexión proxy del navegador con los datos `proxy shocks`, ip `localhost` y puerto `9999`.
 
