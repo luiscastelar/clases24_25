@@ -78,7 +78,7 @@ Crea el diagrama de clases para simplificar la aplicación y utilizar la filosof
 
 Son aquellos métodos que no están implementados en la clase.
 
-En las clases abstractas TODOS sus métodos lo son.
+En las clases abstractas son la que tienen al menos un método abstracto. No son instanciables y deben ser OBLIGATORIAMENTE extendidas implementando dichos métodos.
 
 ### Referencias
 + [ProgramandoJava.com](https://www.programandojava.com/blog/clases-abstractas-java/)
