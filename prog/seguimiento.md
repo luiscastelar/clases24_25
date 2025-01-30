@@ -9,9 +9,10 @@
 
 
 ## UT8. Operaciones de E/S
-+ (30h) 
-+ Semana 18 (4h)
++ (2h) 
++ Semana 18 (2h)
   + 29e:
+    + [x] `Properties`
 
 + Semana 19 
   + 3f:

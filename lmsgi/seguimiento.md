@@ -117,9 +117,9 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 
 + Semana 18
   * Lunes: 27.01
-    * [ ] **Defensa práctica CV-CSS-FLEX**
-    * [ ] cont Grid
-    * [ ] Ejercicio de `@import`
+    * [x] **Defensa práctica CV-CSS-FLEX**
+    * [x] cont Grid
+    * [x] Ejercicio de `@import`
   * ~~Jueves: 30.01~~
 
 + Semana 19
@@ -134,7 +134,6 @@ _Se trabaja el RA 2_.
 
 ## UT4 - Transmisión y almacenamiento de información.
 24h -> 6 semanas ~ 10f al 24m
-
 
 + Semana 18
   * Jueves: 30.01
@@ -178,6 +177,11 @@ _Se trabaja el RA 2_.
 
 + Semana 25
   + L17
+    + [ ] Ejercicios
+
++ Semana 26
+  + L24m
+    + **Examen**
     
 
 
@@ -206,6 +210,37 @@ _Se trabaja los RA 4, 5 y 6_.
 
 ## UT5 - Manipulación de documentos Web. JavaScript.
 28h -> 7 semanas ~ del 27m al 26may
+
+
++ Semana 25
+  + J20m: ...
+  
+
++ Semana 26
+  + ~~L24m: Examen UT4~~
+  + J27m: ...
+
++ Semana 27
+  + L31m
+  + 3a
+
++ Semana 28
+
+
++ Semana 29: **SEMANA SANTA**
+
++ Semana 30:
+  + ~~21a: SEMANA SANTA~~
+  + 24a:
+ 
++ Semana 31
+
++ Semana 32
+  + 5mayo: **Examen**
+...
+
+
+
 + [ ] Lenguajes de script de cliente. Características y sintaxis básica. Estándares.
 + [ ] Selección y acceso a elementos.
 + [ ] Creación y modificación de elementos.
