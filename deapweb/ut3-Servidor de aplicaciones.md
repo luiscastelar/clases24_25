@@ -73,6 +73,35 @@ Una vez modificada podremos acceder al él en `http://localhost:8888/manager/htm
 
 Para su acceso remoto se requerirá modificar los permisos de acceso desde ip pública concreta (expresión regular).
 
+## Spring
+Si hemos desarrollado una aplicación con _Spring_, podemos crear una imagen de forma sencilla:
+```yaml
+#--- Fase 1 (build):
+FROM maven:3.8.3-jdk-11-slim AS build
+
+RUN mkdir /project
+COPY . /project
+WORKDIR /project
+
+RUN mvn clean package
+#--- Fase 2:
+FROM adoptopenjdk/openjdk11:jre-11.0.15_10-alpine
+
+RUN mkdir /app
+RUN addgroup -g 10001 -S tecogroup
+RUN adduser -S teco -u 10001
+
+COPY --from=build /project/target/bmi-1.0.jar /app/bmi.jar
+WORKDIR /app
+
+RUN chown -R teco:tecogroup /app
+
+CMD ["java", "-jar", "bmi.jar"]
+```
+
+_Suponiendo que `bmi.jar` es nuestra aplicación Spring._
+
+Fuente: [Eric Cabrel](https://medium.com/@tericcabrel/deploy-a-spring-boot-application-with-docker-and-nginx-reverse-proxy-51c3fc3861db)
 
 # Laravel
 1. [Ventajas de Sails](https://medium.com/@AFelipeTrujillo/crear-contenedores-laravel-y-mysql-con-sails-ventajas-y-desventajas-ca5f0b57208e)

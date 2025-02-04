@@ -9,15 +9,23 @@
 
 
 ## UT8. Operaciones de E/S
-+ (2h) 
+Total ~29 h
+
 + Semana 18 (2h)
   + 29e:
     + [x] `Properties`
 
-+ Semana 19 
-  + 3f:
++ Semana 19 (6h)
+  + ~~3f: Resolver examen ut7~~
   + 4f:
+    + [ ] Multivalores en properties
+    + [ ] Stream de datos
+    + [ ] Archivos de caracteres:
+      + [ ] Operación de lectura
+    + [ ] `try` con recursos
   + 5f:
+    + [ ] Archivos de caracteres:
+      + [ ] Operación de escritura
   + 7f:
  
 + Semana 20
@@ -31,7 +39,6 @@
   + 18f:
   + 19f:
   + 21f:
-  + 24f:
  
 + Semana 22
   + 24f:
@@ -463,3 +470,81 @@ Los ejercicios deberán encontrarse en `prog/ejercicios/src/main/java/ut2/ejerci
     + [x] Defensa de prácticas 
 
 _Trabajados los RA 3, 4 y 6._
+
+
+## UT7. POO II
++ (17h)
++ Semana 15 (1h)
+  + 10e:
+    + [x] Definir y utilizar clases heredadas.
++ Semana 16 (3h)
+  + 13e:
+    + [x] Composición de clases.
+    + [x] Herencia y polimorfismo.
+    + [x] Sobreescritura de métodos.
+    + [x] Ejercicio de felinos (Felinos, Leon y gatoDomestico)
+    + [x] Ejercicio de Personas
+  + 14e:
+    + [x] Ejercicio de Personas.
+    + [x] Constructores y herencia.
+    + [x] Jerarquía de clases: Superclases y subclases.
+  + 15e:
+    + [x] Clases `final`
+    + [x] Operador `instanceof`
+  + 17e:
+    + [x] Métodos abstractos y clases abstractas
+    + [x] Paquetes
+    + [x] Interfaces
+    + [x] Ejercicio de interfaces
+   
++ Semana 17 (7h)
+  + 20e:
+    + [x] Métodos `default`
+    + [x] Interfaces funcionales
+      + [x] Métodos **lambda**
+      + [ ] ~~Referencia a método~~
+  + 21e:
+    + [x] Control de versiones: **RAMAS**
+    + [x] Avances de juego Ruleta
+  + 22e:
+    + [x] Principios de diseño
+      + [x] Herencia y composición
+    + Interfaces “famosas”
+      + [x] `Comparable` (`compareTo`)
+  + 24e:
+    + cont “famosas”
+      + [x] `DAO`
++ Semana 18 (5h)
+  + 27e:
+    + [x] cont “famosas”
+      + [x] `Comparator` (`compare` y `comparing`)
+      + [x] Otras (`DTO`,...)
+    + [x] enums
+    + [x] _Records_
+  + 28e:
+    + [x] Dudas y ejercicios
+  + 31e:
+    + [x] **Examen**
+  + 3f:
+    + [ ] Resolver examen ut7
+   
+### Programación funcional
++ [x] Interfaces funcionales
++ [x] Expresiones Lambda
++ [x] Métodos referencia
++ [x] Streams
+    + [x] Creación
+        + [x] Desde colecciones
+        + [x] Desde arrays
+        + [ ] De valores
+        + [ ] Infinitos
+    + [x] Operaciones intermedias
+        + [ ] Filtrado
+        + [ ] Transformación
+        + [x] Ordenado
+    + [x] Operaciones finales
+        + [x] Acción
+        + [ ] Recolección
+        + [ ] Reducción
+ 
+_Trabajados los RA 4 y 7._

@@ -26,6 +26,7 @@ Cualquiera de las siguientes referencias son **muy** recomendables y se tomarán
 + [Java SE 21 - API](https://docs.oracle.com/en/java/javase/21/docs//api/index.html)
 + [Javanotes 9](https://math.hws.edu/javanotes/contents-with-subsections.html)
 + [**Apuntes** de Jose Luis Comesaña](https://github.com/rosepac/daw-temario/tree/main/PROG)
++ [Curso Java | Universidad de La Laguna](https://campusvirtual.ull.es/ocw/course/view.php?id=139)
 
 **Libros:**
 + [De ejercicios](https://fadmon.unal.edu.co/fileadmin/user_upload/investigacion/centro_editorial/libros/ejercicios%20de%20programacion.pdf) ... por 0

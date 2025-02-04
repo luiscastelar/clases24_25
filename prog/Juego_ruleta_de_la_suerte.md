@@ -1,7 +1,16 @@
+---
+Title:    Juego Ruleta de la Suerte
+Author:   Luis Ferreira  
+Date:     29 de noviembre de 2024  
+Comment:  Trabajo extra para mejorar nota.
+
+          Requiere conocimientos de manejo de consola, Strings, estructurada y uso de clases.
+---
+
 #curso24_25 #prog
 
 # Versión: PRIMERA EVALUACIÓN
-![ruleta](https://imgs.search.brave.com/aPy5hYliW0tATjezOL5AUo_-gsqY0FVv7u7Y4oSHEGo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtZXUuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzcxN3JsanlQbUtM/Ll9BQ19VTDE2NV9T/UjE2NSwxNjVfLmpw/Zw
+![ruleta](https://imgs.search.brave.com/aPy5hYliW0tATjezOL5AUo_-gsqY0FVv7u7Y4oSHEGo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtZXUuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzcxN3JsanlQbUtM/Ll9BQ19VTDE2NV9T/UjE2NSwxNjVfLmpw/Zw)
 Conocido el famoso juego de televisión “La ruleta de la suerte”, queremos implementar dicho juego en primera aproximación de forma sencilla.
 
 Primero deberemos [generar entre todos](https://forms.gle/r1DmTGsvjWpHcUiTA) una base de datos de monumentos de Extremadura.

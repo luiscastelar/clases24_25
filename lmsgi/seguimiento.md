@@ -124,7 +124,7 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
 
 + Semana 19
   * Lunes: 3.02
-    * [ ] **EXAMEN CSS base + FLEX + GRID**
+    * [x] **EXAMEN CSS base + FLEX + GRID**
     
   + V6f:
     * [ ] **Defensa práctica CV-CSS-GRID**
@@ -137,8 +137,8 @@ _Se trabaja el RA 2_.
 
 + Semana 18
   * Jueves: 30.01
-    + [ ] Introducción al XML
-    + [ ] Sintáxis XML
+    + [x] Introducción al XML
+    + [x] Sintáxis XML
 
 + Semana 19
   * ~~Lunes: 3.02~~
