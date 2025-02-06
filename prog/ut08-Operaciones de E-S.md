@@ -46,8 +46,14 @@ _**Nota**: a partir de este punto, está completamente **prohibido harcodear** n
 ## Lectura de archivos
 
 ### Clase `File`
+✅ visto
+
 ### Clase `Scanner`
+✅ visto
+
 ### Clase `FileReader`
+✅ visto
+
 Fuente: [Lectura y escritura](https://campusvirtual.ull.es/ocw/pluginfile.php/15444/mod_resource/content/1/Tema%205.%20Manejo%20de%20ficheros%20en%20Java.pdf)
 
 ## _`try` with resources_
@@ -60,6 +66,24 @@ try( recursos ){
 ```
 
 Fuentes: [MitoCode](https://www.youtube.com/watch?v=tjSzhUGB1LE) y [OpenWebinars](https://www.youtube.com/watch?v=_5Pokz2sVUw)
+
+
+## Ejercicio:
+**Enunciado:**
+Nos facilitan un archivo CSV (archivo separado por “comas”) y nos piden que lo capturemos y carguemos en una lista de `Persona`s. 
+
+Como no están muy seguros de en el futuro podamos tener variaciones, por ejemplo para `Alumno`s nos dicen que dejemos todo preparado para una variación “sencilla”
+
+| num | nombre | edad | altura |
+|-----|--------|------|--------|
+|   1 | Juan   | 25   | 1,85   |
+|   2 | Alicia | 22   | 1,75   |
+
+**Desarrollo:**
+1. Crear un archivo de `Proporties` con el nombre de la columna, posición y tipo de dato (num=0,int - nombre=1,String - ...).
+2. Crear un objeto del tipo Persona que pueda recoger los campos anteriores.
+3. Leer el archivo + analizarlo (“parsearlo”) + guardarlo en la lista.
+4. Mostrar todas las personas de más de 22 años.
 
 
 ## Clase `java.NIO`
