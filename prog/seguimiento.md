@@ -9,7 +9,7 @@
 
 
 ## UT8. Operaciones de E/S
-Total ~29 h
+Total ~28 h
 
 + Semana 18 (2h)
   + 29e:
@@ -18,15 +18,15 @@ Total ~29 h
 + Semana 19 (6h)
   + ~~3f: Resolver examen ut7~~
   + 4f:
-    + [ ] Multivalores en properties
+    + [x] Multivalores en properties
+  + 5f:
     + [ ] Stream de datos
     + [ ] Archivos de caracteres:
       + [ ] Operación de lectura
-    + [ ] `try` con recursos
-  + 5f:
-    + [ ] Archivos de caracteres:
-      + [ ] Operación de escritura
   + 7f:
+    + [ ] `try` con recursos
+    + [ ] Lectura y análisis de archivos CSV
+    + [ ] Acercamiento a carga de objetos 
  
 + Semana 20
   + 10f:
@@ -473,7 +473,7 @@ _Trabajados los RA 3, 4 y 6._
 
 
 ## UT7. POO II
-+ (17h)
++ (18h)
 + Semana 15 (1h)
   + 10e:
     + [x] Definir y utilizar clases heredadas.
@@ -526,7 +526,10 @@ _Trabajados los RA 3, 4 y 6._
   + 31e:
     + [x] **Examen**
   + 3f:
-    + [ ] Resolver examen ut7
+    + [x] Resolver examen ut7
+  + 4f:
+    + [x] cont resolver examen
+    + [x] ver notas del examen
    
 ### Programación funcional
 + [x] Interfaces funcionales
