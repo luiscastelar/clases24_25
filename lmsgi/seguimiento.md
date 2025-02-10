@@ -3,135 +3,6 @@
 # Materia PLANIFICADA
 
 
-## UT3 - Lenguajes de marcas en entornos web. CSS.
-38h -> 9,5 semanas 
-### Clase invertida
-_Trabajo en clase mientras se realizan las exposiciones de la UT2_.
-+ Semana 7:
-  + 28o:
-    + [x] Lecciones 1 a 8 del curso de referencia.
-    + [x] Juego de selectores.
-  + 31o:
-    + [x] Lecciones 1 a 10 del curso de referencia.
-    + [x] Variables y pseudo-clase `:root`.
-
-+ Semana 8
-  * Jueves: 07.11:
-    + [x] Introducción
-    + [x] Estilos in-line, in-file y externas
-    + [x] Cascada - Herencia de reglas
-    + [x] Selectores
-      + [x] Juego
-    + [x] Prioridad de reglas
-      + [x] Normalización de estilos
-    + [x] Textos
-      + [x] Colores
-      + [x] Variables
-
-+ Semana 9
-  * Lunes: 11.11
-    + [x] Selectores
-      + [x] Hermanos `+` y `~`
-    + [x] Textos
-      + [x] Alineación
-      + [x] Tamaño
-      + [x] Intensidad. Cursiva. Capital
-      + [x] Decoración
-      + [x] Interlineado
-  * Jueves: 14.11
-      + [x] Tipos de letras. Familias.
-      + [x] Regla general para fuentes.
-      + [x] Reglas básicas de tipografía.
-      + [x] Ejercicio de tipografías.
-      + [x] Pseudo-clases:
-        + [x] `Anchor`: `:link`, `:visited`, `:hover` y `:active`
-        + [x] `nth-child()` y `nth-of-type()`
-        + [x] Ejercicios de pseudo-clases
-    * [x] Modelo de cajas
-      * [x] Márgenes y rellenos
-      * [x] Ejercicio cajas
-
-+ Semana 10
-  * Lunes: 18.11
-    + [x] Modelo de cajas
-      * [x] Dimensiones (unidades em, rem, vw, vh, dvw, dvh)
-      * [x] Desbordamientos
-    * [x] Ejercicios
-  * Jueves: 21.11
-    * [x] Resolución de dudas
-    * [x] Ejercicios
-
-+ Semana 11
-  * ~~Lunes: 25.11~~ No lectivo
-  * Jueves: 28.11 **EXAMEN** de recuperación UT1 y UT2, y parcial de UT3. Puedes utilizar sólo la [chuleta CSS](https://lenguajecss.com/css/cheatsheets/).
-
-+ Semana 12
-  * Lunes: 02.12
-    + [x] Modelo de cajas
-      * [x] Box-sizing
-      * [x] Propiedades lógicas
-    * [x] `Emmet`
-  * Jueves: 05.12
-    * [x] Breve introducción a Flex
-    * [x] [Flexbox Froggy](https://flexboxfroggy.com/#es) #juego
-
-+ Semana 13
-  * ~~Lunes: 09.12~~ Festivo
-  * Jueves: 12.12
-    * [x] [Flexbox Defense](http://www.flexboxdefense.com/) #juego
-    * [x] [Flex Box Adventure](https://codingfantasy.com/games/flexboxadventure) #juego
-    * [x] Descripción de la práctica
-
-+ Semana 14
-  * Lunes: 16.12
-    * [x] Flex anidados
-    * [x] Media: print
-    * [x] Continuación de estructura de la práctica
-  * Jueves: 19.12
-    * [x] Continuación de estructura de la práctica
-
-**Navidades** *(Vacaciones escolares del 20 de diciembre al 7 de enero)*
-
-+ Semana 15
-  * Jueves: 09.01
-    * [x] Grid
-
-+ Semana 16
-  * Lunes: 13.01
-    * [x] **Defensa práctica CV-CSS-FLEX**
-    * [x] cont Grid
-  * Jueves: 16.01
-    * [x] **Defensa práctica CV-CSS-FLEX**
-    * [x] cont Grid
-    * [x] Regla `@layer`
-
-+ Semana 17
-  * Lunes: 20.01
-    * [x] **Defensa práctica CV-CSS-FLEX**
-    * [x] cont Grid
-    * [x] Ejercicio de `@layer`
-  * Jueves: 23.01
-    * [x] **Defensa práctica CV-CSS-FLEX**
-    * [x] cont Grid
-    * [x] Regla `@import`
-
-+ Semana 18
-  * Lunes: 27.01
-    * [x] **Defensa práctica CV-CSS-FLEX**
-    * [x] cont Grid
-    * [x] Ejercicio de `@import`
-  * ~~Jueves: 30.01~~
-
-+ Semana 19
-  * Lunes: 3.02
-    * [x] **EXAMEN CSS base + FLEX + GRID**
-    
-  + V6f:
-    * [ ] **Defensa práctica CV-CSS-GRID**
-
-_Se trabaja el RA 2_.
-
-
 ## UT4 - Transmisión y almacenamiento de información.
 24h -> 6 semanas ~ 10f al 24m
 
@@ -314,3 +185,132 @@ _Se trabaja el RA 2_.
 
 ### Recuperación:
 Realiza el curso [completo HTML](https://basicos.codica.la/languages/html). Deberás demostrar los avances y conocimientos adquiridos.
+
+
+## UT3 - Lenguajes de marcas en entornos web. CSS.
+38h -> 9,5 semanas 
+### Clase invertida
+_Trabajo en clase mientras se realizan las exposiciones de la UT2_.
++ Semana 7:
+  + 28o:
+    + [x] Lecciones 1 a 8 del curso de referencia.
+    + [x] Juego de selectores.
+  + 31o:
+    + [x] Lecciones 1 a 10 del curso de referencia.
+    + [x] Variables y pseudo-clase `:root`.
+
++ Semana 8
+  * Jueves: 07.11:
+    + [x] Introducción
+    + [x] Estilos in-line, in-file y externas
+    + [x] Cascada - Herencia de reglas
+    + [x] Selectores
+      + [x] Juego
+    + [x] Prioridad de reglas
+      + [x] Normalización de estilos
+    + [x] Textos
+      + [x] Colores
+      + [x] Variables
+
++ Semana 9
+  * Lunes: 11.11
+    + [x] Selectores
+      + [x] Hermanos `+` y `~`
+    + [x] Textos
+      + [x] Alineación
+      + [x] Tamaño
+      + [x] Intensidad. Cursiva. Capital
+      + [x] Decoración
+      + [x] Interlineado
+  * Jueves: 14.11
+      + [x] Tipos de letras. Familias.
+      + [x] Regla general para fuentes.
+      + [x] Reglas básicas de tipografía.
+      + [x] Ejercicio de tipografías.
+      + [x] Pseudo-clases:
+        + [x] `Anchor`: `:link`, `:visited`, `:hover` y `:active`
+        + [x] `nth-child()` y `nth-of-type()`
+        + [x] Ejercicios de pseudo-clases
+    * [x] Modelo de cajas
+      * [x] Márgenes y rellenos
+      * [x] Ejercicio cajas
+
++ Semana 10
+  * Lunes: 18.11
+    + [x] Modelo de cajas
+      * [x] Dimensiones (unidades em, rem, vw, vh, dvw, dvh)
+      * [x] Desbordamientos
+    * [x] Ejercicios
+  * Jueves: 21.11
+    * [x] Resolución de dudas
+    * [x] Ejercicios
+
++ Semana 11
+  * ~~Lunes: 25.11~~ No lectivo
+  * Jueves: 28.11 **EXAMEN** de recuperación UT1 y UT2, y parcial de UT3. Puedes utilizar sólo la [chuleta CSS](https://lenguajecss.com/css/cheatsheets/).
+
++ Semana 12
+  * Lunes: 02.12
+    + [x] Modelo de cajas
+      * [x] Box-sizing
+      * [x] Propiedades lógicas
+    * [x] `Emmet`
+  * Jueves: 05.12
+    * [x] Breve introducción a Flex
+    * [x] [Flexbox Froggy](https://flexboxfroggy.com/#es) #juego
+
++ Semana 13
+  * ~~Lunes: 09.12~~ Festivo
+  * Jueves: 12.12
+    * [x] [Flexbox Defense](http://www.flexboxdefense.com/) #juego
+    * [x] [Flex Box Adventure](https://codingfantasy.com/games/flexboxadventure) #juego
+    * [x] Descripción de la práctica
+
++ Semana 14
+  * Lunes: 16.12
+    * [x] Flex anidados
+    * [x] Media: print
+    * [x] Continuación de estructura de la práctica
+  * Jueves: 19.12
+    * [x] Continuación de estructura de la práctica
+
+**Navidades** *(Vacaciones escolares del 20 de diciembre al 7 de enero)*
+
++ Semana 15
+  * Jueves: 09.01
+    * [x] Grid
+
++ Semana 16
+  * Lunes: 13.01
+    * [x] **Defensa práctica CV-CSS-FLEX**
+    * [x] cont Grid
+  * Jueves: 16.01
+    * [x] **Defensa práctica CV-CSS-FLEX**
+    * [x] cont Grid
+    * [x] Regla `@layer`
+
++ Semana 17
+  * Lunes: 20.01
+    * [x] **Defensa práctica CV-CSS-FLEX**
+    * [x] cont Grid
+    * [x] Ejercicio de `@layer`
+  * Jueves: 23.01
+    * [x] **Defensa práctica CV-CSS-FLEX**
+    * [x] cont Grid
+    * [x] Regla `@import`
+
++ Semana 18
+  * Lunes: 27.01
+    * [x] **Defensa práctica CV-CSS-FLEX**
+    * [x] cont Grid
+    * [x] Ejercicio de `@import`
+  * ~~Jueves: 30.01~~
+
++ Semana 19
+  * Lunes: 3.02
+    * [x] **EXAMEN CSS base + FLEX + GRID**
+    
+  + V6f:
+    * [x] **Defensa práctica CV-CSS-GRID**
+
+_Se trabaja el RA 2_.

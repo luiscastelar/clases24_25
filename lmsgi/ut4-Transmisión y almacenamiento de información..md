@@ -6,8 +6,37 @@
 
 [Curso XML](https://www.eniun.com/curso-xml/)
 
+## Ejercicio
+Dado el esquema anterior, crea el XML que lo implemente.
+
+
+
+## DTD
+El Documento de Definición de Tipos o DTD (Document Type Defintion) por sus siglas inglesas:
+![esquema](pub24/lmsgi/assets/agenda.png)[Creación de un DTD](https://www.youtube.com/watch?v=fPU1ex7bSgg) y su incorporación al [XML](https://www.youtube.com/watch?v=4NB89iXyxMU).
+
+### Elementos
++ `EMPTY`: nada
++ `PCDATA`: texto en claro
++ `ANY`: cualquier tipo
++ nodos: elementos de otro tipo (complejos)
+
+**Cantidades**:
++ Nada -> 1
++ ? -> 0 o 1
++ \+ -> 1 o más
++ \* -> 0 o más
++ | -> enumerado
+
+[Vídeo](https://www.youtube.com/watch?v=ryoW-B_6cGs)
+
+
+
 ## Xpath
+[Lenguaje de consultas Xpath](https://www.eniun.com/tutorial-xpath/)
+
 [Introducción a Xpath](https://howtodoinjava.com/java/xml/convert-xml-to-properties/) para realizar consultas sobre diccionarios XML
+
 
 
 ## ~~Validación con XSD~~
