@@ -9,7 +9,7 @@
 
 
 ## UT8. Operaciones de E/S
-Total ~28 h
+Total ~26 h
 
 + Semana 18 (2h)
   + 29e:
@@ -20,38 +20,51 @@ Total ~28 h
   + 4f:
     + [x] Multivalores en properties
   + 5f:
-    + [ ] Stream de datos
-    + [ ] Archivos de caracteres:
-      + [ ] Operación de lectura
+    + [x] Stream de datos
+    + [x] Archivos de caracteres:
+      + [x] Operación de lectura
   + 7f:
-    + [ ] `try` con recursos
-    + [ ] Lectura y análisis de archivos CSV
-    + [ ] Acercamiento a carga de objetos 
+    + [x] `try` con recursos
+    + [x] Lectura y análisis de archivos CSV
  
 + Semana 20
   + 10f:
+    + [ ]Acercamiento a carga de objetos 
+    + [ ] Datos sensibles
   + 11f:
+    + [ ] Escritura de archivo de caracteres
+    + [ ] Ejercicio
   + 12f:
+    + [ ] Interfaz `Serializable`.
+    + [ ] `InputObjectStream`
+    + [ ] Ejercicio
   + 14f:
+    + [ ] `OutputObjectStream` 
+    + [ ] Ejercicio
 
 + Semana 21
   + 17f:
+    + [ ] Cont. ejercicio
   + 18f:
+    + [ ] Json
   + 19f:
+    + [ ] Modificar DAO de la unidad 7
   + 21f:
- 
+    + [ ] I18n e L10n
 + Semana 22
   + 24f:
-  + 25f:
+    + [ ] Ejercicio
+  + ~~26f:~~
   + 26f:
+    + [ ] cont ejercicio
   + 28f: **EXAMEN**
 
 
 
-+ [ ] Flujos. Tipos: bytes y caracteres. Clases relacionadas.
-+ [ ] Ficheros de datos. Registros.
-+ [ ] Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros.
-+ [ ] Utilización de los sistemas de ficheros.
++ [x] Flujos. Tipos: bytes y caracteres. Clases relacionadas.
++ [x] Ficheros de datos. Registros.
++ [x] Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros.
++ [x] Utilización de los sistemas de ficheros.
 + [ ] Creación y eliminación de ficheros y directorios.
 + [ ] Serialización de objetos.
 + [ ] Patrones de diseño. DAO.
@@ -71,6 +84,9 @@ _Trabajados los RA 3, 4, 5, 6, 7 y 8._
 ## UT9. Gestión de información almacenada en bases de datos relacionales
 + (30h)
 
++ Semana 22 (2h)
+  + 25f:
+    + [ ] Acceso a las BBDD Relacionales
 + Semana 23 (4h)
   + 5m:
   + 7m:
@@ -513,7 +529,8 @@ _Trabajados los RA 3, 4 y 6._
       + [x] `Comparable` (`compareTo`)
   + 24e:
     + cont “famosas”
-      + [x] `DAO`
+      + [x] `MVC`
+      + [ ] `DAO`
 + Semana 18 (5h)
   + 27e:
     + [x] cont “famosas”

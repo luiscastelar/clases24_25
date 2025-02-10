@@ -86,10 +86,13 @@ Como no están muy seguros de en el futuro podamos tener variaciones, por ejempl
 4. Mostrar todas las personas de más de 22 años.
 
 
-## Clase `java.NIO`
-[Uso de `java.NIO`](https://www.delftstack.com/es/howto/java/java-nio-package/) para leer de forma NO bloqueante.
-
 ## Escritura de archivos
+Para escribir utilizaremos [`FileWriter`](https://es.linux-console.net/?p=6338) + [`PrintWriter`](https://www.delftstack.com/es/howto/java/java-printwriter/).
+
+
+## Clases de `java.NIO`
+[Uso de `java.NIO`](https://www.delftstack.com/es/howto/java/java-nio-package/) para leer de forma NO bloqueante y escribir de forma sencilla gracias a la clase `Files`.
+
 
 ## Datos sensibles
 ![hash vs crypt](https://miro.medium.com/v2/resize:fit:720/format:webp/0*fL1xaUrKT2cDFhZF)
@@ -106,16 +109,84 @@ Un sistema sencillo sería mediante [bcrypt](https://dzone.com/articles/hashing-
 _Nota: Si vuestro banco (o cualquier otra entidad) os envía la contraseña al pulsar en no la recuerdo, ¡¡TENÉIS QUE CAMBIAR DE BANCO!!_
 
 
+# Ficheros de objetos (bytes)
+Aunque no es la única forma, emplearemos la interfaz `Serializable` para exportar/importar instancias de clases, o más concretamente, estado de objetos.
+
+[Vídeo introductorio - Makigas](https://www.makigas.es/series/java-io/serializando-clases)
+  
+
+## `InputObjectStream` y `OutputObjectStream` 
+
+### Serializando el mundo - base64
+[Cualquier cosa to string](https://howtodoinjava.com/java/serialization/object-to-string/)
+
+[Herramienta base64 converter](https://base64.guru/converter/encode/image/jpg)
+
+### Ejercicio
+
+
+
+## Json
+
+### El formato
+
+* Tipos: https://es.wikipedia.org/wiki/JSON
+* Gráfico: https://www.json.org/json-es.html
+* Más simple: https://i.stack.imgur.com/rq9Th.png
+
+### Librerías y utilidades
+
+Dos librerías de amplia difusión por la simplicidad: GSon y Jackson.
+
+* [Herrramienta visual](https://jsonviewer.stack.hu/)
+* [Json esquema Pojo](https://www.jsonschema2pojo.org/)
+* [API Gob](https://datos.gob.es/es/apidata#/) y [ejemplo](https://datos.gob.es/es/apidata#/), e incluso con CURL `curl -X GET --header 'Accept: application/json' 'https://datos.gob.es/apidata/nti/territory/Province?_sort=label&_pageSize=10&_page=0'`
+* [API calles](https://apiv1.geoapi.es/calles?CPRO=06&CMUM=015&CUN=0004302&CPOS=06001&type=JSON&key=&sandbox=1)
+* [POKEMON API](https://pokeapi.co/)
+
+### GSon
+
+Más sencillo de crear y algo menos flexible en la lectura.
+
+* [doc](https://github.com/google/gson)
+
+### Jackson
+
+* [doc](https://github.com/FasterXML/jackson)
+
+### JsonPath
+
+* [doc](https://github.com/json-path/JsonPath)
+* [parser online](https://jsonpath.com/)
+* [finder](https://jsonpathfinder.com/)
+
+
+# Modificar DAO de la unidad 7
+
+Comenzamos con nuestro CRUD de personas sobre _disco_:
+
+![caso](https://luiscastelar.duckdns.org/2024/assets/prog/DAO.drawio-1.png)
+
+Una mejora sustancial es aislar el CRUD de la tecnología con un DAO:
+
+
+![caso](https://luiscastelar.duckdns.org/2024/assets/prog/DAO.drawio-2.png)
+**¿Por qué?**
+<details>
+Porque con sólo cambiar una línea en la clase Main sería suficiente. 
+
+Con sólo cambiar `DAOPersona gestionDePersistencia = new DAOPersonaDiscoImpl()` por `DAOPersona gestionDePersistencia = new DAOPersonaBBDDImpl()` estaríamos realizando la persistencia en una tecnología completamente diferente, y de forma transparente.
+
+![caso](https://luiscastelar.duckdns.org/2024/assets/prog/DAO.drawio-3.png)</details>
+
+
+
+
 # [i18n y l10n] Internacionalización y localizacion
 1. Aproximación del problema.
 2. Solución “casera” con `properties` + “nullish”
 3. Soluciones más [complejas](https://picodotdev.github.io/blog-bitix/2020/12/internacionalizar-localizar-y-dar-formato-a-cadenas-numeros-importes-y-fechas-en-java/).
 
-# Ficheros de bytes
-
-
-
-# Ficheros de objetos (Serialize)
 
 
 # Fuentes
@@ -123,3 +194,62 @@ _Nota: Si vuestro banco (o cualquier otra entidad) os envía la contraseña al p
 2. [Java-io | Makigas](https://www.makigas.es/series/java-io)
 3. [Lectura y escritura | Universidad de Alicante](https://www.dlsi.ua.es/asignaturas/prog3/java_io.html)
 4. [Mis apuntes de programacion](https://misapuntesdeprogramacion.wordpress.com/2013/02/14/paquete-java-io/)
+
+
+
+
+# [Ampliación] 
+## Sockets de red
+Si has llegado hasta aquí y has entendido la mecánica, el salto al intercambio de datos entre dos equipos puede ser un juego de niños. 
+
+Aquí tienen un [tutorial sencillo](https://aprenderjava.net/base/guia-completa-como-enviar-mensajes-con-sockets-en-java/) de como podrías realizarlo.
+
+
+## Interactuando con el sistema
+Como verás en el módulo **Sistemas Informáticos**, los informáticos queremos automatizar las operaciones más habituales de un sistema operativo. Para ello recurrimos a los scripts de `shell` en GNU/Linux, o de `PowerShell` en Windows.
+
+Pues resulta que estamos aprendiendo POO y con ello Java y que es un lenguaje muy potente y sencillo..., ¿sería posible hacer scripts con él?
+
+Pues podemos de forma sencilla:
+```java
+//...
+p = Runtime.getRuntime().exec("notepad.exe");
+System.out.println("PID:" + p.pid() );
+p.waitFor();
+p.destroy();
+//...      
+```
+El programa anterior crea un proceso, captura su pid (identificador de proceso), esperamos[^1] a que se acabe y liberamos recursos.
+
+Capturar la salida requiere algo más de esfuerzo. Puedes ver un ejemplo:
+<details>
+
+```java
+try {
+    // 2º proceso: Sumar dos números y devolverlos
+    Process proceso2 = new ProcessBuilder("java", "SumarNumeros", "1", "2").start();
+    
+    // Esperar a que el proceso termine
+    proceso2.waitFor();
+
+    // Leer la salida del proceso2
+    InputStream is = proceso2.getInputStream();
+    InputStreamReader isr = new InputStreamReader(is);
+    BufferedReader br = new BufferedReader(isr);
+    String line;
+    
+    // Capturamos e imprimimos salida
+    while ((line = br.readLine()) != null) {
+      System.out.print(line);
+    }
+} catch (IOException | InterruptedException e) {
+    e.printStackTrace();
+}
+```
+</details>
+
+
+---
+# Notas
+[^1]: Podríamos ejecutar el programa en paralelo con el nuevo proceso lanzado con _Runtime.getRuntime().exec()_, pero en nuestro caso de uso querremos esperar la respuesta del comando.
+
