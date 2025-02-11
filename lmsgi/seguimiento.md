@@ -18,10 +18,10 @@
     
 + Semana 20
   + L10
-    + [ ] DTDs
+    + [x] DTDs
   + V13
-    + [ ] Esquemas XML
-    + [ ] Parsers XML
+    + [ ] Xpath
+    + [ ] Ejercicio
 + Semana 21
   + L17
     + [ ] Json
@@ -30,6 +30,7 @@
           
 + Semana 22
   + L24
+    + [ ] MariaDB y XML
     + [ ] MariaDB y Json
   + V27
     + [ ] MongoDB y Bson

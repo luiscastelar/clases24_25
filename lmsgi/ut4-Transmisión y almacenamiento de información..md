@@ -13,7 +13,8 @@ Dado el esquema anterior, crea el XML que lo implemente.
 
 ## DTD
 El Documento de Definición de Tipos o DTD (Document Type Defintion) por sus siglas inglesas:
-![esquema](pub24/lmsgi/assets/agenda.png)[Creación de un DTD](https://www.youtube.com/watch?v=fPU1ex7bSgg) y su incorporación al [XML](https://www.youtube.com/watch?v=4NB89iXyxMU).
+![esquema](https://github.com/luiscastelar/clases24_25/blob/main/lmsgi/assets/agenda.png?raw=true)
+[Creación de un DTD](https://www.youtube.com/watch?v=fPU1ex7bSgg) y su incorporación al [XML](https://www.youtube.com/watch?v=4NB89iXyxMU).
 
 ### Elementos
 + `EMPTY`: nada
@@ -37,6 +38,8 @@ El Documento de Definición de Tipos o DTD (Document Type Defintion) por sus sig
 
 [Introducción a Xpath](https://howtodoinjava.com/java/xml/convert-xml-to-properties/) para realizar consultas sobre diccionarios XML
 
+## ~~XQuery~~
+Lenguaje de consultas “similar” a SQL que se apoya en Xpath para operar sobre XML
 
 
 ## ~~Validación con XSD~~

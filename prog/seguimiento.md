@@ -29,12 +29,13 @@ Total ~26 h
  
 + Semana 20
   + 10f:
-    + [ ]Acercamiento a carga de objetos 
-    + [ ] Datos sensibles
+    + [x] Acercamiento a carga de objetos 
+    + [x] Ejercicio
   + 11f:
-    + [ ] Escritura de archivo de caracteres
     + [ ] Ejercicio
   + 12f:
+    + [ ] Datos sensibles
+    + [ ] Escritura de archivo de caracteres
     + [ ] Interfaz `Serializable`.
     + [ ] `InputObjectStream`
     + [ ] Ejercicio
