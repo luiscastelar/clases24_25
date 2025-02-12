@@ -4,7 +4,7 @@
 
 
 ## UT4 - Transmisión y almacenamiento de información.
-24h -> 6 semanas ~ 10f al 24m
+22h -> 6 semanas ~ 10f al 24m
 
 + Semana 18
   * Jueves: 30.01
@@ -24,6 +24,7 @@
     + [ ] Ejercicio
 + Semana 21
   + L17
+    + [ ] Feeds RSS
     + [ ] Json
   + V20
     + [ ] cont Json
@@ -45,27 +46,26 @@
     + [ ] Yml
     + [ ] Json2yml y Yml2json
   + V13:
-    + [ ] Ventajas Yaml
+    + **Examen**
 
 + Semana 25
   + L17
-    + [ ] Ejercicios
+    + [ ] Revisión examen
+    + [ ] Extras de Yaml
+          
 
-+ Semana 26
-  + L24m
-    + **Examen**
     
 
 
 ### Definición de esquemas y vocabularios en lenguajes de marcas:
-+ [ ] Tecnologías para la definición de documentos. Estructura y sintaxis.
-+ [ ] Creación de descripciones de documentos.
-+ [ ] Asociación de descripciones con documentos. Validación.
-+ [ ] Herramientas de creación y validación.
++ [x] Tecnologías para la definición de documentos. Estructura y sintaxis.
++ [x] Creación de descripciones de documentos.
++ [x] Asociación de descripciones con documentos. Validación.
++ [x] Herramientas de creación y validación.
 
 ### Conversión y adaptación de documentos para el intercambio de información:
 + [ ] Tecnologías de transformación de documentos. Estándares. Ámbitos de aplicación.
-+ [ ] Descripción de la estructura y de la sintaxis.
++ [x] Descripción de la estructura y de la sintaxis.
 + [ ] Creación y utilización de plantillas. Herramientas y depuración.
 + [ ] Conversión entre diferentes formatos de documentos.
 
@@ -81,7 +81,7 @@ _Se trabaja los RA 4, 5 y 6_.
 
 
 ## UT5 - Manipulación de documentos Web. JavaScript.
-28h -> 7 semanas ~ del 27m al 26may
+30h -> 7 semanas ~ del 27m al 26may
 
 
 + Semana 25
@@ -106,13 +106,23 @@ _Se trabaja los RA 4, 5 y 6_.
   + 24a:
  
 + Semana 31
-
+  + 28a:
+  + ~~1mayo: Festivo por día del trabajo.~~
+    
 + Semana 32
-  + 5mayo: **Examen**
-...
+  + 5mayo:
+  + 8mayo: **Examen**
+    
++ Semana 33
+  + 12mayo:
+    + [ ] Revisión de examen
+  + 15mayo:
+    + [ ] Revisión de examen
+    + [ ] Revisión de condiciones para Formación en Empresa u Organismo Equiparado.
 
 
 
+**JS**:
 + [ ] Lenguajes de script de cliente. Características y sintaxis básica. Estándares.
 + [ ] Selección y acceso a elementos.
 + [ ] Creación y modificación de elementos.

@@ -9,7 +9,7 @@
 
 
 ## UT8. Operaciones de E/S
-Total ~26 h
+Total ~29 h
 
 + Semana 18 (2h)
   + 29e:
@@ -32,7 +32,7 @@ Total ~26 h
     + [x] Acercamiento a carga de objetos 
     + [x] Ejercicio
   + 11f:
-    + [ ] Ejercicio
+    + [x] Ejercicio
   + 12f:
     + [ ] Datos sensibles
     + [ ] Escritura de archivo de caracteres
@@ -55,10 +55,15 @@ Total ~26 h
 + Semana 22
   + 24f:
     + [ ] Ejercicio
-  + ~~26f:~~
+  + 25f:
+    + [ ] cont ejercicio
   + 26f:
     + [ ] cont ejercicio
-  + 28f: **EXAMEN**
+  + 28f: **EXAMEN** (Entra todo lo visto en el curso hasta el momento)
+    
++ Semana 23 (1h):
+  + 7m:
+    + [ ] Revisión de examen 
 
 
 
@@ -83,14 +88,13 @@ _Trabajados los RA 3, 4, 5, 6, 7 y 8._
 
 
 ## UT9. Gestión de información almacenada en bases de datos relacionales
-+ (30h)
++ (27h)
 
-+ Semana 22 (2h)
-  + 25f:
-    + [ ] Acceso a las BBDD Relacionales
-+ Semana 23 (4h)
++ Semana 23 (3h)
   + 5m:
+    + [ ] Acceso a las BBDD Relacionales
   + 7m:
+    + [ ] Acceso a las BBDD Relacionales
 
 + Semana 24: 10-14m
 + Semana 25: 17-21m
