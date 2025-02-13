@@ -109,6 +109,9 @@ Un sistema sencillo sería mediante [bcrypt](https://dzone.com/articles/hashing-
 _Nota: Si vuestro banco (o cualquier otra entidad) os envía la contraseña al pulsar en no la recuerdo, ¡¡TENÉIS QUE CAMBIAR DE BANCO!!_
 
 
+### Referencias:
++ [Arquitectura Java](https://www.arquitecturajava.com/el-concepto-de-hashing-algorithm/)
+
 # Ficheros de objetos (bytes)
 Aunque no es la única forma, emplearemos la interfaz `Serializable` para exportar/importar instancias de clases, o más concretamente, estado de objetos.
 
