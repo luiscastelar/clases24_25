@@ -34,13 +34,13 @@ Total ~29 h
   + 11f:
     + [x] Ejercicio
   + 12f:
-    + [ ] Datos sensibles
-    + [ ] Escritura de archivo de caracteres
-    + [ ] Interfaz `Serializable`.
-    + [ ] `InputObjectStream`
-    + [ ] Ejercicio
+    + [x] Datos sensibles
+    + [x] Escritura de archivo de caracteres
+    + [x] Interfaz `Serializable`.
+    + [x] `OutputObjectStream` 
+    + [x] `InputObjectStream`
+    + [x] Ejercicio
   + 14f:
-    + [ ] `OutputObjectStream` 
     + [ ] Ejercicio
 
 + Semana 21
