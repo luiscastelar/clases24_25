@@ -4,6 +4,12 @@ import org.w3c.dom.Document;
 
 import javax.xml.xpath.XPathExpressionException;
 
+/** Examen - parte Xpath
+ *
+ * Deberéis ubicar el paquete `xpath` EXACTAMENTE en el proyecto maven de `{{REPO}}/prog/examenes/`, donde deberéis sustituir {{REPO}} por la ruta de vuestro repositorio.
+ *
+ * Aseguraros que vuestro de que está en su lugar ya que la corrrección se realizará de forma automática.
+ */
 public class ExamenXpath {
     public static void main(String[] args) {
         // Definimos el archivo y ruta con el que trabajar y lo cargamos
