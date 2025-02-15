@@ -38,6 +38,20 @@ El Documento de Definición de Tipos o DTD (Document Type Defintion) por sus sig
 
 [Introducción a Xpath](https://howtodoinjava.com/java/xml/convert-xml-to-properties/) para realizar consultas sobre diccionarios XML
 
+### Funciones
++ Suma: `sum(//price)` (valor redondeado).
++ Cuenta: `count(//title)`
+
+En Xpath v2:
++ Mínimo: `min(//book/price)`
++ Máximo: `max(//book/price)`
++ Media: `avg(//book/price)`
+
+
+### Referencias
++ [Consultas](https://docs.mendix.com/refguide8/xpath-constraints/)
++ [Funciones](https://docs.mendix.com/refguide8/xpath-query-functions/)
+
 ## ~~XQuery~~
 Lenguaje de consultas “similar” a SQL que se apoya en Xpath para operar sobre XML
 
