@@ -94,10 +94,17 @@ Para compilar el paquete deberemos hacer `javac -d . ClaseAMeterEnElPaquete.java
 
 Para la ejecución deberemos hacer `java ./NOMBRE_PAQUETE.ClaseAMeterEnElPaquete`
 
+### Generar jar
+**Ejemplo** completo sin librerías externas:
+`javac -d ./ VerificadorDeRutas.java && jar --create --file VerificadorDeRutas.jar --main-class=ut8.VerificadorDeRutas ut8/*.class`
+
+_Suponiendo que `VerificadorDeRutas.java` se encuentra en el paquete `ut8`_
+
+**Recuerda**: puedes añadir librerías externas con la opción `javac --class-path clase1.jar:clase2.jar:...`, aunque se recomienda recurrir a [_maven_](https://maven.apache.org/) o [_gradle_](https://gradle.org/) en ese caso.
+
+
 
 # Interface
-![](https://dit.upm.es//~pepe/libros/vademecum/topics/doc_archivos/image010.png)
-
 - [Clases e interfaces](https://ikastaroak.birt.eus/edu/argitalpen/backupa/20200331/1920k/es/DAMDAW/PROG/PROG08/es_DAMDAW_PROG08_Contenidos/PROG09_CONT_R46_InterfacesDepredadorPresa.png)
 - [interface](https://dit.upm.es//~pepe/libros/vademecum/index.html?n=305.html)
 
