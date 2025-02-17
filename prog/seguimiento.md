@@ -41,7 +41,10 @@ Total ~29 h
     + [x] `InputObjectStream`
     + [x] Ejercicio
   + 14f:
-    + [ ] Ejercicio
+    + [x] Ejercicio completo:
+      + [x] carga/almacenamiento de lista de objetos
+      + [x] separación en MVC - Modelo-Vista-Controlador
+      + [x] propagación de códigos de salida
 
 + Semana 21
   + 17f:

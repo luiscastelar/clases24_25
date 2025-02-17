@@ -20,8 +20,8 @@
   + L10
     + [x] DTDs
   + V13
-    + [ ] Xpath
-    + [ ] Ejercicio
+    + [x] Xpath
+    + [x] Ejercicio
 + Semana 21
   + L17
     + [ ] Feeds RSS

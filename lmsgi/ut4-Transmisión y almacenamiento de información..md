@@ -1,4 +1,4 @@
-#curso24_25 #lmsgi [estado::ToDo]
+#curso24_25 #lmsgi [estado::Done]
 
 
 # XML
@@ -64,7 +64,7 @@ Para validar XML utilizaremos [esquemas XSD](https://www.ticarte.com/contenido/q
 + [Parser XML](https://codebeautify.org/xml-parser-online) y [otro parser](https://jsonformatter.org/xml-parser)
 + [gestión XML con Java](https://mkyong.com/java/jaxb-hello-world-example/), [con Python](https://www.geeksforgeeks.org/xml-parsing-python/), [con PHP](https://www.php.net/manual/es/simplexml.examples-basic.php) o [js](https://www.geeksforgeeks.org/how-to-parse-xml-in-javascript/).
 
-## Fuentes
+## Referencias
 + [teoria XML](https://lm-xml-apuntes.readthedocs.io/apuntes/10_introduccion_xml.html)
 + [temario](https://www.ticarte.com/contenido/lenguajes-de-marcas-y-sistemas-de-gestion-de-informacion)
 + [breve](https://juangualberto.github.io/lmsgi/tema01/xml2.html)
@@ -76,7 +76,14 @@ Para validar XML utilizaremos [esquemas XSD](https://www.ticarte.com/contenido/q
 + [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n))
 
 # Json
-[brevísimo](https://juangualberto.github.io/lmsgi/tema01/json2.html)
+[Introducción - Wikipedia](https://es.wikipedia.org/wiki/JSON)
+
+## Referencias
++ [Validador](https://jsonlint.com/)
++ [Oficial](https://www.json.org/json-es.html)
++ [Brevísimo](https://juangualberto.github.io/lmsgi/tema01/json2.html)
++ [Visualizador en “tablas”](https://www.jointjs.com/demos/json-visualizer)
++ [Xml2Json](https://codebeautify.org/xmltojson/)
 
 
 ## MariaDB y Json
