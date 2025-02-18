@@ -120,16 +120,57 @@ Aunque no es la única forma, emplearemos la interfaz `Serializable` para export
 
 ## `InputObjectStream` y `OutputObjectStream` 
 
+
+### Ejercicio
+Crear un ejercicio completo donde:
+1. Crearemos una estructura Modelo-Vista-Controlador
+2. Crearemos un menú interactivo con las opciones:
+   - Leer objetos de archivo
+   - Escribir objetos en archivo
+   - Crear un nuevo objeto
+   - Eliminar un objeto
+   - Mostrar datos cargados
+   - Salir
+
+
 ### Serializando el mundo - base64
 [Cualquier cosa to string](https://howtodoinjava.com/java/serialization/object-to-string/)
 
 [Herramienta base64 converter](https://base64.guru/converter/encode/image/jpg)
 
-### Ejercicio
-
 
 
 ## Json
+
+Serialización / Deserialización pero a formato estandar Json.
+
+**Ejercicio**:
+Vamos a serializar a una de las personas que venimos trabajando en la unidad 8. Utilizaremos la librería Gson (Json de Google) que nos da “mascadito” el trabajo.
+
+```pom.xml
+<!--  Gson: Java to JSON conversion -->
+<dependency>
+  <groupId>com.google.code.gson</groupId>
+  <artifactId>gson</artifactId>
+  <version>2.12.1</version>
+  <scope>compile</scope>
+</dependency>
+```
+
+Y ahora:
+```java
+//...
+// Serializar
+Persona juan = new Persona(3, "Juan", 34, 160f);
+Gson gson = new Gson();
+
+String serializado = gson.toJson(juan);
+// Y ésto podemos trasmitirlo como queramos (red, disco, respuesta http, ...)
+
+// Deserializar
+Persona nueva = gson.formJson(persona, Persona.class)
+
+```
 
 ### El formato
 

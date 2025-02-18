@@ -48,7 +48,7 @@ Total ~29 h
 
 + Semana 21
   + 17f:
-    + [ ] Cont. ejercicio
+    + [x] Cont. ejercicio
   + 18f:
     + [ ] Json
   + 19f:
