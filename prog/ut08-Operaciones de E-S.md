@@ -194,6 +194,10 @@ Más sencillo de crear y algo menos flexible en la lectura.
 
 * [doc](https://github.com/google/gson)
 
+Facilitando la depuración con pretty print:
+```java
+```
+
 ### Jackson
 
 * [doc](https://github.com/FasterXML/jackson)
