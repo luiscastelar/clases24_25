@@ -196,6 +196,7 @@ Más sencillo de crear y algo menos flexible en la lectura.
 
 Facilitando la depuración con pretty print:
 ```java
+Gson gson = new GsonBuilder().setPrettyPrinting().create();
 ```
 
 ### Jackson

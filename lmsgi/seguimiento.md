@@ -24,7 +24,7 @@
     + [x] Ejercicio
 + Semana 21
   + L17
-    + [ ] Feeds RSS
+    + [x] Feeds RSS
     + [ ] Json
   + V20
     + [ ] cont Json

@@ -50,9 +50,9 @@ Total ~29 h
   + 17f:
     + [x] Cont. ejercicio
   + 18f:
-    + [ ] Json
+    + [x] Json
   + 19f:
-    + [ ] Modificar DAO de la unidad 7
+    + [x] Modificar DAO de la unidad 7
   + 21f:
     + [ ] I18n e L10n
 + Semana 22
