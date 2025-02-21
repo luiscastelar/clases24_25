@@ -232,11 +232,176 @@ Con sólo cambiar `DAOPersona gestionDePersistencia = new DAOPersonaDiscoImpl()`
 
 
 # [i18n y l10n] Internacionalización y localizacion
-1. Aproximación del problema.
-2. Solución “casera” con `properties` + “nullish”
-3. Soluciones más [complejas](https://picodotdev.github.io/blog-bitix/2020/12/internacionalizar-localizar-y-dar-formato-a-cadenas-numeros-importes-y-fechas-en-java/).
 
 
+## Internacionalización
+    Internalización o I18N se refiere a la capacidad de una Aplicación para poder servir a los usuarios en múltiples y diferentes idiomas. Java tiene soporte incorporado para internalización. Java también proporciona formato de números, monedas y ajuste de fecha y hora en consecuencia.
+
+    Fuente: [Tutoriales.edu.lat](https://tutoriales.edu.lat/pub/java-i18n/java-i18n-quick-guide/internalizacion-de-java-guia-rapida)
+
+
+### Solución “casera” con `properties` + “nullish”
+Primera aproximación.
+
+
+### i18n -> En Java con de Json a mapa:
+```java
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class TranslationModule {
+
+    private static String LANGUAGE = System.getenv("LANGUAGE");
+
+    public static void main(String[] args) {
+        if (LANGUAGE == null || !LANGUAGE.toLowerCase().matches("es|en|nl|de|ru|gl|it|cat")) {
+            error("LANGUAGE only can be ES/EN/NL/DE/RU/GL/IT/CAT");
+            System.exit(1);
+        }
+
+        // Ejemplo de uso del módulo de traducciones
+        String translatedText = getText("welcome_message", "John", 5);
+        System.out.println(translatedText);
+    }
+
+    // MODULO DE TRADUCCIONES
+    private static Map<String, String> loadLocale(String locale) {
+        Map<String, String> messages = new HashMap<>();
+        try (FileReader reader = new FileReader("/app/locale/" + locale + ".json")) {
+            // Aquí se debería usar una librería como Jackson o Gson para parsear el JSON
+            // Este es un ejemplo simplificado
+            Scanner scanner = new Scanner(reader);
+            while (scanner.hasNextLine()) {
+                String line = scanner.nextLine();
+                // Parsear la línea y agregar al mapa (esto es un ejemplo simplificado)
+                String[] parts = line.split(":");
+                if (parts.length == 2) {
+                    messages.put(parts[0].trim().replace("\"", ""), parts[1].trim().replace("\"", ""));
+                }
+            }
+        } catch (IOException e) {
+            error("Error loading locale: " + locale);
+        }
+        return messages;
+    }
+
+    private static String getText(String key, Object... args) {
+        Map<String, String> messages = loadLocale(LANGUAGE.toLowerCase());
+        String translatedText;
+
+        if (messages.containsKey(key)) {
+            translatedText = messages.get(key);
+        } else {
+            Map<String, String> messagesEn = loadLocale("en");
+            if (messagesEn.containsKey(key)) {
+                warning("key ['" + key + "'] is not in locale " + LANGUAGE);
+                translatedText = messagesEn.get(key);
+            } else {
+                error("key ['" + key + "'] is not in locale " + LANGUAGE + " or EN");
+                return "key ['" + key + "'] is not in locale " + LANGUAGE + " or EN";
+            }
+        }
+
+        for (int i = 0; i < args.length; i++) {
+            String placeholder = "$" + (i + 1);
+            translatedText = translatedText.replace(placeholder, args[i].toString());
+        }
+
+        return translatedText;
+    }
+
+    private static void error(String message) {
+        System.err.println("ERROR: " + message);
+    }
+
+    private static void warning(String message) {
+        System.err.println("WARNING: " + message);
+    }
+}
+// Fuente: docker-controler-bot traducido por deepseek de python3 a java.
+```
+
+Y los ficheros Json necesarios:
+1. en.json:
+    ```
+    {
+        "hello": "🟢 hello",
+        "by": "by",
+        "world": "✅ world"
+    }
+    ```
+2. es.json:
+    ```
+    {
+        "hello": "🟢 hola",
+        "world": "✅ mundo"
+    }
+    ```
+
+Podemos mejorar la legibilidad con los métodos `computeIfPresent` y `computeIfAbsent`:
+```java
+//..
+// Buscar la clave en el idioma actual
+translatedText = messages.computeIfPresent(key, (k, v) -> v);
+
+// Si no se encuentra en el idioma actual, buscar en inglés
+if (translatedText == null) {
+    Map<String, String> messagesEn = loadLocale("en");
+    translatedText = messagesEn.computeIfAbsent(key, k -> {
+        warning("key ['" + key + "'] is not in locale " + LANGUAGE);
+        return "key ['" + key + "'] is not in locale " + LANGUAGE + " or EN";
+    });
+}
+//..
+```
+
+<details>
+
+<summary>Original en python3.</summary>
+
+```python
+# Fuente docker-controler-bot
+#...
+LANGUAGE = os.environ.get("LANGUAGE")
+#...
+
+if LANGUAGE.lower() not in ("es", "en", "nl", "de", "ru", "gl", "it", "cat"):
+	error("LANGUAGE only can be ES/EN/NL/DE/RU/GL/IT/CAT")
+	sys.exit(1)
+
+# MODULO DE TRADUCCIONES
+def load_locale(locale):
+	with open(f"/app/locale/{locale}.json", "r", encoding="utf-8") as file:
+		return json.load(file)
+
+def get_text(key, *args):
+	messages = load_locale(LANGUAGE.lower())
+	if key in messages:
+		translated_text = messages[key]
+	else:
+		messages_en = load_locale("en")
+		if key in messages_en:
+			warning(f"key ['{key}'] is not in locale {LANGUAGE}")
+			translated_text = messages_en[key]
+		else:
+			error(f"key ['{key}'] is not in locale {LANGUAGE} or EN")
+			return f"key ['{key}'] is not in locale {LANGUAGE} or EN"
+
+	for i, arg in enumerate(args, start=1):
+		placeholder = f"${i}"
+		translated_text = translated_text.replace(placeholder, str(arg))
+
+	return translated_text
+```
+</details>
+
+## L10n - Localización
+    La localización o L10N es la adaptabilidad de una aplicación, es decir, cómo una aplicación se adapta a un idioma específico, formatos de números, configuraciones de fecha y hora, etc.
+    
+    Fuente: [Tutoriales.edu.lat](https://tutoriales.edu.lat/pub/java-i18n/java-i18n-quick-guide/internalizacion-de-java-guia-rapida)
 
 # Fuentes
 1. [Lectura y escritura | Universidad de La Laguna](https://campusvirtual.ull.es/ocw/pluginfile.php/15444/mod_resource/content/1/Tema%205.%20Manejo%20de%20ficheros%20en%20Java.pdf)
@@ -270,8 +435,10 @@ p.destroy();
 ```
 El programa anterior crea un proceso, captura su pid (identificador de proceso), esperamos[^1] a que se acabe y liberamos recursos.
 
-Capturar la salida requiere algo más de esfuerzo. Puedes ver un ejemplo:
+
 <details>
+
+<summary>Capturar la salida requiere algo más de esfuerzo. Puedes ver un ejemplo.</summary>
 
 ```java
 try {
