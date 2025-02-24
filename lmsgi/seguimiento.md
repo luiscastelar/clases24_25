@@ -4,7 +4,7 @@
 
 
 ## UT4 - Transmisión y almacenamiento de información.
-22h -> 6 semanas ~ 10f al 24m
+18h -> 6 semanas ~ 10f al 24m
 
 + Semana 18
   * Jueves: 30.01
@@ -19,40 +19,36 @@
 + Semana 20
   + L10
     + [x] DTDs
-  + V13
+  + J13
     + [x] Xpath
     + [x] Ejercicio
 + Semana 21
   + L17
     + [x] Feeds RSS
-    + [ ] Json
-  + V20
-    + [ ] cont Json
+    + [x] Json
+  + J20
+    + [x] MariaDB y XML
+    + [x] MariaDB y Json
+    + [x] PokeAPI
           
 + Semana 22
   + L24
-    + [ ] MariaDB y XML
-    + [ ] MariaDB y Json
-  + V27
+    + [ ] Ejercicio MariaDB y Json
     + [ ] MongoDB y Bson
+  + J27
+    + [ ] Yml
+    + [ ] Json2yml y Yml2json
+    + [ ] Extras de Yaml
           
 + Semana 23
   + ~~L3m~~: Carnavales
-  + V6m
-    + [ ] PokeAPI
+  + J6m: Ejercicio pre-examen
 
 + Semana 24
-  + L10
-    + [ ] Yml
-    + [ ] Json2yml y Yml2json
-  + V13:
+  + L10:
     + **Examen**
-
-+ Semana 25
-  + L17
+  + J13:
     + [ ] Revisión examen
-    + [ ] Extras de Yaml
-          
 
     
 
@@ -64,27 +60,35 @@
 + [x] Herramientas de creación y validación.
 
 ### Conversión y adaptación de documentos para el intercambio de información:
-+ [ ] Tecnologías de transformación de documentos. Estándares. Ámbitos de aplicación.
++ [x] Tecnologías de transformación de documentos. Estándares. Ámbitos de aplicación.
 + [x] Descripción de la estructura y de la sintaxis.
-+ [ ] Creación y utilización de plantillas. Herramientas y depuración.
-+ [ ] Conversión entre diferentes formatos de documentos.
++ [x] Creación y utilización de plantillas. Herramientas y depuración.
++ [x] Conversión entre diferentes formatos de documentos.
 
 ### Almacenamiento de información:
-+ [ ] Sistemas de almacenamiento de información. Características. Tecnologías.
-+ [ ] Lenguajes de consulta y manipulación en documentos.
-+ [ ] Consulta y manipulación de información.
-+ [ ] Importación y exportación de bases de datos relacionales en diferentes formatos.
-+ [ ] Herramientas de tratamiento y almacenamiento de información en sistemas nativos.
-+ [ ] Almacenamiento y manipulación de información en sistemas nativos.
++ [x] Sistemas de almacenamiento de información. Características. Tecnologías.
++ [x] Lenguajes de consulta y manipulación en documentos.
++ [x] Consulta y manipulación de información.
++ [x] Importación y exportación de bases de datos relacionales en diferentes formatos.
++ [x] Herramientas de tratamiento y almacenamiento de información en sistemas nativos.
++ [x] Almacenamiento y manipulación de información en sistemas nativos.
 
 _Se trabaja los RA 4, 5 y 6_.
 
 
 ## UT5 - Manipulación de documentos Web. JavaScript.
-30h -> 7 semanas ~ del 27m al 26may
+34h(*) -> 7 semanas ~ del 27m al 26may
 
++ Semana 23
+  + J6m:
+    + [ ] Introducción a JS.
+
++ Semana 24
+  + J13:
+    + [ ] 
 
 + Semana 25
+  + L17
   + J20m: ...
   
 

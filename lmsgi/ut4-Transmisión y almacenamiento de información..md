@@ -89,9 +89,83 @@ Para validar XML utilizaremos [esquemas XSD](https://www.ticarte.com/contenido/q
 ## MariaDB y Json
 [trabajo con json en MariaDB](https://mariadb.com/resources/blog/using-json-in-mariadb/)
 
+### Ejercicio
+Vamos a jugar con Json en MariaDB gracias a [OneCompiler](https://onecompiler.com/mariadb)
+
+Vamos a crear la tabla del ejemplo:
+```sql
+# -- Creación de tabla con atributo JSON
+CREATE TABLE locations (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,  
+    type CHAR(1) NOT NULL,
+    latitude DECIMAL(9,6) NOT NULL,
+    longitude DECIMAL(9,6) NOT NULL,
+    attr JSON, 
+    PRIMARY KEY (id)
+);
+# -- Consulta de descripción de la tabla
+DESCRIBE locations;
+# -- O el create (para copiar y pegar)
+SHOW CREATE TABLE locations;
+
+
+# -- Añadimos registros
+INSERT INTO locations (type, name, latitude, longitude, attr) VALUES 
+    ('R', 'Lou Malnatis', 42.0021628, -87.7255662,
+      '{"details": {"foodType": "Pizza", "menu": 
+    "our-menu"}, 
+    "favorites": [{"description": "Pepperoni deep dish", "price": 18.75}, 
+         {"description": "The Lou", "price": 24.75}]}');
+
+
+INSERT INTO locations (type, name, latitude, longitude, attr) VALUES 
+    ('A', 'Cloud Gate', 41.8826572, -87.6233039, 
+          '{"category": "Landmark", "lastVisitDate": "11/10/2019"}');
+
+          
+```
+
+Ahora a realizar las siguientes consultas:
+1. Obtén todos los campos de todos los registros de la tabla
+2. Obtén el nombre del restaurante y tipo de comida de todos los restaurantes
+3. Obtén el nombre del restaurante y la lista de especialidades (favorites) de todos los restaurantes
+4. Obtén el precio de la primera especialidad
+
+### Funciones
+[Funciones JSON en MariaDB]
+
 
 ## MongoDB y Bson
 + [Binary like Json => Bson](https://www.mongodb.com/resources/basics/json-and-bson)
+
+### Búsqueda
+`db.collection.find( <query>, <projection>, <options> )`
+
+Donde:
++ query: filtramos filas
++ projection: filtramos columnas
++ options: límite, máximo, orden, ...
+
+Fuente: [Búsquedas en MongoDB](https://www.mongodb.com/docs/manual/reference/method/db.collection.find/)
+
+### Ejercicio:
+Vamos a jugar con Json en MariaDB gracias a [OneCompiler](https://onecompiler.com/mongodb)
+
+```mongodb
+db.employees.insertMany([
+  {empId: 1, name: 'Clark', dept: 'Sales', age: 23 },
+  {empId: 2, name: 'Dave', dept: 'Accounting', age: 30 },
+  {empId: 3, name: 'Ava', dept: 'Sales', age: 25 }
+]);
+```
+
+1. Obtén la lista de todos los empleados
+2. (query) Sólo del departamento ventas
+3. (proyection) Sólo la lista de nombres
+4. (proyection + filtros) Sólo los nombres y edades de los mayores de 23 años.
+5. (funciones) Obtén el más jóven
+6. y el más mayor.
 
 
 ## Json y APIs
