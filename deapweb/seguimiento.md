@@ -23,43 +23,65 @@ Despliegue de una aplicación web (front, back y persistencia) sobre nube públi
   + [x] Polarización de sensores DHT11 (R4k7)
         
 + 20 enero:
-  + [ ] revisión de issues
-  + [ ] ajustes de despliegue de la bbdd
+  + [x] revisión de issues
+  + [x] ajustes de despliegue de la bbdd
 + 21 enero:
-  + [ ] herramientas de desarrollo sobre servidor tras firewall
-  + [ ] verificar configuración de bbdd (usr y pass random y en archivo .env).
-  + [ ] **Aviso de faltas de asistencia**: Aquel alumno que no alcance el 90% de presencialidad de las horas asignadas al proyecto grupal (40h) tendrá que demostrar la superación de los RA de este módulo de forma escrita.
+  + [x] herramientas de desarrollo sobre servidor tras firewall
+  + [x] verificar configuración de bbdd (usr y pass random y en archivo .env).
+  + [x] **Aviso de faltas de asistencia**: Aquel alumno que no alcance el 90% de presencialidad de las horas asignadas al proyecto grupal (40h) tendrá que demostrar la superación de los RA de este módulo de forma escrita.
 + 23 enero:
-  + [ ] Ver config en repo de bbdd
+  + [x] Ver config en repo de bbdd
+  + [x] Ver opciones y requisitos de despiegue
  
 + 27 enero:
+  + [x] Conexión backend - bbdd
 + 28 enero:
+  + [x] Conexión backend - bbdd.
 + 30 enero:
+  + [x] Depueración de problemas en renderizado de gráficas (angular)
   
 + 3 febrero:
+  + [x] Conexión ssh a máquina de despliegue
 + 4 febrero:
+  + [x] Conexión ssh a máquina de despliegue
 + 6 febrero:
+  + [x] Documentación del despliegue
+  + [x] Análisis del despliegue
   
 + 10 febrero:
+  + [x] Avances del despliegue y su documentación.
+  + [x] Ajuste de latidos de cron
 + 11 febrero:
+  + [x] Documentación y estructura de la misma
 + 13 febrero:
-
+  + [x] Revisión de documentación del despliegue
+ 
 + 17 feb:
+  + [x] El archivo .htaccess para ajuste de cache en desarrollo y produción.
 + 18 feb:
+  + [x] Revisión de documentación del despliegue
 + 20 feb:
+  + [x] Revisión de documentación del despliegue
 
 + 24 feb:
+  + [x] Revisión de servidores de despliegue. Problemas de puertos.
 + 25 feb:
+  + [x] Revisión de servidores de despliegue. Problemas de certificados.
 + 27 feb:
+  + [ ] Resolución de dudas
 
 + ~~3 marz: Carnavales~~
 + ~~4 marz: Carnavales~~
 + 6 marz:
-  
+  + [ ] **Entrega y defensa de la puesta en producción** (RA1-5)
+  + [ ] **Entrega y defensa de la generación automática de documentación** (RA6)
 + 10 marz:
+  + [ ] Presentación de trabajo del alumnado de dual
 + 11 marz:
+  + [ ] Defensa de trabajos de despliegue del alumnado de dual
 + 13 marz: 
   + **Examen ORDINARIA**
+  + [ ] Defensa de trabajos de despliegue del alumnado de dual 
 
 #### Parcial
 Despliegue de aplicaciones web (front, back y persistencia) sobre nube pública o vps accesible públicamente desde internet:
