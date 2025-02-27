@@ -170,11 +170,52 @@ db.employees.insertMany([
 
 ## Json y APIs
 + [PokeAPI](https://pokeapi.co)
+
   
 # Yaml
-Json2yml y Yml2json
+Sencillo, humano, ... sólo no uses tabuladores.
+
+Es un formato que se crea inspirado en python para ser compatible con json y usable por humanos. Es completamente[^1] Json2yml y Yml2json.
+
+Su utilización principal es ficheros de configuración, pero como json o xml podría ser empleado para serializar objetos.
+
++ [Aprende Yaml en Y minutos](https://learnxinyminutes.com/es/yaml/)
++ Validación de yaml con [Yaml Linter](https://www.yamllint.com/)
 
 **Ventajas de YML**
-+ Comentarios `#`
-+ [Anclas `&` y alias `*`](https://tecnoyfoto.com/anclas-y-alias-en-yaml) (`<< *`)
++ Comentarios `#`: los comentarios no existen en otros archivos como json.
++ [Anclas `&` y alias `*`](https://tecnoyfoto.com/anclas-y-alias-en-yaml) (`<<: *alias`): ¿Algo se repite? Pues encapsulado con un ancla `&parte` e invocado por su alias `<<: *parte`
+  
+```yaml
+# Documento
+---
+# Definimos el ancla
+x-cosa: &prepe
+  a: juan
+  b: pedro
+  c: manolo
 
+# Lo usamos por su alias:
+uno: 
+  <<: *repe
+dos: a=juan b=pedro
+tres:
+  <<: *repe
+  j: lola
+cuatro: 
+  <<: *repe
+  d: maria
+```
+
+Fuentes:
++ [restack.io - anchors y alias](https://www.restack.io/p/yaml-how-to-use-anchors-answer-cat-ai)
++ [medium.com - anchors y alias](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd)
+
+
+## Comparativa
++ [toml - json - yml](https://vergaracarmona.es/comparando-toml-json-y-yaml/)
++ [xml - json - toml - yaml](https://tennen.medium.com/xml-json-toml-yaml-which-one-is-the-secret-key-to-your-data-success-bc2895d609ae)
+
+---
+# Notas:
+[^1] No tan completamente si usamos anclas, la única excepción.

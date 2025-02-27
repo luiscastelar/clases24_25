@@ -33,8 +33,8 @@
           
 + Semana 22
   + L24
-    + [ ] Ejercicio MariaDB y Json
-    + [ ] MongoDB y Bson
+    + [x] Ejercicio MariaDB y Json
+    + [x] MongoDB y Bson
   + J27
     + [ ] Yml
     + [ ] Json2yml y Yml2json
