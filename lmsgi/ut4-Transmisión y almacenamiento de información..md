@@ -175,7 +175,7 @@ db.employees.insertMany([
 # Yaml
 Sencillo, humano, ... sólo no uses tabuladores.
 
-Es un formato que se crea inspirado en python para ser compatible con json y usable por humanos. Es completamente[^1] Json2yml y Yml2json.
+Es un formato que se crea inspirado en python para ser compatible con json y usable por humanos. Es 100 % compatible con Json y tenemos múltiples herramientas de conversión [Json2yml](https://onlinetools.com/json/convert-json-to-yaml) y [Yml2json](https://onlineyamltools.com/convert-yaml-to-json).
 
 Su utilización principal es ficheros de configuración, pero como json o xml podría ser empleado para serializar objetos.
 
@@ -190,7 +190,7 @@ Su utilización principal es ficheros de configuración, pero como json o xml po
 # Documento
 ---
 # Definimos el ancla
-x-cosa: &prepe
+x-cosa: &repe
   a: juan
   b: pedro
   c: manolo
@@ -215,7 +215,3 @@ Fuentes:
 ## Comparativa
 + [toml - json - yml](https://vergaracarmona.es/comparando-toml-json-y-yaml/)
 + [xml - json - toml - yaml](https://tennen.medium.com/xml-json-toml-yaml-which-one-is-the-secret-key-to-your-data-success-bc2895d609ae)
-
----
-# Notas:
-[^1] No tan completamente si usamos anclas, la única excepción.
