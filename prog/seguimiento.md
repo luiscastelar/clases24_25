@@ -3,114 +3,58 @@
 
 # Materia PLANIFICADA
 
----
-# 2ª EVALUACIÓN
----
-
-
-## UT8. Operaciones de E/S
-Total ~29 h
-
-+ Semana 18 (2h)
-  + 29e:
-    + [x] `Properties`
-
-+ Semana 19 (6h)
-  + ~~3f: Resolver examen ut7~~
-  + 4f:
-    + [x] Multivalores en properties
-  + 5f:
-    + [x] Stream de datos
-    + [x] Archivos de caracteres:
-      + [x] Operación de lectura
-  + 7f:
-    + [x] `try` con recursos
-    + [x] Lectura y análisis de archivos CSV
- 
-+ Semana 20
-  + 10f:
-    + [x] Acercamiento a carga de objetos 
-    + [x] Ejercicio
-  + 11f:
-    + [x] Ejercicio
-  + 12f:
-    + [x] Datos sensibles
-    + [x] Escritura de archivo de caracteres
-    + [x] Interfaz `Serializable`.
-    + [x] `OutputObjectStream` 
-    + [x] `InputObjectStream`
-    + [x] Ejercicio
-  + 14f:
-    + [x] Ejercicio completo:
-      + [x] carga/almacenamiento de lista de objetos
-      + [x] separación en MVC - Modelo-Vista-Controlador
-      + [x] propagación de códigos de salida
-
-+ Semana 21
-  + 17f:
-    + [x] Cont. ejercicio
-  + 18f:
-    + [x] Json
-  + 19f:
-    + [x] Modificar DAO de la unidad 7
-  + 21f:
-    + [ ] I18n e L10n
-+ Semana 22
-  + 24f:
-    + [ ] Ejercicio
-  + 25f:
-    + [ ] cont ejercicio
-  + 26f:
-    + [ ] cont ejercicio
-  + 28f: **EXAMEN** (Entra todo lo visto en el curso hasta el momento)
-    
-+ Semana 23 (1h):
-  + 7m:
-    + [ ] Revisión de examen 
-
-
-
-+ [x] Flujos. Tipos: bytes y caracteres. Clases relacionadas.
-+ [x] Ficheros de datos. Registros.
-+ [x] Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros.
-+ [x] Utilización de los sistemas de ficheros.
-+ [ ] Creación y eliminación de ficheros y directorios.
-+ [ ] Serialización de objetos.
-+ [ ] Patrones de diseño. DAO.
-
-### Internacionalización y localización -i18n- e -i10n-
-+ [ ] Identificar las clases relacionadas con el tratamiento de documentos escritos en diferentes lenguajes de intercambio de datos.
-+ [ ] Realizar programas que realicen manipulaciones sobre documentos escritos en diferentes lenguajes de intercambio de datos.
-      
-_Trabajados los RA 3, 4, 5, 6, 7 y 8._
-
 
 ---
 # 3ª EVALUACIÓN
 ---
 
-
 ## UT9. Gestión de información almacenada en bases de datos relacionales
-+ (27h)
++ (26h)
 
-+ Semana 23 (3h)
-  + 5m:
-    + [ ] Acceso a las BBDD Relacionales
++ Semana 23 (2h)
   + 7m:
-    + [ ] Acceso a las BBDD Relacionales
+    + [ ] Contenedores (Docker)
+    + [ ] Instalación del gestor de bases de datos.
+    + [ ] Creación de bases de datos.
 
 + Semana 24: 10-14m
+  + 10m:
+    + [ ] Conexión a bases de datos:
+      + [ ] Consola
+  + 11m:
+    + [ ] cont Conexión a bases de datos:
+      + [ ] Cliente “gráfico”
+    + [ ] Acceso a las BBDD Relacionales desde aplicaciones. Drivers JDBC
+  + 12m:
+    + [ ] Acceso a las BBDD Relacionales desde aplicaciones. Drivers JDBC
+  + 14m:
+    + [ ] Exportación de aplicación con driver JDBC
+ 
+
 + Semana 25: 17-21m
+  + 17m:
+  + 18m:
+  + 19m:
+  + 21m:
+ 
+    
 + Semana 26:
   + 24m:
   + 25m:
   + 26m:
   + 28m:
+    
 + Semana 27 (3h):
   + 31m:
   + 1a:
+    
 + Semana 28 (2h):
   + 11a: **EXAMEN**
+      1. Creación de una db y carga de datos de ejemplo
+      2. DAO Lectura y test
+      3. DAO Escritura y test
+      4. DAO Modificación y test
+      5. DAO Eliminación y test
 
 f) Crear aplicaciones que muestren la información almacenada en bases de datos.
 g) Crear aplicaciones para gestionar la información presente en bases de datos.
@@ -426,7 +370,9 @@ Prácticas. El proyecto irá en `prog/ut3/practica`, por lo que la práctica ir�
 
 Los ejercicios deberán encontrarse en `prog/ejercicios/src/main/java/ut2/ejercicio1.java` o `prog/ejercicios/src/test/java/ut2/testEjercicio1.java` en los casos de test. Todos los ejercicios según este patrón, donde `ut2` deberemos son los ejercicios del tema 2 y dentro de cada ejercicio deberéis documentar el enunciado y funcionamiento.
 
-
+---
+# 2ª EVALUACIÓN
+---
 
 ## UT6. Manipulación de información. Colecciones.
 + Total 30h ~ 4 sem
@@ -526,7 +472,7 @@ _Trabajados los RA 3, 4 y 6._
     + [x] Métodos `default`
     + [x] Interfaces funcionales
       + [x] Métodos **lambda**
-      + [ ] ~~Referencia a método~~
+      + [x] Referencia a método
   + 21e:
     + [x] Control de versiones: **RAMAS**
     + [x] Avances de juego Ruleta
@@ -538,7 +484,7 @@ _Trabajados los RA 3, 4 y 6._
   + 24e:
     + cont “famosas”
       + [x] `MVC`
-      + [ ] `DAO`
+      + [x] `DAO`
 + Semana 18 (5h)
   + 27e:
     + [x] cont “famosas”
@@ -576,3 +522,81 @@ _Trabajados los RA 3, 4 y 6._
         + [ ] Reducción
  
 _Trabajados los RA 4 y 7._
+
+
+## UT8. Operaciones de E/S
+Total ~29 h
+
++ Semana 18 (2h)
+  + 29e:
+    + [x] `Properties`
+
++ Semana 19 (6h)
+  + ~~3f: Resolver examen ut7~~
+  + 4f:
+    + [x] Multivalores en properties
+  + 5f:
+    + [x] Stream de datos
+    + [x] Archivos de caracteres:
+      + [x] Operación de lectura
+  + 7f:
+    + [x] `try` con recursos
+    + [x] Lectura y análisis de archivos CSV
+ 
++ Semana 20
+  + 10f:
+    + [x] Acercamiento a carga de objetos 
+    + [x] Ejercicio
+  + 11f:
+    + [x] Ejercicio
+  + 12f:
+    + [x] Datos sensibles
+    + [x] Escritura de archivo de caracteres
+    + [x] Interfaz `Serializable`.
+    + [x] `OutputObjectStream` 
+    + [x] `InputObjectStream`
+    + [x] Ejercicio
+  + 14f:
+    + [x] Ejercicio completo:
+      + [x] carga/almacenamiento de lista de objetos
+      + [x] separación en MVC - Modelo-Vista-Controlador
+      + [x] propagación de códigos de salida
+
++ Semana 21
+  + 17f:
+    + [x] Cont. ejercicio
+  + 18f:
+    + [x] Json
+  + 19f:
+    + [x] Modificar DAO de la unidad 7
+  + 21f:
+    + [x] I18n e L10n
++ Semana 22
+  + 24f:
+    + [x] Ejercicio
+  + 25f:
+    + [x] cont ejercicio
+  + 26f:
+    + [x] cont ejercicio
+  + 28f:
+  + **EXAMEN** (Entra todo lo visto en el curso hasta el momento)
+    
++ Semana 23 (1h):
+  + 5m:
+    + [x] Revisión de examen 
+
+
+
++ [x] Flujos. Tipos: bytes y caracteres. Clases relacionadas.
++ [x] Ficheros de datos. Registros.
++ [x] Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros.
++ [x] Utilización de los sistemas de ficheros.
++ [ ] Creación y eliminación de ficheros y directorios.
++ [x] Serialización de objetos.
++ [x] Patrones de diseño. DAO.
+
+### Internacionalización y localización -i18n- e -i10n-
++ [x] Identificar las clases relacionadas con el tratamiento de documentos escritos en diferentes lenguajes de intercambio de datos.
++ [x] Realizar programas que realicen manipulaciones sobre documentos escritos en diferentes lenguajes de intercambio de datos.
+      
+_Trabajados los RA 3, 4, 5, 6, 7 y 8._

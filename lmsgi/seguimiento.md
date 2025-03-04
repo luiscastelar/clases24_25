@@ -36,13 +36,14 @@
     + [x] Ejercicio MariaDB y Json
     + [x] MongoDB y Bson
   + J27
-    + [ ] Yml
-    + [ ] Json2yml y Yml2json
-    + [ ] Extras de Yaml
+    + [x] Yml
+    + [x] Json2yml y Yml2json
+    + [x] Extras de Yaml
           
 + Semana 23
   + ~~L3m~~: Carnavales
-  + J6m: Ejercicio pre-examen
+  + J6m:
+    + [ ] Ejercicio pre-examen
 
 + Semana 24
   + L10:
