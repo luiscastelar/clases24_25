@@ -7,22 +7,79 @@ Curso temporal [edX](https://www.edx.org/learn/javascript/the-world-wide-web-con
 
 # Mapa de unidad
 ![mapa](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*XsoPuMKmvHFIPiPzcPhPGQ.png)
-# Lenguajes de script de cliente. Características y sintaxis básica. Estándares.
+# Introducción 
+## Lenguajes de script de cliente. Características Estándares.
 
 Hoy (2025) el estándar **ECMAScript** y su implementación en el lenguaje **JavaScript** dominan los scripts de lado de cliente. Eso no fue así siempre hubo otros pero ya no están.
 
 Por su parte JavaScript, en adelante **JS**, además de ser de lado de cliente, también podemos implementarlo en el lado del servidor y para realizar aplicaciones de escritorio en Gnome.
 
-## Primeros pasos
+## Características 
+Es un lenguaje...
++ interpretado: no requiere compilarlo, pero recomendamos utilizar _linter_ que verifique su validez.
++ con tipado dinámico: las variables son del tipo del dato que contienen, pero pueden cambiar libremente.
++ tipado débil: variables de distinto tipo pueden interoperar sin cambios explícitos. Ésto requiere un conocimiento exhaustivo de las opciones.
++ imperativo.
++ funcional: donde las funciones son "ciudadanos de primera clase", esto es, podemos asignar funciones a variables, pasar funciones a funciones y retornar funciones de funciones.
++ orientado a objetos: basada en prototipos, aunque podemos crear definición de clases y objetos a partir de ellas.
++ mono-hilo en el lado del cliente y multi-hilo del lado del servidor.
++ Con APIs diferentes para el cliente (navegador web) y servidor (Node.js, Bun, ...).
+
+## Sintaxis básica.
+**Recorrido**:
 1. Variables y constantes
-2. Funciones
-3. Tipos de datos
+2. Consola
+3. Funciones
+4. Tipos de datos
    + Primitivos (por valor)
    + Objetos y arrays (por referencia)
 5. Programación estructurada
-   + Loops: `.map()` y `.filter()`
-   
+6. Arrays
+   + Creación
+   + Desestructuración
+   + Loops: `forEach()`, `.map()` y `.filter()`
+7. Concurrencia
 
+
+## Variables y constantes 
+
+#### Plantillas de texto (String Templates)
+``let plantilla = `Texto con variables y ${valores}`; ``
+
+## Consola
+`console.log()`, `.info()`, `.warn()`, `.trace()` y `.error()`
+
+## Funciones
+
+## Tipos de datos
+
+## Programación estructurada 
+
+## Arrays
+### Creación 
+`let vector = Arrays.from(...);` cuando viene de otro tipo de elemento, por ejemplo un `HTMLCollection`, objetos habituales al consultar por nodos del `DOM`.
+
+También podemos crear arrays con `let vector = [3, 4, 5];` o por desectructuración `let salida = [1, 2, ...vector];`
+
+La desectructuración consiste en fragmentar un array en partes `let a, b, resto; [a, b, ...resto] = salida;`
+
+### Loops
+Tenemos que comenzar por introducir el concepto de función `callback`, que consiste en la función `callback` que le pasamos a otra función _A_ para que, la función _A_ realice con los datos de que disponga lo que indica la función `callback`. 
+
+_No te precupes. Es algo confuso, pero se ve más claro en los ejemplos siguentes._
+
++ `.forEach()` consume un array: `vector.forEach( callback );`  
++ `.map()` modifica un array: `vector.map( callback );`
++ `.filter()` filtramos los elementos deseados del array: `vector.filter( callback );`
++ `.reduce()` pasa un array a un escalar siguiendo la función suministrada: `vector.reduce( callback [, inicial] );` (el valor inicial es opcional).
+
+Donde las funciones `callback` podrían ser respectivamente:
+```js
+const print = e => console.log(e);
+const doble = e => 2*e;
+const pares = e => (e%2)==0;
+const suma = (acumulado, e) => { return acumulado + e; };
+```
 
 ## Concurrencia:
 Para la ejecución asíncrona de código tenemos la evolución:
@@ -68,8 +125,25 @@ Lo dejamos para el módulo de _Desarrollo Web en Entorno Cliente_.
 
 # Selección y acceso a elementos.
 
-## Eventos y DOM
+## DOM
+![dom](https://upload.wikimedia.org/wikipedia/commons/5/5a/DOM-model.svg)
+### Métodos clásicos
 
+| Métodos de búsqueda | Descripción | Si no lo encuentra... |
+|---|---|---|
+| .getElementById(id) | Busca el elemento HTML por su id. | Devuelve null |
+| .getElementsByClassName(class) | Busca elementos con la clase class. | Devuelve []. |
+
+ .getElementsByName(value)
+Busca elementos con el atributo name a value.
+Devuelve [].
+ .getElementsByTagName(tag)
+Busca etiquetas HTML tag.
+Devuelve [].
+
+
+
+## Eventos
 
 # Creación y modificación de elementos.
 
@@ -240,6 +314,10 @@ if(correcto){
 
 **Reto final HTML + CSS + JS** [aquí](http://www.dungeonsanddevelopers.com/)
 
+
+# Herramientas
++ Codi.link
++ [Node.js on-line]
 
 # Extras: 
 ## Consumo de API
