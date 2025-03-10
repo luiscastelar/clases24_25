@@ -72,6 +72,9 @@ _No te precupes. Es algo confuso, pero se ve más claro en los ejemplos siguente
 + `.map()` modifica un array: `vector.map( callback );`
 + `.filter()` filtramos los elementos deseados del array: `vector.filter( callback );`
 + `.reduce()` pasa un array a un escalar siguiendo la función suministrada: `vector.reduce( callback [, inicial] );` (el valor inicial es opcional).
++ `.reduceRight()` igual, pero de derecha a izquierda
++ `.every()` verifica si TODOS los elementos cumplen una condición (boolean)
++ `.some()` verifica si existe un elemento que verifica la condición
 
 Donde las funciones `callback` podrían ser respectivamente:
 ```js
@@ -106,19 +109,20 @@ Esa función `callback` a menudo se pasaba como una función anónima `const myT
 Una forma más legible de hacer ejecutar código asíncrono es mediante las funciones que devuelven promesas.
 lo anterior:
 ```js
-const getUrl=(url)=>{
+const getUrl = (url) => {
   fetch(url)
     .then(response => response.json())
     .then(data => console.log(data))
-    .catch( error => console.log("Hubo un problema con la petición Fetch:" + error.message));
-  };
+    .catch( error => console.log("Hubo un problema con la petición Fetch:", error.message));  
 }; 
+
 getUrl('ejemplo.com');
 ```
 
+_Nota: `fetch` devuelve un promesa y ésta es consumida con los métodos `.then()` y `.catch()`_
 
 ### `await` / `async`
-Lo dejamos para el módulo de _Desarrollo Web en Entorno Cliente_.
+No es más que azúcar sintáctico, por lo que lo dejaremos para el módulo de _Desarrollo Web en Entorno Cliente_.
 
 ## Código Ninja
 [Buenas prácticas](https://es.javascript.info/ninja-code)
@@ -128,22 +132,38 @@ Lo dejamos para el módulo de _Desarrollo Web en Entorno Cliente_.
 ## DOM
 ![dom](https://upload.wikimedia.org/wikipedia/commons/5/5a/DOM-model.svg)
 ### Métodos clásicos
-
 | Métodos de búsqueda | Descripción | Si no lo encuentra... |
-|---|---|---|
-| .getElementById(id) | Busca el elemento HTML por su id. | Devuelve null |
-| .getElementsByClassName(class) | Busca elementos con la clase class. | Devuelve []. |
+| --- | --- | --- |
+| `.getElementById(id)` | Busca el elemento HTML por su `id`. | Devuelve . |
+| `.getElementsByClassName(class)` | Busca elementos con la clase `class`. | Devuelve `[]`. |
+| `.getElementsByName(value)` | Busca elementos con el atributo `name` a `value`. | Devuelve `[]`. |
+| `.getElementsByTagName(tag)` | Busca etiquetas HTML `tag`. | Devuelve `[]`. |
 
- .getElementsByName(value)
-Busca elementos con el atributo name a value.
-Devuelve [].
- .getElementsByTagName(tag)
-Busca etiquetas HTML tag.
-Devuelve [].
+Fuente: [DOM - Manz.dev](https://lenguajejs.com/dom/)
 
 
+## Métodos actuales
+| Método de búsqueda | Descripción | Si no lo encuentra... |
+| --- | --- | --- |
+| `.querySelector(sel)` | Busca el primer elemento que coincide con el selector CSS `sel`. | Devuelve . |
+| `.querySelectorAll(sel)` | Busca todos los elementos que coinciden con el selector CSS `sel`. | Devuelve `[]`. |
+
+| Propiedades de elementos HTML | Descripción | Si está vacío... |
+| --- | --- | --- |
+| `.children` | Devuelve una lista de elementos HTML hijos. | `[]` |
+| `.parentElement` | Devuelve el padre del elemento. |  |
+| `.firstElementChild` | Devuelve el primer elemento hijo. |  |
+| `.lastElementChild` | Devuelve el último elemento hijo. |  |
+| `.previousElementSibling` | Devuelve el elemento hermano anterior. |  |
+| `.nextElementSibling` | Devuelve el elemento hermano siguiente. |  |
+
+Fuente: [DOM - Manz.dev](https://lenguajejs.com/dom/)
 
 ## Eventos
+
+## Expresiones Regulares -RegEx-
+1. [En crudo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
+2. [En español](https://www.freecodecamp.org/espanol/news/expresiones-regulares-regex-en-javascript-manual-para-principiantes/)
 
 # Creación y modificación de elementos.
 
@@ -291,6 +311,12 @@ if(correcto){
 
 # Fuentes
 + [El Tutorial de JavaScript Moderno](https://es.javascript.info/)
++ De Manz.dev:
+  1. [JS](https://lenguajejs.com/javascript/)
+  2. [Http](https://lenguajejs.com/javascript/peticiones-http/url/)
+  3. [DOM](https://lenguajejs.com/dom/)
+  4. [Eventos](https://lenguajejs.com/eventos/)
+  5. [CSS]
 + [MDN](https://developer.mozilla.org/es/docs/Learn_web_development) y más concretamente trabajamos [JavaScript](https://developer.mozilla.org/es/docs/conflicting/Learn_web_development/Core/Scripting_41cf930b8cfd2b83c76f8086a5e24792) (~70€) y más [básico](https://learnprogramming.online/app.html).
 + Otro [básico rapidito](https://edabit.com/tutorial/javascript).
 + [De Java a JavaScript](https://medium.com/@byrne.greg/transitioning-from-java-to-javascript-quick-guide-on-the-basics-you-need-to-immediately-know-ef95140a7d71)
@@ -304,7 +330,7 @@ if(correcto){
 
 
 # Juegos
-+ Algorítmia -> [Ascensor](http://play.elevatorsaga.com/)
++ Algoritmia -> [Ascensor](http://play.elevatorsaga.com/)
 + [CodinGame](https://www.codingame.com/training)
 + [MMORPG](https://screeps.com/)
 + [CodeWars](https://www.codewars.com/)
@@ -316,8 +342,8 @@ if(correcto){
 
 
 # Herramientas
-+ Codi.link
-+ [Node.js on-line]
++ [Codi.link](https://codi.link/)
++ [Node.js on-line](https://onecompiler.com/nodejs)
 
 # Extras: 
 ## Consumo de API

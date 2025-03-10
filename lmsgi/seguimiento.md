@@ -3,119 +3,74 @@
 # Materia PLANIFICADA
 
 
-## UT4 - Transmisión y almacenamiento de información.
-18h -> 6 semanas ~ 10f al 24m
-
-+ Semana 18
-  * Jueves: 30.01
-    + [x] Introducción al XML
-    + [x] Sintáxis XML
-
-+ Semana 19
-  * ~~Lunes: 3.02~~
-    
-  + ~~V6f:~~
-    
-+ Semana 20
-  + L10
-    + [x] DTDs
-  + J13
-    + [x] Xpath
-    + [x] Ejercicio
-+ Semana 21
-  + L17
-    + [x] Feeds RSS
-    + [x] Json
-  + J20
-    + [x] MariaDB y XML
-    + [x] MariaDB y Json
-    + [x] PokeAPI
-          
-+ Semana 22
-  + L24
-    + [x] Ejercicio MariaDB y Json
-    + [x] MongoDB y Bson
-  + J27
-    + [x] Yml
-    + [x] Json2yml y Yml2json
-    + [x] Extras de Yaml
-          
-+ Semana 23
-  + ~~L3m~~: Carnavales
-  + J6m:
-    + [ ] Ejercicio pre-examen
-
-+ Semana 24
-  + L10:
-    + **Examen**
-  + J13:
-    + [ ] Revisión examen
-
-    
-
-
-### Definición de esquemas y vocabularios en lenguajes de marcas:
-+ [x] Tecnologías para la definición de documentos. Estructura y sintaxis.
-+ [x] Creación de descripciones de documentos.
-+ [x] Asociación de descripciones con documentos. Validación.
-+ [x] Herramientas de creación y validación.
-
-### Conversión y adaptación de documentos para el intercambio de información:
-+ [x] Tecnologías de transformación de documentos. Estándares. Ámbitos de aplicación.
-+ [x] Descripción de la estructura y de la sintaxis.
-+ [x] Creación y utilización de plantillas. Herramientas y depuración.
-+ [x] Conversión entre diferentes formatos de documentos.
-
-### Almacenamiento de información:
-+ [x] Sistemas de almacenamiento de información. Características. Tecnologías.
-+ [x] Lenguajes de consulta y manipulación en documentos.
-+ [x] Consulta y manipulación de información.
-+ [x] Importación y exportación de bases de datos relacionales en diferentes formatos.
-+ [x] Herramientas de tratamiento y almacenamiento de información en sistemas nativos.
-+ [x] Almacenamiento y manipulación de información en sistemas nativos.
-
-_Se trabaja los RA 4, 5 y 6_.
-
-
 ## UT5 - Manipulación de documentos Web. JavaScript.
-34h(*) -> 7 semanas ~ del 27m al 26may
+36h(*) -> 7 semanas ~ del 6m al 12may
 
 + Semana 23
-  + J6m:
-    + [ ] Introducción a JS.
+  + J6m: Introducción a JS.
+    + [x] Variables
+    + [x] Console
+    + [x] Try-catch
 
 + Semana 24
-  + J13:
-    + [ ] 
+  + J13: Introducción a JS.
+    + [ ] Declaración de variables y constantes
+    + [ ] Plantillas de texto
+    + [ ] Try-catch
+    + [ ] Funciones: declaración, expresiones, lambdas y valores.
+    + [ ] Ámbito de variables
 
 + Semana 25
-  + L17
-  + J20m: ...
+  + L17: Introducción a JS.
+    + [ ] Tipos de datos primitivos
+    + [ ] objetos ... y Clases
+  + J20m: Introducción a JS.
+      + [ ] Programación estructurada:
+      + [ ] `if-else`, `switch`, `while`, `do-while`
+      + [ ] `for`, `for ... in`, `for ... of`
+      + [ ] Métodos “loop”: `.forEach()`, `.map()`, `.filter()`, `.reduce()`
   
 
 + Semana 26
-  + ~~L24m: Examen UT4~~
-  + J27m: ...
-
+  + L24m: **AJAX**
+    + [ ] ~~`XMLHttpRequest`~~ y `jQuery`
+    + [ ] `fetch`
+  + J27m: Selección de elementos HTML
+    + [ ] Selección clásica:
+      + [ ] `.getElementById(): element`
+      + [ ] `.getElementsByClassName(): element[]`
+      + [ ] `.getElementsByTagName(): element[]`
+      + [ ] `HTMLCollection`
+      + [ ] 
+            
 + Semana 27
-  + L31m
-  + 3a
+  + L31m: Selección de elementos HTML
+    + [ ] Selección actual:
+      + [ ] `.querySelector(sel): node`
+      + [ ] `.querySelectorAll(sel): NodeList`
+  + 3a: Modificar elementos HTML
+    
 
 + Semana 28
+  + L7a: Modificar elementos HTML
+  + J10a: Modificar elementos HTML
 
 
 + Semana 29: **SEMANA SANTA**
 
 + Semana 30:
   + ~~21a: SEMANA SANTA~~
-  + 24a:
+  + 24a: Modificar elementos HTML
  
 + Semana 31
-  + 28a:
+  + 28a: Modificar estilos CSS
+    + [ ] Selección
+    + [ ] Añadir/eliminar estilos
   + ~~1mayo: Festivo por día del trabajo.~~
     
 + Semana 32
-  + 5mayo:
+  + 5mayo: Modificar estilos CSS
+    + [ ] Modo claro/oscuro
   + 8mayo: **Examen**
     
 + Semana 33
@@ -330,3 +285,78 @@ _Trabajo en clase mientras se realizan las exposiciones de la UT2_.
     * [x] **Defensa práctica CV-CSS-GRID**
 
 _Se trabaja el RA 2_.
+
+
+## UT4 - Transmisión y almacenamiento de información.
+18h -> 6 semanas ~ 10f al 24m
+
++ Semana 18
+  * Jueves: 30.01
+    + [x] Introducción al XML
+    + [x] Sintáxis XML
+
++ Semana 19
+  * ~~Lunes: 3.02~~
+    
+  + ~~V6f:~~
+    
++ Semana 20
+  + L10
+    + [x] DTDs
+  + J13
+    + [x] Xpath
+    + [x] Ejercicio
++ Semana 21
+  + L17
+    + [x] Feeds RSS
+    + [x] Json
+  + J20
+    + [x] MariaDB y XML
+    + [x] MariaDB y Json
+    + [x] PokeAPI
+          
++ Semana 22
+  + L24
+    + [x] Ejercicio MariaDB y Json
+    + [x] MongoDB y Bson
+  + J27
+    + [x] Yml
+    + [x] Json2yml y Yml2json
+    + [x] Extras de Yaml
+          
++ Semana 23
+  + ~~L3m~~: Carnavales
+  + J6m:
+    + [x] Ejercicio pre-examen
+
++ Semana 24
+  + L10:
+    + **Examen**
+  + J13:
+    + [ ] Revisión examen
+
+    
+
+
+### Definición de esquemas y vocabularios en lenguajes de marcas:
++ [x] Tecnologías para la definición de documentos. Estructura y sintaxis.
++ [x] Creación de descripciones de documentos.
++ [x] Asociación de descripciones con documentos. Validación.
++ [x] Herramientas de creación y validación.
+
+### Conversión y adaptación de documentos para el intercambio de información:
++ [x] Tecnologías de transformación de documentos. Estándares. Ámbitos de aplicación.
++ [x] Descripción de la estructura y de la sintaxis.
++ [x] Creación y utilización de plantillas. Herramientas y depuración.
++ [x] Conversión entre diferentes formatos de documentos.
+
+### Almacenamiento de información:
++ [x] Sistemas de almacenamiento de información. Características. Tecnologías.
++ [x] Lenguajes de consulta y manipulación en documentos.
++ [x] Consulta y manipulación de información.
++ [x] Importación y exportación de bases de datos relacionales en diferentes formatos.
++ [x] Herramientas de tratamiento y almacenamiento de información en sistemas nativos.
++ [x] Almacenamiento y manipulación de información en sistemas nativos.
+
+_Se trabaja los RA 4, 5 y 6_.
+
