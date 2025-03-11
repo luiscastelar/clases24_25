@@ -171,10 +171,16 @@ Fuente: [DOM - Manz.dev](https://lenguajejs.com/dom/)
 # Eliminación de elementos.
 
 
+
+
 # Manipulación de estilos.
 
 
 ## Test unitarios:
+
+<details>
+  <summary>Test unitarios en css</summary>
+
 * HTML:
 ```html
 <!DOCTYPE html>
@@ -308,8 +314,10 @@ if(correcto){
 
 ```
 
+</details>
 
 # Fuentes
++ Muy próximo a la línea que quiero llevar [repo de Brayan Diaz C](https://github.com/brayandiazc/aprendiendo-javaScript?tab=readme-ov-file)
 + [El Tutorial de JavaScript Moderno](https://es.javascript.info/)
 + De Manz.dev:
   1. [JS](https://lenguajejs.com/javascript/)
@@ -394,6 +402,9 @@ curl -L luiscastelar.duckdns.org/holaMundo.json
 + Otros... (no nos interesan para nuestro objeto de estudio).
 
 
+## Test unitarios:
+[Una guía sencilla](https://dev.to/dstrekelj/how-to-write-unit-tests-in-javascript-with-jest-2e83)
+
 ## Frameworks y librerías
 
 ### Un viaje al pasado -> jQuery `$`. 
@@ -426,6 +437,8 @@ Fuentes:
 
 
 
+## TypeScript
+[Una buena guía para emprezar](https://prismic.io/guides/typescript)
 
 ### Otros Frameworks
 + Angular, no confundir con AngularJS (en Typescript).
