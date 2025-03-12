@@ -13,20 +13,21 @@
 
 + Semana 23 (2h)
   + 7m:
-    + [ ] Contenedores (Docker)
-    + [ ] Instalación del gestor de bases de datos.
-    + [ ] Creación de bases de datos.
+    + [x] Contenedores (Docker)
+    + [x] Instalación del gestor de bases de datos.
+    + [x] Creación de bases de datos.
 
 + Semana 24: 10-14m
   + 10m:
-    + [ ] Conexión a bases de datos:
+    + [x] Conexión a bases de datos:
+      + [x] Firewall
+      + [x] Cliente “gráfico” (dbGate)
       + [ ] Consola
   + 11m:
-    + [ ] cont Conexión a bases de datos:
-      + [ ] Cliente “gráfico”
     + [ ] Acceso a las BBDD Relacionales desde aplicaciones. Drivers JDBC
   + 12m:
     + [ ] Acceso a las BBDD Relacionales desde aplicaciones. Drivers JDBC
+    + [ ] cont Conexión a bases de datos: consola
   + 14m:
     + [ ] Exportación de aplicación con driver JDBC
  
