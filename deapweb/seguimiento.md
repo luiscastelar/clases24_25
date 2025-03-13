@@ -1,112 +1,32 @@
 #curso24_25 #deapweb
 
-# PLANIFICADO
+# Evaluación EXTRAORDINARIA
+(3a EVALUACIÓN)
 
-## Cronograma:
-+ 9 enero de 2025:
-  + [x] **Maven**
+El alumno deberá presentar y defender satisfactoriamente al menos el 80% de las prácticas, demostrando que es el autor de la misma[^2].
 
+Estas prácticas deberán ser entregadas antes del 15 de mayo para establecer un calendario de defensa de las mismas.
 
-## Proyecto integrador:
-### Alumnos Dual (16h)
-Despliegue de una aplicación web (front, back y persistencia) sobre nube pública o vps accesible públicamente desde internet.
+Una vez superado el apartado de las prácticas, el alumno realizará un examen que abarcará todos los resultados de aprendizaje del curso.
 
-### Alumnos NO Dual (40h)
-+ 13 enero:
-  + [x] Generación automática de web documental desde markdown
-  + [x] BBDD relacional vs documental
-+ 14 enero:
-  + [x] Sensores de temperatura/humedad DHT11 y LM35
-  + [x] Firewall de servidor de despliegue (MySQL)
-+ 16 enero:
-  + [x] Kanban en GitHub. Metodología y documentación.
-  + [x] Polarización de sensores DHT11 (R4k7)
-        
-+ 20 enero:
-  + [x] revisión de issues
-  + [x] ajustes de despliegue de la bbdd
-+ 21 enero:
-  + [x] herramientas de desarrollo sobre servidor tras firewall
-  + [x] verificar configuración de bbdd (usr y pass random y en archivo .env).
-  + [x] **Aviso de faltas de asistencia**: Aquel alumno que no alcance el 90% de presencialidad de las horas asignadas al proyecto grupal (40h) tendrá que demostrar la superación de los RA de este módulo de forma escrita.
-+ 23 enero:
-  + [x] Ver config en repo de bbdd
-  + [x] Ver opciones y requisitos de despiegue
- 
-+ 27 enero:
-  + [x] Conexión backend - bbdd
-+ 28 enero:
-  + [x] Conexión backend - bbdd.
-+ 30 enero:
-  + [x] Depueración de problemas en renderizado de gráficas (angular)
-  
-+ 3 febrero:
-  + [x] Conexión ssh a máquina de despliegue
-+ 4 febrero:
-  + [x] Conexión ssh a máquina de despliegue
-+ 6 febrero:
-  + [x] Documentación del despliegue
-  + [x] Análisis del despliegue
-  
-+ 10 febrero:
-  + [x] Avances del despliegue y su documentación.
-  + [x] Ajuste de latidos de cron
-+ 11 febrero:
-  + [x] Documentación y estructura de la misma
-+ 13 febrero:
-  + [x] Revisión de documentación del despliegue
- 
-+ 17 feb:
-  + [x] El archivo .htaccess para ajuste de cache en desarrollo y produción.
-+ 18 feb:
-  + [x] Revisión de documentación del despliegue
-+ 20 feb:
-  + [x] Revisión de documentación del despliegue
+El alumnado que así lo desee podrá sustituir el punto anterior mediante la realización de un trabajo que abarque todos los RA del curso. Concretamente, el trabajo consistirá en la realización de un programa de despliegue de una aplicación completa backend (Laravel) + frontend (Angular o similar) mediante las técnicas vistas a lo largo del curso, como: proxy, dns y despliegue continuo con hooks, y por supuesto mediante versionado por GIT.
 
-+ 24 feb:
-  + [x] Revisión de servidores de despliegue. Problemas de puertos.
-+ 25 feb:
-  + [x] Revisión de servidores de despliegue. Problemas de certificados.
-+ 27 feb:
-  + [ ] Resolución de dudas
+Este trabajo se distribuirá según el siguiente cronograma:
 
-+ ~~3 marz: Carnavales~~
-+ ~~4 marz: Carnavales~~
-+ 6 marz:
-  + [ ] **Entrega y defensa de la puesta en producción** (RA1-5)
-  + [ ] **Entrega y defensa de la generación automática de documentación** (RA6)
-+ 10 marz:
-  + [ ] Presentación de trabajo del alumnado de dual
-+ 11 marz:
-  + [ ] Defensa de trabajos de despliegue del alumnado de dual
-+ 13 marz: 
-  + **Examen ORDINARIA**
-  + [ ] Defensa de trabajos de despliegue del alumnado de dual 
-
-#### Parcial
-Despliegue de aplicaciones web (front, back y persistencia) sobre nube pública o vps accesible públicamente desde internet:
-+ Front:
-  + Vanilla (Html5 + JS + Ajax)
-  + Laravel
-  + Angular
-  + React
-  + Otra
-+ Back:
-  + Servlet
-  + Laravel
-  + Spring
-  + Quarkus
-  + Node.js
-  + Otra
-+ Persistencia:
-  + Mysql
-  + PostgreSQL
-  + Firebase
-  + Supabase
-  + Otra
-
-**Duración: 100 horas.**
-
+```mermaid
+gantt
+    title Cronograma de recuperación
+    dateFormat  DD-MM-YYYY
+    section Section
+    Proxy           :proxy, 18-03-2025, 7d
+    DNS             :dns, after proxy, 7d
+    Hook Front y back :hook1, after dns, 11-04-2025
+    S.Santa         :ssanta, 14-04-2025, 21-04-2025
+    Base Front      :hook2, after ssanta, 14d
+    Base Back       :hook3, after hook2, 21d
+    DB              :bbdd, after hook3, 10d
+    Defensa         :pres, after bbdd, 10d
+```
 
 
 ---
@@ -318,6 +238,123 @@ Duración: 7 h -> 27n a 4d
 + 16d: **Defensa practicas** pendientes
 + 17d: **Defensa practicas** pendientes
 
+---
+
+
+## Cronograma:
++ 9 enero de 2025:
+  + [x] **Maven**
+
+
+## Proyecto integrador:
+### Alumnos Dual (16h)
+Despliegue de una aplicación web (front, back y persistencia) sobre nube pública o vps accesible públicamente desde internet.
+
+### Alumnos NO Dual (40h)
++ 13 enero:
+  + [x] Generación automática de web documental desde markdown
+  + [x] BBDD relacional vs documental
++ 14 enero:
+  + [x] Sensores de temperatura/humedad DHT11 y LM35
+  + [x] Firewall de servidor de despliegue (MySQL)
++ 16 enero:
+  + [x] Kanban en GitHub. Metodología y documentación.
+  + [x] Polarización de sensores DHT11 (R4k7)
+        
++ 20 enero:
+  + [x] revisión de issues
+  + [x] ajustes de despliegue de la bbdd
++ 21 enero:
+  + [x] herramientas de desarrollo sobre servidor tras firewall
+  + [x] verificar configuración de bbdd (usr y pass random y en archivo .env).
+  + [x] **Aviso de faltas de asistencia**: Aquel alumno que no alcance el 90% de presencialidad de las horas asignadas al proyecto grupal (40h) tendrá que demostrar la superación de los RA de este módulo de forma escrita.
++ 23 enero:
+  + [x] Ver config en repo de bbdd
+  + [x] Ver opciones y requisitos de despiegue
+ 
++ 27 enero:
+  + [x] Conexión backend - bbdd
++ 28 enero:
+  + [x] Conexión backend - bbdd.
++ 30 enero:
+  + [x] Depueración de problemas en renderizado de gráficas (angular)
+  
++ 3 febrero:
+  + [x] Conexión ssh a máquina de despliegue
++ 4 febrero:
+  + [x] Conexión ssh a máquina de despliegue
++ 6 febrero:
+  + [x] Documentación del despliegue
+  + [x] Análisis del despliegue
+  
++ 10 febrero:
+  + [x] Avances del despliegue y su documentación.
+  + [x] Ajuste de latidos de cron
++ 11 febrero:
+  + [x] Documentación y estructura de la misma
++ 13 febrero:
+  + [x] Revisión de documentación del despliegue
+ 
++ 17 feb:
+  + [x] El archivo .htaccess para ajuste de cache en desarrollo y produción.
++ 18 feb:
+  + [x] Revisión de documentación del despliegue
++ 20 feb:
+  + [x] Revisión de documentación del despliegue
+
++ 24 feb:
+  + [x] Revisión de servidores de despliegue. Problemas de puertos.
++ 25 feb:
+  + [x] Revisión de servidores de despliegue. Problemas de certificados.
++ 27 feb:
+  + [x] Resolución de dudas
+
++ ~~3 marz: Carnavales~~
++ ~~4 marz: Carnavales~~
++ 6 marz:
+  + [x] **Entrega y defensa de la puesta en producción** (RA1-5)
+  + [x] **Entrega y defensa de la generación automática de documentación** (RA6)
++ 10 marz:
+  + [x] Presentación de trabajo del alumnado de dual
++ 11 marz:
+  + [x] Defensa de trabajos de despliegue del alumnado de dual
++ 13 marz: 
+  + **Examen ORDINARIA**:
+    + Crear y desplegar:
+    + [RA2] una aplicación Laravel (un hola mundo)
+    + [RA1 y RA2] a través de docker
+    + [RA4] con sincronización de archivos mediante hook
+    + [RA2] desplegado en un servidor público
+    + [RA5] con nombre (Duckdns o similar) y tras un proxy inverso
+   
+  + [x] Defensa de trabajos de despliegue del alumnado de dual
+
+#### Parcial
+Despliegue de aplicaciones web (front, back y persistencia) sobre nube pública o vps accesible públicamente desde internet:
++ Front:
+  + Vanilla (Html5 + JS + Ajax)
+  + Laravel
+  + Angular
+  + React
+  + Otra
++ Back:
+  + Servlet
+  + Laravel
+  + Spring
+  + Quarkus
+  + Node.js
+  + Otra
++ Persistencia:
+  + Mysql
+  + PostgreSQL
+  + Firebase
+  + Supabase
+  + Otra
+
+**Duración: 100 horas.**
+
+
+
 
 ---
 
@@ -348,4 +385,6 @@ Duración: 7 h -> 27n a 4d
 
 
 # Notas al pie:
-[^1]: Aunque de forma general está programado un examen, si el alumno o alumna ha facilitado el proceso de enseñanza-aprendizaje no molestando a los compañeros, este examen podrá ser sustituido por la defensa de las práctica
+[^1]: Aunque de forma general está programado un examen, si el alumno o alumna ha facilitado el proceso de enseñanza-aprendizaje no molestando a los compañeros, este examen podrá ser sustituido por la defensa de las práctica.
+
+[^2] Suponemos que es el autor de las mismas cuando es capaz de explicar el motivo por el que realiza los distintos pasos de los procesos, así como el origen de TODAS las palabras utilizadas en la documentación y el desarrollo.
