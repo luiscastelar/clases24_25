@@ -18,7 +18,7 @@
     + [ ] Plantillas de texto
     + [ ] Try-catch
     + [ ] Funciones: declaración, expresiones, lambdas y valores.
-    + [ ] Ámbito de variables
+    + [ ] Ámbito de variables y bloques de código
 
 + Semana 25
   + L17: Introducción a JS.

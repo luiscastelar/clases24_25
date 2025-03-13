@@ -22,18 +22,19 @@
     + [x] Conexión a bases de datos:
       + [x] Firewall
       + [x] Cliente “gráfico” (dbGate)
-      + [ ] Consola
   + 11m:
-    + [ ] Acceso a las BBDD Relacionales desde aplicaciones. Drivers JDBC
+    + [x] Acceso a las BBDD Relacionales desde aplicaciones. Drivers JDBC
   + 12m:
-    + [ ] Acceso a las BBDD Relacionales desde aplicaciones. Drivers JDBC
-    + [ ] cont Conexión a bases de datos: consola
+    + [x] Conexión a bases de datos:
+      + [x] Consola
   + 14m:
-    + [ ] Exportación de aplicación con driver JDBC
+    + [ ] Primera consulta
+    + [ ] Conexión con `properties`
  
 
 + Semana 25: 17-21m
   + 17m:
+    + [ ] Exportación de aplicación con driver JDBC
   + 18m:
   + 19m:
   + 21m:

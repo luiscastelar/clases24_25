@@ -69,6 +69,27 @@ Pues eso, que si no existe la tabla... `Table 'db_mia.persona' doesn't exist`, d
 7. Insertar registros ``INSERT INTO `personas` (`nombre`, `fecha_nacimiento`) VALUES ('Luis','2000/01/01');
 INSERT INTO `personas` (`nombre`, `fecha_nacimiento`, `altura`) VALUES ('Pedro','2010/08/23','180');``
 
+
+Si no existe el usuario, o la base de datos, o el usuario no está enlazado con la base de datos:
+```sql
+# -- Crear base de datos:
+CREATE DATABASE uno_db;
+
+# -- Crear usuario: para localhost, red interna y/o todo internet
+CREATE USER 'fernando'@'localhost' IDENTIFIED BY 'password';
+CREATE USER 'fernando'@'192.168.0.%' IDENTIFIED BY 'password';
+CREATE USER 'fernando'@'%' IDENTIFIED BY 'password';
+
+# -- Verificamos que existe el usuario
+SELECT user FROM mysql.user;
+
+# -- Otorgamos permisos para localhost, red interna y/o todo internet
+GRANT ALL PRIVILEGES ON uno_db.* TO fernando@'localhost';
+GRANT ALL PRIVILEGES ON uno_db.* TO fernando@'192.168.0.%';
+GRANT ALL PRIVILEGES ON uno_db.* TO fernando@'%';
+# -- Los permisos pueden ser diferentes según la procedencia
+```
+
 Con ésto tendríamos lo suficiente para comenzar a trabajar.
 
 # Lanzando malas consultas
