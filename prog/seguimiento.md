@@ -28,8 +28,9 @@
     + [x] Conexión a bases de datos:
       + [x] Consola
   + 14m:
-    + [ ] Primera consulta
-    + [ ] Conexión con `properties`
+    + [x] Primera consulta
+    + [x] Conexión con `properties`
+    + [x] Inyección de SQL
  
 
 + Semana 25: 17-21m

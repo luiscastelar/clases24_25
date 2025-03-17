@@ -14,20 +14,21 @@
 
 + Semana 24
   + J13: Introducción a JS.
-    + [ ] Declaración de variables y constantes
-    + [ ] Plantillas de texto
-    + [ ] Try-catch
-    + [ ] Funciones: declaración, expresiones, lambdas y valores.
-    + [ ] Ámbito de variables y bloques de código
+    + [x] Declaración de variables y constantes
+    + [x] Plantillas de texto
+    + [x] Try-catch
+    + [x] Funciones: declaración, expresiones, lambdas y valores.
 
 + Semana 25
   + L17: Introducción a JS.
+    + [ ] Ámbito de variables y bloques de código
     + [ ] Tipos de datos primitivos
     + [ ] objetos ... y Clases
   + J20m: Introducción a JS.
       + [ ] Programación estructurada:
       + [ ] `if-else`, `switch`, `while`, `do-while`
       + [ ] `for`, `for ... in`, `for ... of`
+      + [ ] Desectructuración
       + [ ] Métodos “loop”: `.forEach()`, `.map()`, `.filter()`, `.reduce()`
   
 
@@ -333,7 +334,7 @@ _Se trabaja el RA 2_.
   + L10:
     + **Examen**
   + J13:
-    + [ ] Revisión examen
+    + [x] Revisión examen
 
     
 
