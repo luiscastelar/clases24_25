@@ -104,6 +104,10 @@ Sentencias + ejecución de consultas => Resultados: `Statemen` + `executeQuery( 
 Prepare + execute
 
 
+# Exportación de aplicaciones
+1. Vía IDE: _File-Proyect Structure-Artifacts_ + _Add+Jar-From modules with dependencies_
+2. [Vía Maven](https://luisferreira.top/monograficos/Maven.html)
+
 # Fuentes
 + [BBDD - Pablo Alvarez Corredera](https://github.com/rosepac/daw-temario/blob/main/PROG/PR11.pdf)
 + Vídeos [Makigas](https://www.makigas.es/series/jdbc-moderno)

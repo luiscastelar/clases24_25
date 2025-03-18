@@ -35,8 +35,11 @@
 
 + Semana 25: 17-21m
   + 17m:
-    + [ ] Exportación de aplicación con driver JDBC
+    + [x] Resolución de problemas
   + 18m:
+    + [ ] Exportación de aplicación con driver JDBC:
+      + [ ] `mvn package` (Fases maven: `validate`, `compile`, `test`, `package`, `verify`, `install`, `deploy`)
+      + [ ] IDE
   + 19m:
   + 21m:
  

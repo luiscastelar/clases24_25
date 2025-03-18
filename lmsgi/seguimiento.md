@@ -21,17 +21,18 @@
 
 + Semana 25
   + L17: Introducción a JS.
-    + [ ] Ámbito de variables y bloques de código
-    + [ ] Tipos de datos primitivos
-    + [ ] objetos ... y Clases
+    + [x] Ámbito de variables y bloques de código
+    + [x] Tipos de datos primitivos
+    + [x] objetos ... y Clases
   + J20m: Introducción a JS.
-      + [ ] Programación estructurada:
+    + [ ] `instanceof`
+    + [ ] Programación estructurada:
       + [ ] `if-else`, `switch`, `while`, `do-while`
       + [ ] `for`, `for ... in`, `for ... of`
-      + [ ] Desectructuración
-      + [ ] Métodos “loop”: `.forEach()`, `.map()`, `.filter()`, `.reduce()`
+    + [ ] Desectructuración de arrays y objetos
+    + [ ] Programación funcional
+    + [ ] Métodos “loop”: `.forEach()`, `.map()`, `.filter()`, `.reduce()`
   
-
 + Semana 26
   + L24m: **AJAX**
     + [ ] ~~`XMLHttpRequest`~~ y `jQuery`
@@ -42,7 +43,6 @@
       + [ ] `.getElementsByClassName(): element[]`
       + [ ] `.getElementsByTagName(): element[]`
       + [ ] `HTMLCollection`
-      + [ ] 
             
 + Semana 27
   + L31m: Selección de elementos HTML
@@ -84,7 +84,7 @@
 
 
 **JS**:
-+ [ ] Lenguajes de script de cliente. Características y sintaxis básica. Estándares.
++ [x] Lenguajes de script de cliente. Características y sintaxis básica. Estándares.
 + [ ] Selección y acceso a elementos.
 + [ ] Creación y modificación de elementos.
 + [ ] Eliminación de elementos.
