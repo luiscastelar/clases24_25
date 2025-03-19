@@ -27,7 +27,16 @@ gantt
     DB              :bbdd, after hook3, 10d
     Defensa         :pres, after bbdd, 10d
 ```
-
+| Tarea | F inicio   | F fin      |
+|-------|------------|------------|
+| Proxy | 18-03-2025 | 24-03-2025 |
+| DNS   | 25-03-2025 | 31-03-2025 |
+| Hook Front y back | 01-04-2025 | 11-04-2025 |
+| S.Santa | 14-04-2025 | 21-04-2025 |
+| Base Front | 22-04-2025 | 05-05-2025 |
+| Base Back | 06-05-2025 | 26-05-2025 |
+| DB    | 27-05-2025 | 05-06-2025 |
+| Defensa | 06-06-2025 | 12-06-2025 |
 
 ---
 # Impartido
