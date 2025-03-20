@@ -37,11 +37,18 @@
   + 17m:
     + [x] Resolución de problemas
   + 18m:
-    + [ ] Exportación de aplicación con driver JDBC:
-      + [ ] `mvn package` (Fases maven: `validate`, `compile`, `test`, `package`, `verify`, `install`, `deploy`)
-      + [ ] IDE
+    + [x] Programación por contrato
+    + [x] Consultas parametrizadas (evitan inyección de SQl)
+    + [x] Exportación de aplicación con driver JDBC:
+      + [x] `mvn package` (Fases maven: `validate`, `compile`, `test`, `package`, `verify`, `install`, `deploy`)
+      + [x] IDE
   + 19m:
+    + [ ] Ejercicios
   + 21m:
+    + [ ] Insert
+    + [ ] Update
+    + [ ] Delete
+    + [ ] Ejercicios
  
     
 + Semana 26:
