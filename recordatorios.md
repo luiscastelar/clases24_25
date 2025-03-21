@@ -33,7 +33,10 @@ El incumplimiento podrá ser motivo de penalizaciones, dar por no entregada la a
 ![lenguaje no formal](https://luiscastelar.duckdns.org/2023/assets/ED/formas_inadecuadas.png)
 + Todos los emails deben llevar un asunto. De otra forma serán automáticamente eliminados (mi gestor de correo lo hace así).
 + No se admitirán [variables ninja](https://es.javascript.info/ninja-code) bajo ninguna circunstancia. Del nombre de las mismas deberá poder inferirse su contenido u utilidad.
-+ Las capturas de salida estándar se realizarán con `tee` o `Tee-Object` como así se refleja en la documentación sobre GIT aportada.
++ Las capturas de salida estándar se realizarán con `tee` o `Tee-Object` **siempre**.
+
+  _Si el programa no capturara la salida, consultar con el profesor. Por ejemplo, a `git` hay que añadirle el argumento `--progress` y redireccionar ambas salidas `2>1&` para realizarlo correctamente, quedando algo como `git clone --progress ruta/repo.git 2>1& | tee archivo.log`_
+  
 + Únicamente cuando no sea posible se realizarán con el método de realizar captura y subir (siempre con GIT) y asegurándoos de que funcionan mediante ruta relativa al README y no a rutas absolutas respecto a github.
 + Respecto a las correcciones encuentro que debemos recordar algunos términos que a algunos se les olvida:
   1. Si no existe documentación no continúa la corrección ya que “el cliente” no sabe como comenzar.
