@@ -43,16 +43,17 @@
       + [x] `mvn package` (Fases maven: `validate`, `compile`, `test`, `package`, `verify`, `install`, `deploy`)
       + [x] IDE
   + 19m:
-    + [ ] Ejercicios
+    + [x] Ejercicios
   + 21m:
-    + [ ] Insert
-    + [ ] Update
-    + [ ] Delete
-    + [ ] Ejercicios
+    + [x] Insert
+    + [x] Update
+    + [x] Delete
+    + [x] Ejercicios
  
     
 + Semana 26:
   + 24m:
+    + [ ] Ejercicio con **DAO**
   + 25m:
   + 26m:
   + 28m:
@@ -69,15 +70,13 @@
       4. DAO Modificación y test
       5. DAO Eliminación y test
 
-f) Crear aplicaciones que muestren la información almacenada en bases de datos.
-g) Crear aplicaciones para gestionar la información presente en bases de datos.
 
 Gestión de bases de datos:
-+ [ ] Instalación del gestor de bases de datos.
-+ [ ] Creación de bases de datos.
-+ [ ] Mecanismos de consulta.
-+ [ ] Acceso a bases de datos. Estándares. Características.
-+ [ ] Establecimiento de conexiones.
++ [x] Instalación del gestor de bases de datos.
++ [x] Creación de bases de datos.
++ [x] Mecanismos de consulta.
++ [x] Acceso a bases de datos. Estándares. Características.
++ [x] Establecimiento de conexiones.
 + [ ] Almacenamiento, recuperación, actualización y eliminación de información en bases de datos.
 
 

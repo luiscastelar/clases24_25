@@ -25,17 +25,18 @@
     + [x] Tipos de datos primitivos
     + [x] objetos ... y Clases
   + J20m: Introducción a JS.
-    + [ ] `instanceof`
-    + [ ] Programación estructurada:
-      + [ ] `if-else`, `switch`, `while`, `do-while`
-      + [ ] `for`, `for ... in`, `for ... of`
-    + [ ] Desectructuración de arrays y objetos
-    + [ ] Programación funcional
-    + [ ] Métodos “loop”: `.forEach()`, `.map()`, `.filter()`, `.reduce()`
+    + [x] `instanceof`
+    + [x] Programación estructurada:
+      + [x] `if-else`, `switch`, `while`, `do-while`
+      + [x] `for`, `for ... in`, `for ... of`
+    + [x] Desectructuración de arrays y objetos
+    + [x] Programación funcional
+    + [x] Métodos “loop”: `.forEach()`, `.map()`, `.filter()`, `.reduce()`
   
 + Semana 26
   + L24m: **AJAX**
-    + [ ] ~~`XMLHttpRequest`~~ y `jQuery`
+    + [ ] Arrays como “colecciones”: Métodos `.push()`, `.pop()`, `.unshift()` y `.shift()`
+    + [ ] ~~`XMLHttpRequest`~~ y ~~`jQuery`~~
     + [ ] `fetch`
   + J27m: Selección de elementos HTML
     + [ ] Selección clásica:
