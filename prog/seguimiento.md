@@ -53,9 +53,11 @@
     
 + Semana 26:
   + 24m:
-    + [ ] Ejercicio con **DAO**
+    + [x] Ejercicio con **DAO**
   + 25m:
+    + [ ] Ejercicio con **DAO**
   + 26m:
+    + [ ] Ejercicio con **DAO**
   + 28m:
     
 + Semana 27 (3h):
