@@ -35,9 +35,9 @@
   
 + Semana 26
   + L24m: **AJAX**
-    + [ ] Arrays como “colecciones”: Métodos `.push()`, `.pop()`, `.unshift()` y `.shift()`
+    + [x] Arrays como “colecciones”: Métodos `.push()`, `.pop()`, `.unshift()` y `.shift()`
     + [ ] ~~`XMLHttpRequest`~~ y ~~`jQuery`~~
-    + [ ] `fetch`
+    + [x] `fetch`
   + J27m: Selección de elementos HTML
     + [ ] Selección clásica:
       + [ ] `.getElementById(): element`

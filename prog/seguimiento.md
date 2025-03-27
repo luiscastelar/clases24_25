@@ -55,52 +55,33 @@
   + 24m:
     + [x] Ejercicio con **DAO**
   + 25m:
-    + [ ] Ejercicio con **DAO**
+    + [x] Ejercicio con **DAO**
   + 26m:
-    + [ ] Ejercicio con **DAO**
+    + [x] Planteamiento del ejercicio 114 de AceptaElReto
+    + [x] Ejercicio con **DAO**
   + 28m:
+    + [ ] Planteamiento del ejercicio 100 de AceptaElReto
+    + [ ] Ejercicio con **DAO**
     
-+ Semana 27 (3h):
++ Semana 27 (5h):
   + 31m:
-  + 1a:
-    
-+ Semana 28 (2h):
-  + 11a: **EXAMEN**
+    + [ ] Ejercicio con **DAO**
+  + ~~1a:~~
+  + 2a: **EXAMEN**
       1. Creación de una db y carga de datos de ejemplo
       2. DAO Lectura y test
       3. DAO Escritura y test
       4. DAO Modificación y test
       5. DAO Eliminación y test
-
-
+  
+  
 Gestión de bases de datos:
 + [x] Instalación del gestor de bases de datos.
 + [x] Creación de bases de datos.
 + [x] Mecanismos de consulta.
 + [x] Acceso a bases de datos. Estándares. Características.
 + [x] Establecimiento de conexiones.
-+ [ ] Almacenamiento, recuperación, actualización y eliminación de información en bases de datos.
-
-
-a) Identificar las características de las bases de datos orientadas a objetos.
-b) Analizar su aplicación en el desarrollo de aplicaciones mediante lenguajes orientados a objetos.
-
-f) Programar aplicaciones que almacenen objetos en las bases de datos creadas.
-g) Realizar programas para recuperar, actualizar y eliminar objetos de las bases de datos.
-h) Realizar programas para almacenar y gestionar tipos de datos estructurados, compuestos y relacionados.
-
-
-Mantenimiento de la persistencia de los objetos:
-
-+ [ ] Bases de datos orientadas a objetos.
-+ [ ] Características de las bases de datos orientadas a objetos.
-+ [ ] Instalación del gestor de bases de datos.
-+ [ ] Creación de bases de datos.
-+ [ ] Mecanismos de consulta.
-+ [ ] El lenguaje de consultas: sintaxis, expresiones, operadores.
-+ [ ] Recuperación, modificación y borrado de información.
-+ [ ] Tipos de datos objeto; atributos y métodos.
-+ [ ] Tipos de datos colección.
++ [x] Almacenamiento, recuperación, actualización y eliminación de información en bases de datos.
 
 _Trabajados los RA 3, 4, 6, 7, 8 y 9._
 
@@ -108,10 +89,18 @@ _Trabajados los RA 3, 4, 6, 7, 8 y 9._
 ## UT10. Interfaces Gráficas de Usuario. WebUI.
 + (28h)
 
-+ Semana 27 (4h): 2a-4a
-+ Semana 28 (5h):
++ Semana 27 (4h):
+  + 1a:
+    + Java EE y Jakarta EE
+  + 4a:
+    + Tomcat
+    + JSP, JSF
++ Semana 28 (7h):
   + 7a:
+    + Métodos HTTP
+    + ServLets
   + 8a:
+    + ServLet con objetos
   + 11a:
 + Semana 29 (6h):
   + 22a:

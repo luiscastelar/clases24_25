@@ -160,6 +160,21 @@ Fuente: [DOM - Manz.dev](https://lenguajejs.com/dom/)
 Fuente: [DOM - Manz.dev](https://lenguajejs.com/dom/)
 
 ## Eventos
+HTML events:
+
+| Event | Description |
+| --- | --- |
+| onchange | An HTML element has been changed |
+| onclick | The user clicks an HTML element |
+| onmouseover | The user moves the mouse over an HTML element |
+| onmouseout | The user moves the mouse away from an HTML element |
+| onkeydown | The user pushes a keyboard key |
+| onload | The browser has finished loading the page |
+
+The list is much longer: [W3Schools JavaScript Reference HTML DOM Events](https://www.w3schools.com/jsref/dom_obj_event.asp).
+
+**Fuente**: [W3]
+
 
 ## Expresiones Regulares -RegEx-
 1. [En crudo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
