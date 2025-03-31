@@ -37,22 +37,27 @@
   + L24m: **AJAX**
     + [x] Arrays como “colecciones”: Métodos `.push()`, `.pop()`, `.unshift()` y `.shift()`
     + [ ] ~~`XMLHttpRequest`~~ y ~~`jQuery`~~
-    + [x] `fetch`
-  + J27m: Selección de elementos HTML
-    + [ ] Selección clásica:
+    + [x] Asincronía:
+      + [x] clásica con `callback`s
+      + [x] Promesas
+      + [x] async/await
+      + [x] `fetch`
+  + J27m:
+    + [x] Dudas sobre asincronía
+    + [x] Resolución de ejercicios de ProgramaMe con JS
+            
++ Semana 27
+  + L31m:
+    + [ ] Selección clásica de elementos HTML:
       + [ ] `.getElementById(): element`
       + [ ] `.getElementsByClassName(): element[]`
       + [ ] `.getElementsByTagName(): element[]`
       + [ ] `HTMLCollection`
-            
-+ Semana 27
-  + L31m: Selección de elementos HTML
-    + [ ] Selección actual:
+  + 3a: 
+    + [ ] Selección actual de elementos HTML:
       + [ ] `.querySelector(sel): node`
       + [ ] `.querySelectorAll(sel): NodeList`
-  + 3a: Modificar elementos HTML
     
-
 + Semana 28
   + L7a: Modificar elementos HTML
   + J10a: Modificar elementos HTML

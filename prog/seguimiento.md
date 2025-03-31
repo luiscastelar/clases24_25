@@ -57,16 +57,21 @@
   + 25m:
     + [x] Ejercicio con **DAO**
   + 26m:
-    + [x] Planteamiento del ejercicio 114 de AceptaElReto
+    + [x] Planteamiento del ejercicio 114 de AceptaElReto: Factorial
     + [x] Ejercicio con **DAO**
   + 28m:
-    + [ ] Planteamiento del ejercicio 100 de AceptaElReto
-    + [ ] Ejercicio con **DAO**
+    + [x] Planteamiento del ejercicio 100 de AceptaElReto: Constante de Kaprekar
+    + [x] Planteamiento del ejercicio 101 de AceptaElReto: Cuadrados Diabólicos y Exotéricos
+    + [x] Planteamiento del ejercicio de ProgramaMe 2024 de contraseñas seguras: RegEx o 
+    + [x] Planteamiento del ejercicio de ProgramaMe 2024 de fallas: Recursividad (P. Funcional) y/o objetos (POO)
+    + [x] [Off-topic] Reunión informativa de la Formación en Empresa
     
 + Semana 27 (5h):
   + 31m:
+    + [ ] Planteamiento del ejercicio 102 de AceptaElReto: Cifrado Cesar
     + [ ] Ejercicio con **DAO**
-  + ~~1a:~~
+  + 1a:
+    + [ ] Ejercicio con **DAO**
   + 2a: **EXAMEN**
       1. Creación de una db y carga de datos de ejemplo
       2. DAO Lectura y test
