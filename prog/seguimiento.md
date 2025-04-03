@@ -8,100 +8,18 @@
 # 3ª EVALUACIÓN
 ---
 
-## UT9. Gestión de información almacenada en bases de datos relacionales
-+ (26h)
-
-+ Semana 23 (2h)
-  + 7m:
-    + [x] Contenedores (Docker)
-    + [x] Instalación del gestor de bases de datos.
-    + [x] Creación de bases de datos.
-
-+ Semana 24: 10-14m
-  + 10m:
-    + [x] Conexión a bases de datos:
-      + [x] Firewall
-      + [x] Cliente “gráfico” (dbGate)
-  + 11m:
-    + [x] Acceso a las BBDD Relacionales desde aplicaciones. Drivers JDBC
-  + 12m:
-    + [x] Conexión a bases de datos:
-      + [x] Consola
-  + 14m:
-    + [x] Primera consulta
-    + [x] Conexión con `properties`
-    + [x] Inyección de SQL
- 
-
-+ Semana 25: 17-21m
-  + 17m:
-    + [x] Resolución de problemas
-  + 18m:
-    + [x] Programación por contrato
-    + [x] Consultas parametrizadas (evitan inyección de SQl)
-    + [x] Exportación de aplicación con driver JDBC:
-      + [x] `mvn package` (Fases maven: `validate`, `compile`, `test`, `package`, `verify`, `install`, `deploy`)
-      + [x] IDE
-  + 19m:
-    + [x] Ejercicios
-  + 21m:
-    + [x] Insert
-    + [x] Update
-    + [x] Delete
-    + [x] Ejercicios
- 
-    
-+ Semana 26:
-  + 24m:
-    + [x] Ejercicio con **DAO**
-  + 25m:
-    + [x] Ejercicio con **DAO**
-  + 26m:
-    + [x] Planteamiento del ejercicio 114 de AceptaElReto: Factorial
-    + [x] Ejercicio con **DAO**
-  + 28m:
-    + [x] Planteamiento del ejercicio 100 de AceptaElReto: Constante de Kaprekar
-    + [x] Planteamiento del ejercicio 101 de AceptaElReto: Cuadrados Diabólicos y Exotéricos
-    + [x] Planteamiento del ejercicio de ProgramaMe 2024 de contraseñas seguras: RegEx o 
-    + [x] Planteamiento del ejercicio de ProgramaMe 2024 de fallas: Recursividad (P. Funcional) y/o objetos (POO)
-    + [x] [Off-topic] Reunión informativa de la Formación en Empresa
-    
-+ Semana 27 (5h):
-  + 31m:
-    + [ ] Planteamiento del ejercicio 102 de AceptaElReto: Cifrado Cesar
-    + [ ] Ejercicio con **DAO**
-  + 1a:
-    + [ ] Ejercicio con **DAO**
-  + 2a: **EXAMEN**
-      1. Creación de una db y carga de datos de ejemplo
-      2. DAO Lectura y test
-      3. DAO Escritura y test
-      4. DAO Modificación y test
-      5. DAO Eliminación y test
-  
-  
-Gestión de bases de datos:
-+ [x] Instalación del gestor de bases de datos.
-+ [x] Creación de bases de datos.
-+ [x] Mecanismos de consulta.
-+ [x] Acceso a bases de datos. Estándares. Características.
-+ [x] Establecimiento de conexiones.
-+ [x] Almacenamiento, recuperación, actualización y eliminación de información en bases de datos.
-
-_Trabajados los RA 3, 4, 6, 7, 8 y 9._
-
 
 ## UT10. Interfaces Gráficas de Usuario. WebUI.
-+ (28h)
++ (26h)
 
 + Semana 27 (4h):
   + 1a:
-    + Java EE y Jakarta EE
-  + 4a:
-    + Tomcat
-    + JSP, JSF
+    + [x] Java EE y Jakarta EE
+    + [x] Tomcat
+  + ~~4a:~~
 + Semana 28 (7h):
   + 7a:
+    + ~~JSP, JSF~~
     + Métodos HTTP
     + ServLets
   + 8a:
@@ -608,3 +526,88 @@ Total ~29 h
 + [x] Realizar programas que realicen manipulaciones sobre documentos escritos en diferentes lenguajes de intercambio de datos.
       
 _Trabajados los RA 3, 4, 5, 6, 7 y 8._
+
+
+## UT9. Gestión de información almacenada en bases de datos relacionales
++ (28h)
+
++ Semana 23 (2h)
+  + 7m:
+    + [x] Contenedores (Docker)
+    + [x] Instalación del gestor de bases de datos.
+    + [x] Creación de bases de datos.
+
++ Semana 24: 10-14m
+  + 10m:
+    + [x] Conexión a bases de datos:
+      + [x] Firewall
+      + [x] Cliente “gráfico” (dbGate)
+  + 11m:
+    + [x] Acceso a las BBDD Relacionales desde aplicaciones. Drivers JDBC
+  + 12m:
+    + [x] Conexión a bases de datos:
+      + [x] Consola
+  + 14m:
+    + [x] Primera consulta
+    + [x] Conexión con `properties`
+    + [x] Inyección de SQL
+ 
+
++ Semana 25: 17-21m
+  + 17m:
+    + [x] Resolución de problemas
+  + 18m:
+    + [x] Programación por contrato
+    + [x] Consultas parametrizadas (evitan inyección de SQl)
+    + [x] Exportación de aplicación con driver JDBC:
+      + [x] `mvn package` (Fases maven: `validate`, `compile`, `test`, `package`, `verify`, `install`, `deploy`)
+      + [x] IDE
+  + 19m:
+    + [x] Ejercicios
+  + 21m:
+    + [x] Insert
+    + [x] Update
+    + [x] Delete
+    + [x] Ejercicios
+ 
+    
++ Semana 26:
+  + 24m:
+    + [x] Ejercicio con **DAO**
+  + 25m:
+    + [x] Ejercicio con **DAO**
+  + 26m:
+    + [x] Planteamiento del ejercicio 114 de AceptaElReto: Factorial
+    + [x] Ejercicio con **DAO**
+  + 28m:
+    + [x] Planteamiento del ejercicio 100 de AceptaElReto: Constante de Kaprekar
+    + [x] Planteamiento del ejercicio 101 de AceptaElReto: Cuadrados Diabólicos y Exotéricos
+    + [x] Planteamiento del ejercicio de ProgramaMe 2024 de contraseñas seguras: RegEx o 
+    + [x] Planteamiento del ejercicio de ProgramaMe 2024 de fallas: Recursividad (P. Funcional) y/o objetos (POO)
+    + [x] [Off-topic] Reunión informativa de la Formación en Empresa
+    
++ Semana 27 (7h):
+  + 31m:
+    + [x] Planteamiento del ejercicio 102 de AceptaElReto: Cifrado Cesar
+    + [x] Ejercicio con **DAO**
+  + 1a:
+    + [x] Ejercicio con **DAO**
+  + 2a:
+    + [x] **EXAMEN**
+      1. Creación de una db y carga de datos de ejemplo
+      2. DAO Lectura y ~~test~~ mostrar resultados
+      3. DAO Escritura y ~~test~~ mostrar resultados
+      4. DAO Modificación y ~~test~~ mostrar resultados
+      5. DAO Eliminación y ~~test~~ mostrar resultados
+  + 4a:
+    + [ ] Resolución de examen
+  
+Gestión de bases de datos:
++ [x] Instalación del gestor de bases de datos.
++ [x] Creación de bases de datos.
++ [x] Mecanismos de consulta.
++ [x] Acceso a bases de datos. Estándares. Características.
++ [x] Establecimiento de conexiones.
++ [x] Almacenamiento, recuperación, actualización y eliminación de información en bases de datos.
+
+_Trabajados los RA 3, 4, 6, 7, 8 y 9._

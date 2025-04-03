@@ -48,19 +48,23 @@
             
 + Semana 27
   + L31m:
-    + [ ] Selección clásica de elementos HTML:
-      + [ ] `.getElementById(): element`
-      + [ ] `.getElementsByClassName(): element[]`
-      + [ ] `.getElementsByTagName(): element[]`
-      + [ ] `HTMLCollection`
+    + [x] Selección clásica de elementos HTML:
+      + [x] `.getElementById(): element`
+      + [x] `.getElementsByClassName(): element[]`
+      + [x] `.getElementsByTagName(): element[]`
+      + [x] `HTMLCollection`
   + 3a: 
+    + [ ] 
     + [ ] Selección actual de elementos HTML:
       + [ ] `.querySelector(sel): node`
       + [ ] `.querySelectorAll(sel): NodeList`
+    + [ ] Modificar elementos HTML
+      + [ ] Lista de tareas `ToDo List`
+      + [ ] Juego 3 en raya
     
 + Semana 28
-  + L7a: Modificar elementos HTML
-  + J10a: Modificar elementos HTML
+  + L7a: Modificar elementos HTML (continuar ejercicios)
+  + J10a: Modificar elementos HTML (continuar ejercicios)
 
 
 + Semana 29: **SEMANA SANTA**
@@ -68,6 +72,7 @@
 + Semana 30:
   + ~~21a: SEMANA SANTA~~
   + 24a: Modificar elementos HTML
+    + [ ] Front-Back en json
  
 + Semana 31
   + 28a: Modificar estilos CSS
