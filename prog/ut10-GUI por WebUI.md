@@ -80,7 +80,24 @@ La utilización de cualquier asistente de inteligencia artificial supondrá la c
 
 # Servlet
 ![servlets](https://www.tutorialspoint.com/servlets/images/servlet-arch.jpg)
+## Ciclo de vida:
+1. Inicio `public void init()` (la primera vez que es llamado el servlet).
+2. Servicio:
+   + método `doGet()`
+   + método `doPost()`
+   + método `doPut()`,
+   + método `doDelete()`,
+3. `public void destroy()` para cierre de conexiones y similar.
+4. Recoletor de basura
 
+## Captura de parámetros
+    getParameter() − Llama al método request.getParameter() para obtener el valor de un parámetro de formulario.
+
+    getParameterValues() − Llame a este método si el parámetro aparece más de una vez y devuelve múltiples valores, por ejemplo, casilla de verificación.
+
+    getParameterNames() − Llame a este método si desea una lista completa de todos los parámetros en la solicitud actual.
+
+## Ejercicios
 1. `/helloworld`
 2. `/echo`
 3. `/echo-json`
