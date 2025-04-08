@@ -64,7 +64,7 @@
     
 + Semana 28
   + L7a: Modificar elementos HTML (continuar ejercicios)
-  + J10a: Modificar elementos HTML (continuar ejercicios)
+  + J10a: **Día del centro**
 
 
 + Semana 29: **SEMANA SANTA**

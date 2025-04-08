@@ -25,6 +25,10 @@
   + 8a:
     + ServLet con objetos
   + 11a:
+    + Repaso DAO’s con colecciones, archivos y bbdd.
+
++ **Semana Santa** (del 14 al 21 inclusive)
+
 + Semana 29 (6h):
   + 22a:
   + 23a:
