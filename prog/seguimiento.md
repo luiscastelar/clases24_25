@@ -20,19 +20,26 @@
 + Semana 28 (7h):
   + 7a:
     + ~~JSP, JSF~~
-    + Métodos HTTP
-    + ServLets
-  + 8a:
-    + ServLet con objetos
+    + [x] Métodos HTTP
+    + [x] ServLets - Helloworld
+  + 8a: ServLets
+      + [ ] echo
+      + [ ] echo con arrays de argumentos
+  + 9a: Servlets
+    + [ ] echo-json
+    + [ ] json-json
   + 11a:
     + Repaso DAO’s con colecciones, archivos y bbdd.
 
 + **Semana Santa** (del 14 al 21 inclusive)
 
 + Semana 29 (6h):
-  + 22a:
+  + 22a: Servlets
+    + [ ] Con memoria
   + 23a:
+    + [ ] Ejercicio Chat
   + 25a:
+    + [ ] Interacción con objetos
 + Semana 30 (5h): 28a-30a
 + Semana 31 (2h):
   + 5a:
