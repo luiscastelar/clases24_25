@@ -54,11 +54,10 @@
       + [x] `.getElementsByTagName(): element[]`
       + [x] `HTMLCollection`
   + 3a: 
-    + [ ] 
-    + [ ] Selección actual de elementos HTML:
-      + [ ] `.querySelector(sel): node`
-      + [ ] `.querySelectorAll(sel): NodeList`
-    + [ ] Modificar elementos HTML
+    + [x] Selección actual de elementos HTML:
+      + [x] `.querySelector(sel): node`
+      + [x] `.querySelectorAll(sel): NodeList`
+    + [x] Modificar elementos HTML
       + [ ] Lista de tareas `ToDo List`
       + [ ] Juego 3 en raya
     

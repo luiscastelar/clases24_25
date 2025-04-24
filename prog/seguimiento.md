@@ -23,24 +23,34 @@
     + [x] Métodos HTTP
     + [x] ServLets - Helloworld
   + 8a: ServLets
-      + [ ] echo
-      + [ ] echo con arrays de argumentos
+      + [x] echo
+      + [x] echo con arrays de argumentos
   + 9a: Servlets
-    + [ ] echo-json
-    + [ ] json-json
+    + [x] echo-json
+    + [ ] Inicio json-json
   + 11a:
-    + Repaso DAO’s con colecciones, archivos y bbdd.
+    + [x] Repaso DAO’s con colecciones, archivos y bbdd.
 
 + **Semana Santa** (del 14 al 21 inclusive)
 
 + Semana 29 (6h):
   + 22a: Servlets
-    + [ ] Con memoria
+    + [x] Cliente json-json
   + 23a:
-    + [ ] Ejercicio Chat
+    + [x] Servidor json-json
   + 25a:
-    + [ ] Interacción con objetos
-+ Semana 30 (5h): 28a-30a
+    + [ ] Ejercicio json-json
+    + [ ] Trabajo con librerías propias y de terceros
++ Semana 30 (5h):
+  + 28a:
+    + [ ] Con memoria
+    + [ ] Ejercicio Chat
+  + 29a:
+    + [ ] cont ejercicio Chat
+    + [ ] Cookies
+    + [ ] Sesiones
+  + 30a:
+    + [ ] 
 + Semana 31 (2h):
   + 5a:
   + 6a:
