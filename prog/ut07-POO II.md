@@ -51,6 +51,28 @@ else System.out.println("Es otro tipo de objeto");
 // ...
 ```
 
+**Pattern Matching**
+Antes de Java 16:
+```java
+Object objeto = new Coche();
+//...
+if(objeto instanceof Coche){
+  Coche coche = (Coche) objeto;
+  //...
+}
+```
+
+Desde Java 16:
+```java
+Object objeto = new Coche();
+//...
+if(objeto instanceof Coche coche){
+  //... Si es de tipo Coche generamos la variable coche
+}
+```
+
+
+
 #### Referencias
 + [ProgramandoJava.com](https://www.programandojava.com/blog/herencia-en-java/)
   
