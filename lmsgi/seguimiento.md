@@ -62,7 +62,8 @@
       + [ ] Juego 3 en raya
     
 + Semana 28
-  + L7a: Modificar elementos HTML (continuar ejercicios)
+  + L7a: Modificar elementos HTML
+    + [x] continuar ejercicios
   + J10a: **Día del centro**
 
 
@@ -70,18 +71,18 @@
 
 + Semana 30:
   + ~~21a: SEMANA SANTA~~
-  + 24a: Modificar elementos HTML
-    + [ ] Front-Back en json
+  + 24a:
+    + [x] Repaso
+    + [x] Modificar elementos HTML. Cont ejercicios
  
 + Semana 31
-  + 28a: Modificar estilos CSS
-    + [ ] Selección
-    + [ ] Añadir/eliminar estilos
+  + 28a:
+    + [ ] Modificar estilos CSS. Juego 3 en raya
   + ~~1mayo: Festivo por día del trabajo.~~
     
 + Semana 32
-  + 5mayo: Modificar estilos CSS
-    + [ ] Modo claro/oscuro
+  + 5mayo: 
+    + [ ] Resolución de dudas
   + 8mayo: **Examen**
     
 + Semana 33
@@ -95,9 +96,9 @@
 
 **JS**:
 + [x] Lenguajes de script de cliente. Características y sintaxis básica. Estándares.
-+ [ ] Selección y acceso a elementos.
-+ [ ] Creación y modificación de elementos.
-+ [ ] Eliminación de elementos.
++ [x] Selección y acceso a elementos.
++ [x] Creación y modificación de elementos.
++ [x] Eliminación de elementos.
 + [ ] Manipulación de estilos.
 
 _Se trabaja el RA 3 y 5_.

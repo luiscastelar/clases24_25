@@ -27,7 +27,7 @@
       + [x] echo con arrays de argumentos
   + 9a: Servlets
     + [x] echo-json
-    + [ ] Inicio json-json
+    + [x] Inicio json-json
   + 11a:
     + [x] Repaso DAO’s con colecciones, archivos y bbdd.
 
