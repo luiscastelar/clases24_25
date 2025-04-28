@@ -39,8 +39,11 @@
   + 23a:
     + [x] Servidor json-json
   + 25a:
-    + [ ] Ejercicio json-json
-    + [ ] Trabajo con librerías propias y de terceros
+    + [x] IoT con Arduino
+      + [x] Introducción
+      + [x] La placa Arduino Uno            
+    + [x] Ejercicio json-json
+    + [x] Trabajo con librerías propias y de terceros
 + Semana 30 (5h):
   + 28a:
     + [ ] Con memoria
