@@ -46,24 +46,26 @@
     + [x] Trabajo con librerías propias y de terceros
 + Semana 30 (5h):
   + 28a:
+    + [ ] Apagón
+    + [ ] Repaso listas
+    + [ ] Introducción a memoria
+  + 29a:
+    + [ ] IoT con Arduino
+  + 30a:
     + [ ] Con memoria
     + [ ] Ejercicio Chat
-  + 29a:
-    + [ ] cont ejercicio Chat
-    + [ ] Cookies
-    + [ ] Sesiones
-  + 30a:
-    + [ ] 
 + Semana 31 (2h):
   + 5a:
+    + [ ] Cookies
+    + [ ] Sesiones
   + 6a:
   + 7a:
   + 9a: **EXAMEN**
 
 
-+ [ ] Interfaces gráficas.
-+ [ ] Concepto de evento.
-+ [ ] Creación de controladores de eventos.
++ [x] Interfaces gráficas.
++ [x] Concepto de evento.
++ [x] Creación de controladores de eventos.
 
 _Trabajados los RA 4, 5, 6, 7 y 8._
 
