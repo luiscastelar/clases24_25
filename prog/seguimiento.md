@@ -46,11 +46,11 @@
     + [x] Trabajo con librerías propias y de terceros
 + Semana 30 (5h):
   + 28a:
-    + [ ] Apagón
-    + [ ] Repaso listas
-    + [ ] Introducción a memoria
+    + [x] Apagón
+    + [x] Repaso listas
+    + [x] Introducción a memoria
   + 29a:
-    + [ ] IoT con Arduino
+    + [x] IoT con Arduino
   + 30a:
     + [ ] Con memoria
     + [ ] Ejercicio Chat
