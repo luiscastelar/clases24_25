@@ -86,7 +86,7 @@ A partir de este momento podremos acceder al servidor sin que nos solicite contr
 ## Acceso al VPS
 `ssh {{USUARIO}}@{{IP DEL SERVIDOR}}` o `ssh {{USUARIO}}@{{FQDN}}`
 
-## DNS o DynDNS
+## DNS o Dinamic DNS
 1. Deberemos darnos de alta en [duckdns](https://github.com/linuxserver/docker-duckdns) y obtener el token.
 2. Obtener un subdominio del tipo “misubdominio.duckdns.org”.
 3. Ahora para tener actualizada la IP a la que debe apuntar nuestro subdominio tenemos varias opciones:
@@ -96,6 +96,11 @@ A partir de este momento podremos acceder al servidor sin que nos solicite contr
      + Cron -> `crontab -e` y añadir `*/5 * * * * ~/duckdns/duck.sh >/dev/null 2>&1` (vigilar la ruta)[^1]
 
    + [Script de powershell + `Task Scheduler`](https://github.com/ataylor32/duckdns-powershell)
+
+### Otros servicios de DNS dinámica:
++ https://dnsexit.com
++ https://freedns.afraid.org/
+
 
 ## Firewall del VPS
 Deberemos tener presente que lo habitual es tener seguridad por defecto, por lo que al iniciar sólo tendremos acceso al ssh por puerto 22 y por pares de llaves o esa es la situación que deberemos crear de inicio.

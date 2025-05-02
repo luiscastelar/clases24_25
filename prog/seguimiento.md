@@ -52,14 +52,16 @@
   + 29a:
     + [x] IoT con Arduino
   + 30a:
-    + [ ] Con memoria
-    + [ ] Ejercicio Chat
+    + [x] Con memoria
+    + [x] Ejercicio Chat
 + Semana 31 (2h):
   + 5a:
     + [ ] Cookies
     + [ ] Sesiones
   + 6a:
+    + [ ] Ejercicio completo
   + 7a:
+    + [ ] cont. ejercicio completo
   + 9a: **EXAMEN**
 
 

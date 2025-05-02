@@ -77,11 +77,13 @@
  
 + Semana 31
   + 28a:
-    + [ ] Modificar estilos CSS. Juego 3 en raya
+    + [x] Apagón
+    + [x] Modificar estilos CSS. Juego 3 en raya
   + ~~1mayo: Festivo por día del trabajo.~~
     
 + Semana 32
   + 5mayo: 
+    + [ ] Memoria local
     + [ ] Resolución de dudas
   + 8mayo: **Examen**
     
