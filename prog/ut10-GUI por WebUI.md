@@ -2,7 +2,7 @@
 Title: Interfaces gráficas de usuario - WebUI
 Author: Luis Ferreira Gordillo
 Publish: 4 de abril de 2025
-Update: 4 de abril de 2025
+Update: 3 de mayo de 2025
 ---
 #curso24_25 #curso22_23 #prog [estado::Working]
 
@@ -28,10 +28,10 @@ Jakarta EE se asienta sobre Java SE y lo desarrolla hacia la web, el ámbito emp
 **Capa cliente**: 
 + Java SE
 + Java FX
-+ **Web Browser HTML+CSS+JS (AJAX)**[^1]
++ **Web Browser HTML+CSS+JS (AJAX)**
 
 **Capa servidor**: Contenedor web
-    +   `JSP` para la _capa vista_ y accesos básicos[^2].
+    +   `JSP` para la _capa vista_ y accesos básicos[^1].
     +   `Servlet` para la _capa controlador_.
 +   Capa de lógica de negocio:
     +   Utilizaremos las Entreprise Bean `EJB` para la _capa de modelo_, esto es el acceso a los datos.
@@ -97,13 +97,125 @@ La utilización de cualquier asistente de inteligencia artificial supondrá la c
 
     getParameterNames() − Llame a este método si desea una lista completa de todos los parámetros en la solicitud actual.
 
-## Ejercicios
-1. `/helloworld`
-2. `/echo`
-3. `/echo-json`
-4. `/json-json`
-5. Acceso a librerías
-6. Un “simple chat”
+
+# Web-Interfaces de Usuario - WebUI
+Este proyecto realiza un acercamiento a las GUI mediante la creación de Web-UI mediante las tecnologías ya conocidas por el alumnado de primer curso de DAW/DAM en el último trimestre de curso.
+
+Concretamente, emplearemos la pila tecnológica:
++ HTML (vista en LMSGI)
++ JS (vista en LMSGI)
++ Servlets
+
+Por su puesto, también CSS, pero no es objeto de este proyecto.
+
+Para la creación de servlet debemos pasar de Java SE a Jakarta EE (antes conocido como Java EE), para lo que vamos a realizar un proceso evolutivo desde el servicio más básico "hola mundo", hasta aplicación completa con sesiones y cookies.
+
+## HelloServlet
+1. Creación de servlets extendiendo la clase `HttpServlet`.
+2. Publicando el servlet con la anotación `@WebServlet('/holaMundo')`
+3. Ciclo de vida de un servlet: `init()`, vida, `destroy()`.
+4. Métodos `doGet` y `dPost` para procesado de peticiones.
+5. Creando la respuesta con `response.setContentType("text/html");` y `PrintWriter out = response.getWriter();`
+6. Pruebas de servlets:
+   + Navegador web:
+     - GET con la ruta.
+     - POST con formularios de html.
+   + CURL:
+     - GET con la ruta.
+     - POST con `curl --data '{ "arg": "valor", ... }' --header 'Content-type: application-json' http://localhost:8080/miPrimerServlet_war_exploded/holaMundo`
+   + Plug-in VSC `Thunder Client`
+   + Plug-in IntelliJ `Restful Api Tool`
+   
+## Echo
+Obteniendo argumentos GET con `String nombre = request.getParameter("nombre");` y evitando errores con la función `private String nullish(String texto) { return texto == null ? "" : texto; }`
+
+## EchoArray
+En ocasiones recibimos parámetros que son arrays de valores `String[] nombres = request.getParameterValues("nombre");`. 
+
+En nuestro caso, utilizaremos una función que realiza la función de unirlo en un solo String:
+```java
+private String reverseSplit(String ...vector){
+        if(vector == null) return "";
+        StringBuffer sb = new StringBuffer();
+        for(String v : vector){
+            sb.append(v+" ");
+        }
+        return sb.toString().substring(0, sb.length()-1);
+}
+```
+
+Aunque en realidad, sería tan sencillo como convertirlo en un `stream` y utilizar el colector `Collector.joining(" ")`, esto es `String nombreCompuesto = Arrays.stream(nombres).collect(java.util.stream.Collectors.joining(" ")) ;`
+
+## EchoJson
+La realidad es que hoy en día, las comunicaciones se realizan normalmente en json, pues vamos a capturar los argumentos recibidos en un GET y devolverlo como archivo json.
+
+```java
+response.setContentType("application/json");
+//...
+Persona persona = new Persona(nombre, apellido);
+Gson gson = new GsonBuilder().setPrettyPrinting().create();
+String json = gson.toJson(persona);
+
+PrintWriter out = response.getWriter();
+out.println(json);
+```
+
+## JsonJson
+La cosa se complica si también recibimos un json... aunque no demasiado:
+```java
+BufferedReader reader = request.getReader(); //Se toma la fuente de datos de la solicitud
+Operacion operacion = gson.fromJson(reader, Operacion.class); //Se instancia la clase Operacion como un objeto JSON que apunta a la fuente de datos
+//...
+// Lo visto en el ejercicio anterior
+```
+La clase o el `record` `Operacion` debe contemplar el objeto recibido, si no fallará.
+
+## Chat
+Algo de memoria, aunque se volátil.
+
+En el `init()` inicializaremos una `List` o un `Map` que nos permita tener una persistencia, cargando datos desde disco o base de datos.
+
+Al finalizar la ejecución, en `destroy()` volcaremos la memoria a disco o bbdd.
+
+Durante la ejecución, `mensajes.add()` o `mensajes.put()` nos permitirá gestionar dicha memoria.
+
+## Login (sesiones y cookies)
+### Cookies
+Las `cookies` son elementos de persistencia en el lado del cliente. Cada servidor sólo puede acceder a la suya, por seguridad y mandar una al cliente es trivial desde Java:
+```java
+final int PERMANENCIA = 2 * 60 * 60; // Para una caducidad de 2 horas
+//...
+// Creamos la cookie, le asignamos caducidad (no obligatorio), le damos visibilidad y la asociamos a la respuesta
+Cookie cookieUsuario = new Cookie("usuario", user);
+cookieUsuario.setMaxAge( PERMANENCIA );
+cookieUsuario.setPath("/");
+response.addCookie( cookieUsuario );
+```
+
+### Sesiones
+=== Por desarrollar ===
+
+## Acceso a Base de Datos
+Cuando tratamos con bbdd lo más complejo es determinar donde se encuentra el archivo de `porperties` con las credenciales de acceso, ya que puede ser complejo encontrarlo si no tenemos cuidado. 
+
+La recomendación oficial, tomar el contexto relativo al servlet con `String file = getServletContext().getRealPath("/WEB-INF/resources/archivo.properties");`
+
+Luego, podremos utilizar tranquilamente nuestros `Contratos` o `Dao`, por ejemplo:
+```java
+// en init()
+// Open a connection
+conn = ContratoCoches.getConnection(file);
+
+// en doGet o dPost
+// uso de la implementación DAO que tengamos ya disponible.
+```
+
+## Acceso a archivos
+### Subida
+=== Por desarrollar ===
+
+### Descarga
+=== Por desarrollar ===
 
 
 ## Almacenamiento en el cliente
@@ -130,7 +242,4 @@ La utilización de cualquier asistente de inteligencia artificial supondrá la c
 
 ---
 # Notas:
-[^1] Ajax puede utilizar `XMLRequest`, `jQuery` o `fecth`.
-
-
 [^2] La tecnología JSP está marcada como obsoleta y se desaconseja su uso para nuevas aplicaciones frente a `JSF`. Pese a ésto, el número de aplicaciones en funcionamiento y su simplicidad se hace ideal para introducirnos en el mundo de Jakarta EE.
