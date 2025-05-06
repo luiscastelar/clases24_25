@@ -35,6 +35,10 @@ Cualquiera de las siguientes referencias son **muy** recomendables y se tomarán
 + [Aprende Java en un fin de semana - Guía completa de iniciación](https://www.amazon.es/Aprende-Java-en-fin-semana-ebook/dp/B09NBJP6MC/ref=pd_rhf_se_s_pd_sbs_rvi_d_sccl_1_1/260-4455999-4590300?pd_rd_w=rfF0j&content-id=amzn1.sym.6ad1d31a-2b05-44ca-b80b-8098fd101e89&pf_rd_p=6ad1d31a-2b05-44ca-b80b-8098fd101e89&pf_rd_r=25681V1PWP9PWAJMGBCB&pd_rd_wg=Sw768&pd_rd_r=a90b9c67-9729-42c7-b403-f3bccfea9ef8&pd_rd_i=B09NBJP6MC&psc=1) con versión Kindle por menos de 4€.
 +  ...
 
+
+**Aprende a programar...**
++ [Curso de Node | backend js](https://www.luisllamas.es/curso-nodejs/)
+
 ---
 
 

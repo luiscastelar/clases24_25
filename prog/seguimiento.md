@@ -56,10 +56,10 @@
     + [x] Ejercicio Chat
 + Semana 31 (2h):
   + 5a:
-    + [ ] Cookies
-    + [ ] Sesiones
+    + [x] Cookies
+    + [ ] ~~Sesiones~~
   + 6a:
-    + [ ] Ejercicio completo
+    + [ ] Ejercicio completo: Lista de tareas con login.
   + 7a:
     + [ ] cont. ejercicio completo
   + 9a: **EXAMEN**
