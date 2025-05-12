@@ -54,22 +54,90 @@
   + 30a:
     + [x] Con memoria
     + [x] Ejercicio Chat
-+ Semana 31 (2h):
-  + 5a:
++ Semana 31 (7h):
+  + 5m:
     + [x] Cookies
     + [ ] ~~Sesiones~~
-  + 6a:
-    + [ ] Ejercicio completo: Lista de tareas con login.
-  + 7a:
-    + [ ] cont. ejercicio completo
-  + 9a: **EXAMEN**
-
+  + 6m:
+    + [x] Ejercicio completo: Lista de tareas con login.
+  + 7m:
+    + [x] cont. ejercicio completo
+  + 9m:
+    + **EXAMEN**
++ Semana 32 (7h):
+  + 12m:
+    + [ ] Resolución examen completo
+    + [ ] Ejercicio completo
+  + 13m:
+    + [ ] cont ejercicio completo
+  + 14m:
+    + [ ] cont ejercicio completo
+  + 16m:
+    + [ ] cont ejercicio completo
 
 + [x] Interfaces gráficas.
 + [x] Concepto de evento.
 + [x] Creación de controladores de eventos.
 
 _Trabajados los RA 4, 5, 6, 7 y 8._
+
+---
+# FEOE - Formación en Empresa u Organismo Equiparado
+---
+Cada alumno tiene su plan individualizado en tiempo, pero el grueso del aula será del 19 de mayo al 6 de junio.
+
+
+---
+# Final ORDINARIA y EXTRAORDINARIA
+---
+Según calendario **oficial** publicado.
+
+Se recuerda al alumno que deberá haber entregado y superado, al menos, el 80 % de las actividades del curso tanto en evaluación ORDINARIA como en EXTRAORDINARIA para poder superar el curso.
+
+Para demostrar dicha circunstancia, el alumno debe entregar un proyecto de IntelliJ (con su pom.xml) donde debe 
+solver los ejercicios que se detallan, así como los test que demuestran dicha circunstancia.
+
+El punto de entrega será en el repositorio del alumno en la carpeta `{{REPO}}/tareas/src/main/java/` y un paquete por unidad, y deberá ser entregado 1 semana antes del examen correspondiente y ser notificado al profesor para su corrección.
+El detalle de los ejercicios desarrollados y de entrega obligatoria son:
++ ut2:
+  1. racional
+  2. rectangulo
+  3. coche
+  4. linea (y punto)
+  5. cuenta
+  6. cafetera
+  7. practica biblioteca
+  
++ ut3:
+  1. mayor
+  2. par
+  3. division
+  4. esMayuscula
+  5. potencia
+  6. practica TrabajarConFechas
+  
++ ut4:
+  1. sumar array harcodeado
+  2. (no necesario)
+  3. valor medio de un array
+  4. moda de un array
+  5. obtener máximo y mínimo y posiciones
+  6. primos de los 20 aleatorios
+  7. factura
+  8. evaluación de resultados
+
++ ut5:
+  1. cartas
+
++ ut6:
+  1. evaluación de resultados
+  2. transmisión de medios
+  3. calculadora de pila
+
++ ut7: implementación del dao con personas con una lista
++ ut8: implementación del dao con personas con un archivo json
++ ut9: implementación del dao con personas sobre una bbdd mysql
++ ut10: implementación del dao con una lista a través de una interfaz Web contra los servlets `getAll`, `getOne`, `insert`, `delete`, `remove` e `update`
 
 
 

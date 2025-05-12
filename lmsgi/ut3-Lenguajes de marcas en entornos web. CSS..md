@@ -11,6 +11,7 @@ Para aprender usaremos [codi.link](https://codi.link) o [codepen.io](https://cod
 
 Para desarrollos mas complejos utilizaremos _vs code_ + plugin _live preview_.
 
+Para desarrollos rápidos podemos utilizar la etiqueta html `<style contenteditable="true">...</style>` que nos permite probar estilos en la página. 
 
 # Introducción
 Continuando con los lenguajes de marca para entornos web y, habiendo visto en la unidad anterior todo lo relativo al contenido y la semántica del mismo, en esta unidad trabajaremos el estilo del mismo con el lenguaje CSS3.

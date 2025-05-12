@@ -83,17 +83,16 @@
     
 + Semana 32
   + 5mayo: 
-    + [ ] Memoria local
-    + [ ] Resolución de dudas
-  + 8mayo: **Examen**
+    + [x] Memoria local
+    + [x] Resolución de dudas
+  + 8mayo:
+    + [x] **Examen**
     
 + Semana 33
   + 12mayo:
-    + [ ] Revisión de examen
+    + [ ] Corrección del examen
   + 15mayo:
-    + [ ] Revisión de examen
-    + [ ] Revisión de condiciones para Formación en Empresa u Organismo Equiparado.
-
+    + [ ] Corrección del examen
 
 
 **JS**:
