@@ -118,7 +118,7 @@ Aunque no es la única forma, emplearemos la interfaz `Serializable` para export
 [Vídeo introductorio - Makigas](https://www.makigas.es/series/java-io/serializando-clases)
   
 
-## `InputObjectStream` y `OutputObjectStream` 
+## `ObjectInputStream` y `ObjectOutputStream` 
 
 
 ### Ejercicio
