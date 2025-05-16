@@ -66,12 +66,13 @@
     + **EXAMEN**
 + Semana 32 (7h):
   + 12m:
-    + [ ] Resolución examen completo
-    + [ ] Ejercicio completo
+    + [x] Resolución examen completo
+    + [x] Ejercicio completo
   + 13m:
-    + [ ] cont ejercicio completo
+    + [x] cont ejercicio completo
   + 14m:
-    + [ ] cont ejercicio completo
+    + [x] Causística FEOE
+    + [x] cont ejercicio completo
   + 16m:
     + [ ] cont ejercicio completo
 
