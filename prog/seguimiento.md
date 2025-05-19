@@ -74,7 +74,7 @@
     + [x] Causística FEOE
     + [x] cont ejercicio completo
   + 16m:
-    + [ ] cont ejercicio completo
+    + [x] cont ejercicio completo
 
 + [x] Interfaces gráficas.
 + [x] Concepto de evento.
@@ -102,7 +102,7 @@ El punto de entrega será en el repositorio del alumno en la carpeta `{{REPO}}/t
 El detalle de los ejercicios desarrollados y de entrega obligatoria son:
 + ut2:
   1. racional
-  2. rectangulo
+  2. rectángulo
   3. coche
   4. linea (y punto)
   5. cuenta
@@ -112,7 +112,7 @@ El detalle de los ejercicios desarrollados y de entrega obligatoria son:
 + ut3:
   1. mayor
   2. par
-  3. division
+  3. división
   4. esMayuscula
   5. potencia
   6. practica TrabajarConFechas

@@ -58,8 +58,8 @@
       + [x] `.querySelector(sel): node`
       + [x] `.querySelectorAll(sel): NodeList`
     + [x] Modificar elementos HTML
-      + [ ] Lista de tareas `ToDo List`
-      + [ ] Juego 3 en raya
+      + [x] Lista de tareas `ToDo List`
+      + [x] Juego 3 en raya
     
 + Semana 28
   + L7a: Modificar elementos HTML
@@ -90,9 +90,9 @@
     
 + Semana 33
   + 12mayo:
-    + [ ] Corrección del examen
+    + [x] Corrección del examen
   + 15mayo:
-    + [ ] Corrección del examen
+    + [x] Calculadora
 
 
 **JS**:
