@@ -1,3 +1,7 @@
+---
+tags: curso24_25, prog
+---
+
 #curso24_25 #prog [estado:: Done] 
 
 ![portada](https://luiscastelar.duckdns.org/2024/assets/prog/portada.jpg)
