@@ -6,7 +6,7 @@
 
 # Anotaciones de interés:
 + Moodle: [0614 Despliegue de Aplicaciones Web](https://moodle.educarex.es/iescastelarfp/course/view.php?id=110) - “tema0”
-+ [Recordatorios](../recordatorios.md)
++ [Recordatorios](../../privadas/curso24/recordatorios)
 
 
 

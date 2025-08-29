@@ -9,7 +9,7 @@ tags: curso24_25, prog
 
 # Anotaciones de interés:
 + Moodle: [0485 Programación](https://moodle.educarex.es/iescastelarfp/course/view.php?id=107) - “tema0”
-+ [Recordatorios](../recordatorios.md)
++ [Recordatorios](../../privadas/curso24/recordatorios)
 
 
 
